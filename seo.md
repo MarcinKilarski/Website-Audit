@@ -2,6 +2,7 @@
 
 ## 1. Site-Level Factors
 Overview
+
 In this section, we will look at your website’s structure and its less technical elements, which
 affect the search visibility of your entire website rather than individual pages.
 
@@ -11,6 +12,7 @@ industry.
 
 ### 1.1. Manual Penalty
 Overview
+
 Search engines can apply a manual penalty on your site after a human reviewer determines that
 some pages are not compliant with Google's webmaster quality guidelines.
 
@@ -18,6 +20,8 @@ Sites are manually reviewed after being reported by someone via the search engin
 or when the search engines' algorithms flag them as suspicious.
 
 ### 1.2. Algorithmic Demotion
+Overview
+
 Search engines use algorithms which are sets of rules followed by their software to grade and
 rank pages found on the internet. They can automatically demote your site if it does not meet
 set requirements.
@@ -36,6 +40,7 @@ next time Google will crawl the pages that used to be problematic.
 
 ### 1.3. Domain Extension
 Overview
+
 Domain extensions are categories of Internet domain names, which are used by search engines
 to determine in which countries your content is most relevant for users. There are two main
 types: Generic Top-Level Domains (gTLD) and Country-Code Top-Level Domains (ccTLD).
@@ -51,6 +56,7 @@ search engines that the company serves customers in a specific country.
 
 ### 1.4. Preferred Domain
 Overview
+
 Users can often access and link to your pages using different versions of the site’s URL, for
 example:
 • http://www.example.ie (HTTP + WWW)
@@ -73,6 +79,7 @@ selecting the correct version of your domain in Google Search Console under ‘S
 
 ### 1.5. Subdomain
 Overview
+
 A subdomain is a smaller part of a larger domain. For example, the subdomain blog.example.ie
 is part of the domain example.ie. Subdomains are used to separate pages and their content
 from the main domain.
@@ -89,31 +96,38 @@ under a subdirectory (e.g. example.ie/blog/).
 
 ### 1.6. Subdirectories
 Overview
+
 Subdirectories indicate that a page belongs to a set of pages with a similar purpose or topic
 (e.g. example.ie/services/search-engine-optimisation/). They also help users and the search
 engines to understand the structure of your website better.
+
 However, too many directories may make the URL of your page lengthy, thus adding
 unnecessary complexity. Therefore, it is best to limit the number of directories in the URLs to 1
 or 2, using them only when it is logical to do so.
 
 ### 1.7. Accessible Subdirectories
 Overview
+
 Each of the subdirectories (aka folders) used in the URL should be accessible, implying that
 each of them should have its own dedicated page. Users and search engines will expect that
 they can visit each of the folders in the URL to find pages with similar content.
+
 Avoid showing error messages when accessing those pages is essential. When a 404 error
 (Page Not Found) is shown to the user on a folder page, it interrupts their journey and has a
 negative impact on the user’s experience.
+
 Make sure each of your important subdirectories looks professional and is easy to navigate, as
 this will help users find the content they desire.
 
 ### 1.8. Site Depth
 Overview
+
 Site depth indicates how many clicks away certain pages are from your home page. Fewer
 clicks mean the page is easier to find, allowing the visitors to reach their destination quickly.
 More clicks away from the home page may cause your users to struggle with finding their way to
 the content they are searching for. This will ultimately result in search engines treating that page
 as less important.
+
 This hurts the discoverability of your content in which you have put so much effort, as well as on
 the ranking in search engines. Ideally, key pages should be only one click away from the home
 page, less important content – a maximum of two clicks away, and everything else – maximum
@@ -124,44 +138,54 @@ Overview
 Internal links are vital as they allow users and search engines to navigate through content on
 your site quickly. In addition to this, they improve your website’s ranking by passing ranking
 signals from one page to another.
+
 Your most vital pages should be linked throughout your site more often than those that are less
 important, as this increases the chances of visitors finding that page when they are browsing
 your website. Each link also passes a portion of the reputation and rank signals the page has.
 The high number of them indicates to search engines that this is an important page on your site.
+
 However, having many links on a page decreases the amount of rank-value that each of them
 passes to the page they are pointing to. Therefore, it is a good practice to limit the number of
 links to pages that are not helpful to users and are not crucial to your business. It’s better to
 have a few carefully chosen links on each page, which are relevant and useful to your visitors,
 than a lot of them for a no specific reason.
+
 All your links should include either anchor text or, for images, an alt attribute that is relevant to
 the target page.
 
 ### 1.10. Keywords in Internal Links
 Overview
+
 Descriptive and clickable words in a link (aka anchor text) are a useful signal that help search
 engines and users better anticipate what content they will find on that page.
+
 It is a good practice to have at least a few of these links with included important keywords, like
 ‘new HP laptops’, and some with relevant keywords, like ‘laptops from 2019’. This will make the
 page to which the link points to more relevant for user queries that are related to ‘new HP
 laptops’.
+
 Next time, when the user searches for these products, your page will have higher chance to
 appear in the search results and be clicked on.
 
 ### 1.11. Outbound Links
 Overview
+
 Outbound links are links on your pages that point to other websites. When you link to quality and
 relevant sources on the Internet, it helps to build the credibility of your site. Searchers will
 appreciate that you recommend them trustworthy websites with valuable content that may be of
 great interest to them.
+
 Furthermore, when you back up the statements on your site with links to authority websites that
 include data mentioned by you, it assures users and search engines of their accuracy. This
 makes your brand look more credible for users, Google, and Bing, associating you with quality
 sites and rewarding with a ranking boost in search results.
+
 However, when those links are spam or potentially malicious sites, it could defame your
 company’s brand in the eyes of your users and decrease the credibility for search engines.
 When you link to suspicious websites, add to those links a ‘nofollow’ tag. This will tell the search
 engines that you don’t want to be associated with these sites, and your online authority should
 not help them rank higher.
+
 Furthermore, according to Google Guidelines, any paid or referral outbound links should be
 ‘nofollow’, too. Otherwise, your site may be seen as one that helps others manipulate search
 engines’ rankings. Ignoring these guidelines could cause your website to suffer a drop in
@@ -169,20 +193,24 @@ ranking.
 
 ### 1.12. User Generated Content
 Overview
+
 User generated content is anything that a user adds to your website, which appears on the
 pages. It can be a comment, forum thread, post, image, etc. This content provides a strong
 signal to users and search engines that there is a living community around this business,
 helping the website rank higher. Gary Illyes, Webmaster Trends Analyst at Google tweets in his
 ‘Did You Know’ series that ‘quality comments can be a signal of a healthy website’.
+
 Google treats the user-generated content as a part of your site’s content. When users add
 helpful information to you pages, this can increase the value of your site, improving its ranking
 for targeted and related user queries. However, if your pages are full of low-quality user
 generated content which is irrelevant to the topic, this can have the opposite effect, leading to a
 lower ranking of your content in search results.
+
 Furthermore, spam-like user-generated content with links to questionable sites may destroy the
 hard work of creating your company brand. Google is not in favour of websites that support
 spammers by having links to their pages, even if they were added by users and not by site
 owner. These pages receive the lowest Page Quality Score, thus reducing their ranking.
+
 You should control what your users add to your site and set all the links added by them as
 ‘nofollow’. You can also blacklist obvious spam terms and use automated systems like Akismet
 to defend your site. This will prevent your website from supporting those unknown sites on
@@ -190,24 +218,20 @@ Google.
 
 ### 1.13. Website Sitelinks
 Overview
+
 Sitelinks are a search-listing format, displayed below the main website, along with some
 important internal pages when users are searching for your brand. They are organised in two
 columns of up to twelve sub-results. This helps users navigate to popular pages on your site
 quickly.
+
 It is not possible to have control over the search engines to show this feature for your website,
 as it largely depends on the popularity of your brand. Links used in this search feature are
 usually selected based on the received number of views, in-links, as well as the search engines
 opinion of how helpful they are to users.
+
 However, these links are sometimes not optimised efficiently for search, irrelevant or not helpful
 enough to the user. You can enhance them by rewriting their title and description, or de-index
 them if they should not appear in search results, to make more room for more important pages.
-
-### 1.14. Favicon
-Overview
-Favicon is the small graphic that appears in your browser window or at the top of the browser
-tab. This is not a ranking factor, but various sites, mobile devices, social media platforms, and
-distribution sites will use a Favicon when displaying your site. For this reason, it is beneficial to
-have a high-quality Favicon that is clearly displayed on your site.
 
 ## 2. Page-Level Factors
 Overview
