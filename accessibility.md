@@ -1,3 +1,3 @@
 # Accessibility
 
-Coming in the near future with the help of the community
+It's coming soon with the help of the community.
