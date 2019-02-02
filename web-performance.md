@@ -5,6 +5,7 @@
 This section reviews how well your site is optimised for page loading. It is becoming more important each year to ensure your content can be accessed as quickly as possible. Users become accustomed to sites that load quickly, such as Facebook and Amazon, and mobile apps, which are instantly rendered and fully functional. Then they expect the same performance on websites like yours.
 
 When your site doesn’t meet the expectations of your users, they could leave your site and visit the site of your competition. This is particularly important to remember as more businesses go online each year.
+
 Web optimisation is all about ensuring the code and files that make up your pages are as small as possible. This enables you to reduce the time it takes your users to download them, as well as decreasing their bandwidth usage. In addition to this, web optimisation will reduce the number of files required by your pages and prioritise the order in which they are used by browsers.
 
 According to research by Aberdeen Group, every second that a page takes to load will decrease page views by 11%, conversions by 7%, and customer satisfaction by 16%. When your website loads faster, it can generate more business for your company.
@@ -93,11 +94,11 @@ The downside of HTTP/1.1 protocol is that it limits browsers to being able to re
 HTTP/2, on the other hand, allows for downloading multiple files in parallel over a single connection. Additionally, it offers faster encryption, header compression that improves the performance and security, as well as steam prioritisation.
 
 It is important that your server supports HTTP/2, as it will make unnecessary to apply some additional web performance optimisation technics to your site, such as:
-• spreading files over multiple domains
-• combining and inlining your CSS styles
-• combining and inlining your JavaScript code
-• combining small images into CSS sprites
-• converting some images to Base64 code
+- spreading files over multiple domains
+- combining and inlining your CSS styles
+- combining and inlining your JavaScript code
+- combining small images into CSS sprites
+- converting some images to Base64 code
 
 ### 2.3. Unused Styles
 **Overview**
