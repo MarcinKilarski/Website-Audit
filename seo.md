@@ -36,10 +36,10 @@ Country-Code Top-Level Domains (ccTLD) extensions end with a country code which 
 Overview
 
 Users can often access and link to your pages using different versions of the site’s URL, for example:
-• http://www.example.ie (HTTP + WWW)
-• http://example.ie (HTTP + NON-WWW)
-• https://www.example (HTTPS + WWW)
-• https://example.ie (HTTPS + NON-WWW)
+- http://www.example.ie (HTTP + WWW)
+- http://example.ie (HTTP + NON-WWW)
+- https://www.example (HTTPS + WWW)
+- https://example.ie (HTTPS + NON-WWW)
 
 The preferred domain is the one you want the search engines to display in the search results. Not having a specified preferred domain can cause search engines to index some pages with one version of your domain, and other pages with a different version. Multiple versions of your website’s URL displayed in the search results may be confusing for your customers.
 
@@ -188,9 +188,9 @@ Overview
 Some of the special characters used in URLs may create issues for systems and search engine crawlers, also known as spiders. Furthermore, special characters may also confuse some of your users and make it more difficult for them to understand the content of your page.
 
 You should avoid adding the following characters to the URLs of your pages, unless it is necessary:
-• Unsafe characters: blank/empty space and ‘ < > # % { } | \ ^ ~ [ ]
-• Non-ASCII characters
-• Reserved characters: ; / ? : @ = &
+- Unsafe characters: blank/empty space and ‘ < > # % { } | \ ^ ~ [ ]
+- Non-ASCII characters
+- Reserved characters: ; / ? : @ = &
 
 ### 2.7. Missing Title Tag
 Overview
@@ -401,10 +401,10 @@ This has the potential to have a serious impact on a number of conversions on yo
 Overview
 
 Often people may use various URLs to load or link to your page. For example:
-• http://example.ie
-• http://example.ie/index.php
-• http://Example.ie
-• http://example.ie/Index.php
+- http://example.ie
+- http://example.ie/index.php
+- http://Example.ie
+- http://example.ie/Index.php
 
 This creates a problem, as these URLs act as duplicates of the same page. When people link to those pages, the ranking benefit is divided amongst multiple URLs rather than being awarded to the original one.
 
@@ -450,10 +450,10 @@ All redirect chains should be fixed by changing them to a direct link or a singl
 Overview
 
 Users and search engines may be able to access your pages by using different versions of your site’s URL:
-• HTTP + www (e.g. http://www.example.ie)
-• HTTP + non-www (e.g. http://example.ie)
-• HTTPS + www (e.g. https://www.example)
-• HTTPS + non-www (e.g. https://example.ie)
+- HTTP + www (e.g. http://www.example.ie)
+- HTTP + non-www (e.g. http://example.ie)
+- HTTPS + www (e.g. https://www.example)
+- HTTPS + non-www (e.g. https://example.ie)
 
 Each website should help its visitors navigate to a page with the correct version of the domain. This can be resolved by setting up a directive on your server, which will automatically redirect users to the correct URL. This way, your users will not see a ‘Not Secure’ label when landing on an unsecured version of your domain. Furthermore, your ranking signals will not be split when linked to the www version of your domain instead of non-www, and vice-versa.
 
@@ -501,11 +501,11 @@ A sitemap for robots (XML sitemap) is a list of all pages you would like to have
 Sitemap for Robots can provide crawl bots with information, such as when a page was last updated, how often it tends to change, how important it is to your website, and more. It should be located one directory structure from your home page (e.g. https://example.ie/sitemap.xml).
 
 To keep your sitemap organised and your pages prioritised for the search crawlers, it is recommended to create a separate sitemap for each type of content on your website:
-• Pages
-• Products
-• Posts
-• Videos
-• PDFs
+- Pages
+- Products
+- Posts
+- Videos
+- PDFs
 
 The XML sitemap should be updated each time you add a new page or make changes to an old page. It should also include a date of when a page was last updated. When the crawl bots visit your site, they easily identify new or updated pages that have a higher priority to be crawled.
 
@@ -587,10 +587,10 @@ Accelerated Mobile Pages are a new initiative from Google. If your site is slow 
 AMP does not replace your current mobile site. AMP will create a simpler version of your pages, which contains less code and fewer features that usually make pages load slower. These will then be displayed in the search results on smartphones rather than your current pages.
 
 Unfortunately, AMP still isn’t used by search engines as a ranking signal, and therefore won't improve the ranking position of your page. However, Google strongly promotes them in its search results by using the following search features:
-• Distinguishing them from the normal pages by labelling them with an AMP icon
-• Making AMP more prominent in Google’s Top Stories than normal pages
-• Showing AMP multi-source carousal on the top of search results
-• Displaying a single-source carousal down the search results page
+- Distinguishing them from the normal pages by labelling them with an AMP icon
+- Making AMP more prominent in Google’s Top Stories than normal pages
+- Showing AMP multi-source carousal on the top of search results
+- Displaying a single-source carousal down the search results page
 
 Accelerated Mobile Pages are ideal for news and content-rich sites. However, they can also help other websites gain extra visibility in a search. Therefore, every website should consider creating AMP versions of its pages.
 
@@ -780,10 +780,10 @@ Generally, pages with anything under 500 words, are at risk of being seen as wit
 This is because it decreases the chances of users to find a quality content when they arrive at your website. In simple terms, if 4 out of 10 pages on your site contained a lot of helpful and interesting information, a user would have 40% chance of finding it and having a great experience. When 6 out of 6 pages on your website are high quality, regardless of the page a user will click on, he or she will have a very high probability of finding something engaging and valuable.
 
 You can fix the thin content issue in one of the following ways:
-• Expand on them by adding more content that will be of value to your users
-• Combine them with other related pages to create more helpful content
-• Remove them from your site if they do not provide value to your users
-• If you cannot remove them, you should consider using rel=canonical, which will tell search engines where they can find a more in-depth page on this topic on your site
+- Expand on them by adding more content that will be of value to your users
+- Combine them with other related pages to create more helpful content
+- Remove them from your site if they do not provide value to your users
+- If you cannot remove them, you should consider using rel=canonical, which will tell search engines where they can find a more in-depth page on this topic on your site
 
 ### 5.2. Internal Duplicate Content
 Overview
@@ -910,14 +910,14 @@ Keeping your website in a country where the majority of your customers live can 
 Overview
 
 When a local presence is important to your business you need to highlight the relevance of your company and content, within a specific region, to the users and search engines. You can do this by using geo-focused keywords (e.g. car dealer in Dublin or construction company in Leinster) at significant places on your pages. These could be the:
-• Page title
-• Meta description
-• Tagline
-• URL
-• Heading
-• First paragraph
-• Alt tag of first image
-• Internal links anchor text
+- Page title
+- Meta description
+- Tagline
+- URL
+- Heading
+- First paragraph
+- Alt tag of first image
+- Internal links anchor text
 
 It is not necessary to have a geo-location in all of these places. However, you do need to find a healthy balance, ensuring content on each of your pages sounds natural and is interesting to read. Therefore, it is recommended to display them at a few of these locations, as this will help you rank higher in local searches.
 
