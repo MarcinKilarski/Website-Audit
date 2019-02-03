@@ -161,7 +161,7 @@ Overview
 
 Title tags are HTML elements that contain the title of your page and are hidden at the top of your page source code. They don’t appear on your page, but they rather show up in the search results above the page URL and also in the browser tab.
 
-The information you include in the title tag indicates to users and search engines what this page is about. They are used as an important ranking factor and can help you rank higher. Therefore, each page should have the title tag present in the code and never be left empty.
+The information you include in the title tag indicates to users and search engines what this page is about. They are used as [an important ranking factor](https://www.youtube.com/watch?v=4FkSZIW6d48) and can help you rank higher. Therefore, each page should have the title tag present in the code and never be left empty.
 
 When a page has an empty title tag, search engines will generate a text that will be shown instead of it in search results, which may not be so effective. You want to control what people see on Google and Bing when they find your page to maximise the number of people visiting your website.
 
@@ -202,20 +202,20 @@ You should use them often throughout the page when it makes sense to do so. This
 ### 2.6. Keywords in Headings
 Overview
 
-Headings help emphasise the important text on your page to users and search engines. They are used as a ranking factor and they highlight the topical relevance of your content to the user’s query.
+[Headings help emphasise the important text](https://support.google.com/webmasters/answer/7451184#headingtags) on your page to users and search engines. They are used as a ranking factor and they highlight the topical relevance of your content to the user’s query.
 
 Including your primary keyword in the main heading and relevant keywords in secondary headings indicates to search engines that there is a high probability that a user will find on this page what he or she is looking for. In addition, this will help improve ranking for related keywords.
 
 We recommend placing the keyword at the beginning of your headings, but it’s more important that you make them sound interesting. You should use headings throughout your page as they highlight the key categories of content to users and search engines and associate words with the text below.
 
-Furthermore, it is good practice to have your main heading consistent with the title of a page, as this is something that Google is looking for. When they are different, it may appear blurred to search bots what your page is about.
+Furthermore, it is good practice to have your [main heading consistent with the title of a page](https://www.youtube.com/watch?time_continue=2770&v=jSCwzPyrulw), as this is something that Google is looking for. When they are different, it may appear blurred to search bots what your page is about.
 
 ### 2.7. Keywords in Main Content
 Overview
 
 Mentioning your primary and related keywords in the copy of the page helps to increase its relevance and assure search engines that it contains information that a user may be interested in.
 
-Repeatedly indicating them in your content is beneficial for the first few times. However, afterwards it provides diminishing return and, if overused, may damage your ranking. Therefore, using synonyms and variations of your focus keyword (e.g. dog, doggy, man’s best friend, etc.) are recommended.
+[Repeatedly indicating them in your content is beneficial for the first few times](https://www.youtube.com/watch?v=Rk4qgQdp2UA&feature=youtu.be). However, afterwards it provides diminishing return and, if overused, may damage your ranking. Therefore, using synonyms and variations of your focus keyword (e.g. dog, doggy, man’s best friend, etc.) are recommended.
 
 A good practice is to avoid using your main keyword more than once every 100 words, and not more than a dozen times in the main content of your page. To make sure you haven’t overused keywords, read your content aloud and ask yourself if it sounds natural. It is also good to ask someone else to read it and tell you if anything sounds strange.
 
@@ -260,7 +260,7 @@ Overview
 
 Descriptive URLs are those made of words (e.g. example.ie/accounting-services/) instead of special characters and numbers (e.g. example.ie/?p=123). They are easier to understand and remember for users and give them a general idea of what to expect to find on the page that this URL leads to.
 
-In addition, Google recommends using descriptive URLs, and it uses the words in it as one of their ranking signals.
+In addition, Google [recommends](https://support.google.com/webmasters/answer/76329?hl=en) using descriptive URLs, and it uses the words in it as one of their ranking signals.
 
 The type of URL your website shows, usually depends on the system it uses, and how the web developer has set it up. If it only includes special characters and numbers, it tends to be seen as confusing and creates less trust in the brand.
 
@@ -269,21 +269,21 @@ Overview
 
 Words in URLs should be separated by special characters to improve readability. However, picking the wrong character for this task could confuse users or cause the search engines to join words, thus changing their meaning.
 
-Hyphens are the most intuitive and popular way of separating words in an URL. Users are veryfamiliar with this practice, and major search engines recommend using hyphens, which are treated just like a space character, instead of an underscore, which may join words. This will help your pages rank for multi-word queries, so make sure that words in your URLs are always separated by a hyphen.
+Hyphens are the most intuitive and popular way of separating words in an URL. Users are veryfamiliar with this practice, and [major search engines recommend using hyphens](https://support.google.com/webmasters/answer/76329?hl=en), which are treated just like a space character, instead of an underscore, which may join words. This will help your pages rank for multi-word queries, so make sure that words in your URLs are always separated by a hyphen.
 
 ### 2.14. Keywords in URLs
 Overview
 
 Keywords are important words or phrases users type into the search bar to find websites that match what they are looking for. By strategically placing keywords in URLs, you assure the users and search engines that this page has high topical relevance and will most likely contain what the user is looking for.
 
-Including keywords in the URL also helps your page rank higher in search results, as Google’s former Head of Web Spam mentioned in one of his posts: ‘Having keywords from the post title in the URL also can help search engines judge the quality of a page.’
+Including keywords in the URL also helps your page rank higher in search results, as Google’s former Head of Web Spam mentioned in [one of his posts](https://www.mattcutts.com/blog/scoble-visiting-the-plex/): ‘Having keywords from the post title in the URL also can help search engines judge the quality of a page.’
 
 ### 2.15. URL Length
 Overview
 
-Short URLs are easier for users to remember and type into a browser, while long URLs add unnecessary complexity. When Google has two pages with identical or very similar content and authority, they prefer to show the page with the shorter URL.
+Short URLs are easier for users to remember and type into a browser, while long URLs add unnecessary complexity. When Google has two pages with identical or very similar content and authority, [they prefer to show the page with the shorter URL](https://www.youtube.com/watch?time_continue=1138&v=4FkSZIW6d48).
 
-You should make your URL descriptive, but short. Ideally, an URL should not exceed 80 characters, which is around 7-8 words. The fewer words in the URL, the better. In fact, Matt Cutts (Google's former Head of Web Spam Team) said: ‘If you have got three, four or five words in your URL, that can be perfectly normal. As it gets a little longer, then it starts to look a little worse.’
+You should make your URL descriptive, but short. Ideally, an URL should not exceed 80 characters, which is around 7-8 words. The fewer words in the URL, the better. In fact, Matt Cutts (Google's former Head of Web Spam Team) [said](http://www.stephanspencer.com/matt-cutts-interview/): ‘If you have got three, four or five words in your URL, that can be perfectly normal. As it gets a little longer, then it starts to look a little worse.’
 
 Content Management Systems often automatically create an URL from the title of the page. Unfortunately, this can make the URL very long by including all the ‘stop words’ like ‘at’, ‘in’, ‘under’, ‘the’, which are not needed there. These words are ignored by search engines when they scan the address of your page, and you should aim to avoid using them in the address of your pages.
 
@@ -333,7 +333,7 @@ Overview
 
 Meta keywords tag is used by people as an easy way to inform search engines of the content of their pages. It is placed at the top of your page code but does not appear on the page itself.
 
-Meta keyword tags have previously been heavily spammed. As a result, in 2009 Google decided not to use information from meta keyword tags anymore. Other main search engines, such as Bing and Yahoo, followed this practice soon after.
+Meta keyword tags have previously been heavily spammed. As a result, in 2009 [Google decided not to use information from meta keyword tags anymore. Other main search engines](https://www.youtube.com/watch?v=jK7IPbnmvVU), such as Bing and Yahoo, followed this practice soon after.
 
 It is not recommended to include keywords in this meta tag. They will not improve your ranking position. Moreover, having dozens of those words and phrases there may damage your ranking, as this may be seen as a sign of a spam website. It is advisable to include any keywords within the page itself.
 
@@ -342,9 +342,9 @@ Overview
 
 An excessive number of links on a page can overwhelm and confuse your users. It may also look spammy to searchers and search engines, if the purpose is just to manipulate the Google’s rankings. In extreme cases, this could lead to a manual penalty from search endings’ Spam Team, which would decrease the visibility of your site in search results.
 
-Another reason of refraining from listing many links on one page is that each additional link reduces the PageRank (aka authority) that they pass from one page to another. So, when you have 300 links on one page, each of them passes only 1/300th of the authority to the link destination.
+Another reason of refraining from listing many links on one page is that [each additional link reduces the PageRank](https://www.youtube.com/watch?v=QHG6BkmzDEM&feature=youtu.be&t=1m22s) (aka authority) that they pass from one page to another. So, when you have 300 links on one page, each of them passes only 1/300th of the authority to the link destination.
 
-In the past, it was recommended by Google to avoid having more than 100 links on the same page for various reasons. Now, this has increased, and as the current Google’s guidelines say: ‘Limit the number of links on a page to a reasonable number (a few thousand at most).’ We recommend keeping this number below 300.’
+In the past, it was recommended by Google to avoid having more than 100 links on the same page for various reasons. Now, this has increased, and as the [current Google’s guidelines](https://support.google.com/webmasters/answer/35769?hl=en) say: ‘Limit the number of links on a page to a reasonable number (a few thousand at most).’ We recommend keeping this number below 300.’
 
 ## 3. Technical
 Overview
@@ -373,7 +373,7 @@ Overview
 
 There are situations when you want to block search engines from crawling and indexing specific pages on your site. This allows you to prevent duplicate content and sensitive information from being displayed in search results. Furthermore, you should restrict Google and Bing from indexing your ‘Thank you’ pages, as they can cause conversion-tracking issues.
 
-However, often sites have wrong pages or even the whole section of the website blocked. This may cause search engines not to be able to crawl your important pages, eliminating them from search results. This also hinders these pages from passing any accumulated ranking signals to other pages on your website, as Google cannot access them. This could result in a lower performance of your site in search.
+However, often sites have wrong pages or even the whole section of the website blocked. This may cause search engines not to be able to crawl your important pages, eliminating them from search results. This also [hinders these pages from passing any accumulated ranking signals](https://www.youtube.com/watch?v=GVKcMU7YNOQ&feature=youtu.be&t=11m10s) to other pages on your website, as Google cannot access them. This could result in a lower performance of your site in search.
 
 Therefore, it is a good practice to periodically check which pages your site restricts search engines from crawling and indexing.
 
@@ -382,7 +382,7 @@ Overview
 
 A URL Parameter is a string that some websites add to the end of a URL to change the content of the page. For example: ?sort=price_ascending would sort the products on the page by price. However, pages with URL parameters visible in search results are often seen as confusing and less trusted to users, as they are not always easy to understand.
 
-Such pages may be seen by search engines as duplicate content if not managed properly. This is because they are by default eligible to appear in search results, but they add little or no value to the original content.
+Such pages [may be seen by search engines as duplicate content](https://support.google.com/webmasters/answer/6080550?hl=en) if not managed properly. This is because they are by default eligible to appear in search results, but they add little or no value to the original content.
 
 Furthermore, URL parameters could lead to ranking signals being divided among several pages, instead of strengthening the ranking position of the original page.
 
@@ -393,15 +393,15 @@ To prevent this, you can inform Google by using their Search Console and Bing vi
 ### 3.4. Hypertext Transfer Protocol Secure (HTTPS)
 Overview
 
-HTTPS encrypts the connection between a user and your website, securing any sensitive data that the user may have submitted on your site, such as personal details, password, and credit cards. Pages that are served over an HTTPS connection also get a small ranking boost in Google.
+HTTPS encrypts the connection between a user and your website, securing any sensitive data that the user may have submitted on your site, such as personal details, password, and credit cards. Pages that are served over an HTTPS connection also get a [small ranking boost](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html) in Google.
 
 Without encryption, a user is exposed to a ‘man-in-the-middle’ attack. This is where a hacker can obtain sensitive information during the process of sending them from a user to your system. Personal information exposed in this way can lead to serious problems for your customers.
 
-Therefore, from January 2017, Google began showing a ‘Not Secure’ warning in their Chrome browser on sites that request users to input their person information, password or credit card information without providing a secured connection. In the long term, they plan to label all pages without HTTPS with this message and a red triangle warning to be more honest with searchers.
+Therefore, from January 2017, Google began showing a ‘Not Secure’ warning in their Chrome browser on sites that request users to input their person information, password or credit card information without providing a secured connection. In the long term, they [plan to label all pages without HTTPS](https://www.youtube.com/watch?v=aWGU4qLtHEw&feature=youtu.be&t=6h2m31s) with this message and a red triangle warning to be more honest with searchers.
 
 This has the potential to have a serious impact on a number of conversions on your site and damage your brand image. All websites should use HTTPS.
 
-### 3.5. Canonicalization
+### 3.5. Canonicalisation
 Overview
 
 Often people may use various URLs to load or link to your page. For example:
@@ -414,7 +414,7 @@ This creates a problem, as these URLs act as duplicates of the same page. When p
 
 This means that the duplicates weaken the popularity of the main page. These duplicates compete with the original page for room in Google and Bing searches, instead of improving its ranking position.
 
-You can combat this issue by adding rel=‘canonical’ to your pages, which directs search engines to the main URL. When a search engine knows which version is canonical, it can count the ranking signals accumulated by multiple URLs and assign them to the original page. Using this tag will help you improve the ranking of your original pages.
+You can combat this issue by adding rel=‘canonical’ to your pages, which directs search engines to the main URL. When a search engine knows which version is canonical, it can count the ranking signals accumulated by multiple URLs and assign them to the original page. Using this tag will [help you improve the ranking of your original pages](https://support.google.com/webmasters/answer/139066?hl=en).
 
 ### 3.6. 301 Redirects
 Overview
