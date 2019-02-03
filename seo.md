@@ -52,12 +52,7 @@ Your most vital pages should be linked throughout your site more often than thos
 
 However, having many links on a page decreases the amount of rank-value that each of them passes to the page they are pointing to. Therefore, it is a good practice to limit the number of links to pages that are not helpful to users and are not crucial to your business. It’s better to have a few carefully chosen links on each page, which are relevant and useful to your visitors, than a lot of them for a no specific reason.
 
-### 1.6. Orphan pages
-Overview
-
-Orphan pages are those that do not have any links pointing to them from other pages on your website or do not link to any other page on your site. They are often used for marketing or advertising campaigns. Because of their disconnection from the rest of the site, they tend to rank lower in search results, even if they receive a lot of external links.
-
-### 1.7. Keywords in Internal Links
+### 1.6. Keywords in Internal Links
 Overview
 
 Descriptive and clickable words in a link (aka anchor text) are a useful signal that help search engines and users better anticipate what content they will find on that page.
@@ -67,6 +62,11 @@ It is a good practice to have at least a few of these links with included import
 Next time, when the user searches for these products, your page will have higher chance to appear in the search results and be clicked on.
 
 All your links should include either anchor text or, for images, an alt attribute that is relevant to the target page.
+
+### 1.7. Orphan pages
+Overview
+
+Orphan pages are those that do not have any links pointing to them from other pages on your website or do not link to any other page on your site. They are often used for marketing or advertising campaigns. Because of their disconnection from the rest of the site, they tend to rank lower in search results, even if they receive a lot of external links.
 
 ### 1.8. User Generated Content
 Overview
@@ -152,62 +152,7 @@ Overview
 
 This section reviews elements on your page which increase the search engines’ understanding of how relevant your website is to the searchers’ needs. It determines if your website should appear in search results for a user’s query, and how confident Google and Bing are that the information on your page is what a user is looking for.
 
-### 2.1. Descriptive URL
-Overview
-
-Descriptive URLs are those made of words (e.g. example.ie/accounting-services/) instead of special characters and numbers (e.g. example.ie/?p=123). They are easier to understand and remember for users and give them a general idea of what to expect to find on the page that this URL leads to.
-
-In addition, Google recommends using descriptive URLs, and it uses the words in it as one of their ranking signals.
-
-The type of URL your website shows, usually depends on the system it uses, and how the web developer has set it up. If it only includes special characters and numbers, it tends to be seen as confusing and creates less trust in the brand.
-
-### 2.2. Separating Words in URLs
-Overview
-
-Words in URLs should be separated by special characters to improve readability. However, picking the wrong character for this task could confuse users or cause the search engines to join words, thus changing their meaning.
-
-Hyphens are the most intuitive and popular way of separating words in an URL. Users are veryfamiliar with this practice, and major search engines recommend using hyphens, which are treated just like a space character, instead of an underscore, which may join words. This will help your pages rank for multi-word queries, so make sure that words in your URLs are always separated by a hyphen.
-
-### 2.3. Keywords in URLs
-Overview
-
-Keywords are important words or phrases users type into the search bar to find websites that match what they are looking for. By strategically placing keywords in URLs, you assure the users and search engines that this page has high topical relevance and will most likely contain what the user is looking for.
-
-Including keywords in the URL also helps your page rank higher in search results, as Google’s former Head of Web Spam mentioned in one of his posts: ‘Having keywords from the post title in the URL also can help search engines judge the quality of a page.’
-
-### 2.4. URL Length
-Overview
-
-Short URLs are easier for users to remember and type into a browser, while long URLs add unnecessary complexity. When Google has two pages with identical or very similar content and authority, they prefer to show the page with the shorter URL.
-
-You should make your URL descriptive, but short. Ideally, an URL should not exceed 80 characters, which is around 7-8 words. The fewer words in the URL, the better. In fact, Matt Cutts (Google's former Head of Web Spam Team) said: ‘If you have got three, four or five words in your URL, that can be perfectly normal. As it gets a little longer, then it starts to look a little worse.’
-
-Content Management Systems often automatically create an URL from the title of the page. Unfortunately, this can make the URL very long by including all the ‘stop words’ like ‘at’, ‘in’, ‘under’, ‘the’, which are not needed there. These words are ignored by search engines when they scan the address of your page, and you should aim to avoid using them in the address of your pages.
-
-Moreover, when you try to create a new page or post and use the same URL that another page on your site already has, your system may automatically add a version number to the end of that page URL (e.g. example.ie/contact-2). This may not look professional and confuse some users, especially if it occurs on important business pages. You should also avoid this.
-
-### 2.5. Dates in URL
-Overview
-
-Content management systems like WordPress often add a date to their URL of each post, identifying when the page was published. This allows users and search engines to quickly determine how fresh the content on that page is.
-
-This could have a positive effect immediately after the URL is published, as it will signal to users that a page contains the most up-to-date information. However, after a year or even a few months, an old date could cause a drop in traffic, as it suggests to users and search engines that the information on that page could be outdated.
-
-Even if you update the content itself, the URL will still contain the old date. Therefore, you should avoid having dates in your site’s URL, as this can discourage searchers from clicking on your site and cause search engines to associate your content with previous year, making it less relevant next year. Both of these reasons can reduce your rankings.
-
-If your page contains a date in the URL, you should consider rewriting and redirecting the old URLs to the new ones that do not contain any date.
-
-### 2.6. Unsafe Characters
-Overview
-
-Some of the special characters used in URLs may create issues for systems and search engine crawlers, also known as spiders. Furthermore, special characters may also confuse some of your users and make it more difficult for them to understand the content of your page.
-
-You should avoid adding the following characters to the URLs of your pages, unless it is necessary:
-- Unsafe characters: blank/empty space and ‘ < > # % { } | \ ^ ~ [ ]
-- Non-ASCII characters
-- Reserved characters: ; / ? : @ = &
-
-### 2.7. Missing Title Tag
+### 2.1. Missing Title Tag
 Overview
 
 Title tags are HTML elements that contain the title of your page and are hidden at the top of your page source code. They don’t appear on your page, but they rather show up in the search results above the page URL and also in the browser tab.
@@ -216,14 +161,21 @@ The information you include in the title tag indicates to users and search engin
 
 When a page has an empty title tag, search engines will generate a text that will be shown instead of it in search results, which may not be so effective. You want to control what people see on Google and Bing when they find your page to maximise the number of people visiting your website.
 
-### 2.8. Keywords in Titles
+### 2.2. Keywords in Titles
 Overview
 
 Using important words or phrases (aka keywords) in the title tag helps users and search engines define the topic of the page and its relevance to a user’s query. This improves ranking and assures the users that they will find what they are looking for within your page, increasing the percentage of people that click through to your site in search results (click-through rate).
 
 We recommend beginning your title with a primary keyword because users don’t read everything that we show to them, they scan text. Google knows this and assigns more importance to the first works in the title. Also, you can add your secondary keywords after your primary one if it is possible to do in a natural way. It increases the likelihood that your page appears high in search results for both keywords.
 
-### 2.9. Title Length
+### 2.3. Duplicate Titles
+Overview
+
+It’s important to create a unique title for each page on your website. Pages with duplicate titles make it more difficult for users and search engines to differentiate the pages.
+
+This could cause the rank of your page to be lower, have a wrong page in search results for important keywords and even make your pages appear to be spam.
+
+### 2.4. Title Length
 Overview
 
 Words in the title tag give a clue what your page is about to both users and search engines. When you use only 1-5 words, you may miss the opportunity to convince a user to click through to your site. In addition, you will also reduce the chances of your page to rank for long-tail keywords, which is, for example, determined by the combination of words that occur in the title.
@@ -232,57 +184,7 @@ On the other hand, Google says that you should avoid ‘using extremely lengthy 
 
 It is essential that you take advantage of all available space in search results by creating a compelling page title that is 50-65 characters long, which is around 10-13 words. Having shorter page titles than this will provide less information to users and search engines and may lead to receiving less traffic to your pages.
 
-### 2.10. Duplicate Titles
-Overview
-
-It’s important to create a unique title for each page on your website. Pages with duplicate titles make it more difficult for users and search engines to differentiate the pages.
-
-This could cause the rank of your page to be lower, have a wrong page in search results for important keywords and even make your pages appear to be spam.
-
-### 2.11. Missing Meta Descriptions
-Overview
-
-Meta description is the biggest section of the text displayed above the URL of your page in search results. It should be placed at the top of your page code, but it does not appear on your website.
-
-When meta description tag is missing or is empty, search engines will decide which text to show for the description of your page in search results. They may display a snippet of your page content or text from Open Directory Project as description.
-
-For searchers, this generated text may not be as convincing as an optimised description to visit your website. You should ensure your important pages have a specified custom meta description.
-
-However, for a long-form content, which ranks for a variety of users’ queries, it is difficult to write one meta description that will be relevant enough for all different keywords. In this situation, it is worth testing the click-through-rate to your page with and without a specified the description.
-
-### 2.12. Keywords in Meta Descriptions
-Overview
-
-It is good practice for your meta description to contain keywords, ensuring the important aspects of your page are highlighted. Search engines will present these keywords in bold when they match the user’s query, pointing out and reassuring them your page contains what they are looking for.
-
-It is also beneficial to include other variations of your primary keyword within your meta description. However, do not mention each keyword more than once, as this can look like spam and discourage people from clicking on your link. Ensuring the description sounds natural and interesting is paramount.
-
-### 2.13. Meta Descriptions Length
-Overview
-
-Text in meta description helps to convince users to choose your page over your competitors. However, by having short descriptions you may be losing your opportunity to do this, and in extreme cases, they could cause a user to consider your page incapable of solving his problem.
-
-On the other hand, search engines have limited space available in search results to display the description of your page. If this text is too long, the excess amount of words will be replaced with ‘…’. Users may have a hard time understanding what you wanted to convey.
-
-You should aim to use 140-150 characters, which is around 24-26 words, to describe what they can expect from the content of your page. Any description longer than 150 characters is at greater risk of being cut out. Whereas, short meta descriptions are the ones that have less than 70 characters (12-14 words), which is approximately half of the available space for a meta description.
-
-### 2.14. Duplicate Meta Descriptions
-Overview
-
-As meta descriptions appear below your page title in search results, you should avoid using the same one for a number of pages. Each page is unique, and it addresses a particular user’s needs. A meta description optimised for a specific page won’t be just as effective in driving traffic to another one.
-
-Furthermore, when duplicates are noticed by users, they could cause them to skip over your page, as it often looks like spam. However, you can prevent it, ensuring your important pages have a unique meta description.
-
-### 2.15. Meta Keywords
-Overview
-
-Meta keywords tag is used by people as an easy way to inform search engines of the content of their pages. It is placed at the top of your page code but does not appear on the page itself.
-
-Meta keyword tags have previously been heavily spammed. As a result, in 2009 Google decided not to use information from meta keyword tags anymore. Other main search engines, such as Bing and Yahoo, followed this practice soon after.
-
-It is not recommended to include keywords in this meta tag. They will not improve your ranking position. Moreover, having dozens of those words and phrases there may damage your ranking, as this may be seen as a sign of a spam website. It is advisable to include any keywords within the page itself.
-
-### 2.16. Headings
+### 2.5. Headings
 Overview
 
 Headings play a vital role in drawing users’ attention to important text on your pages. They divide your content into smaller and easier to grasp chunks of categorised text, which allow users to quickly scan your content and find the information they are looking for.
@@ -293,7 +195,7 @@ It’s good practice to use one main heading (H1) on each of your pages which su
 
 You should use them often throughout the page when it makes sense to do so. This way you will help users and search engines understand the hierarchy of information on your page and improve the readability of your content.
 
-### 2.17. Keywords in Headings
+### 2.6. Keywords in Headings
 Overview
 
 Headings help emphasise the important text on your page to users and search engines. They are used as a ranking factor and they highlight the topical relevance of your content to the user’s query.
@@ -304,7 +206,7 @@ We recommend placing the keyword at the beginning of your headings, but it’s m
 
 Furthermore, it is good practice to have your main heading consistent with the title of a page, as this is something that Google is looking for. When they are different, it may appear blurred to search bots what your page is about.
 
-### 2.18. Keywords in Main Content
+### 2.7. Keywords in Main Content
 Overview
 
 Mentioning your primary and related keywords in the copy of the page helps to increase its relevance and assure search engines that it contains information that a user may be interested in.
@@ -315,7 +217,96 @@ A good practice is to avoid using your main keyword more than once every 100 wor
 
 Make sure that the main keyword appears at the beginning of the content, as this strengthens the relevance of your page. The concluding sentence of your page is an opportunity to solidify the relevance of your page in the eyes of the user. Therefore, you should remember to include your keyword here, too.
 
-### 2.19. Missing Alternative Text for Multimedia
+### 2.8. Missing Meta Descriptions
+Overview
+
+Meta description is the biggest section of the text displayed above the URL of your page in search results. It should be placed at the top of your page code, but it does not appear on your website.
+
+When meta description tag is missing or is empty, search engines will decide which text to show for the description of your page in search results. They may display a snippet of your page content or text from Open Directory Project as description.
+
+For searchers, this generated text may not be as convincing as an optimised description to visit your website. You should ensure your important pages have a specified custom meta description.
+
+However, for a long-form content, which ranks for a variety of users’ queries, it is difficult to write one meta description that will be relevant enough for all different keywords. In this situation, it is worth testing the click-through-rate to your page with and without a specified the description.
+
+### 2.9. Keywords in Meta Descriptions
+Overview
+
+It is good practice for your meta description to contain keywords, ensuring the important aspects of your page are highlighted. Search engines will present these keywords in bold when they match the user’s query, pointing out and reassuring them your page contains what they are looking for.
+
+It is also beneficial to include other variations of your primary keyword within your meta description. However, do not mention each keyword more than once, as this can look like spam and discourage people from clicking on your link. Ensuring the description sounds natural and interesting is paramount.
+
+### 2.10. Meta Descriptions Length
+Overview
+
+Text in meta description helps to convince users to choose your page over your competitors. However, by having short descriptions you may be losing your opportunity to do this, and in extreme cases, they could cause a user to consider your page incapable of solving his problem.
+
+On the other hand, search engines have limited space available in search results to display the description of your page. If this text is too long, the excess amount of words will be replaced with ‘…’. Users may have a hard time understanding what you wanted to convey.
+
+You should aim to use 140-150 characters, which is around 24-26 words, to describe what they can expect from the content of your page. Any description longer than 150 characters is at greater risk of being cut out. Whereas, short meta descriptions are the ones that have less than 70 characters (12-14 words), which is approximately half of the available space for a meta description.
+
+### 2.11. Duplicate Meta Descriptions
+Overview
+
+As meta descriptions appear below your page title in search results, you should avoid using the same one for a number of pages. Each page is unique, and it addresses a particular user’s needs. A meta description optimised for a specific page won’t be just as effective in driving traffic to another one.
+
+Furthermore, when duplicates are noticed by users, they could cause them to skip over your page, as it often looks like spam. However, you can prevent it, ensuring your important pages have a unique meta description.
+
+### 2.12. Descriptive URLs
+Overview
+
+Descriptive URLs are those made of words (e.g. example.ie/accounting-services/) instead of special characters and numbers (e.g. example.ie/?p=123). They are easier to understand and remember for users and give them a general idea of what to expect to find on the page that this URL leads to.
+
+In addition, Google recommends using descriptive URLs, and it uses the words in it as one of their ranking signals.
+
+The type of URL your website shows, usually depends on the system it uses, and how the web developer has set it up. If it only includes special characters and numbers, it tends to be seen as confusing and creates less trust in the brand.
+
+### 2.13. Separating Words in URLs
+Overview
+
+Words in URLs should be separated by special characters to improve readability. However, picking the wrong character for this task could confuse users or cause the search engines to join words, thus changing their meaning.
+
+Hyphens are the most intuitive and popular way of separating words in an URL. Users are veryfamiliar with this practice, and major search engines recommend using hyphens, which are treated just like a space character, instead of an underscore, which may join words. This will help your pages rank for multi-word queries, so make sure that words in your URLs are always separated by a hyphen.
+
+### 2.14. Keywords in URLs
+Overview
+
+Keywords are important words or phrases users type into the search bar to find websites that match what they are looking for. By strategically placing keywords in URLs, you assure the users and search engines that this page has high topical relevance and will most likely contain what the user is looking for.
+
+Including keywords in the URL also helps your page rank higher in search results, as Google’s former Head of Web Spam mentioned in one of his posts: ‘Having keywords from the post title in the URL also can help search engines judge the quality of a page.’
+
+### 2.15. URL Length
+Overview
+
+Short URLs are easier for users to remember and type into a browser, while long URLs add unnecessary complexity. When Google has two pages with identical or very similar content and authority, they prefer to show the page with the shorter URL.
+
+You should make your URL descriptive, but short. Ideally, an URL should not exceed 80 characters, which is around 7-8 words. The fewer words in the URL, the better. In fact, Matt Cutts (Google's former Head of Web Spam Team) said: ‘If you have got three, four or five words in your URL, that can be perfectly normal. As it gets a little longer, then it starts to look a little worse.’
+
+Content Management Systems often automatically create an URL from the title of the page. Unfortunately, this can make the URL very long by including all the ‘stop words’ like ‘at’, ‘in’, ‘under’, ‘the’, which are not needed there. These words are ignored by search engines when they scan the address of your page, and you should aim to avoid using them in the address of your pages.
+
+Moreover, when you try to create a new page or post and use the same URL that another page on your site already has, your system may automatically add a version number to the end of that page URL (e.g. example.ie/contact-2). This may not look professional and confuse some users, especially if it occurs on important business pages. You should also avoid this.
+
+### 2.16. Dates in URL
+Overview
+
+Content management systems like WordPress often add a date to their URL of each post, identifying when the page was published. This allows users and search engines to quickly determine how fresh the content on that page is.
+
+This could have a positive effect immediately after the URL is published, as it will signal to users that a page contains the most up-to-date information. However, after a year or even a few months, an old date could cause a drop in traffic, as it suggests to users and search engines that the information on that page could be outdated.
+
+Even if you update the content itself, the URL will still contain the old date. Therefore, you should avoid having dates in your site’s URL, as this can discourage searchers from clicking on your site and cause search engines to associate your content with previous year, making it less relevant next year. Both of these reasons can reduce your rankings.
+
+If your page contains a date in the URL, you should consider rewriting and redirecting the old URLs to the new ones that do not contain any date.
+
+### 2.17. Unsafe Characters in URLs
+Overview
+
+Some of the special characters used in URLs may create issues for systems and search engine crawlers, also known as spiders. Furthermore, special characters may also confuse some of your users and make it more difficult for them to understand the content of your page.
+
+You should avoid adding the following characters to the URLs of your pages, unless it is necessary:
+- Unsafe characters: blank/empty space and ‘ < > # % { } | \ ^ ~ [ ]
+- Non-ASCII characters
+- Reserved characters: ; / ? : @ = &
+
+### 2.18. Missing Alternative Text for Multimedia
 Overview
 
 Alternative text (aka alt text) can provide search engines and visually impaired users with additional information about the multimedia on the page, such as images, videos, and animated objects via canvas. This alt text helps them understand what is included in your media files, how they are connected to your main content and what value they add to it.
@@ -324,7 +315,7 @@ This will improve your site’s accessibility and build a better user experience
 
 In addition, this will help your media files better rank on their own in search and improve the ranking of pages which include them.
 
-### 2.20. Keyword in Alternative Text
+### 2.19. Keywords in Alternative Text
 Overview
 
 The alternative text of your images, videos, and other media files should accurately describe what is included in them. It is good practice to use a keyword relevant to the content of the page or its synonym, but only if the keyword is also related to the media.
@@ -332,6 +323,15 @@ The alternative text of your images, videos, and other media files should accura
 This will help you increase the topical relevance of your page, improving the confidence of search engines that this page contains a plenty of information on this subject. Ideally, the alt tag on the first image of the page should always be complete and contain the target keyword.
 
 However, beware of over optimising the alt text by adding a list of keywords to it or the same keyword in each media file on the page. This could be seen by search engines as spam.
+
+### 2.20. Meta Keywords
+Overview
+
+Meta keywords tag is used by people as an easy way to inform search engines of the content of their pages. It is placed at the top of your page code but does not appear on the page itself.
+
+Meta keyword tags have previously been heavily spammed. As a result, in 2009 Google decided not to use information from meta keyword tags anymore. Other main search engines, such as Bing and Yahoo, followed this practice soon after.
+
+It is not recommended to include keywords in this meta tag. They will not improve your ranking position. Moreover, having dozens of those words and phrases there may damage your ranking, as this may be seen as a sign of a spam website. It is advisable to include any keywords within the page itself.
 
 ### 2.21. Number of Links on a Page
 Overview
