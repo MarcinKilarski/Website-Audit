@@ -7,6 +7,10 @@ In this section, we will look at your website’s structure and its less technic
 
 Furthermore, we will look at some recent major Google’s search updates and their impact on your site’s traffic. On average, almost every month there is a major change in the Search Engine industry.
 
+**REMOVE START: Instructions how check the above factors**
+
+**REMOVE END**
+
 ### 1.1. Manual Penalty
 Overview
 
@@ -19,14 +23,14 @@ Overview
 
 Search engines use algorithms which are sets of rules followed by their software to grade and rank pages found on the internet. They can automatically demote your site if it does not meet set requirements.
 
-We track Google search algorithm updates, and we are aware of those which have the biggest impact on shifts in search results. In addition, Google shares information on some of search updates via its site or spokespeople, like Matt Cutts (former Google's Head of Web Spam Team), Gary Illyes (Google Webmaster Trends Analyst), John Mueller (Google Webmaster Trends Analyst), and Danny Sullivan (Google Webmaster Trends Analyst).
+We track Google search algorithm updates, and we are aware of those which have the biggest impact on shifts in search results. In addition, Google shares information on some of search updates via [its main blog](https://www.blog.google/) and a [blog for webmasters](https://webmasters.googleblog.com/) or spokespeople, like [Matt Cutts](https://twitter.com/mattcutts) (former Google's Head of Web Spam Team), [Gary Illyes](https://twitter.com/methode) (Google Webmaster Trends Analyst), [John Mueller](https://twitter.com/johnmu) (Google Webmaster Trends Analyst), and [Danny Sullivan](https://twitter.com/dannysullivan) (Google Webmaster Trends Analyst). Bing shares important information about their search with webmasters via their [own blog](https://blogs.bing.com/).
 
 We use collected information to compare your website’s organic traffic losses and gains over time with Google algorithm updates. This way we can identify those which have affected your website’s visibility and better understand the areas of your site that need our special attention. Once the issues are fixed, your site should automatically recover from algorithmic demotion, and next time Google will crawl the pages that used to be problematic.
 
 ### 1.3. Domain Extension
 Overview
 
-Domain extensions are categories of Internet domain names, which are used by search engines to determine in which countries your content is most relevant for users. There are two main types: Generic Top-Level Domains (gTLD) and Country-Code Top-Level Domains (ccTLD).
+Domain extensions are categories of Internet domain names, which are [used by search engines](https://webmasters.googleblog.com/2010/03/working-with-multi-regional-websites.html) to determine in which countries your content is most relevant for users. There are two main types: Generic Top-Level Domains (gTLD) and Country-Code Top-Level Domains (ccTLD).
 
 Examples of gTLD extensions include .com, .io, and .net. These extensions suggest to users and search engines that this business could be located anywhere in the world. These domains are best suited to international businesses that serve customers in multiple countries.
 
@@ -90,7 +94,7 @@ Users can often access and link to your pages using different versions of the si
 
 The preferred domain is the one you want the search engines to display in the search results. Not having a specified preferred domain can cause search engines to index some pages with one version of your domain, and other pages with a different version. Multiple versions of your website’s URL displayed in the search results may be confusing for your customers.
 
-On top of it, the search engines may treat the ‘www’ and ‘non-www’ versions of your domain as separate websites. This may prevent your site from gaining a higher ranking as ranking signals could end up being spread across different versions of your site.
+On top of it, the search engines may treat the [‘www’ and ‘non-www’ versions of your domain as separate websites](https://support.google.com/webmasters/answer/44231?hl=en). This may prevent your site from gaining a higher ranking as ranking signals could end up being spread across different versions of your site.
 
 As a result, it is important to inform the search engines of the preferred version of your domain. You can do this by uploading a sitemap of your website to Bing Webmaster Tools and by selecting the correct version of your domain in Google Search Console under ‘Site Settings’.
 
