@@ -6,7 +6,7 @@ The reports contain a list of best practices recognised as important by the comm
 
 Feel free to share with the community your thoughts, experiences and best practices you follow when improving a website by submitting commits to the reports.
 
-## A list of Audit reports
+## A List of Audit Reports
 1. Accessibility - coming soon
 2. Analytics - coming soon
 3. Security - coming soon
