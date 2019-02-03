@@ -7,16 +7,16 @@ In this section, we will look at your website’s structure and its less technic
 
 Furthermore, we will look at some recent major Google’s search updates and their impact on your site’s traffic. On average, almost every month there is a major change in the Search Engine industry.
 
-**REMOVE START: Instructions how check the above factors**
-
-**REMOVE END**
-
 ### 1.1. Manual Penalty
 Overview
 
 Search engines can apply a manual penalty on your site after a human reviewer determines that some pages are not compliant with Google's webmaster quality guidelines.
 
 Sites are manually reviewed after being reported by someone via the search engine report form or when the search engines' algorithms flag them as suspicious.
+
+**REMOVE START: Instructions how check the above factors**
+
+**REMOVE END**
 
 ### 1.2. Algorithmic Demotion
 Overview
@@ -435,7 +435,7 @@ It’s best to avoid using ‘302 redirects’ and instead use the permanent ‘
 ### 3.8. Meta Refresh
 Overview
 
-A meta refresh is a client-side (as opposed to server-side) redirect, which Google’s Webmaster Trends Analyst John Mueller strongly discourages from using. It was heavily abused in the past by spammers who inserted it into a page’s metadata, as it automatically redirects visitors to pages with unrelated or malicious content.
+A meta refresh is a client-side (as opposed to server-side) redirect, which Google’s Webmaster Trends Analyst John Mueller [strongly discourages from using](https://productforums.google.com/forum/#!topic/webmasters/9yMIwHQaF5U/discussion). It was heavily abused in the past by spammers who inserted it into a page’s metadata, as it automatically redirects visitors to pages with unrelated or malicious content.
 
 This causes confusion with users and puts them at risk, resulting in most search engines not wishing to see them on crawled sites. Therefore, whenever you want to redirect users from one page to another, a ‘301 redirect’ should be used instead of a meta refresh.
 
@@ -446,7 +446,7 @@ A redirect chain is when a visitor is redirected several times in a row before t
 
 A redirect loop is the worst example of a redirect chain, as it creates a loop of never-ending redirects, which results in the user not being able to view the page. This usually occurs when redirects have been incorrectly set up on a website.
 
-Redirect chains cause the page to take longer to load and may decrease the value of the ranking signals. Moreover, Google indicated in 2011 that their search crawlers may give up following more than 4 or 5 redirects in a row. This means that your final page may not be seen by search engines and may not appear in the search results.
+Redirect chains cause the page to take longer to load and may decrease the value of the ranking signals. Moreover, Google indicated in 2011 that their search crawlers may [give up following more than 4 or 5 redirects in a row](https://www.youtube.com/watch?v=r1lVPrYoBkA). This means that your final page may not be seen by search engines and may not appear in the search results.
 
 All redirect chains should be fixed by changing them to a direct link or a single redirect.
 
@@ -470,7 +470,7 @@ Users and search engines encounter 4XX errors (e.g. 404 Error: Page Not Found) w
 
 In this situation, the user and search engines are redirected to a ‘Page Not Found’ instead of the page they were looking for. This could frustrate some users, having a negative impact on their perception of the state of your website and your brand.
 
-Furthermore, it prevents some of the ranking signals accumulated by the previous version of the page (like links from other sites pointing to it), from benefiting your website, as it was confirmed on Twitter by Google Webmaster Trends Analyst Gary Illyes. It is always beneficial to fix those links.
+Furthermore, it prevents some of the ranking signals accumulated by the previous version of the page (like links from other sites pointing to it), from benefiting your website, as [it was confirmed](https://twitter.com/methode/status/629654083469737984) on Twitter by Google Webmaster Trends Analyst Gary Illyes. It is always beneficial to fix those links.
 
 If the page does not exist any longer, you should set up a redirect on your server to send users, search engines, and ranking signals to the next most relevant page on this topic. However, avoid redirecting all URL-s that cause 4XX error to the home page. This may confuse users, and search engines will treat it as a soft 404 (more about it in the next section) if it does not provide the answer they were looking for. As a result, the passed ranking signals will stop benefiting the page you pointed to.
 
@@ -518,7 +518,7 @@ You should not include pages with redirects or those that should not be indexed,
 ### 3.16. Crawlable Resources
 Overview
 
-Search engines want to crawl all files that create your pages. This allows them to discover all content, and then check whether the website uses any forbidden practices which can mislead them to obtain a higher rank position.
+Search engines want to crawl all files that create your pages. This allows them to [discover all content](https://www.youtube.com/watch?v=U7YF3fp2-Ac&feature=youtu.be&t=15m17s), and then check whether the website uses any forbidden practices which can mislead them to obtain a higher rank position.
 
 Therefore, sites that block crawlers from going through JavaScript, CSS and image files may be automatically suspect, not be considered as mobile friendly or even your content may not be seen by them. In the result your pages will rank lower. Your site should be transparent and allow the search engines to crawl all files used to create your website’s pages.
 
@@ -568,7 +568,7 @@ Overview
 
 A frame is a HTML element that will copy everything from an external page and embed it into your page. This is often used to pull advertisements and widgets to display on your website.
 
-Although a frame may look nice, it will essentially be loading another page within yours. In this situation, the search engines may not associate this content with your page as it belongs to another website. When the search engines want to send a user to the information within these frames, they will often link to the frame directly, rather than to your page. Furthermore, as they load additional pages within yours, it extends the time needed to display all elements on your site.
+Although a frame may look nice, it will essentially be loading another page within yours. In this situation, the search engines [may not associate this content with your page](https://support.google.com/webmasters/answer/34445) as it belongs to another website. When the search engines want to send a user to the information within these frames, they will often link to the frame directly, rather than to your page. Furthermore, as they load additional pages within yours, it extends the time needed to display all elements on your site.
 
 Therefore, it is always best to avoid using frames on your website whenever possible. If you must use a frame, ensure you provide alternative text in a ‘NOFRAME’ tag describing the content within the frame. This will improve the experience for visually impaired users and those who have ‘frames’ disabled on their devices.
 
@@ -625,7 +625,7 @@ Although it doesn’t cover every aspect you could optimise to speed up your sit
 
 After performing this test, your website receives a score between 0 and 100. The higher the number, the more optimised your website is in the eyes of Google. A score below 65 points is deemed to be poor and will hurt your ranking. A score of 65-85 is deemed to be acceptable and any score above 85 is treated as good.
 
-It is essential to invest some time optimising your site for speed, as Google’s patent ‘Using resource load times in ranking search results‘ argues that ‘given two resources that are of similar relevance to a search query, a typical user may prefer to visit the resource having the shorter load time.’
+It is essential to invest some time optimising your site for speed, as Google’s patent [‘Using resource load times in ranking search results‘](https://patents.google.com/patent/US8645362) argues that ‘given two resources that are of similar relevance to a search query, a typical user may prefer to visit the resource having the shorter load time.’
 
 ### 4.3. Response Time
 Overview
@@ -634,12 +634,12 @@ A Response Time indicates the time taken from requesting your page in a browser 
 
 The longer that search bots have to wait for your pages to load, the more time is wasted that could be spent on discovering new or updated content elsewhere. More importantly, your users will also need to wait longer for your content to appear in their browsers.
 
-As a result, search engines use the response time as one of the ranking signals that help them to determine how good is the experience that your site provides to a user, eventually affecting the rank in search results. You should keep this time as short as possible - ideally not exceeding 200 milliseconds.
+As a result, search engines use [the response time as one of the ranking signals](https://webmasters.googleblog.com/2010/04/using-site-speed-in-web-search-ranking.html) that help them to determine how good is the experience that your site provides to a user, eventually affecting the rank in search results. You should keep this time as short as possible - ideally not exceeding 200 milliseconds.
 
 ### 4.4. Pop-ups
 Overview
 
-Google started lowering ranking of pages that show intrusive interstitials to visitors on mobile devices or even removing them from their search results. This is because these pop-ups and ads which push the top part of the content further down the page make more difficult and even frustrating to access the information that the users are looking on your site.
+Google started [lowering ranking of pages that show intrusive interstitials](https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html) to visitors on mobile devices or even removing them from their search results. This is because these pop-ups and ads which push the top part of the content further down the page make more difficult and even frustrating to access the information that the users are looking on your site.
 
 To add to this, the search engines could interpret pop-ups that appear after loading the page or a scroll action to be the main content of that page if they cover the majority of the screen. In this situation, the original content could be discounted, decreasing its ranking position.
 
@@ -650,7 +650,7 @@ It is recommended to limit the usage of the intrusive interstitials on desktop a
 ### 4.5. Ads
 Overview
 
-Another ranking factor Google added to its algorithm back in January 2012 was the page layout algorithm improvement. This punishes pages where ads take most of the visible space, especially above the fold. Google knows users do not want to visit these types of websites, meaning they will avoid showing them in their search results.
+Another ranking factor Google added to its algorithm back in January 2012 was [the page layout algorithm improvement](https://webmasters.googleblog.com/2012/01/page-layout-algorithm-improvement.html). This punishes pages where ads take most of the visible space, especially above the fold. Google knows users do not want to visit these types of websites, meaning they will avoid showing them in their search results.
 
 You should always consider being consistent with where you show ads. Ideally, they should be at secondary locations within your page or in the margins. This will help you to retain the key areas of the page for quality content, yet still provide a balanced mix of content and advertisements. If you decide to place them within the main body of your page, Google recommends not having more than two ads there.
 
@@ -661,7 +661,7 @@ Overview
 
 Hidden content is text or images that are not initially visible on your page, but it is in your page source code. Usually, it is hidden behind a tab, an accordion or a button and requires some action from the user to see it.
 
-It may end up rarely being seen by users, and because it is hidden in the first place, the search engines do not consider it as a vital part of your page. Therefore, Google reduces the weight of hidden content in search.
+It may end up rarely being seen by users, and because it is hidden in the first place, the search engines do not consider it as a vital part of your page. Therefore, [Google reduces the weight of hidden content in search](https://www.youtube.com/watch?v=U7YF3fp2-Ac&feature=youtu.be&t=17m14s).
 
 On mobile phones, due to limited space, Google states that it is acceptable to place your content behind tabs and accordions. However, it is still recommended to not hide any important content from users on desktops.
 
@@ -688,7 +688,7 @@ The sitemap should list pages grouped together in a logical way. When the number
 ### 4.9. Breadcrumb Navigation
 Overview
 
-A breadcrumb navigation is a secondary navigation that helps visitors to quickly understand where they are currently located on your site. They also provide the visitors with additional information on how your website is structured. This helps them easily move to a different level of your site’s hierarchy.
+A breadcrumb navigation is a secondary navigation that helps visitors to [quickly understand where they are currently located on your site](https://webmasters.googleblog.com/2008/10/importance-of-link-architecture.html). They also provide the visitors with additional information on how your website is structured. This helps them easily move to a different level of your site’s hierarchy.
 
 The breadcrumb navigation can also be selected by the search engines and displayed in the search under your page, rather than a standard URL of your page, which will make it easier for users to read.
 
@@ -715,7 +715,7 @@ Secondly, you should list the search results in order. Each result should have t
 ### 4.12. Text in Images
 Overview
 
-Some websites style their headings and other sections by adding images that contain text. Unfortunately, though Google has an approved patent from 2008 titled ‘Recognizing text in images’, Google Webmaster Trends Analyst Gary Illyes still advises us not to include text in images. Probably search engines still have issues with being 100% confident in reading and understanding the text within these images.
+Some websites style their headings and other sections by adding images that contain text. Unfortunately, though Google has an approved patent from 2008 titled [‘Recognizing text in images’](http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20080002893.PGNR.&OS=dn/20080002893&RS=DN/20080002893), Google Webmaster Trends Analyst Gary Illyes still advises us [not to include text in images](https://twitter.com/methode/status/709751327316963329?ref_src=twsrc%5Etfw&ref_url=https%3A%2F%2Fwww.seroundtable.com%2Fgoogle-text-in-images-21787.html). Probably search engines still have issues with being 100% confident in reading and understanding the text within these images.
 
 Not following this advice may make harder for your pages to rank for keywords included in these images. Therefore, it is always the best practice to ensure important text is not embedded in a picture. Use CSS styles to overlay these words over an image in given location.
 
@@ -724,7 +724,7 @@ Furthermore, content in the image will appear very small when scaled down from a
 ### 4.13. Image Pages
 Overview
 
-To help your unique images rank higher in image search, each of them should have a dedicated page on your site displaying an image in full resolution. This page should also include an image title and description to provide users with additional relevant information regarding the image.
+To help your unique images rank higher in image search, [each of them should have a dedicated page](https://support.google.com/webmasters/answer/114016) on your site displaying an image in full resolution. This page should also include an image title and description to provide users with additional relevant information regarding the image.
 
 Ensuring your images are easily located in searches will increase the number of people who will use them in articles on topics related to your industry. When they link back to your website to give you a credit for the image, it strengthens your site’s authority and topical relevance.
 
@@ -737,9 +737,9 @@ Overview
 
 Flash was developed by Adobe and allows web designers to create image and animation rich web pages, widgets, and games that can be opened in the browser.
 
-However, due to its heavy impact on the battery life of a device, browsers on mobile devices block Flash entirely. In 2016, Google announced it would start blocking Flash on the desktop because it’s slowing down the page loading. Furthermore, Flash is very insecure, putting your users at risk and creating usability issues, which limit the interaction of your users with it.
+However, due to its heavy impact on the battery life of a device, browsers on mobile devices block Flash entirely. In 2016, [Google announced it would start blocking Flash on the desktop](https://blog.chromium.org/2016/12/roll-out-plan-for-html5-by-default.html) because it’s slowing down the page loading. Furthermore, Flash is very insecure, putting your users at risk and creating usability issues, which limit the interaction of your users with it.
 
-While Google crawls text in Flash, it doesn’t recommend including your content in it as it doesn’t guarantee that other search engines can discover it, too. Furthermore, the content displayed in Flash won’t be accessible to your visually impaired visitors unless you also provide an alternative text for these users.
+While Google crawls text in Flash, it [doesn’t recommend including your content](https://support.google.com/webmasters/answer/72746?hl=en#1) in it as it doesn’t guarantee that other search engines can discover it, too. Furthermore, the content displayed in Flash won’t be accessible to your visually impaired visitors unless you also provide an alternative text for these users.
 
 For above reasons, you should avoid using Flash on your website.
 
@@ -755,16 +755,16 @@ Overview
 
 Many websites use paginated pages for posts or products category pages to improve the time that is needed to load the content. This is because it takes a browser a shorter time to display 10 posts than 50.
 
-However, Google discovered in a research that users don’t mind waiting a little bit longer to see more results instead of going through many paginated pages. If on average, your user needs to see 3 listings before finding what he or she wants (e.g. Google’s search results pages), displaying only 10 of them at once is perfectly fine. On the other hand, if the user goes through 30 products before buying something, your page should show 30 items on each component page.
+However, Google discovered in a research that [users don’t mind waiting a little bit longer to see more results](https://www.youtube.com/watch?v=njn8uXTWiGg&feature=youtu.be&t=4m31s) instead of going through many paginated pages. If on average, your user needs to see 3 listings before finding what he or she wants (e.g. Google’s search results pages), displaying only 10 of them at once is perfectly fine. On the other hand, if the user goes through 30 products before buying something, your page should show 30 items on each component page.
 
-Furthermore, when you use paginations, you need to make sure that they are set up correctly. Otherwise, rankings signals (aka indexing prosperities) may end up being divided across all of the component pages instead of being accumulated in one central place, consequently decreasing the chance for your category page to rank well in search.
+Furthermore, when you use paginations, you need to make sure that they are set up correctly. Otherwise, rankings signals (aka indexing prosperities) may end up being [divided across all of the component pages](https://www.youtube.com/watch?v=njn8uXTWiGg) instead of being accumulated in one central place, consequently decreasing the chance for your category page to rank well in search.
 
-Therefore, you should have the rel=‘next’ and rel=‘prev’ markup added to your pages which tell search engines to treat all of these component pages as one block, and any signals in any of them will benefit all pages. Doing this will help your paginated pages appear higher in search results.
+Therefore, you should have the rel=‘next’ and rel=‘prev’ markup added to your pages which tell search engines to treat all of these component pages as one block, and any signals in any of them will [benefit all pages](https://www.youtube.com/watch?v=GVKcMU7YNOQ&feature=youtu.be&t=11m17s). Doing this will help your paginated pages appear higher in search results.
 
 ## 5. Content
 Overview
 
-Users find and visit your pages because of the content on your site, as well as answers available on them to their questions. Google’s employee confirmed that content on your pages is one of two the most important ranking factors. However, poor quality content will provide less value than other pages that already rank for keywords you target, meaning you will struggle to outrank them.
+Users find and visit your pages because of the content on your site, as well as answers available on them to their questions. [Google’s employee confirmed](https://www.youtube.com/watch?v=l8VnZCcl9J4&feature=youtu.be&t=28m34s) that content on your pages is one of two the most important ranking factors. However, poor quality content will provide less value than other pages that already rank for keywords you target, meaning you will struggle to outrank them.
 
 In this section, we look at the keywords your site is currently displayed under in the search results and discuss ways of ensuring they rank higher. In addition to this, we will suggest content you could create to provide your customers with more value and attract new users.
 
