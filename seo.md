@@ -52,7 +52,12 @@ Your most vital pages should be linked throughout your site more often than thos
 
 However, having many links on a page decreases the amount of rank-value that each of them passes to the page they are pointing to. Therefore, it is a good practice to limit the number of links to pages that are not helpful to users and are not crucial to your business. It’s better to have a few carefully chosen links on each page, which are relevant and useful to your visitors, than a lot of them for a no specific reason.
 
-### 1.6. Keywords in Internal Links
+### 1.6. Orphan pages
+Overview
+
+Orphan pages are those that do not have any links pointing to them from other pages on your website or do not link to any other page on your site. They are often used for marketing or advertising campaigns. Because of their disconnection from the rest of the site, they tend to rank lower in search results, even if they receive a lot of external links.
+
+### 1.7. Keywords in Internal Links
 Overview
 
 Descriptive and clickable words in a link (aka anchor text) are a useful signal that help search engines and users better anticipate what content they will find on that page.
@@ -63,7 +68,7 @@ Next time, when the user searches for these products, your page will have higher
 
 All your links should include either anchor text or, for images, an alt attribute that is relevant to the target page.
 
-### 1.7. User Generated Content
+### 1.8. User Generated Content
 Overview
 
 User generated content is anything that a user adds to your website, which appears on the pages. It can be a comment, forum thread, post, image, etc. This content provides a strong signal to users and search engines that there is a living community around this business, helping the website rank higher. Gary Illyes, Webmaster Trends Analyst at Google tweets in his ‘Did You Know’ series that ‘quality comments can be a signal of a healthy website’.
@@ -74,7 +79,7 @@ Furthermore, spam-like user-generated content with links to questionable sites m
 
 You should control what your users add to your site and set all the links added by them as ‘nofollow’. You can also blacklist obvious spam terms and use automated systems like Akismet to defend your site. This will prevent your website from supporting those unknown sites on Google.
 
-### 1.8. Preferred Domain
+### 1.9. Preferred Domain
 Overview
 
 Users can often access and link to your pages using different versions of the site’s URL, for example:
@@ -89,21 +94,21 @@ On top of it, the search engines may treat the ‘www’ and ‘non-www’ versi
 
 As a result, it is important to inform the search engines of the preferred version of your domain. You can do this by uploading a sitemap of your website to Bing Webmaster Tools and by selecting the correct version of your domain in Google Search Console under ‘Site Settings’.
 
-### 1.9. Site Depth
+### 1.10. Site Depth
 Overview
 
 Site depth indicates how many clicks away certain pages are from your home page. Fewer clicks mean the page is easier to find, allowing the visitors to reach their destination quickly. More clicks away from the home page may cause your users to struggle with finding their way to the content they are searching for. This will ultimately result in search engines treating that page as less important.
 
 This hurts the discoverability of your content in which you have put so much effort, as well as on the ranking in search engines. Ideally, key pages should be only one click away from the home page, less important content – a maximum of two clicks away, and everything else – maximum three clicks away.
 
-### 1.10. Subdirectories
+### 1.11. Subdirectories
 Overview
 
 Subdirectories indicate that a page belongs to a set of pages with a similar purpose or topic (e.g. example.ie/services/search-engine-optimisation/). They also help users and the search engines to understand the structure of your website better.
 
 However, too many directories may make the URL of your page lengthy, thus adding unnecessary complexity. Therefore, it is best to limit the number of directories in the URLs to 1 or 2, using them only when it is logical to do so.
 
-### 1.11. Accessible Subdirectories
+### 1.12. Accessible Subdirectories
 Overview
 
 Each of the subdirectories (aka folders) used in the URL should be accessible, implying that each of them should have its own dedicated page. Users and search engines will expect that they can visit each of the folders in the URL to find pages with similar content.
@@ -112,7 +117,7 @@ Avoid showing error messages when accessing those pages is essential. When a 404
 
 Make sure each of your important subdirectories looks professional and is easy to navigate, as this will help users find the content they desire.
 
-### 1.12. Outbound Links
+### 1.13. Outbound Links
 Overview
 
 Outbound links are links on your pages that point to other websites. When you link to quality and relevant sources on the Internet, it helps to build the credibility of your site. Searchers will appreciate that you recommend them trustworthy websites with valuable content that may be of great interest to them.
@@ -123,7 +128,7 @@ However, when those links are spam or potentially malicious sites, it could defa
 
 Furthermore, according to Google Guidelines, any paid or referral outbound links should be ‘nofollow’, too. Otherwise, your site may be seen as one that helps others manipulate search engines’ rankings. Ignoring these guidelines could cause your website to suffer a drop in ranking.
 
-### 1.13. Website Sitelinks
+### 1.14. Website Sitelinks
 Overview
 
 Sitelinks are a search-listing format, displayed below the main website, along with some important internal pages when users are searching for your brand. They are organised in two columns of up to twelve sub-results. This helps users navigate to popular pages on your site quickly.
@@ -132,7 +137,7 @@ It is not possible to have control over the search engines to show this feature 
 
 However, these links are sometimes not optimised efficiently for search, irrelevant or not helpful enough to the user. You can enhance them by rewriting their title and description, or de-index them if they should not appear in search results, to make more room for more important pages.
 
-### 1.14. Descriptive Media File Names
+### 1.15. Descriptive Media File Names
 Overview
 
 Each media file on your website, like a video, an image, or a PDF, should have a descriptive name (e.g. casino-interior.jpg). It provides the search engines with additional information what is in the image, and it can improve a topical relevance of a page when it’s placed on it. Also, it helps these media files rank higher on their own in the search.
@@ -336,11 +341,6 @@ An excessive number of links on a page can overwhelm and confuse your users. It 
 Another reason of refraining from listing many links on one page is that each additional link reduces the PageRank (aka authority) that they pass from one page to another. So, when you have 300 links on one page, each of them passes only 1/300th of the authority to the link destination.
 
 In the past, it was recommended by Google to avoid having more than 100 links on the same page for various reasons. Now, this has increased, and as the current Google’s guidelines say: ‘Limit the number of links on a page to a reasonable number (a few thousand at most).’ We recommend keeping this number below 300.’
-
-### 2.22. Orphan pages
-Overview
-
-Orphan pages are those that do not have any links pointing to them from other pages on your website or do not link to any other page on your site. They are often used for marketing or advertising campaigns. Because of their disconnection from the rest of the site, they tend to rank lower in search results, even if they receive a lot of external links.
 
 ## 3. Technical
 Overview
