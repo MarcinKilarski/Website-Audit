@@ -7,12 +7,12 @@ The reports contain a list of best practices recognised as important by the comm
 Feel free to share with the community your thoughts, experiences and best practices you follow when improving a website by submitting commits to the reports.
 
 ## A List of Audit Reports
-1. Accessibility - coming soon
-2. Analytics - coming soon
-3. Security - coming soon
-4. SEO - over 100 sections
-5. User Experience - coming soon
-6. Web Performance - over 20 sections
+1. [Accessibility](https://github.com/MarcinKilarski/website-audit/blob/master/accessibility.md) - coming soon
+2. [Analytics](https://github.com/MarcinKilarski/website-audit/blob/master/analytics.md) - coming soon
+3. [Security](https://github.com/MarcinKilarski/website-audit/blob/master/security.md) - coming soon
+4. [SEO](https://github.com/MarcinKilarski/website-audit/blob/master/seo.md) - over 100 sections
+5. [User Experience](https://github.com/MarcinKilarski/website-audit/blob/master/user-experience.md) - coming soon
+6. [Web Performance](https://github.com/MarcinKilarski/website-audit/blob/master/web-performance.md) - over 20 sections
 
 ## An Open-Source License
 License: MIT license
