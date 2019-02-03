@@ -1,17 +1,17 @@
 # Website Audit
 
-It's a series of reports that you can use to analyse if your or others' site follows best practices.
+You will find here a series of reports that can help you identify areas for improvement on your or someone else's website.
 
-The list of best practices was collected by myself over five years of research and work in the web development industry. However, I don't pretend to know everything. I want to share with you what I have learned over the years.
+The reports contain a list of best practices recognised as important by the community who research and work in the web development industry. However, we don't pretend to know everything. We want to share with you what we have learned over the years, hoping that it will allow you to provide a better experience for users and make your site more successful.
 
-I am hoping that I inspire you enough to share with all readers of these reports your thought, experiences and best practices that you follow when improving a website.
+Feel free to share with the community your thoughts, experiences and best practices you follow when improving a website by submitting commits to the reports.
 
-## A litst of Audit files
-1. Accessibility - comming soon
-2. Analytics - comming soon
-3. Security - comming soon
+## A list of Audit reports
+1. Accessibility - coming soon
+2. Analytics - coming soon
+3. Security - coming soon
 4. SEO - over 100 sections
-5. User Experience - comming soon
+5. User Experience - coming soon
 6. Web Performance - over 20 sections
 
 License: MIT license
