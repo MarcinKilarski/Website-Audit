@@ -376,7 +376,7 @@ Therefore, it is a good practice to periodically check which pages your site res
 ### 3.3. URL Parameters
 Overview
 
-A URL Parameter is a string that some websites add to the end of a URL to change the content of the page. For example: ?sort=price_ascending would sort the products on the page by price, and ?lang=fr would switch the content of the page to French version. However, pages with URL parameters visible in search results are often seen as confusing and less trusted to users, as they are not always easy to understand.
+A URL Parameter is a string that some websites add to the end of a URL to change the content of the page. For example: ?sort=price_ascending would sort the products on the page by price. However, pages with URL parameters visible in search results are often seen as confusing and less trusted to users, as they are not always easy to understand.
 
 Such pages may be seen by search engines as duplicate content if not managed properly. This is because they are by default eligible to appear in search results, but they add little or no value to the original content.
 
