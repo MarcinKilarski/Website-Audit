@@ -32,6 +32,48 @@ Examples of gTLD extensions include .com, .io, and .net. These extensions sugges
 
 Country-Code Top-Level Domains (ccTLD) extensions end with a country code which indicates where the company is operating. Examples of ccTLD extensions include .ie, .co.uk and .nl. These extensions are best suited to local businesses as they send a strong signal to users and search engines that the company serves customers in a specific country.
 
+### 1.5. Subdomain
+Overview
+
+A subdomain is a smaller part of a larger domain. For example, the subdomain blog.example.ieis part of the domain example.ie. Subdomains are used to separate pages and their content from the main domain.
+
+Search engines look at subdomains similar to new domains, and they may not inherit the ranking signals the main domain accumulated over time.
+
+This may make it difficult for pages published under the subdomain to rank in higher position initially, something they would not encounter if they had been published under the main domain.
+
+If your company does not have sufficient resources, which can be dedicated to building a topicalrelevance of the subdomain, it is recommended to publish all your content on your main domain under a subdirectory (e.g. example.ie/blog/).
+
+### 1.9. Internal Links
+Overview
+
+Internal links are vital as they allow users and search engines to navigate through content on your site quickly. In addition to this, they improve your website’s ranking by passing ranking signals from one page to another.
+
+Your most vital pages should be linked throughout your site more often than those that are less important, as this increases the chances of visitors finding that page when they are browsing your website. Each link also passes a portion of the reputation and rank signals the page has. The high number of them indicates to search engines that this is an important page on your site.
+
+However, having many links on a page decreases the amount of rank-value that each of them passes to the page they are pointing to. Therefore, it is a good practice to limit the number of links to pages that are not helpful to users and are not crucial to your business. It’s better to have a few carefully chosen links on each page, which are relevant and useful to your visitors, than a lot of them for a no specific reason.
+
+### 1.10. Keywords in Internal Links
+Overview
+
+Descriptive and clickable words in a link (aka anchor text) are a useful signal that help search engines and users better anticipate what content they will find on that page.
+
+It is a good practice to have at least a few of these links with included important keywords, like ‘new HP laptops’, and some with relevant keywords, like ‘laptops from 2019’. This will make the page to which the link points to more relevant for user queries that are related to ‘new HP laptops’.
+
+Next time, when the user searches for these products, your page will have higher chance to appear in the search results and be clicked on.
+
+All your links should include either anchor text or, for images, an alt attribute that is relevant to the target page.
+
+### 1.12. User Generated Content
+Overview
+
+User generated content is anything that a user adds to your website, which appears on the pages. It can be a comment, forum thread, post, image, etc. This content provides a strong signal to users and search engines that there is a living community around this business, helping the website rank higher. Gary Illyes, Webmaster Trends Analyst at Google tweets in his ‘Did You Know’ series that ‘quality comments can be a signal of a healthy website’.
+
+Google treats the user-generated content as a part of your site’s content. When users add helpful information to you pages, this can increase the value of your site, improving its ranking for targeted and related user queries. However, if your pages are full of low-quality user generated content which is irrelevant to the topic, this can have the opposite effect, leading to a lower ranking of your content in search results.
+
+Furthermore, spam-like user-generated content with links to questionable sites may destroy the hard work of creating your company brand. Google is not in favour of websites that support spammers by having links to their pages, even if they were added by users and not by site owner. These pages receive the lowest Page Quality Score, thus reducing their ranking.
+
+You should control what your users add to your site and set all the links added by them as ‘nofollow’. You can also blacklist obvious spam terms and use automated systems like Akismet to defend your site. This will prevent your website from supporting those unknown sites on Google.
+
 ### 1.4. Preferred Domain
 Overview
 
@@ -47,16 +89,12 @@ On top of it, the search engines may treat the ‘www’ and ‘non-www’ versi
 
 As a result, it is important to inform the search engines of the preferred version of your domain. You can do this by uploading a sitemap of your website to Bing Webmaster Tools and by selecting the correct version of your domain in Google Search Console under ‘Site Settings’.
 
-### 1.5. Subdomain
+### 1.8. Site Depth
 Overview
 
-A subdomain is a smaller part of a larger domain. For example, the subdomain blog.example.ieis part of the domain example.ie. Subdomains are used to separate pages and their content from the main domain.
+Site depth indicates how many clicks away certain pages are from your home page. Fewer clicks mean the page is easier to find, allowing the visitors to reach their destination quickly. More clicks away from the home page may cause your users to struggle with finding their way to the content they are searching for. This will ultimately result in search engines treating that page as less important.
 
-Search engines look at subdomains similar to new domains, and they may not inherit the ranking signals the main domain accumulated over time.
-
-This may make it difficult for pages published under the subdomain to rank in higher position initially, something they would not encounter if they had been published under the main domain.
-
-If your company does not have sufficient resources, which can be dedicated to building a topicalrelevance of the subdomain, it is recommended to publish all your content on your main domain under a subdirectory (e.g. example.ie/blog/).
+This hurts the discoverability of your content in which you have put so much effort, as well as on the ranking in search engines. Ideally, key pages should be only one click away from the home page, less important content – a maximum of two clicks away, and everything else – maximum three clicks away.
 
 ### 1.6. Subdirectories
 Overview
@@ -74,33 +112,6 @@ Avoid showing error messages when accessing those pages is essential. When a 404
 
 Make sure each of your important subdirectories looks professional and is easy to navigate, as this will help users find the content they desire.
 
-### 1.8. Site Depth
-Overview
-
-Site depth indicates how many clicks away certain pages are from your home page. Fewer clicks mean the page is easier to find, allowing the visitors to reach their destination quickly. More clicks away from the home page may cause your users to struggle with finding their way to the content they are searching for. This will ultimately result in search engines treating that page as less important.
-
-This hurts the discoverability of your content in which you have put so much effort, as well as on the ranking in search engines. Ideally, key pages should be only one click away from the home page, less important content – a maximum of two clicks away, and everything else – maximum three clicks away.
-
-### 1.9. Internal Links
-Overview
-
-Internal links are vital as they allow users and search engines to navigate through content on your site quickly. In addition to this, they improve your website’s ranking by passing ranking signals from one page to another.
-
-Your most vital pages should be linked throughout your site more often than those that are less important, as this increases the chances of visitors finding that page when they are browsing your website. Each link also passes a portion of the reputation and rank signals the page has. The high number of them indicates to search engines that this is an important page on your site.
-
-However, having many links on a page decreases the amount of rank-value that each of them passes to the page they are pointing to. Therefore, it is a good practice to limit the number of links to pages that are not helpful to users and are not crucial to your business. It’s better to have a few carefully chosen links on each page, which are relevant and useful to your visitors, than a lot of them for a no specific reason.
-
-All your links should include either anchor text or, for images, an alt attribute that is relevant to the target page.
-
-### 1.10. Keywords in Internal Links
-Overview
-
-Descriptive and clickable words in a link (aka anchor text) are a useful signal that help search engines and users better anticipate what content they will find on that page.
-
-It is a good practice to have at least a few of these links with included important keywords, like ‘new HP laptops’, and some with relevant keywords, like ‘laptops from 2019’. This will make the page to which the link points to more relevant for user queries that are related to ‘new HP laptops’.
-
-Next time, when the user searches for these products, your page will have higher chance to appear in the search results and be clicked on.
-
 ### 1.11. Outbound Links
 Overview
 
@@ -112,17 +123,6 @@ However, when those links are spam or potentially malicious sites, it could defa
 
 Furthermore, according to Google Guidelines, any paid or referral outbound links should be ‘nofollow’, too. Otherwise, your site may be seen as one that helps others manipulate search engines’ rankings. Ignoring these guidelines could cause your website to suffer a drop in ranking.
 
-### 1.12. User Generated Content
-Overview
-
-User generated content is anything that a user adds to your website, which appears on the pages. It can be a comment, forum thread, post, image, etc. This content provides a strong signal to users and search engines that there is a living community around this business, helping the website rank higher. Gary Illyes, Webmaster Trends Analyst at Google tweets in his ‘Did You Know’ series that ‘quality comments can be a signal of a healthy website’.
-
-Google treats the user-generated content as a part of your site’s content. When users add helpful information to you pages, this can increase the value of your site, improving its ranking for targeted and related user queries. However, if your pages are full of low-quality user generated content which is irrelevant to the topic, this can have the opposite effect, leading to a lower ranking of your content in search results.
-
-Furthermore, spam-like user-generated content with links to questionable sites may destroy the hard work of creating your company brand. Google is not in favour of websites that support spammers by having links to their pages, even if they were added by users and not by site owner. These pages receive the lowest Page Quality Score, thus reducing their ranking.
-
-You should control what your users add to your site and set all the links added by them as ‘nofollow’. You can also blacklist obvious spam terms and use automated systems like Akismet to defend your site. This will prevent your website from supporting those unknown sites on Google.
-
 ### 1.13. Website Sitelinks
 Overview
 
@@ -131,6 +131,16 @@ Sitelinks are a search-listing format, displayed below the main website, along w
 It is not possible to have control over the search engines to show this feature for your website, as it largely depends on the popularity of your brand. Links used in this search feature are usually selected based on the received number of views, in-links, as well as the search engines opinion of how helpful they are to users.
 
 However, these links are sometimes not optimised efficiently for search, irrelevant or not helpful enough to the user. You can enhance them by rewriting their title and description, or de-index them if they should not appear in search results, to make more room for more important pages.
+
+### 1.14. Descriptive Media File Names
+Overview
+
+Each media file on your website, like a video, an image, or a PDF, should have a descriptive name (e.g. casino-interior.jpg). It provides the search engines with additional information what is in the image, and it can improve a topical relevance of a page when it’s placed on it. Also, it helps these media files rank higher on their own in the search.
+
+Including your primary or secondary keywords in your media file names would help you further, but it’s important not to overdo it. If you update an image name, you should set up a ‘301 redirect’, pointing the old image URL to the new one. This will help users and search engines find the new address of this file. Additionally, none of the ranking signals will be lost while renaming the file.
+
+Words in URLs should be separated by special characters to improve readability. Hyphens are the most intuitive and popular way of separating words in an URL. Users are very familiar with this practice, and major search engines recommend using hyphens, which are treated just like a space character, instead of an underscore, which may join words. This will help your pages rank for multi-word queries, so make sure that words in your URLs are always separated by a
+hyphen.
 
 ## 2. Page-Level Factors
 Overview
@@ -331,16 +341,6 @@ In the past, it was recommended by Google to avoid having more than 100 links on
 Overview
 
 Orphan pages are those that do not have any links pointing to them from other pages on your website or do not link to any other page on your site. They are often used for marketing or advertising campaigns. Because of their disconnection from the rest of the site, they tend to rank lower in search results, even if they receive a lot of external links.
-
-### 2.23. Descriptive Media File Names
-Overview
-
-Each media file on your website, like a video, an image, or a PDF, should have a descriptive name (e.g. casino-interior.jpg). It provides the search engines with additional information what is in the image, and it can improve a topical relevance of a page when it’s placed on it. Also, it helps these media files rank higher on their own in the search.
-
-Including your primary or secondary keywords in your media file names would help you further, but it’s important not to overdo it. If you update an image name, you should set up a ‘301 redirect’, pointing the old image URL to the new one. This will help users and search engines find the new address of this file. Additionally, none of the ranking signals will be lost while renaming the file.
-
-Words in URLs should be separated by special characters to improve readability. Hyphens are the most intuitive and popular way of separating words in an URL. Users are very familiar with this practice, and major search engines recommend using hyphens, which are treated just like a space character, instead of an underscore, which may join words. This will help your pages rank for multi-word queries, so make sure that words in your URLs are always separated by a
-hyphen.
 
 ## 3. Technical
 Overview
