@@ -773,7 +773,7 @@ The search engines appreciate you making extra effort by creating in-depth and r
 ### 5.1. Thin Content
 Overview
 
-A thin content is defined as content that provides little or no value to a user and is exemplified by pages with a lower number of words. These pages reduce the overall quality of your site, making it less attractive to users and search engines. If you answer a user’s questions with ‘thin’ information, search engines will not think that you are proficient at this topic and will not rank your site at the top of the search results.
+A thin content is defined as [content that provides little or no value to a user](https://support.google.com/webmasters/answer/9044175?hl=en&visit_id=636848308325711356-1735640772&rd=2#thin-content) and is exemplified by pages with a lower number of words. These pages reduce the overall quality of your site, making it less attractive to users and search engines. If you answer a user’s questions with ‘thin’ information, search engines will not think that you are proficient at this topic and will not rank your site at the top of the search results.
 
 On the other hand, when your content is in-depth, it is much more valuable to searchers, as it does not only answer one question that they have, but potentially many more. This may make them more interested in your brand and what you have to offer, as your information is helpful to them.
 
@@ -798,7 +798,7 @@ Furthermore, pages with duplicate content often compete to appear in search resu
 
 When Google encounters pages with duplicate or very similar content, it puts them into one basket, then shows the most relevant and authoritative copy, removing all the duplicates. This does not necessarily mean that it will keep the page you want to appear in search results. Therefore, it is vital that you remove all duplicate content on your site or use rel=canonical to point to the version that you want to have indexed, in order to prevent search engines from guessing which page should be displayed.
 
-In addition to this, Google may decrease the ranking of your site or remove it entirely from search results if the duplicate pages are perceived as an attempt of manipulating their rankings. For this and the above reasons, you should have unique content on all of your pages.
+In addition to this, Google may [decrease the ranking of your site or remove it entirely from search results](https://support.google.com/webmasters/answer/66359?hl=en) if the duplicate pages are perceived as an attempt of manipulating their rankings. For this and the above reasons, you should have unique content on all of your pages.
 
 ### 5.3. External Duplicate Content
 Overview
@@ -901,12 +901,12 @@ Generic Top-Level Domains (gTLD), such as .com, .net, .io, etc., do not have geo
 
 You can also geo-target different countries with a subdomain or even a subdirectory when your site has a Generic Top-Level Domain. However, Country-Code Top-Level Domains has higher chance to rank higher in a specified country.
 
-Geo-targeting will improve your ranking in a selected country, but it may make it more difficult for your website to be listed in search results in other countries. Therefore, you should only use it when a page on your site targets a single country. Not choosing anything will leave the decision to search engines and their best judgment. Selecting ‘Unlisted’ will prevent them from associating your website with any country.
+Geo-targeting will improve your ranking in a selected country, but it may make it more difficult for your website to be listed in search results in other countries. Therefore, [you should only use it when a page on your site targets a single country](https://webmasters.googleblog.com/2010/03/working-with-multi-regional-websites.html). Not choosing anything will leave the decision to search engines and their best judgment. Selecting ‘Unlisted’ will prevent them from associating your website with any country.
 
 ### 6.2. Server Location
 Overview
 
-The geographic location of the server you use to host your website can increase your site’s relevance in the country in which it is located, because it is used by search engines as one of the signals to determine for which users your content is the most helpful.
+The geographic location of the server you use to host your website can [increase your site’s relevance in the country in which it is located](https://webmasters.googleblog.com/2010/03/working-with-multi-regional-websites.html), because it is used by search engines as one of the signals to determine for which users your content is the most helpful.
 
 Keeping your website in a country where the majority of your customers live can give you a slightly higher chance to reach those users. If your site is translated into a different language, you could host that translation on a separate server, which is located in the country where that language is used. However, this is more a nice-to-have than a critical factor to have your pages appearing in the search results of these countries.
 
@@ -930,7 +930,7 @@ Overview
 
 Contact information for your business, such as your company name, address, and phone number, should be visible on every page of your website. As a result, this makes easier for your users to find your contact details and figure out where your business is based when they arrive at your site.
 
-Furthermore, this strengthens the belief in search engines that your company is highly relevant to people leaving in this geographic area. This makes them more confident and willing to display your business in search results when looking for your products or services.
+Furthermore, this [strengthens the belief in search engines](https://webmasters.googleblog.com/2010/03/working-with-multi-regional-websites.html) that your company is highly relevant to people leaving in this geographic area. This makes them more confident and willing to display your business in search results when looking for your products or services.
 
 We also recommend showing your opening hours alongside the contact information, as this ensures your customers know the best time to reach your business. An ideal location to place such information would be in the footer, at the bottom of each of your pages. Your contact details should also be marked-up with Schema to make it easier for search engines to process.
 
@@ -943,7 +943,7 @@ In addition to this, your business will then be eligible to appear in the ‘Loc
 
 Having a Google My Business profile will also allow users to find your business when using Google Maps, both on desktop and mobile. This would usually occur when the user is exploring the area in which your business is located, or when they are searching for your type of business within the ‘Maps’ application. Google Maps will then show them directions and even navigate them to your business via the fastest route. Therefore, it is important to ensure Google has the correct location of your business.
 
-To help your Google My Business profile rank well in the search results, it is essential that you verify it and fill out all the details about your business, added photos of your store, linked to your site’s home page or a store location-specific page and have at least a few reviews from your customers.
+To help your Google My Business profile [rank well in the search results](https://support.google.com/business/answer/7091?hl=en), it is essential that you verify it and fill out all the details about your business, added photos of your store, linked to your site’s home page or a store location-specific page and have at least a few reviews from your customers.
 
 ### 6.6. Bing Places for Business
 Overview
@@ -1004,7 +1004,7 @@ These notifications could provide your users with additional information regardi
 ## 7. Off-Site
 Overview
 
-This section primarily focuses on identifying and evaluating other sites that link to you, which allows you to acquire additional visitors and vital ranking signals. Google’s employee confirmed that links to your site are one of two most important signals that can help you rank higher in search results.
+This section primarily focuses on identifying and evaluating other sites that link to you, which allows you to acquire additional visitors and vital ranking signals. Google’s employee confirmed that links to your site are [one of two most important signals](https://www.youtube.com/watch?v=l8VnZCcl9J4&feature=youtu.be&t=28m34s) that can help you rank higher in search results.
 
 The number of quality links pointing to your pages earns a reputation for your brand in the eyes of users and search engines. This can lead to a higher ranking of your pages for specific keywords, but also the higher visibility of your whole domain in the search, resulting in more visitors from Google and Bing, your organic traffic. Having no links pointing to your websites makes it more difficult for search engines to trust your site, therefore making it harder to rank for competitive queries.
 
