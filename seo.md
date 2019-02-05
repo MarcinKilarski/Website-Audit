@@ -16,10 +16,6 @@ Search engines can apply a manual penalty on your site after a human reviewer de
 
 Sites are manually reviewed after being reported by someone via the search engine report form or when the search engines' algorithms flag them as suspicious.
 
-**REMOVE START: Instructions how check the above factors**
-
-**REMOVE END**
-
 ### 1.2. Algorithmic Demotion
 
 Overview

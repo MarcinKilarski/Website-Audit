@@ -2,8 +2,9 @@
 
 It's coming soon with the help of the community.
 
-### 1.1. Favicon
-Overview
+## 1.1. Favicon
+
+**Overview**
 
 Favicon is the small graphic that appears in your browser window or at the top of the browser
 tab. This is not a ranking factor, but various sites, mobile devices, social media platforms, and
