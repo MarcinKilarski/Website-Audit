@@ -1,6 +1,7 @@
-# SEO Audit
+# Search Engine Optimisation (SEO) Audit Report
 
 ## 1. Site-Level Factors
+
 Overview
 
 In this section, we will look at your website’s structure and its less technical elements, which affect the search visibility of your entire website rather than individual pages.
@@ -8,6 +9,7 @@ In this section, we will look at your website’s structure and its less technic
 Furthermore, we will look at some recent major Google’s search updates and their impact on your site’s traffic. On average, almost every month there is a major change in the Search Engine industry.
 
 ### 1.1. Manual Penalty
+
 Overview
 
 Search engines can apply a manual penalty on your site after a human reviewer determines that some pages are not compliant with Google's webmaster quality guidelines.
@@ -19,6 +21,7 @@ Sites are manually reviewed after being reported by someone via the search engin
 **REMOVE END**
 
 ### 1.2. Algorithmic Demotion
+
 Overview
 
 Search engines use algorithms which are sets of rules followed by their software to grade and rank pages found on the internet. They can automatically demote your site if it does not meet set requirements.
@@ -28,6 +31,7 @@ We track Google search algorithm updates, and we are aware of those which have t
 We use collected information to compare your website’s organic traffic losses and gains over time with Google algorithm updates. This way we can identify those which have affected your website’s visibility and better understand the areas of your site that need our special attention. Once the issues are fixed, your site should automatically recover from algorithmic demotion, and next time Google will crawl the pages that used to be problematic.
 
 ### 1.3. Domain Extension
+
 Overview
 
 Domain extensions are categories of Internet domain names, which are [used by search engines](https://webmasters.googleblog.com/2010/03/working-with-multi-regional-websites.html) to determine in which countries your content is most relevant for users. There are two main types: Generic Top-Level Domains (gTLD) and Country-Code Top-Level Domains (ccTLD).
@@ -37,26 +41,29 @@ Examples of gTLD extensions include .com, .io, and .net. These extensions sugges
 Country-Code Top-Level Domains (ccTLD) extensions end with a country code which indicates where the company is operating. Examples of ccTLD extensions include .ie, .co.uk and .nl. These extensions are best suited to local businesses as they send a strong signal to users and search engines that the company serves customers in a specific country.
 
 ### 1.4. Subdomain
+
 Overview
 
-A subdomain is a smaller part of a larger domain. For example, the subdomain blog.example.ieis part of the domain example.ie. Subdomains are used to separate pages and their content from the main domain.
+A subdomain is a smaller part of a larger domain. For example, the subdomain blog.example.ie is part of the domain example.ie. Subdomains are used to separate pages and their content from the main domain.
 
 Search engines look at subdomains similar to new domains, and they may not inherit the ranking signals the main domain accumulated over time.
 
 This may make it difficult for pages published under the subdomain to rank in higher position initially, something they would not encounter if they had been published under the main domain.
 
-If your company does not have sufficient resources, which can be dedicated to building a topicalrelevance of the subdomain, it is recommended to publish all your content on your main domain under a subdirectory (e.g. example.ie/blog/).
+If your company does not have sufficient resources, which can be dedicated to building a topical relevance of the subdomain, it is recommended to publish all your content on your main domain under a subdirectory (e.g. example.ie/blog/).
 
 ### 1.5. Internal Links
+
 Overview
 
-Internal links are vital as they allow users and search engines to navigate through content on your site quickly. In addition to this, they improve your website’s ranking by passing ranking signals from one page to another.
+Internal links are vital as they allow users and search engines to navigate through content on your site quickly. In addition to this, they improve your website's ranking by passing ranking signals from one page to another.
 
 Your most vital pages should be linked throughout your site more often than those that are less important, as this increases the chances of visitors finding that page when they are browsing your website. Each link also passes a portion of the reputation and rank signals the page has. The [high number of them indicates to search engines that this is an important page](https://support.google.com/webmasters/answer/9049606?hl=en&visit_id=636848181528297079-1328382149&rd=1) on your site.
 
-However, having many links on a page decreases the amount of rank-value that each of them passes to the page they are pointing to. Therefore, it is a good practice to limit the number of links to pages that are not helpful to users and are not crucial to your business. It’s better to have a few carefully chosen links on each page, which are relevant and useful to your visitors, than a lot of them for a no specific reason.
+However, having many links on a page decreases the amount of rank-value that each of them passes to the page they are pointing to. Therefore, it is a good practice to limit the number of links to pages that are not helpful to users and are not crucial to your business. It's better to have a few carefully chosen links on each page, which are relevant and useful to your visitors, than a lot of them for a no specific reason.
 
 ### 1.6. Keywords in Internal Links
+
 Overview
 
 Descriptive and clickable words in a link (aka anchor text) are a useful signal that [help search engines and users better anticipate what content they will find on that page](https://webmasters.googleblog.com/2008/10/importance-of-link-architecture.html).
@@ -68,11 +75,13 @@ Next time, when the user searches for these products, your page will have higher
 All your links should include either anchor text or, for images, an alt attribute that is relevant to the target page.
 
 ### 1.7. Orphan pages
+
 Overview
 
 Orphan pages are those that do not have any links pointing to them from other pages on your website or do not link to any other page on your site. They are often used for marketing or advertising campaigns. Because of their disconnection from the rest of the site, they tend to rank lower in search results, even if they receive a lot of external links.
 
 ### 1.8. User Generated Content
+
 Overview
 
 User generated content is anything that a user adds to your website, which appears on the pages. It can be a comment, forum thread, post, image, etc. This content provides a strong signal to users and search engines that there is a living community around this business, helping the website rank higher. Gary Illyes, Webmaster Trends Analyst at Google tweets in his ‘Did You Know’ series that [‘quality comments can be a signal of a healthy website’](https://twitter.com/methode/status/840089716657541120).
@@ -84,6 +93,7 @@ Furthermore, spam-like user-generated content with links to questionable sites [
 You should control what your users add to your site and set all the links added by them as ‘nofollow’. You can also blacklist obvious spam terms and use automated systems like Akismet to defend your site. This will prevent your website from supporting those unknown sites on Google.
 
 ### 1.9. Preferred Domain
+
 Overview
 
 Users can often access and link to your pages using different versions of the site’s URL, for example:
