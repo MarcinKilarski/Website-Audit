@@ -406,7 +406,35 @@ On the other hand, if more pages are indexed than you have on your site, this ma
 
 It is crucial that all your important pages appear in the search results, as every indexed quality page is an additional point of entry for users to your site.
 
-### 3.2. Pages Restricted From Indexing
+### 3.2. 4XX Client Error
+
+Overview
+
+Users and search engines encounter 4XX errors (e.g. 404 Error: Page Not Found) when trying to visit a page that cannot be found. This may be caused by a broken link to a page or a file that was removed, but also when a URL of a page was changed or misspelt.
+
+In this situation, the user and search engines are redirected to a ‘Page Not Found’ instead of the page they were looking for. This could frustrate some users, having a negative impact on their perception of the state of your website and your brand.
+
+Furthermore, it prevents some of the ranking signals accumulated by the previous version of the page (like links from other sites pointing to it), from benefiting your website, as [it was confirmed](https://twitter.com/methode/status/629654083469737984) on Twitter by Google Webmaster Trends Analyst Gary Illyes. It is always beneficial to fix those links.
+
+If the page does not exist any longer, you should set up a redirect on your server to send users, search engines, and ranking signals to the next most relevant page on this topic. However, avoid redirecting all URL-s that cause 4XX error to the home page. This may confuse users, and search engines will treat it as a soft 404 (more about it in the next section) if it does not provide the answer they were looking for. As a result, the passed ranking signals will stop benefiting the page you pointed to.
+
+### 3.3. 5XX Server Error
+
+Overview
+
+Errors that begin with the digit ‘5’ indicate cases in which the server is aware it has encountered an issue or is otherwise incapable of performing the request. These errors should be monitored, and their causes investigated, as they may indicate a more serious problem.
+
+When occurred often, this could cause a negative impact, as your site’s reliability will be diminished in the eyes of the search engines. They may not be inclined to sending users to pages that are not available.
+
+### 3.4. Page Render
+
+Overview
+
+Occasionally, an issue may cause search engines to not see your pages in the same way as you or your users can. This may cause these pages to have lower search visibility than they should, as Google or Bing cannot rank your pages for queries they cannot find in your content.
+
+It is crucial to ensure all of your content is visible to search engine crawlers on desktops and especially on mobile phones.
+
+### 3.5. Pages Restricted From Indexing
 
 Overview
 
@@ -416,33 +444,7 @@ However, often sites have wrong pages or even the whole section of the website b
 
 Therefore, it is a good practice to periodically check which pages your site restricts search engines from crawling and indexing.
 
-### 3.3. URL Parameters
-
-Overview
-
-A URL Parameter is a string that some websites add to the end of a URL to change the content of the page. For example: ?sort=price_ascending would sort the products on the page by price. However, pages with URL parameters visible in search results are often seen as confusing and less trusted to users, as they are not always easy to understand.
-
-Such pages [may be seen by search engines as duplicate content](https://support.google.com/webmasters/answer/6080550?hl=en) if not managed properly. This is because they are by default eligible to appear in search results, but they add little or no value to the original content.
-
-Furthermore, URL parameters could lead to ranking signals being divided among several pages, instead of strengthening the ranking position of the original page.
-
-Finally, with sites that have a large number of pages, URL parameters waste search crawlers’ resources, which could be used elsewhere to discover new or updated content on your site.
-
-To prevent this, you can inform Google by using their Search Console and Bing via their Webmaster Tools that pages with specific URL parameters are duplicates and should, therefore, be de-indexed, or assure them that they are unique and should appear in search results.
-
-### 3.4. Hypertext Transfer Protocol Secure (HTTPS)
-
-Overview
-
-HTTPS encrypts the connection between a user and your website, securing any sensitive data that the user may have submitted on your site, such as personal details, password, and credit cards. Pages that are served over an HTTPS connection also get a [small ranking boost](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html) in Google.
-
-Without encryption, a user is exposed to a ‘man-in-the-middle’ attack. This is where a hacker can obtain sensitive information during the process of sending them from a user to your system. Personal information exposed in this way can lead to serious problems for your customers.
-
-Therefore, from January 2017, Google began showing a ‘Not Secure’ warning in their Chrome browser on sites that request users to input their person information, password or credit card information without providing a secured connection. In the long term, they [plan to label all pages without HTTPS](https://www.youtube.com/watch?v=aWGU4qLtHEw&feature=youtu.be&t=6h2m31s) with this message and a red triangle warning to be more honest with searchers.
-
-This has the potential to have a serious impact on a number of conversions on your site and damage your brand image. All websites should use HTTPS.
-
-### 3.5. Canonicalisation
+### 3.6. Canonicalisation
 
 Overview
 
@@ -459,7 +461,7 @@ This means that the duplicates weaken the popularity of the main page. These dup
 
 You can combat this issue by adding rel=‘canonical’ to your pages, which directs search engines to the main URL. When a search engine knows which version is canonical, it can count the ranking signals accumulated by multiple URLs and assign them to the original page. Using this tag will [help you improve the ranking of your original pages](https://support.google.com/webmasters/answer/139066?hl=en).
 
-### 3.6. 301 Redirects
+### 3.7. 301 Redirects
 
 Overview
 
@@ -467,7 +469,7 @@ Overview
 
 However, using ‘301 redirects’ can reduce the speed of the page loading, and may discount some of the transferred ranking signals. Therefore, we recommend using a direct link whenever possible.
 
-### 3.7. 302 Redirects
+### 3.8. 302 Redirects
 
 Overview
 
@@ -476,14 +478,6 @@ Overview
 Recently, Google’s Search Team announced that 301 and 302 redirects do not cause a loss of any PageRank, which is one of the stronger ranking factors. However, some sites still see ranking improvements when ‘302 redirects’ are converted to 301s or when they are converted into direct links.
 
 It’s best to avoid using ‘302 redirects’ and instead use the permanent ‘301 redirects’ or, even better, a direct link wherever possible.
-
-### 3.8. Meta Refresh
-
-Overview
-
-A meta refresh is a client-side (as opposed to server-side) redirect, which Google’s Webmaster Trends Analyst John Mueller [strongly discourages from using](https://productforums.google.com/forum/#!topic/webmasters/9yMIwHQaF5U/discussion). It was heavily abused in the past by spammers who inserted it into a page’s metadata, as it automatically redirects visitors to pages with unrelated or malicious content.
-
-This causes confusion with users and puts them at risk, resulting in most search engines not wishing to see them on crawled sites. Therefore, whenever you want to redirect users from one page to another, a ‘301 redirect’ should be used instead of a meta refresh.
 
 ### 3.9. Redirect Chains
 
@@ -497,60 +491,15 @@ Redirect chains cause the page to take longer to load and may decrease the value
 
 All redirect chains should be fixed by changing them to a direct link or a single redirect.
 
-### 3.10. Redirects to Preferred Domain
+### 3.10. Meta Refresh
 
 Overview
 
-Users and search engines may be able to access your pages by using different versions of your site’s URL:
+A meta refresh is a client-side (as opposed to server-side) redirect, which Google’s Webmaster Trends Analyst John Mueller [strongly discourages from using](https://productforums.google.com/forum/#!topic/webmasters/9yMIwHQaF5U/discussion). It was heavily abused in the past by spammers who inserted it into a page’s metadata, as it automatically redirects visitors to pages with unrelated or malicious content.
 
-- HTTP + www (e.g. http://www.example.ie)
-- HTTP + non-www (e.g. http://example.ie)
-- HTTPS + www (e.g. https://www.example)
-- HTTPS + non-www (e.g. https://example.ie)
+This causes confusion with users and puts them at risk, resulting in most search engines not wishing to see them on crawled sites. Therefore, whenever you want to redirect users from one page to another, a ‘301 redirect’ should be used instead of a meta refresh.
 
-Each website should help its visitors navigate to a page with the correct version of the domain. This can be resolved by setting up a directive on your server, which will automatically redirect users to the correct URL. This way, your users will not see a ‘Not Secure’ label when landing on an unsecured version of your domain. Furthermore, your ranking signals will not be split when linked to the www version of your domain instead of non-www, and vice-versa.
-
-It is important to pick one main version of your domain and set up redirects from the other ones to avoid any issues in the future.
-
-### 3.11. 4XX Client Error
-
-Overview
-
-Users and search engines encounter 4XX errors (e.g. 404 Error: Page Not Found) when trying to visit a page that cannot be found. This may be caused by a broken link to a page or a file that was removed, but also when a URL of a page was changed or misspelt.
-
-In this situation, the user and search engines are redirected to a ‘Page Not Found’ instead of the page they were looking for. This could frustrate some users, having a negative impact on their perception of the state of your website and your brand.
-
-Furthermore, it prevents some of the ranking signals accumulated by the previous version of the page (like links from other sites pointing to it), from benefiting your website, as [it was confirmed](https://twitter.com/methode/status/629654083469737984) on Twitter by Google Webmaster Trends Analyst Gary Illyes. It is always beneficial to fix those links.
-
-If the page does not exist any longer, you should set up a redirect on your server to send users, search engines, and ranking signals to the next most relevant page on this topic. However, avoid redirecting all URL-s that cause 4XX error to the home page. This may confuse users, and search engines will treat it as a soft 404 (more about it in the next section) if it does not provide the answer they were looking for. As a result, the passed ranking signals will stop benefiting the page you pointed to.
-
-### 3.12. Soft 404 Client Error
-
-Overview
-
-When search engines crawl 404 pages and do not see a special 404 code sent by your server with the missing page, they mark such pages in their system as soft 404. This might happen due to an error in the server configuration. Pages marked as soft 404 are treated the same as a normal 404 pages, and the ranking signals accumulated by them are ignored.
-
-Often search engines use soft 404 also in other situations. For example, when sites redirect backlinks to the home page from 404 pages. This way the backlinks are ignores if the final page does not contain the content that was on the page that is gone.
-
-It’s important to monitor when search engines use soft 404 in relation to your pages and fix them by configuring the server properly and redirecting users to pages with very similar content when you decide to remove a page from your site.
-
-### 3.13. 5XX Server Error
-
-Overview
-
-Errors that begin with the digit ‘5’ indicate cases in which the server is aware it has encountered an issue or is otherwise incapable of performing the request. These errors should be monitored, and their causes investigated, as they may indicate a more serious problem.
-
-When occurred often, this could cause a negative impact, as your site’s reliability will be diminished in the eyes of the search engines. They may not be inclined to sending users to pages that are not available.
-
-### 3.14. Preventing Directory Snippets
-
-Overview
-
-The description of your pages that you would like to display in search results may be replaced by Google or Bing with information from third-party directories. Open Directory Project (ODP) is one of these sources. Search engines may display a text taken from ODP as a ‘meta description’ of your page when they believe it benefits the user.
-
-This could result in a loss of control over what text is being shown below your pages in search results, which could lead to fewer people clicking on a link to your site. You can prevent the search engine from using the ODP information by adding ‘noodp’ to the robots meta tag in your pages.
-
-### 3.15. Sitemap for Robots
+### 3.11. Sitemap for Robots
 
 Overview
 
@@ -570,31 +519,17 @@ The XML sitemap should be updated each time you add a new page or make changes t
 
 You should not include pages with redirects or those that should not be indexed, as this will waste what limited time the search crawlers have to crawl all of your pages, lowering their trust in your website’s sitemap accuracy.
 
-### 3.16. Crawlable Resources
+### 3.12. Language Markup
 
 Overview
 
-Search engines want to crawl all files that create your pages. This allows them to [discover all content](https://www.youtube.com/watch?v=U7YF3fp2-Ac&feature=youtu.be&t=15m17s), and then check whether the website uses any forbidden practices which can mislead them to obtain a higher rank position.
+If you use several languages on the same page, you prevent search engines from figuring out what is the primary language of that page and for which audience it is suited. Moreover, you risk the page in question being categorised by search engines in only one of the languages, though not necessarily your primary language.
 
-Therefore, sites that block crawlers from going through JavaScript, CSS and image files may be automatically suspect, not be considered as mobile friendly or even your content may not be seen by them. In the result your pages will rank lower. Your site should be transparent and allow the search engines to crawl all files used to create your website’s pages.
+This situation could result in less traffic to your website and your pages to appear in countries where your business does not operate, rather than your primary market. Therefore, it is important to markup languages with ‘hreflang’ tags whenever your site has content in more than two of them. 
 
-### 3.17. Page Render
+These tags clearly label different language versions of your content and link them together. This helps search engines to understand which language your content is available in, allowing them to show the most relevant pages to your users who may speak a different language.
 
-Overview
-
-Occasionally, an issue may cause search engines to not see your pages in the same way as you or your users can. This may cause these pages to have lower search visibility than they should, as Google or Bing cannot rank your pages for queries they cannot find in your content.
-
-It is crucial to ensure all of your content is visible to search engine crawlers on desktops and especially on mobile phones.
-
-### 3.18. Google Publisher Markup
-
-Overview
-
-The Publisher markup is a piece of code you can add to your website, which links information that is displayed on your business’ Google + account. This way, the search engines have a better understanding of your brand. Even if you do not have a Google My Business listing, Google will still display your company’s name, logo and other available information next to your website’s pages when a user searches for your brand.
-
-To do this, a rel=‘publisher’ schema markup should be added to your site’s business pages. You should also have a link on your Google+ page to your site, as this will confirm that these two entities belong to the same business. Through this, you can strengthen your brand visibility in search results.
-
-### 3.19. Schema Markup
+### 3.13. Schema Markup
 
 Overview
 
@@ -606,7 +541,7 @@ There are two methods of implementing Schema markup on your website: microdata a
 
 Currently, Schema markup is not a ranking factor, although Google have announced that they require it to feature your content in voice search. They state that more than 20% of all mobile searches are performed with voice commands. This creates an opportunity for your business to gain an advantage over your competitors and potentially dominate voice search results in your industry.
 
-### 3.20. Rich Cards
+### 3.14. Rich Cards
 
 Overview
 
@@ -614,17 +549,17 @@ Rich cards are search features that use information you have marked up with sche
 
 An example of this for a restaurant could be a list containing the following information: local business reviews with an average star rating and the number of reviews, a list of events with their respective dates, a recipe with a featured image, an average star rating and the time taken to prepare a meal.
 
-### 3.21. Language Markup
+### 3.15. Soft 404 Client Error
 
 Overview
 
-If you use several languages on the same page, you prevent search engines from figuring out what is the primary language of that page and for which audience it is suited. Moreover, you risk the page in question being categorised by search engines in only one of the languages, though not necessarily your primary language.
+When search engines crawl 404 pages and do not see a special 404 code sent by your server with the missing page, they mark such pages in their system as soft 404. This might happen due to an error in the server configuration. Pages marked as soft 404 are treated the same as a normal 404 pages, and the ranking signals accumulated by them are ignored.
 
-This situation could result in less traffic to your website and your pages to appear in countries where your business does not operate, rather than your primary market. Therefore, it is important to markup languages with ‘hreflang’ tags whenever your site has content in more than two of them. 
+Often search engines use soft 404 also in other situations. For example, when sites redirect backlinks to the home page from 404 pages. This way the backlinks are ignores if the final page does not contain the content that was on the page that is gone.
 
-These tags clearly label different language versions of your content and link them together. This helps search engines to understand which language your content is available in, allowing them to show the most relevant pages to your users who may speak a different language.
+It’s important to monitor when search engines use soft 404 in relation to your pages and fix them by configuring the server properly and redirecting users to pages with very similar content when you decide to remove a page from your site.
 
-### 3.22. Frames
+### 3.16. Frames
 
 Overview
 
@@ -634,7 +569,36 @@ Although a frame may look nice, it will essentially be loading another page with
 
 Therefore, it is always best to avoid using frames on your website whenever possible. If you must use a frame, ensure you provide alternative text in a ‘NOFRAME’ tag describing the content within the frame. This will improve the experience for visually impaired users and those who have ‘frames’ disabled on their devices.
 
-### 3.23. Server Up-time
+### 3.17. URL Parameters
+
+Overview
+
+A URL Parameter is a string that some websites add to the end of a URL to change the content of the page. For example: ?sort=price_ascending would sort the products on the page by price. However, pages with URL parameters visible in search results are often seen as confusing and less trusted to users, as they are not always easy to understand.
+
+Such pages [may be seen by search engines as duplicate content](https://support.google.com/webmasters/answer/6080550?hl=en) if not managed properly. This is because they are by default eligible to appear in search results, but they add little or no value to the original content.
+
+Furthermore, URL parameters could lead to ranking signals being divided among several pages, instead of strengthening the ranking position of the original page.
+
+Finally, with sites that have a large number of pages, URL parameters waste search crawlers’ resources, which could be used elsewhere to discover new or updated content on your site.
+
+To prevent this, you can inform Google by using their Search Console and Bing via their Webmaster Tools that pages with specific URL parameters are duplicates and should, therefore, be de-indexed, or assure them that they are unique and should appear in search results.
+
+### 3.18. Redirects to Preferred Domain
+
+Overview
+
+Users and search engines may be able to access your pages by using different versions of your site’s URL:
+
+- HTTP + www (e.g. http://www.example.ie)
+- HTTP + non-www (e.g. http://example.ie)
+- HTTPS + www (e.g. https://www.example)
+- HTTPS + non-www (e.g. https://example.ie)
+
+Each website should help its visitors navigate to a page with the correct version of the domain. This can be resolved by setting up a directive on your server, which will automatically redirect users to the correct URL. This way, your users will not see a ‘Not Secure’ label when landing on an unsecured version of your domain. Furthermore, your ranking signals will not be split when linked to the www version of your domain instead of non-www, and vice-versa.
+
+It is important to pick one main version of your domain and set up redirects from the other ones to avoid any issues in the future.
+
+### 3.19. Server Up-time
 
 Overview
 
@@ -646,22 +610,41 @@ It is vital to monitor your server up time in order to identify any problems and
 
 When your hosting provider fails to deliver a reliable service, it is best to contact them to address the issue immediately. If the situation does not improve, you should consider switching to a different hosting provider.
 
-### 3.24. Accelerated Mobile Pages (AMP)
+### 3.20. Crawlable Resources
 
 Overview
 
-Accelerated Mobile Pages are a new initiative from Google. If your site is slow to load on mobile phones, coding your mobile pages using AMP could be the best solution as these enable your pages to load almost instantly.
+Search engines want to crawl all files that create your pages. This allows them to [discover all content](https://www.youtube.com/watch?v=U7YF3fp2-Ac&feature=youtu.be&t=15m17s), and then check whether the website uses any forbidden practices which can mislead them to obtain a higher rank position.
 
-AMP does not replace your current mobile site. AMP will create a simpler version of your pages, which contains less code and fewer features that usually make pages load slower. These will then be displayed in the search results on smartphones rather than your current pages.
+Therefore, sites that block crawlers from going through JavaScript, CSS and image files may be automatically suspect, not be considered as mobile friendly or even your content may not be seen by them. In the result your pages will rank lower. Your site should be transparent and allow the search engines to crawl all files used to create your website’s pages.
 
-Unfortunately, AMP still isn’t used by search engines as a ranking signal, and therefore won't improve the ranking position of your page. However, Google strongly promotes them in its search results by using the following search features:
+### 3.21. Hypertext Transfer Protocol Secure (HTTPS)
 
-- Distinguishing them from the normal pages by labelling them with an AMP icon
-- Making AMP more prominent in Google’s Top Stories than normal pages
-- Showing AMP multi-source carousal on the top of search results
-- Displaying a single-source carousal down the search results page
+Overview
 
-Accelerated Mobile Pages are ideal for news and content-rich sites. However, they can also help other websites gain extra visibility in a search. Therefore, every website should consider creating AMP versions of its pages.
+HTTPS encrypts the connection between a user and your website, securing any sensitive data that the user may have submitted on your site, such as personal details, password, and credit cards. Pages that are served over an HTTPS connection also get a [small ranking boost](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html) in Google.
+
+Without encryption, a user is exposed to a ‘man-in-the-middle’ attack. This is where a hacker can obtain sensitive information during the process of sending them from a user to your system. Personal information exposed in this way can lead to serious problems for your customers.
+
+Therefore, from January 2017, Google began showing a ‘Not Secure’ warning in their Chrome browser on sites that request users to input their person information, password or credit card information without providing a secured connection. In the long term, they [plan to label all pages without HTTPS](https://www.youtube.com/watch?v=aWGU4qLtHEw&feature=youtu.be&t=6h2m31s) with this message and a red triangle warning to be more honest with searchers.
+
+This has the potential to have a serious impact on a number of conversions on your site and damage your brand image. All websites should use HTTPS.
+
+### 3.22. Google Publisher Markup
+
+Overview
+
+The Publisher markup is a piece of code you can add to your website, which links information that is displayed on your business’ Google + account. This way, the search engines have a better understanding of your brand. Even if you do not have a Google My Business listing, Google will still display your company’s name, logo and other available information next to your website’s pages when a user searches for your brand.
+
+To do this, a rel=‘publisher’ schema markup should be added to your site’s business pages. You should also have a link on your Google+ page to your site, as this will confirm that these two entities belong to the same business. Through this, you can strengthen your brand visibility in search results.
+
+### 3.23. Preventing Directory Snippets
+
+Overview
+
+The description of your pages that you would like to display in search results may be replaced by Google or Bing with information from third-party directories. Open Directory Project (ODP) is one of these sources. Search engines may display a text taken from ODP as a ‘meta description’ of your page when they believe it benefits the user.
+
+This could result in a loss of control over what text is being shown below your pages in search results, which could lead to fewer people clicking on a link to your site. You can prevent the search engine from using the ODP information by adding ‘noodp’ to the robots meta tag in your pages.
 
 ## 4. User Experience
 
@@ -694,6 +677,23 @@ Although it doesn’t cover every aspect you could optimise to speed up your sit
 After performing this test, your website receives a score between 0 and 100. The higher the number, the more optimised your website is in the eyes of Google. A score below 65 points is deemed to be poor and will hurt your ranking. A score of 65-85 is deemed to be acceptable and any score above 85 is treated as good.
 
 It is essential to invest some time optimising your site for speed, as Google’s patent [‘Using resource load times in ranking search results‘](https://patents.google.com/patent/US8645362) argues that ‘given two resources that are of similar relevance to a search query, a typical user may prefer to visit the resource having the shorter load time.’
+
+### 3.11. Accelerated Mobile Pages (AMP)
+
+Overview
+
+Accelerated Mobile Pages are a new initiative from Google. If your site is slow to load on mobile phones, coding your mobile pages using AMP could be the best solution as these enable your pages to load almost instantly.
+
+AMP does not replace your current mobile site. AMP will create a simpler version of your pages, which contains less code and fewer features that usually make pages load slower. These will then be displayed in the search results on smartphones rather than your current pages.
+
+Unfortunately, AMP still isn’t used by search engines as a ranking signal, and therefore won't improve the ranking position of your page. However, Google strongly promotes them in its search results by using the following search features:
+
+- Distinguishing them from the normal pages by labelling them with an AMP icon
+- Making AMP more prominent in Google’s Top Stories than normal pages
+- Showing AMP multi-source carousal on the top of search results
+- Displaying a single-source carousal down the search results page
+
+Accelerated Mobile Pages are ideal for news and content-rich sites. However, they can also help other websites gain extra visibility in a search. Therefore, every website should consider creating AMP versions of its pages.
 
 ### 4.3. Response Time
 
