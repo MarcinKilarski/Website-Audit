@@ -678,7 +678,7 @@ After performing this test, your website receives a score between 0 and 100. The
 
 It is essential to invest some time optimising your site for speed, as Google’s patent [‘Using resource load times in ranking search results‘](https://patents.google.com/patent/US8645362) argues that ‘given two resources that are of similar relevance to a search query, a typical user may prefer to visit the resource having the shorter load time.’
 
-### 3.11. Accelerated Mobile Pages (AMP)
+### 4.3. Accelerated Mobile Pages (AMP)
 
 Overview
 
@@ -695,7 +695,7 @@ Unfortunately, AMP still isn’t used by search engines as a ranking signal, and
 
 Accelerated Mobile Pages are ideal for news and content-rich sites. However, they can also help other websites gain extra visibility in a search. Therefore, every website should consider creating AMP versions of its pages.
 
-### 4.3. Response Time
+### 4.4. Response Time
 
 Overview
 
@@ -705,7 +705,7 @@ The longer that search bots have to wait for your pages to load, the more time i
 
 As a result, search engines use [the response time as one of the ranking signals](https://webmasters.googleblog.com/2010/04/using-site-speed-in-web-search-ranking.html) that help them to determine how good is the experience that your site provides to a user, eventually affecting the rank in search results. You should keep this time as short as possible - ideally not exceeding 200 milliseconds.
 
-### 4.4. Pop-ups
+### 4.5. Pop-ups
 
 Overview
 
@@ -717,16 +717,6 @@ Login, cookies and age verification interstitials will continue to be acceptable
 
 It is recommended to limit the usage of the intrusive interstitials on desktop and mobile to a minimum. Customers hate them, and in order to protect your ranking and your brand, it’s better if they do not encounter them on your site.
 
-### 4.5. Ads
-
-Overview
-
-Another ranking factor Google added to its algorithm back in January 2012 was [the page layout algorithm improvement](https://webmasters.googleblog.com/2012/01/page-layout-algorithm-improvement.html). This punishes pages where ads take most of the visible space, especially above the fold. Google knows users do not want to visit these types of websites, meaning they will avoid showing them in their search results.
-
-You should always consider being consistent with where you show ads. Ideally, they should be at secondary locations within your page or in the margins. This will help you to retain the key areas of the page for quality content, yet still provide a balanced mix of content and advertisements. If you decide to place them within the main body of your page, Google recommends not having more than two ads there.
-
-Moreover, the search engines require all links in all ads to be tagged as ‘nofollow’ which will prevent ranking signals from being sent to the advertiser through this paid placement.
-
 ### 4.6. Hidden Content
 
 Overview
@@ -737,7 +727,37 @@ It may end up rarely being seen by users, and because it is hidden in the first 
 
 On mobile phones, due to limited space, Google states that it is acceptable to place your content behind tabs and accordions. However, it is still recommended to not hide any important content from users on desktops.
 
-### 4.7. Sliders
+### 4.7. Text in Images
+
+Overview
+
+Some websites style their headings and other sections by adding images that contain text. Unfortunately, though Google has an approved patent from 2008 titled [‘Recognizing text in images’](http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20080002893.PGNR.&OS=dn/20080002893&RS=DN/20080002893), Google Webmaster Trends Analyst Gary Illyes still advises us [not to include text in images](https://twitter.com/methode/status/709751327316963329?ref_src=twsrc%5Etfw&ref_url=https%3A%2F%2Fwww.seroundtable.com%2Fgoogle-text-in-images-21787.html). Probably search engines still have issues with being 100% confident in reading and understanding the text within these images.
+
+Not following this advice may make harder for your pages to rank for keywords included in these images. Therefore, it is always the best practice to ensure important text is not embedded in a picture. Use CSS styles to overlay these words over an image in given location.
+
+Furthermore, content in the image will appear very small when scaled down from a desktop to a smartphone screen. This makes it difficult to read and will result in a bad user experience, not mentioning that this text won’t be accessible by screen readers which are used by visually impaired searchers.
+
+### 4.8. Breadcrumb Navigation
+
+Overview
+
+A breadcrumb navigation is a secondary navigation that helps visitors to [quickly understand where they are currently located on your site](https://webmasters.googleblog.com/2008/10/importance-of-link-architecture.html). They also provide the visitors with additional information on how your website is structured. This helps them easily move to a different level of your site’s hierarchy.
+
+The breadcrumb navigation can also be selected by the search engines and displayed in the search under your page, rather than a standard URL of your page, which will make it easier for users to read.
+
+Google recommends using breadcrumbs on your site, as users find them helpful. The easier your website is for searchers to find their required information, the higher the chance of it ranking closer to the top of search results.
+
+### 4.9. Ads
+
+Overview
+
+Another ranking factor Google added to its algorithm back in January 2012 was [the page layout algorithm improvement](https://webmasters.googleblog.com/2012/01/page-layout-algorithm-improvement.html). This punishes pages where ads take most of the visible space, especially above the fold. Google knows users do not want to visit these types of websites, meaning they will avoid showing them in their search results.
+
+You should always consider being consistent with where you show ads. Ideally, they should be at secondary locations within your page or in the margins. This will help you to retain the key areas of the page for quality content, yet still provide a balanced mix of content and advertisements. If you decide to place them within the main body of your page, Google recommends not having more than two ads there.
+
+Moreover, the search engines require all links in all ads to be tagged as ‘nofollow’ which will prevent ranking signals from being sent to the advertiser through this paid placement.
+
+### 4.10. Sliders
 
 Overview
 
@@ -751,67 +771,19 @@ Lastly, most sliders are very heavy and will also significantly slow your site�
 
 For these various reasons it is always best to avoid them or, at the very least, exclude them from the important information.
 
-### 4.8. Sitemap for Humans
+### 4.11. Pagination
 
 Overview
 
-In February 2016, Google updated its Webmaster Guidelines and added a recommendation for you, as a site owner, to include on your websites a human-readable site map. This should list all of the important pages on your site, which provides an alternative means for visitors to find what they're looking for. Having this on your site may help you improve your ranking in Google.
+Many websites use paginated pages for posts or products category pages to improve the time that is needed to load the content. This is because it takes a browser a shorter time to display 10 posts than 50.
 
-The sitemap should list pages grouped together in a logical way. When the number of links is higher than 100, it is recommended to break them down into multiple pages. The link to that sitemap should be easily accessible, and we recommend placing it in your website’s footer.
+However, Google discovered in a research that [users don’t mind waiting a little bit longer to see more results](https://www.youtube.com/watch?v=njn8uXTWiGg&feature=youtu.be&t=4m31s) instead of going through many paginated pages. If on average, your user needs to see 3 listings before finding what he or she wants (e.g. Google’s search results pages), displaying only 10 of them at once is perfectly fine. On the other hand, if the user goes through 30 products before buying something, your page should show 30 items on each component page.
 
-### 4.9. Breadcrumb Navigation
+Furthermore, when you use paginations, you need to make sure that they are set up correctly. Otherwise, rankings signals (aka indexing prosperities) may end up being [divided across all of the component pages](https://www.youtube.com/watch?v=njn8uXTWiGg) instead of being accumulated in one central place, consequently decreasing the chance for your category page to rank well in search.
 
-Overview
+Therefore, you should have the rel=‘next’ and rel=‘prev’ markup added to your pages which tell search engines to treat all of these component pages as one block, and any signals in any of them will [benefit all pages](https://www.youtube.com/watch?v=GVKcMU7YNOQ&feature=youtu.be&t=11m17s). Doing this will help your paginated pages appear higher in search results.
 
-A breadcrumb navigation is a secondary navigation that helps visitors to [quickly understand where they are currently located on your site](https://webmasters.googleblog.com/2008/10/importance-of-link-architecture.html). They also provide the visitors with additional information on how your website is structured. This helps them easily move to a different level of your site’s hierarchy.
-
-The breadcrumb navigation can also be selected by the search engines and displayed in the search under your page, rather than a standard URL of your page, which will make it easier for users to read.
-
-Google recommends using breadcrumbs on your site, as users find them helpful. The easier your website is for searchers to find their required information, the higher the chance of it ranking closer to the top of search results.
-
-### 4.10. 404 Page
-
-Overview
-
-This page appears when a user or a search engine wants to see a page or file that cannot be found due to it being moved or removed from your site. It is important to be as helpful as possible in this situation in order to avoid having the user leave your site due to a bad experience.
-
-404 Page (aka Page Not Found) is an opportunity for your business to retain these users by providing them with an alternative way of finding what they are looking for. A well-designed 404 page can mitigate a bad experience of not finding an answer for which a user is looking for.
-
-To improve user experience significantly, you should design a custom 404 page with a list of relevant pages to one that the user was looking for on your website and an eye-catching image. This page should also clearly state that the page they were looking for couldn’t be found. Other helpful elements include search boxes, the most popular pages on your site, a suggestion that the URL might be misspelt, and a quick way to report a broken page. Additionally, the 404 Page should have a consistent design with the rest of your website, including your business logo, site navigation and footer.
-
-### 4.11. Search
-
-Overview
-
-Search box allows users to quickly find what they need on your site. A small text entry field suggests that people should enter shorter queries. However, if people need to enter longer queries in order to find the content they desire from your site, make sure you provide them with a sufficiently long text entry field.
-
-There are two ways to improve the search functionality on your site. Firstly, you should ensure the search term is repeated on the results page. This allows users to see if what they searched for is spelled correctly. By leaving this in the search field for the users to see, they are able to edit and refine their search if your site were to return multiple results.
-
-Secondly, you should list the search results in order. Each result should have the standard format of a thumbnail, title of a page, description and the URL. Thumbnail photos are extremely useful for guiding users towards the right content and can provide more information to them. The first line of text linked to the thumbnail should contain the title of the page. The description text should be made up of the page summary.
-
-### 4.12. Text in Images
-
-Overview
-
-Some websites style their headings and other sections by adding images that contain text. Unfortunately, though Google has an approved patent from 2008 titled [‘Recognizing text in images’](http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20080002893.PGNR.&OS=dn/20080002893&RS=DN/20080002893), Google Webmaster Trends Analyst Gary Illyes still advises us [not to include text in images](https://twitter.com/methode/status/709751327316963329?ref_src=twsrc%5Etfw&ref_url=https%3A%2F%2Fwww.seroundtable.com%2Fgoogle-text-in-images-21787.html). Probably search engines still have issues with being 100% confident in reading and understanding the text within these images.
-
-Not following this advice may make harder for your pages to rank for keywords included in these images. Therefore, it is always the best practice to ensure important text is not embedded in a picture. Use CSS styles to overlay these words over an image in given location.
-
-Furthermore, content in the image will appear very small when scaled down from a desktop to a smartphone screen. This makes it difficult to read and will result in a bad user experience, not mentioning that this text won’t be accessible by screen readers which are used by visually impaired searchers.
-
-### 4.13. Image Pages
-
-Overview
-
-To help your unique images rank higher in image search, [each of them should have a dedicated page](https://support.google.com/webmasters/answer/114016) on your site displaying an image in full resolution. This page should also include an image title and description to provide users with additional relevant information regarding the image.
-
-Ensuring your images are easily located in searches will increase the number of people who will use them in articles on topics related to your industry. When they link back to your website to give you a credit for the image, it strengthens your site’s authority and topical relevance.
-
-Visuals and images created by your company are an important part of your business. These pages will make it easier for other people to locate and use your beautiful images, resulting in an improved website ranking position.
-
-Content Management Systems such as WordPress can create these pages for you automatically, meaning you only need to add a unique title and description when you upload each image to your site.
-
-### 4.14. Flash
+### 4.12. Flash
 
 Overview
 
@@ -823,6 +795,46 @@ While Google crawls text in Flash, it [doesn't recommend including your content]
 
 For above reasons, you should avoid using Flash on your website.
 
+### 4.13. Sitemap for Humans
+
+Overview
+
+In February 2016, Google updated its Webmaster Guidelines and added a recommendation for you, as a site owner, to include on your websites a human-readable site map. This should list all of the important pages on your site, which provides an alternative means for visitors to find what they're looking for. Having this on your site may help you improve your ranking in Google.
+
+The sitemap should list pages grouped together in a logical way. When the number of links is higher than 100, it is recommended to break them down into multiple pages. The link to that sitemap should be easily accessible, and we recommend placing it in your website’s footer.
+
+### 4.14. Image Pages
+
+Overview
+
+To help your unique images rank higher in image search, [each of them should have a dedicated page](https://support.google.com/webmasters/answer/114016) on your site displaying an image in full resolution. This page should also include an image title and description to provide users with additional relevant information regarding the image.
+
+Ensuring your images are easily located in searches will increase the number of people who will use them in articles on topics related to your industry. When they link back to your website to give you a credit for the image, it strengthens your site’s authority and topical relevance.
+
+Visuals and images created by your company are an important part of your business. These pages will make it easier for other people to locate and use your beautiful images, resulting in an improved website ranking position.
+
+Content Management Systems such as WordPress can create these pages for you automatically, meaning you only need to add a unique title and description when you upload each image to your site.
+
+### 4.13. 404 Page
+
+Overview
+
+This page appears when a user or a search engine wants to see a page or file that cannot be found due to it being moved or removed from your site. It is important to be as helpful as possible in this situation in order to avoid having the user leave your site due to a bad experience.
+
+404 Page (aka Page Not Found) is an opportunity for your business to retain these users by providing them with an alternative way of finding what they are looking for. A well-designed 404 page can mitigate a bad experience of not finding an answer for which a user is looking for.
+
+To improve user experience significantly, you should design a custom 404 page with a list of relevant pages to one that the user was looking for on your website and an eye-catching image. This page should also clearly state that the page they were looking for couldn’t be found. Other helpful elements include search boxes, the most popular pages on your site, a suggestion that the URL might be misspelt, and a quick way to report a broken page. Additionally, the 404 Page should have a consistent design with the rest of your website, including your business logo, site navigation and footer.
+
+### 4.14. Search
+
+Overview
+
+Search box allows users to quickly find what they need on your site. A small text entry field suggests that people should enter shorter queries. However, if people need to enter longer queries in order to find the content they desire from your site, make sure you provide them with a sufficiently long text entry field.
+
+There are two ways to improve the search functionality on your site. Firstly, you should ensure the search term is repeated on the results page. This allows users to see if what they searched for is spelled correctly. By leaving this in the search field for the users to see, they are able to edit and refine their search if your site were to return multiple results.
+
+Secondly, you should list the search results in order. Each result should have the standard format of a thumbnail, title of a page, description and the URL. Thumbnail photos are extremely useful for guiding users towards the right content and can provide more information to them. The first line of text linked to the thumbnail should contain the title of the page. The description text should be made up of the page summary.
+
 ### 4.15. Code Validation
 
 Overview
@@ -830,18 +842,6 @@ Overview
 Your pages may occasionally contain an invalid code, which may not be visible at first. However, this may cause your users to encounter some trouble with viewing your content on certain browsers and could potentially pose a problem to search engine spiders to understand information included on your site.
 
 Although not strictly necessary, you should ensure that each of your important pages does not contain invalid code. This minimises the chance of errors occurring when search crawlers extract the content from the code on a particular page. Search engines, such as Google, have openly suggested adhering to W3C standards to ensure the code is easy for them to interpret.
-
-### 4.16. Pagination
-
-Overview
-
-Many websites use paginated pages for posts or products category pages to improve the time that is needed to load the content. This is because it takes a browser a shorter time to display 10 posts than 50.
-
-However, Google discovered in a research that [users don’t mind waiting a little bit longer to see more results](https://www.youtube.com/watch?v=njn8uXTWiGg&feature=youtu.be&t=4m31s) instead of going through many paginated pages. If on average, your user needs to see 3 listings before finding what he or she wants (e.g. Google’s search results pages), displaying only 10 of them at once is perfectly fine. On the other hand, if the user goes through 30 products before buying something, your page should show 30 items on each component page.
-
-Furthermore, when you use paginations, you need to make sure that they are set up correctly. Otherwise, rankings signals (aka indexing prosperities) may end up being [divided across all of the component pages](https://www.youtube.com/watch?v=njn8uXTWiGg) instead of being accumulated in one central place, consequently decreasing the chance for your category page to rank well in search.
-
-Therefore, you should have the rel=‘next’ and rel=‘prev’ markup added to your pages which tell search engines to treat all of these component pages as one block, and any signals in any of them will [benefit all pages](https://www.youtube.com/watch?v=GVKcMU7YNOQ&feature=youtu.be&t=11m17s). Doing this will help your paginated pages appear higher in search results.
 
 ## 5. Content
 
@@ -910,17 +910,13 @@ This typically occurs when your website uses single terms or phrases which you w
 
 This also splits ranking signals such as internal and external backlinks over two pages, decreasing the chances of you outranking your competition. You should avoid keyword cannibalization on your site to give your pages a higher chance to rank well in searches.
 
-### 5.5. Fresh Content
+### 5.5. Related Keywords
 
 Overview
 
-As a healthy company grows with time, your website should also have ever-growing content providing users with fresh and up-to-date information. This signals to users and search engines that your business is thriving and here to stay.
+Both Google Search Console and Bing Webmaster Tool provide you with information regarding queries for which your pages already rank for. This a great place for content ideas, as it tells you which keyword the search engines already associate with your brand. You should then use this information to further optimise your current pages, helping them rank higher for these queries by ensuring they appear in important places on your page.
 
-You can do this by constantly updating and improving the quality of the content on your pages by adding more facts, data and helpful information that your users may need. This way, you can increase the loyalty of your current customers by providing them with a free value.
-
-Furthermore, you should be regularly creating informative blog posts, guides or videos on topics relevant to what your business offers. This will ensure your brand ranks for new related queries, bringing more searchers to your site. In the end, more relevant traffic leads to more conversions, and more conversions leads to more customers.
-
-Growing your content not only provides more value to your current users and attracts new ones, it also helps your site accumulate more ranking signals which will improve the position in the search of your important pages.
+Alternatively, you can go beyond this and create a dedicated page for each theme of keywords. This is a group of very similar keyword phrases, which aim to answer a similar user’s question. An example would be: social media; what is social media and what should I know about social media. This will allow your page to be even more relevant for those keywords, eventually increasing its chance to rank higher and providing a searcher with more information than a page that only mentions ‘social media’.
 
 ### 5.6. Hints & Tips or How-To Content
 
@@ -934,7 +930,29 @@ However, it is not necessary to provide all the answers yourself, as linking to 
 
 Ultimately, Hints & Tips content should be just that - useful information that allows visitors to have a point of reference, helping them to resolve their queries. Having this type of content will ensure users view your site as a reliable source of information within your field.
 
-### 5.7. Content Ideas
+### 5.7. Fresh Content
+
+Overview
+
+As a healthy company grows with time, your website should also have ever-growing content providing users with fresh and up-to-date information. This signals to users and search engines that your business is thriving and here to stay.
+
+You can do this by constantly updating and improving the quality of the content on your pages by adding more facts, data and helpful information that your users may need. This way, you can increase the loyalty of your current customers by providing them with a free value.
+
+Furthermore, you should be regularly creating informative blog posts, guides or videos on topics relevant to what your business offers. This will ensure your brand ranks for new related queries, bringing more searchers to your site. In the end, more relevant traffic leads to more conversions, and more conversions leads to more customers.
+
+Growing your content not only provides more value to your current users and attracts new ones, it also helps your site accumulate more ranking signals which will improve the position in the search of your important pages.
+
+### 5.8. Content Pruning
+
+Overview
+
+Content Pruning is the process of reducing the number of indexed, low-quality pages that visitors are not interested in seeing, and which do not add value to your site. In a broad sense, both users and the search engines measure the quality of your site by the quality of each of your pages.
+
+You should update or de-index old content that is no longer relevant or true. The search engines are sophisticated enough to check whether facts stated on your site are correct. If they are not, it may result in less trust of your brand and your content to rank lower in the search results.
+
+You can identify these pages by checking those that receive the lowest number of clicks in the search results. You should index only those pages that you’re interested in ranking. Otherwise you may end up damaging your site’s rank.
+
+### 5.9. Content Ideas
 
 Overview
 
@@ -944,24 +962,6 @@ Furthermore, knowing the language searchers use when they look for a business su
 
 In addition to this, the closer the keywords are to users’ queries on your pages, the higher the chance that they will appear in their search results.
 
-### 5.8. Related Keywords
-
-Overview
-
-Both Google Search Console and Bing Webmaster Tool provide you with information regarding queries for which your pages already rank for. This a great place for content ideas, as it tells you which keyword the search engines already associate with your brand. You should then use this information to further optimise your current pages, helping them rank higher for these queries by ensuring they appear in important places on your page.
-
-Alternatively, you can go beyond this and create a dedicated page for each theme of keywords. This is a group of very similar keyword phrases, which aim to answer a similar user’s question. An example would be: social media; what is social media and what should I know about social media. This will allow your page to be even more relevant for those keywords, eventually increasing its chance to rank higher and providing a searcher with more information than a page that only mentions ‘social media’.
-
-### 5.9. Queries for Which Your Images Rank
-
-Overview
-
-Your images are visual content, which users may look for on Google and Bing Image Search. Thousands of users are looking for images related to your industry every single day. This is another way for your business to attract searchers, who may become future customers.
-
-In addition to this, interesting and unique images also create an opportunity to link back to your site as a source when referenced in an article on another website. This provides your site with new ranking signals, increasing your website’s authority and helping all of your pages to rank higher in the search results.
-
-Reviewing queries where your images are shown can help you further optimise them. You can do this by adding partially matched or closely matched keywords in the name of the image, the image Alt text and on the dedicated image page in its title and description. This should lead to a higher-ranking position, more visitors and more future backlinks, which will translate to a higher overall ranking of your pages.
-
 ### 5.10. Internal Search Queries
 
 Overview
@@ -970,15 +970,15 @@ Internal search queries highlight the words users type into your site’s search
 
 Additionally, you can use this information to identify important content that your site is missing. By adding it to your site, you have a chance of removing frictions that may be stopping your user from becoming a customer.
 
-### 5.11. Content Pruning
+### 5.11. Queries for Which Your Images Rank
 
 Overview
 
-Content Pruning is the process of reducing the number of indexed, low-quality pages that visitors are not interested in seeing, and which do not add value to your site. In a broad sense, both users and the search engines measure the quality of your site by the quality of each of your pages.
+Your images are visual content, which users may look for on Google and Bing Image Search. Thousands of users are looking for images related to your industry every single day. This is another way for your business to attract searchers, who may become future customers.
 
-You should update or de-index old content that is no longer relevant or true. The search engines are sophisticated enough to check whether facts stated on your site are correct. If they are not, it may result in less trust of your brand and your content to rank lower in the search results.
+In addition to this, interesting and unique images also create an opportunity to link back to your site as a source when referenced in an article on another website. This provides your site with new ranking signals, increasing your website’s authority and helping all of your pages to rank higher in the search results.
 
-You can identify these pages by checking those that receive the lowest number of clicks in the search results. You should index only those pages that you’re interested in ranking. Otherwise you may end up damaging your site’s rank.
+Reviewing queries where your images are shown can help you further optimise them. You can do this by adding partially matched or closely matched keywords in the name of the image, the image Alt text and on the dedicated image page in its title and description. This should lead to a higher-ranking position, more visitors and more future backlinks, which will translate to a higher overall ranking of your pages.
 
 ## 6. Local
 
@@ -1047,6 +1047,14 @@ Having a Google My Business profile will also allow users to find your business 
 
 To help your Google My Business profile [rank well in the search results](https://support.google.com/business/answer/7091?hl=en), it is essential that you verify it and fill out all the details about your business, added photos of your store, linked to your site’s home page or a store location-specific page and have at least a few reviews from your customers.
 
+### 6.8. Local Citations
+
+Overview
+
+Local citations are mentions of your business name, address, phone number and website on third-party sites. It is important for your company to display correct details in these citations, as searchers often use them to find businesses similar to yours. Incorrect company information could diminish user experience by directing them to an old location or prompting them to call a dead number.
+
+Furthermore, Google views correct details in local citations as a reason to trust your website. Therefore, if your basic business information (name, address and phone number) matches the details provided on your Google My Business page, Google will have more confidence in your site and boost your ranking.
+
 ### 6.6. Bing Places for Business
 
 Overview
@@ -1062,14 +1070,6 @@ Overview
 Apple Maps provide directions and information to iOS users about local businesses. Most of the time this information is pulled from Yelp listings. However, Apple has created a tool allowing you to submit your company’s details directly to them, significantly improving the accuracy of this information. Additionally, you will be able to connect your social media accounts to your Apple listing.
 
 Placing your business on Apple Maps could deliver additional customers to your doorstep. Therefore, it is important for your company to ensure Apple has accurate information.
-
-### 6.8. Local Citations
-
-Overview
-
-Local citations are mentions of your business name, address, phone number and website on third-party sites. It is important for your company to display correct details in these citations, as searchers often use them to find businesses similar to yours. Incorrect company information could diminish user experience by directing them to an old location or prompting them to call a dead number.
-
-Furthermore, Google views correct details in local citations as a reason to trust your website. Therefore, if your basic business information (name, address and phone number) matches the details provided on your Google My Business page, Google will have more confidence in your site and boost your ranking.
 
 ### 6.9. Reviews
 
