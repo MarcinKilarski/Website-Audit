@@ -2,7 +2,7 @@
 
 **Overview**
 
-This section reviews how well your site is optimised for page loading. It is becoming more important each year to ensure your content can be accessed as quickly as possible. Users become accustomed to sites that load quickly, such as Facebook and Amazon, and mobile apps, which are instantly rendered and fully functional. Then they expect the same performance on websites like yours.
+This report reviews how well your site is optimised for page loading. It is becoming more important each year to ensure your content can be accessed as quickly as possible. Users become accustomed to sites that load quickly, such as Facebook and Amazon, and mobile apps, which are instantly rendered and fully functional. Then they expect the same performance on websites like yours.
 
 When your site doesn’t meet the expectations of your users, they could leave your site and visit the site of your competition. This is particularly important to remember as more businesses go online each year.
 
@@ -16,7 +16,7 @@ According to research by Aberdeen Group, every second that a page takes to load 
 
 A Response Time indicates the time taken from requesting your page in a browser to getting the raw HTML file of your page with its content for the search engines to analyse. Your server response time is affected by the amount of traffic you receive, the resources each page uses, the software your server uses, and the hosting solution you use.
 
-To improve your server response time, look for performance bottlenecks like slow database queries, slow routing, a lack of adequate memory or server caching and fix them. The optimal server response time is under 0.2 second on desktop and under 1.3 seconds on mobile phones with 3G connection.
+To improve your server response time, look for performance bottlenecks like slow database queries, slow routing, a lack of adequate memory or server caching and fix them. The optimal server response time is under 0.2 second on desktop and [under 1.3 seconds on mobile phones with 3G connection](https://www.thinkwithgoogle.com/articles/mobile-page-speed-new-industry-benchmarks.html?utm_source=moztop10&utm_medium=email&utm_campaign=moztop10&mkt_tok=eyJpIjoiT0RZMlpqWTROMll4TUdGayIsInQiOiJtQ1BGQ0NCcmt3eDBBUCtpejBZWmVcLzBlMVJOTEJqdHZZcXk0UllW).
 
 ### 1.1. Server-Side Caching
 
@@ -78,7 +78,7 @@ When the user is waiting for the page to load for a time deemed longer than usua
 
 Therefore, it is good practice to display the header of your site or, at least, the raw elements from the top part of your page as soon as possible. This allows the styles and other page elements to continue to load in the background, whilst giving an indication to the user that the page is loading.
 
-This way, more people will get to see your pages, which will increase user engagement, leads and, ultimately, customers. Therefore, it is ideal for your pages to appear on a desktop after less than 0.5 seconds and less than 3 seconds on mobiles with a 3G connection.
+This way, more people will get to see your pages, which will increase user engagement, leads and, ultimately, customers. Therefore, it is ideal for your pages to appear on a desktop after less than 0.5 seconds and [less than 3 seconds on mobiles with a 3G connection](https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/).
 
 ### 2.1. Requested Files
 
@@ -86,7 +86,7 @@ This way, more people will get to see your pages, which will increase user engag
 
 Every time a user opens one of your pages, a browser requests from your server all the files that you have attached to this page. These files can contain CSS, JavaScript, images, videos and fonts. Every time a file of this nature is needed by a page, it creates an additional HTTP request for the browser to process.
 
-Because browsers can only request and download approximately 6 files at the same time through HTTP requests from one domain, the rest of the files will be waiting idle, therefore slowing the page load time. Ideally, your pages should not request more than 50 files, and in generally the lower this number is the better.
+Because browsers can only request and download approximately 6 files at the same time through HTTP requests from one domain, the rest of the files will be waiting idle, therefore slowing the page load time. Ideally, your pages [should not request more than 50 files](https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/), and in generally the lower this number is the better.
 
 Plugins and themes for popular content management systems (CMS), such as WordPress, tend to load by default all some of their CSS and JavaScript files on all of your pages. This creates a significant overhead, increasing the amount of code that browsers need to download and process to display your page to a user, which results in a slow page load.
 
@@ -103,6 +103,7 @@ The downside of HTTP/1.1 protocol is that it limits browsers to being able to re
 HTTP/2, on the other hand, allows for downloading multiple files in parallel over a single connection. Additionally, it offers faster encryption, header compression that improves the performance and security, as well as steam prioritisation.
 
 It is important that your server supports HTTP/2, as it will make unnecessary to apply some additional web performance optimisation technics to your site, such as:
+
 - spreading files over multiple domains
 - combining and inlining your CSS styles
 - combining and inlining your JavaScript code
@@ -153,7 +154,7 @@ These elements are useful to people when reading the code and updating it, altho
 
 You can activate a module on your server, which will start further compressing your text-based files like HTML, CSS, JavaScript, Fonts, and XML, before they are sent to your user’s browser. Once the browser receives them, it will decompress the files and display a page on the screen.
 
-The standard GZIP compression can achieve up to 90% reduction in the size of your website’s large text-based files. While, new Google’s Brotli compression offers event 20-26% higher compression ratios over Zopfli (GZIP). This will significantly reduce the time it takes for pages to download and display on the screen.
+The standard GZIP compression can achieve [up to 90% reduction](https://developers.google.com/speed/docs/insights/EnableCompression) in the size of your website’s large text-based files. While, new Google’s Brotli compression offers event [20-26% higher compression](https://opensource.googleblog.com/2015/09/introducing-brotli-new-compression.html) ratios over Zopfli (GZIP). This will significantly reduce the time it takes for pages to download and display on the screen.
 
 ### 2.8. Code Validation
 
@@ -187,7 +188,7 @@ This is the intermediate state between Time to First Paint and Page Load Complet
 
 **Overview**
 
-Page size is one of the main factors that will influence how fast the page will load. The larger the resources needed to load your page, the longer it will take a user to download them. This is especially important on a mobile phones on which 1.49MB takes seven seconds to load using a fast 3G connection.
+Page size is one of the main factors that will influence how fast the page will load. The larger the resources needed to load your page, the longer it will take a user to download them. This is especially important on a mobile phones on which [1.49MB takes seven seconds to load using a fast 3G connection](https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/).
 
 Ideally, your pages should not be larger than 500 KB. This will help your pages to load faster on desktops and smartphones.
 
