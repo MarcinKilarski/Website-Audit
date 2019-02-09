@@ -132,6 +132,12 @@ Figure 1.10.1 – A list of incoming internal links pointing to your home page, 
 | --- | --- | --- |
 | | | |
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 Figure 1.10.2 – A list of incoming internal links pointing to your [PAGE Y] page, and all anchor and alt texts used in them.
 | Source | ALT text | Anchor text|
 | | | |
