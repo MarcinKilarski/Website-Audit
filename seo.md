@@ -1289,7 +1289,6 @@ This tactic does not require waiting months for your pages to be displayed for i
 
 ### 8.8. Search Ads Data
 
-
 It is important for ads to be optimised and compelling to an audience, as this will encourage more users to click on them. As Google, Bing and Facebook want to show ads that people like and engage with, they will reward advertisers who go the extra mile to ensure their ads look and sound great by reducing the cost of running them.
 
 Ads that run for a long time are usually optimised to achieve the highest engagement rate possible and the lowest cost-per-click. By analysing the copy, they use, you can improve and test new titles and meta descriptions of your pages, increasing the number of visitors you receive from the same ranking position.
@@ -1302,7 +1301,7 @@ Overview
 
 Engagement metrics help you and search engines understand how interested users are in your competitive content. Google is giving preferential treatment to sites with the best usability, so it is vital in terms of search and business purposes to continuously work on the quality of the content.
 
-We compare your competitors' bounce rate, daily page views per visitor and daily time on site per visitor during the last three months, which is data provided by Alexa.com. Alexa, owned by Amazon, provides commercial web traffic data and web analytics.
+We compare your competitors' bounce rate, daily page views per visitor and daily time on site per visitor during the last three months, which is data provided by Alexa.com. Alexa, owned by Amazon, provides commercial web traffic data and analysis.
 
 Their traffic data is generated from the browsing behaviour of people. Companies take advantage of this tool to gain insight in measuring the web traffic of their competitors and make better estimates. Generally, this is a data panel of millions of people using more than 25,000 different browser extensions.
 
