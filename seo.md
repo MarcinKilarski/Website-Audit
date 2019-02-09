@@ -280,15 +280,13 @@ As meta descriptions appear below your page title in search results, you should 
 
 Furthermore, when duplicates are noticed by users, they could cause them to skip over your page, as it often looks like spam. However, you can prevent it, ensuring your important pages have a unique meta description.
 
-### 2.12. Descriptive URLs
+### 2.12. Keywords in URLs
 
 Overview
 
-Descriptive URLs are those made of words (e.g. example.ie/accounting-services/) instead of special characters and numbers (e.g. example.ie/?p=123). They are easier to understand and remember for users and give them a general idea of what to expect to find on the page that this URL leads to.
+Keywords are important words or phrases users type into the search bar to find websites that match what they are looking for. By strategically placing keywords in URLs, you assure the users and search engines that this page has high topical relevance and will most likely contain what the user is looking for.
 
-In addition, Google [recommends](https://support.google.com/webmasters/answer/76329?hl=en) using descriptive URLs, and it uses the words in it as one of their ranking signals.
-
-The type of URL your website shows, usually depends on the system it uses, and how the web developer has set it up. If it only includes special characters and numbers, it tends to be seen as confusing and creates less trust in the brand.
+Including keywords in the URL also helps your page rank higher in search results, as Google's former Head of Web Spam mentioned in [one of his posts](https://www.mattcutts.com/blog/scoble-visiting-the-plex/): ‘Having keywords from the post title in the URL also can help search engines judge the quality of a page.'
 
 ### 2.13. Separating Words in URLs
 
@@ -298,13 +296,15 @@ Words in URLs should be separated by special characters to improve readability. 
 
 Hyphens are the most intuitive and popular way of separating words in an URL. Users are veryfamiliar with this practice, and [major search engines recommend using hyphens](https://support.google.com/webmasters/answer/76329?hl=en), which are treated just like a space character, instead of an underscore, which may join words. This will help your pages rank for multi-word queries, so make sure that words in your URLs are always separated by a hyphen.
 
-### 2.14. Keywords in URLs
+### 2.14. Descriptive URLs
 
 Overview
 
-Keywords are important words or phrases users type into the search bar to find websites that match what they are looking for. By strategically placing keywords in URLs, you assure the users and search engines that this page has high topical relevance and will most likely contain what the user is looking for.
+Descriptive URLs are those made of words (e.g. example.ie/accounting-services/) instead of special characters and numbers (e.g. example.ie/?p=123). They are easier to understand and remember for users and give them a general idea of what to expect to find on the page that this URL leads to.
 
-Including keywords in the URL also helps your page rank higher in search results, as Google's former Head of Web Spam mentioned in [one of his posts](https://www.mattcutts.com/blog/scoble-visiting-the-plex/): ‘Having keywords from the post title in the URL also can help search engines judge the quality of a page.'
+In addition, Google [recommends](https://support.google.com/webmasters/answer/76329?hl=en) using descriptive URLs, and it uses the words in it as one of their ranking signals.
+
+The type of URL your website shows, usually depends on the system it uses, and how the web developer has set it up. If it only includes special characters and numbers, it tends to be seen as confusing and creates less trust in the brand.
 
 ### 2.15. URL Length
 

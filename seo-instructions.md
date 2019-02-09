@@ -503,37 +503,77 @@ Figure 2.12 – The meta descriptions of pages that focus on your main keywords.
 
 #### Example of Recommendation
 
+Only one of your pages has a meta description that is too short. This requires your attention.
+
+Figure 2.13.1 – A list of pages on your site with short meta descriptions.
+
+| URL        | Meta Description          | Number of characters   |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 2.13.2 – A list of pages that have excessively long meta descriptions.
+
+| URL        | Meta Description          | Number of characters   |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
 ### 2.11. Duplicate Meta Descriptions
 
 #### Used Tools
 
+1.	Screaming Frog > Meta Description > Filter: Duplicate
+2.	Search Console > Search Appearance > HTML Improvements
+
 #### Instructions
 
 #### Example of Recommendation
 
-### 2.12. Descriptive URLs
+A few of your pages have duplicate descriptions (Figure 2.14). These should be rewritten. 
+Figure 2.14 – A list of pages with duplicated meta descriptions.
+
+| URL        | Duplicate Meta Description          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
+
+### 2.12. Keywords in URLs
 
 #### Used Tools
 
 #### Instructions
 
 #### Example of Recommendation
+
+We analysed the keywords you use in the URLs of your Home page, [PAGE Y] page and [PAGE Z] page. Here is what we found:
+
+Your Home page ranks on both Google and Bing for ‘[KEYWORD X]’ and ‘[KEYWORD Y]’. For the keyword ‘[KEYWORD X]’ this is ideal. The URL also looks as it should (Figure 2.3). However, for the keyword ‘[KEYWORD Y]’ there is an issue, as the search engines think that the Home page is more relevant than your dedicated page for this keyword. We need to work on improving the quality (more valuable content), relevance (more content around this keyword on the page and internal links that mention ‘’) and authority (more backlinks from other websites) of this page. This should fix the issue of a wrong page ranking for your targeted keyword.
+
+Figure 2.3 – The URLs of pages that focus on your main keywords.
+
+| Keyword        | URL of a page ranking for keyword          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
 
 ### 2.13. Separating Words in URLs
 
 #### Used Tools
 
+Screaming Frog > URL tab > Filter: Underscores
+
 #### Instructions
 
 #### Example of Recommendation
 
-### 2.14. Keywords in URLs
+All of your URLs use the right method of separating words.
+
+### 2.14. Descriptive URLs
 
 #### Used Tools
 
 #### Instructions
 
 #### Example of Recommendation
+
+All of your URLs are easy to read and understand.
 
 ### 2.15. URL Length
 
