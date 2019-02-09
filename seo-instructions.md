@@ -44,26 +44,26 @@ However, in general, sites with generic domain extensions may attract less peopl
 
 When I are looking for a product locally and I see unknown website with .com, I make assumptions that:
 
--	this business might be based abroad
--	a delivery might take longer time
--	it might be more expensive
--	it might be more problematic and expensive to return the product
--	calling the customer service might be expensive, as I might need to call an international number
+- this business might be based abroad
+- a delivery might take longer time
+- it might be more expensive
+- it might be more problematic and expensive to return the product
+- calling the customer service might be expensive, as I might need to call an international number
 
 When you see in search results domains like these below, you might first choose to check out those with your country domain extension and only afterward the other ones if you still have not found what you are looking for.
 
-- example1.ie 
+- example1.ie
 - example2.com
-- example3.ie 
-- example4.com 
-- example5.ie 
+- example3.ie
+- example4.com
+- example5.ie
 
 Therefore, it might be better to host the Polish version of the site on domain like [ENTER DOMAIN X] and keep the [ENTER DOMAIN Y] for international expansion. 
 Some companies decide to keep all language variations of their pages under one centralised domain, placing each language in one directory. They target other countries with each of these domains, using Google Search Console and Bing Webmaster Tools.
 
--	example.com/BMW 
--	example.com/pl/BMW
--	example.com/de/BMW
+- example.com/BMW
+- example.com/pl/BMW
+- example.com/de/BMW
 
 This approach partially solves the above-mentioned issue, as the country or language code in the URL provides hint to searchers that this is a version of this site designed for their country. 
 In addition, ranking authority cumulated by the main domain benefits language variations of its pages, and accordingly, ranking authority acquired by pages in these languages benefit the main domain. It helps these pages faster climb rankings in search results. 

@@ -1000,15 +1000,7 @@ You can also geo-target different countries with a subdomain or even a subdirect
 
 Geo-targeting will improve your ranking in a selected country, but it may make it more difficult for your website to be listed in search results in other countries. Therefore, [you should only use it when a page on your site targets a single country](https://webmasters.googleblog.com/2010/03/working-with-multi-regional-websites.html). Not choosing anything will leave the decision to search engines and their best judgement. Selecting ‘Unlisted’ will prevent them from associating your website with any country.
 
-### 6.2. Server Location
-
-Overview
-
-The geographic location of the server you use to host your website can [increase your site’s relevance in the country in which it is located](https://webmasters.googleblog.com/2010/03/working-with-multi-regional-websites.html), because it is used by search engines as one of the signals to determine for which users your content is the most helpful.
-
-Keeping your website in a country where the majority of your customers live can give you a slightly higher chance to reach those users. If your site is translated into a different language, you could host that translation on a separate server, which is located in the country where that language is used. However, this is more a nice-to-have than a critical factor to have your pages appearing in the search results of these countries.
-
-### 6.3. Geo-Focused Keywords
+### 6.2. Geo-Focused Keywords
 
 Overview
 
@@ -1025,7 +1017,7 @@ When a local presence is important to your business you need to highlight the re
 
 It is not necessary to have a geo-location in all of these places. However, you do need to find a healthy balance, ensuring content on each of your pages sounds natural and is interesting to read. Therefore, it is recommended to display them at a few of these locations, as this will help you rank higher in local searches.
 
-### 6.4. Business Name, Address, Phone (NAP)
+### 6.3. Business Name, Address, Phone (NAP)
 
 Overview
 
@@ -1035,7 +1027,7 @@ Furthermore, this [strengthens the belief in search engines](https://webmasters.
 
 We also recommend showing your opening hours alongside the contact information, as this ensures your customers know the best time to reach your business. An ideal location to place such information would be in the footer, at the bottom of each of your pages. Your contact details should also be marked-up with Schema to make it easier for search engines to process.
 
-### 6.5. Google My Business
+### 6.4. Google My Business
 
 Overview
 
@@ -1047,7 +1039,7 @@ Having a Google My Business profile will also allow users to find your business 
 
 To help your Google My Business profile [rank well in the search results](https://support.google.com/business/answer/7091?hl=en), it is essential that you verify it and fill out all the details about your business, added photos of your store, linked to your site’s home page or a store location-specific page and have at least a few reviews from your customers.
 
-### 6.8. Local Citations
+### 6.5. Local Citations
 
 Overview
 
@@ -1071,7 +1063,7 @@ Apple Maps provide directions and information to iOS users about local businesse
 
 Placing your business on Apple Maps could deliver additional customers to your doorstep. Therefore, it is important for your company to ensure Apple has accurate information.
 
-### 6.9. Reviews
+### 6.8. Reviews
 
 Overview
 
@@ -1087,7 +1079,7 @@ If your company only receives 5-star reviews, this often looks too good to be tr
 
 Customer feedback also provides you with valuable information on which areas your business should improve in order to increase the number of repeat customers. This should be monitored and used by your company.
 
-### 6.10. Responses to Reviews
+### 6.9. Responses to Reviews
 
 Overview
 
@@ -1098,6 +1090,14 @@ Furthermore, it gives you’re an opportunity to increase relevance of your onli
 Your responses are incredibly vital in terms of damage control when a customer leaves a bad review about their experience with your company. This presents you with an opportunity to transform unhappy customers to happy ones, whilst showing potential customers that you value all feedback.
 
 You should also thank each customer who leaves you 4 and 5-star reviews and engage in a conversation by relating directly to their feedback. When receiving 2 and 3-star reviews, they should be responded to immediately, apologising for any inconvenience and providing a plan of action as to how you will prevent a repeat experience in the future. For reviews with 1-star, take extra time to investigate what caused this feedback.
+
+### 6.10. Server Location
+
+Overview
+
+The geographic location of the server you use to host your website can [increase your site’s relevance in the country in which it is located](https://webmasters.googleblog.com/2010/03/working-with-multi-regional-websites.html), because it is used by search engines as one of the signals to determine for which users your content is the most helpful.
+
+Keeping your website in a country where the majority of your customers live can give you a slightly higher chance to reach those users. If your site is translated into a different language, you could host that translation on a separate server, which is located in the country where that language is used. However, this is more a nice-to-have than a critical factor to have your pages appearing in the search results of these countries.
 
 ### 6.11. Physical Web
 
@@ -1181,17 +1181,7 @@ Over time, your site may accumulate backlinks from spam-like or untrustworthy si
 
 Google and Bing have created tools that help you to flag to them spam, untrusted and unnatural backlinks when you are unable to manually remove them. This prevents those links from hurting your site. However, these tools should be always used with caution, as disavowing good links may reduce your ranking position.
 
-### 7.8. Mostly Shared Pages
-
-Overview
-
-When your pages are shared on social media, it helps search engines to discover them sooner and keep them updated. Although often positive, the impact on your rankings when your pages are shared on social media is a heavily debated topic in the SEO industry.
-
-Social media offers an alternative method of drawing users to your site, as you have more control over how and what information is shown to them. It is also much easier for you to convert these users to customers, or even remarket to them later through the use of Remarketing Campaigns.
-
-Therefore, you should promote your product or service pages, event pages and content on various social networks to increase the amount of traffic to your website.
-
-### 7.9. Branded Search Query Results
+### 7.8. Branded Search Query Results
 
 Overview
 
@@ -1201,7 +1191,7 @@ It is not uncommon that when users search for a specific company, their competit
 
 Monitoring what pages appear when users search for your brand, product or service name is vital, because they change over time or may even vary based on a person location. The results that appear help potential new customers form an opinion on your business and then decide if they want to use your products or services.
 
-### 7.10. Search Autocomplete
+### 7.9. Search Autocomplete
 
 Overview
 
@@ -1210,6 +1200,16 @@ Search Autocomplete helps users to quickly complete a query by clicking on sugge
 Monitoring the Search Autocompletes may help you prevent your brand from being damaged when it suggests queries that may show your company in a negative light. This could happen if the search engines show an autocomplete option of ‘company X complaints’, ‘company X scandal’ or similar. In these cases, you can try to push them out by increasing the volume of performed searches of other queries containing your company name.
 
 It also helps you to identify the most popular content your searchers are interested in finding on your site. You should be ranking #1 for all of these queries. You need to ensure such content exists on your website, and these pages are easy to find from your Home page.
+
+### 7.10. Mostly Shared Pages
+
+Overview
+
+When your pages are shared on social media, it helps search engines to discover them sooner and keep them updated. Although often positive, the impact on your rankings when your pages are shared on social media is a heavily debated topic in the SEO industry.
+
+Social media offers an alternative method of drawing users to your site, as you have more control over how and what information is shown to them. It is also easier for you to convert these users to customers, or even remarket to them later through the use of Remarketing Campaigns.
+
+Therefore, you should promote your product or service pages, event pages and content on various social networks to increase the amount of traffic to your website.
 
 ### 7.11. Site Neighbourhood
 
@@ -1260,6 +1260,7 @@ Depending on how users interact with pages displayed in their search results, th
 Therefore, some queries may show different types of pages. For example, a query for ‘games’ mainly displays pages on which you can play a variety of online games. Whereas a query for ‘how to build games’ mainly displays pages containing informational content on how to create a game.
 
 By looking at what type of pages rank in the top 10 search results for a certain keyword, you are in a better position to optimise your content and provide users and the search engines with what they want. This will then increase your chances of ranking well for your targeted keyword.
+
 You won’t rank a sales page for educational queries. People want to understand something, not being sold to, and the search engines know it.
 
 ### 8.5. Keyword in Title
@@ -1274,7 +1275,7 @@ In addition to this, a strong title name also helps convince searchers to naviga
 
 Overview
 
-The more helpful the information your pages contains, the more valuable it is to users and search engines. By checking how in-depth the pages that rank for your targeted keyword are, you can understand how long yours should be.
+The more useful information your pages contains, the more valuable it is to users and search engines. By checking how in-depth the pages that rank for your targeted keyword are, you can understand how long yours should be.
 
 You can also review the type of information they contain, which you may have missed on your pages. It is important for your pages to have a correct page rank for your important keywords, and you should always be pushing yourself to make your content even stronger. You should aim to find a unique angle on the topic, as the search engines want to show diverse results and duplicate content will be filtered out.
 
@@ -1307,7 +1308,7 @@ Their traffic data is generated from the browsing behaviour of people. Companies
 
 Bounce Rate shows the percentage of times a user left your site after seeing only one page, which should be kept as low as possible. Daily Page views per Visitor describes the average number of pages that searchers see on your site, while daily time on site per visitor shows the average time a person spent on your website. Both of these values should be as high as possible, which will indicate that your content is interesting to your users. SimilarWeb data comes from 4 main sources:
 
-1. A panel of monitored devices, currently the largest in the industry; 
+1. A panel of monitored devices, currently the largest in the industry;
 2. Local internet service providers (ISPs) located in many different countries;
 3. SimilarWeb web crawlers that scan every public website to create a highly accurate map of the digital world;
 4. Hundreds of thousands of direct measurement sources from websites and apps that are connected to SimilarWeb directly.’
