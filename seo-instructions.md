@@ -220,13 +220,41 @@ Figure 1.6 – A list of pages on your site that have more than three directorie
 
 #### Example of Recommendation
 
+All your directories are accessible, no action required.
+Figure 1.7 – A list of all inaccessible directories on your website.
+
+| URLs        |
+| ------------- |
+| placeholder     |
+
 ### 1.13. Outbound Links
 
 #### Used Tools
+1.	Screaming Frog > External tab > Export all
+2.	Check are their follow or nofollow 
+Screaming Frog > Bulk Export top bar > All Outlinks
+In Excel: Remove duplicates and links to client’s site
+Excel > Data tab > Advanced > Unique records only 
+3.	Go to Moz Open Site Explorer
+Check for Domain Authority, Page Authority and Spam Score
+4.	Check in Excel if link to sites with low DA and high Spam Score are nofollow 
+5.	Host-machine-ratio > 5 = potential indication that your site is spammy
 
 #### Instructions
 
 #### Example of Recommendation
+
+An authority of one of the domains, which your site associates itself with by linking to, is quite low ([DOMAIN X]). It is good practice to set up a ‘nofollow’ tag on that link and on any that may be untrustworthy (Figure 1.10).
+
+In addition, your link to a website from all pages or a very large number of them. It’s recommended you have all of these ‘site-wide’ and tagged as ‘nofollow’ links ([DOMAIN Z]).
+
+The table below shows websites to which you point to from your pages. Domain and Page Authority shows an estimate of how trusted and respected a website may be on the Internet. Spam Score shows the likelihood of a site being spam. The number of outbound links represents how many times that link was found on your site.
+Figure 1.11 – A list of websites with the lowest ‘authority’ and the highest likelihood of being spam to which your site sends users.
+Link	Domain Authority	Page Authority	Spam Score	Number of Outbound links	Dofollow/ Nofollow
+
+| Link        | Domain Authority           | Page Authority  | Spam Score        | Number of Outbound links           | Dofollow/ Nofollow  |
+| ------------- | ------------- | ----- | ------------- | ------------- | ----- |
+| placeholder     | placeholder | placeholder | placeholder     | placeholder | placeholder |
 
 ### 1.14. Website Sitelinks
 
