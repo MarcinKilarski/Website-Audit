@@ -129,6 +129,7 @@ None of the internal links from pages on your site, pointing to your home page, 
 Links to your [PAGE Y] and [PAGE Z] pages contain the primary keyword ‘[KEYWORD Y]’ or ‘[KEYWORD Z]’, but you also should consider linking from other places on your site with secondary keywords like ‘[KEYWORD YY]’ or ‘[KEYWORD ZZ]’ in the anchor text. This way you will increase their chances of ranking for these keywords in the search.
 Figure 1.10.1 – A list of incoming internal links pointing to your home page, and all anchor and alt texts used in them.
 | Source | ALT text | Anchor text|
+| --- | --- | --- |
 | | | |
 
 Figure 1.10.2 – A list of incoming internal links pointing to your [PAGE Y] page, and all anchor and alt texts used in them.
