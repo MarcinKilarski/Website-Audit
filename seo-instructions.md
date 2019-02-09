@@ -108,7 +108,7 @@ Google Search Console > Search Traffic > Internal Links
 
 #### Example of Recommendation
 
-Your home page receives the highest number of incoming internal links ([# of links]), increasing its chance to rank well in a search. However, [page X and page Y] pages, for which you would like to improve the ranking, receive only 26 incoming internal links each. 
+Your home page receives the highest number of incoming internal links ([# of links]), increasing its chance to rank well in a search. However, [page X and page Y] pages, for which you would like to improve the ranking, receive only 26 incoming internal links each.
 
 You should consider adding more links on your site that point to these pages. Creating more pages with helpful content related to [PAGE X and PAGE Y] could be a great way of doing this.
 
@@ -149,33 +149,53 @@ Figure 1.10.3 – A list of incoming internal links pointing to your [PAGE Z] pa
 
 #### Used Tools
 
+- Screaming Frog - crawl sitemap
+- Server logs - get list of visited pages and crawl it
+
 #### Instructions
 
 #### Example of Recommendation
+
+Great, we didn't detect any orphan pages on your site.
 
 ### 1.8. User Generated Content
 
 #### Used Tools
 
+Do links in comments are nofollow?
+Are there any spammy comments?
+Screaming Frog > ‘Configuration’ tab on the top bar > Custom > Extraction
+Add comment, review, page, etc. with a link as a user, and check if the link was nofollowed
+
 #### Instructions
 
 #### Example of Recommendation
+
+Great, we didn’t find any spam-like user-generated content your site.
 
 ### 1.9. Preferred Domain
 
 #### Used Tools
 
+Google Search Console > the gear icon in the upper right corner > Site Settings 
+
 #### Instructions
 
 #### Example of Recommendation
+
+You haven’t specified in the Google Search Console what your preferred domain is. You also have not uploaded the sitemap to Bing Webmaster Tools. We recommend completing these two tasks.
 
 ### 1.10. Site Depth
 
 #### Used Tools
 
+Screaming Frog > Site Structure (in the sidebar)
+
 #### Instructions
 
 #### Example of Recommendation
+
+Great, all of your pages are a maximum of two clicks away from your home page.
 
 ### 1.11. Subdirectories
 
@@ -184,6 +204,13 @@ Figure 1.10.3 – A list of incoming internal links pointing to your [PAGE Z] pa
 #### Instructions
 
 #### Example of Recommendation
+
+Good job, your pages do not have more than two directories.
+Figure 1.6 – A list of pages on your site that have more than three directories.
+
+| URLs        | Number of directories          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
 
 ### 1.12. Accessible Subdirectories
 
