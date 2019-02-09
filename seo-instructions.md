@@ -127,24 +127,23 @@ Clean up data by filtering out any external sites
 None of the internal links from pages on your site, pointing to your home page, use your primary keyword ‘[KEYWORD X]’ (Figure 1.9.1). We recommend changing the alt text of your business logo image from ‘[X]’ to ‘[Y]’, as this will help increase the relevance of your page for the query ‘[KEYWORD Y]’.
 
 Links to your [PAGE Y] and [PAGE Z] pages contain the primary keyword ‘[KEYWORD Y]’ or ‘[KEYWORD Z]’, but you also should consider linking from other places on your site with secondary keywords like ‘[KEYWORD YY]’ or ‘[KEYWORD ZZ]’ in the anchor text. This way you will increase their chances of ranking for these keywords in the search.
-Figure 1.10.1 – A list of incoming internal links pointing to your home page, and all anchor and alt texts used in them.
-| Source | ALT text | Anchor text|
-| --- | --- | --- |
-| place holder | place holder | place holder |
+Figure 1.10.1 – A list of incoming internal links pointing to your home page, and all anchor and alt texts used in them
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Source        | ALT Text           | Anchor Text  |
+| ------------- | ------------- | -----|
+| placeholder     | placeholder | placeholder |
 
 Figure 1.10.2 – A list of incoming internal links pointing to your [PAGE Y] page, and all anchor and alt texts used in them.
-| Source | ALT text | Anchor text|
-| | | |
+
+| Source        | ALT Text           | Anchor Text  |
+| ------------- | ------------- | -----|
+| placeholder     | placeholder | placeholder |
 
 Figure 1.10.3 – A list of incoming internal links pointing to your [PAGE Z] page, and all anchor and alt texts used in them.
-| Source | ALT text | Anchor text|
-| | | |
+
+| Source        | ALT Text           | Anchor Text  |
+| ------------- | ------------- | -----|
+| placeholder     | placeholder | placeholder |
 
 ### 1.7. Orphan pages
 
