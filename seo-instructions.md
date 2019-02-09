@@ -4,24 +4,28 @@
 
 ### 1.1. Manual Penalty
 
-#### Tools
+#### Used Tools
 
-1.	Google Search Console
-2.	Bing Webmaster Tools
+1. Google Search Console
+2. Bing Webmaster Tools
 
-#### Example recommendation
+#### Instructions
 
-Great, there are no warnings from Google or Bing informing us that a manual penalty might be affecting your website’s visibility in search.
+#### Example of Recommendation
+
+Great, there are no warnings from Google or Bing informing us that a manual penalty might be affecting your website's visibility in search.
 
 ### 1.2. Algorithmic Demotion
 
-#### Tools
+#### Used Tools
 
-https://fruition.net/sem/user/39619/dashboard
-or Panguin Tool
-or SEMrush > Domain Analytics > Overview
+- https://fruition.net/sem/user/39619/dashboard
+- or Panguin Tool
+- or SEMrush > Domain Analytics > Overview
 
-#### Example recommendation
+#### Instructions
+
+#### Example of Recommendation
 
 After analysing your website traffic, Google algorithms and search changes in 2017 (Figure 1.2.1) and 2016 (Figure 1.2.2), we can’t see that your site was significantly affected by any of the algorithm updates.
 Figure 1.2.1 – Your website traffic in 2017 and all known Google algorithm changes from that time.
@@ -30,11 +34,11 @@ Figure 1.2.3 – Your website traffic in 2015 and all known Google algorithm cha
 
 ### 1.3. Domain Extension
 
-#### Tools
+#### Used Tools
 
+#### Instructions
 
-
-#### Example recommendation
+#### Example of Recommendation
 
 When choosing a domain extension, it is important to ask yourself: ‘How do I want my users to perceive my business?’ If your business needs to be seen as an international business, you should consider using Generic Top-Level Domains. If your business needs to be seen as a local business, then a Country-Code Top-Level Domain (ccTLD) would be a better fit. As a local business, an Irish domain with the .ie extension could increase the number of clicks your pages receive in the search results, helping you rank higher in local searches. However, this operation may lead to a short-term traffic drop.
 
@@ -71,123 +75,141 @@ Moreover, a business only needs one main domain to virtually expand across all c
 
 ### 1.4. Subdomain
 
-#### Tools
+#### Used Tools
 
+1. Screaming Frog > Configuration > select Crawl subdomains
+    Sort crawled HTML files by domain and check if there are any other domains.
+2. Check if there are any subdomains installed on the server.
+3. ReverseInternet > Check ‘Subdomains’ tab
+    Then, use Scrape Similar to gather the list of URLs, using the XPath query:
+    //a[text()=’visit site’]/@href
+    Export your results to a CSV, then load the CSV into Screaming Frog using ‘List’ mode. Once the spider has finished running, you’ll be able to see status codes, as well as any links on the subdomain home pages, anchor text and duplicate page titles among other things.
+4. Ask the client about other subdomain, domain, printed resources, digital resources and internal materials that weren't published on the main domain.
 
+#### Instructions
 
-#### Example recommendation
+#### Example of Recommendation
 
-
+Great, we haven't found any content that doesn't live on your main domain.
 
 ### 1.5. Internal Links
 
-#### Tools
+#### Used Tools
 
+1.	Check which internal links Google sees
+Google Search Console > Search Traffic > Internal Links
+2.	Calculate PR of internal pages
+3.	Consolidate HTTP and HTTPS links
+4.	Internal: follow
+5.	Internal: nofollow
+6.	Check orphaned pages
 
+#### Instructions
 
-#### Example recommendation
+#### Example of Recommendation
 
+Your home page receives the highest number of incoming internal links ([# of links]), increasing its chance to rank well in a search. However, [page X and page Y] pages, for which you would like to improve the ranking, receive only 26 incoming internal links each. 
 
+You should consider adding more links on your site that point to these pages. Creating more pages with helpful content related to [PAGE X and PAGE Y] could be a great way of doing this.
+
+Figure 1.5 – A list of all your pages and the number of links on your site that point to them.
 
 ### 1.6. Keywords in Internal Links
 
-#### Tools
+#### Used Tools
+Screaming Frog > Bulk Export > All Outlinks
+Clean up data by filtering out any external sites
 
+#### Instructions
 
+#### Example of Recommendation
 
-#### Example recommendation
+None of the internal links from pages on your site, pointing to your home page, use your primary keyword ‘[KEYWORD X]’ (Figure 1.9.1). We recommend changing the alt text of your business logo image from ‘[X]’ to ‘[Y]’, as this will help increase the relevance of your page for the query ‘[KEYWORD Y]’.
 
+Links to your [PAGE Y] and [PAGE Z] pages contain the primary keyword ‘[KEYWORD Y]’ or ‘[KEYWORD Z]’, but you also should consider linking from other places on your site with secondary keywords like ‘[KEYWORD YY]’ or ‘[KEYWORD ZZ]’ in the anchor text. This way you will increase their chances of ranking for these keywords in the search.
+Figure 1.10.1 – A list of incoming internal links pointing to your home page, and all anchor and alt texts used in them.
+| Source | ALT text | Anchor text|
+| | | |
 
+Figure 1.10.2 – A list of incoming internal links pointing to your [PAGE Y] page, and all anchor and alt texts used in them.
+| Source | ALT text | Anchor text|
+| | | |
+
+Figure 1.10.3 – A list of incoming internal links pointing to your [PAGE Z] page, and all anchor and alt texts used in them.
+| Source | ALT text | Anchor text|
+| | | |
 
 ### 1.7. Orphan pages
 
-#### Tools
+#### Used Tools
 
+#### Instructions
 
-
-#### Example recommendation
-
-
+#### Example of Recommendation
 
 ### 1.8. User Generated Content
 
-#### Tools
+#### Used Tools
 
+#### Instructions
 
-
-#### Example recommendation
-
-
+#### Example of Recommendation
 
 ### 1.9. Preferred Domain
 
-#### Tools
+#### Used Tools
 
+#### Instructions
 
-
-#### Example recommendation
-
-
+#### Example of Recommendation
 
 ### 1.10. Site Depth
 
-#### Tools
+#### Used Tools
 
+#### Instructions
 
-
-#### Example recommendation
-
-
+#### Example of Recommendation
 
 ### 1.11. Subdirectories
 
-#### Tools
+#### Used Tools
 
+#### Instructions
 
-
-#### Example recommendation
-
-
+#### Example of Recommendation
 
 ### 1.12. Accessible Subdirectories
 
-#### Tools
+#### Used Tools
 
+#### Instructions
 
-
-#### Example recommendation
-
-
+#### Example of Recommendation
 
 ### 1.13. Outbound Links
 
-#### Tools
+#### Used Tools
 
+#### Instructions
 
-
-#### Example recommendation
-
-
+#### Example of Recommendation
 
 ### 1.14. Website Sitelinks
 
-#### Tools
+#### Used Tools
 
+#### Instructions
 
-
-#### Example recommendation
-
-
+#### Example of Recommendation
 
 ### 1.15. Descriptive Media File Names
 
-#### Tools
+#### Used Tools
 
+#### Instructions
 
-
-#### Example recommendation
-
-
+#### Example of Recommendation
 
 ## 2. Page-Level Factors
 
