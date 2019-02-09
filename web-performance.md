@@ -4,7 +4,7 @@
 
 This report reviews how well your site is optimised for page loading. It is becoming more important each year to ensure your content can be accessed as quickly as possible. Users become accustomed to sites that load quickly, such as Facebook and Amazon, and mobile apps, which are instantly rendered and fully functional. Then they expect the same performance on websites like yours.
 
-When your site doesn’t meet the expectations of your users, they could leave your site and visit the site of your competition. This is particularly important to remember as more businesses go online each year.
+When your site doesn't meet the expectations of your users, they could leave your site and visit the site of your competition. This is particularly important to remember as more businesses go online each year.
 
 Web optimisation is all about ensuring the code and files that make up your pages are as small as possible. This enables you to reduce the time it takes your users to download them, as well as decreasing their bandwidth usage. In addition to this, web optimisation will reduce the number of files required by your pages and prioritise the order in which they are used by browsers.
 
@@ -24,7 +24,7 @@ To improve your server response time, look for performance bottlenecks like slow
 
 Server-side caching enables you to save your static pages locally by placing those previously requested in temporary storage. This way they can be quickly accessed and sent to a user.
 
-Content Management Systems (CMS) such as WordPress and e-commerce servers like Magento keep each of your pages in multiple small modules. Each time a page is requested, these platforms begins assembling the most up to date version of your page and sends it to the user. This has many advantages, but also slows down the time in which the page arrives in the user’s browser.
+Content Management Systems (CMS) such as WordPress and e-commerce servers like Magento keep each of your pages in multiple small modules. Each time a page is requested, these platforms begins assembling the most up to date version of your page and sends it to the user. This has many advantages, but also slows down the time in which the page arrives in the user's browser.
 
 After configuring the disk caching, your server will store pre-generated pages on its hard drive, ready to be sent to the user, instead of assembling them each time a person wants to visit them.
 
@@ -34,17 +34,17 @@ After configuring the disk caching, your server will store pre-generated pages o
 
 Despite the fact that most of the time we use the Internet over a wireless connection, information on the Internet has to travel through a cable from a server on which the website is hosted. It will then travel to your network transmitter or home router, before ending up on your mobile device.
 
-The greater the distance between your user’s location and the physical location of your server on which you keep your website, the longer the files that are required to display on your page will travel, delaying your page load.
+The greater the distance between your user's location and the physical location of your server on which you keep your website, the longer the files that are required to display on your page will travel, delaying your page load.
 
-If you host your website in New York, United States and a person from Dublin, Ireland wants to visit your page, a signal travels from a device in Dublin, through a cable on the bottom of the Atlantic Ocean and then on to a server in New York. A raw HTML page is then sent back to Dublin via the same direction. Your user’s browser then checks which files are located in the HTML, before sending a request back to New York to retrieve them. Upon receiving them, it may realise that it needs a few more files, so it would then send the request again. This process is repeated until all files are received, and each time a new page is requested it will restart from the beginning.
+If you host your website in New York, United States and a person from Dublin, Ireland wants to visit your page, a signal travels from a device in Dublin, through a cable on the bottom of the Atlantic Ocean and then on to a server in New York. A raw HTML page is then sent back to Dublin via the same direction. Your user's browser then checks which files are located in the HTML, before sending a request back to New York to retrieve them. Upon receiving them, it may realise that it needs a few more files, so it would then send the request again. This process is repeated until all files are received, and each time a new page is requested it will restart from the beginning.
 
-As you can imagine, this can add an unnecessary lag time. This is why it is always better to host your website on the server that is located in the country where the majority of your customers live. This will improve your site’s page load time.
+As you can imagine, this can add an unnecessary lag time. This is why it is always better to host your website on the server that is located in the country where the majority of your customers live. This will improve your site's page load time.
 
 ### 1.3. Accelerated Mobile Pages (AMP)
 
 **Overview**
 
-Accelerated Mobile Pages are the new way of coding your pages for smartphone users. AMP is a Google initiative; with the aim of making your pages load almost instantly.
+Accelerated Mobile Pages are the new way of coding your pages for smartphones users. AMP is a Google initiative; with the aim of making your pages load almost instantly.
 
 AMP use the standard HTML tags, with a few additional AMP specific tags. AMP JS library uses all performance practices, meaning there is no need to do anything else with them. Google caches your AMP on their content delivery network to ensure they load quickly from any location.
 
@@ -56,13 +56,13 @@ Furthermore, they provide your pages with additional visibility in a search, as 
 
 HTTP Strict Transport Security (aka HSTS) helps speed up the firs page load of your site when you have installed an SSL certificate for your domain, and a user requests an unsecured version of your URL. This can occur when a searcher types in the address of your page (e.g. example.ie) or clicks on a link to HTTP version (e.g. http://<span></span>example.ie/page/). Then your server needs to correct the request and redirect the user to the secured version of the page (if your server is set up correctly).
 
-You can avoid this delay by using HSTS which asks browsers to automatically load the HTTPS version of your site, each time someone requests a page. This will improve the loading time of your pages by 0.1-0.3 seconds. In addition, it will significantly improve your site’s security, as from now on, the user will only be able to connect to your server through the encrypted connection.
+You can avoid this delay by using HSTS which asks browsers to automatically load the HTTPS version of your site, each time someone requests a page. This will improve the loading time of your pages by 0.1-0.3 seconds. In addition, it will significantly improve your site's security, as from now on, the user will only be able to connect to your server through the encrypted connection.
 
 ### 1.5. Content Delivery Network (CDN)
 
 **Overview**
 
-Content Delivery Networks are servers spread around the world, which can be used by your site to send static HTML, CSS, JavaScript and image files that make up your pages when a user wants to see them. The time it takes to deliver all files to the user’s browser is much shorter as these servers are located closer to the user location than your own.
+Content Delivery Networks are servers spread around the world, which can be used by your site to send static HTML, CSS, JavaScript and image files that make up your pages when a user wants to see them. The time it takes to deliver all files to the user's browser is much shorter as these servers are located closer to the user location than your own.
 
 Furthermore, the files served from CDNs have different subdomains, increasing the number of requests the browser is able to process simultaneously. They can also protect your website from cyber-attacks by creating a first layer of protection.
 
@@ -72,9 +72,9 @@ There are many Content Delivery Networks your business can choose from. Two of t
 
 **Overview**
 
-Using a prefetch directive allows you to tell your user’s browser to download any documents it may require for the next page. This way, the page will load much faster, as the browser will already have some of the required files.
+Using a prefetch directive allows you to tell your user's browser to download any documents it may require for the next page. This way, the page will load much faster, as the browser will already have some of the required files.
 
-Therefore, it is beneficial to prefetch the largest and most critical files in order to render your pages in advance. In addition to this, when data shows that users follow a specific path on your page, you can prefetch the full page due next on this path. For example, this could be your ‘offer’ page when a person visits your home page.
+Therefore, it is beneficial to prefetch the largest and most critical files in order to render your pages in advance. In addition to this, when data shows that users follow a specific path on your page, you can prefetch the full page due next on this path. For example, this could be your ‘offer' page when a person visits your home page.
 
 This can significantly improve the time that the page takes to load. The faster the page load, the higher chance that the user will convert.
 
@@ -82,7 +82,7 @@ This can significantly improve the time that the page takes to load. The faster 
 
 **Overview**
 
-The ‘time to first paint’ is one of the most important metrics of web performance optimisation, as it indicates the time it takes to show a user the first element on your page.
+The ‘time to first paint' is one of the most important metrics of web performance optimisation, as it indicates the time it takes to show a user the first element on your page.
 
 When the user is waiting for the page to load for a time deemed longer than usual, there is a high chance they will lose patience and leave your site, often heading to the website of a competitor.
 
@@ -94,7 +94,7 @@ This way, more people will get to see your pages, which will increase user engag
 
 **Overview**
 
-The size of your page’s HTML code impacts on how fast your page will load. This is due to the fact that before a browser can start to download images, CSS and JavaScript files are required to display the page. A browser first needs to receive the HTML code of your page with links to those files.
+The size of your page's HTML code impacts on how fast your page will load. This is due to the fact that before a browser can start to download images, CSS and JavaScript files are required to display the page. A browser first needs to receive the HTML code of your page with links to those files.
 
 The larger the HTML page is, the longer the delay will be when downloading the required assets. This then slows down the time it takes for elements of your page to appear to your user. Your HTML page should ideally be close to 15KB or less in size.
 
@@ -120,7 +120,7 @@ It is recommended to replace the old code with the new one rather than simply ad
 
 Mobile, tablet, desktop and print CSS styles are often downloaded and processed by a browser each time a page is loaded. However, only some of these styles will be used on a specific type of device.
 
-This creates an unnecessary delay when your pages load especially on mobile devices, as they use a lower network. In addition to this, their processing power is often weaker than desktops, causing them to take longer to process your website code. To resolve these issues, you should separate print and media query styles from the main style-sheet and then mark them for mobile browsers as ‘non-critical’.
+This creates an unnecessary delay when your pages load especially on mobile devices, as they use a lower network. In addition to this, their processing power is often weaker than desktops, causing them to take longer to process your website code. To resolve these issues, you should separate print and media query styles from the main style-sheet and then mark them for mobile browsers as ‘non-critical'.
 
 Mobile phones should only download styles dedicated for such devices. Tables and desktops could download mobile styles and use them as a baseline when loading a file with styles dedicated to them, as they most likely use a faster Internet connection. Print styles should only load when a user wants to print the page.
 
@@ -136,9 +136,9 @@ These elements are useful to people when reading the code and updating it, altho
 
 **Overview**
 
-You can activate a module on your server, which will start further compressing your text-based files like HTML, CSS, JavaScript, Fonts, and XML, before they are sent to your user’s browser. Once the browser receives them, it will decompress the files and display a page on the screen.
+You can activate a module on your server, which will start further compressing your text-based files like HTML, CSS, JavaScript, Fonts, and XML, before they are sent to your user's browser. Once the browser receives them, it will decompress the files and display a page on the screen.
 
-The standard GZIP compression can achieve [up to 90% reduction](https://developers.google.com/speed/docs/insights/EnableCompression) in the size of your website’s large text-based files. While, new Google’s Brotli compression offers event [20-26% higher compression](https://opensource.googleblog.com/2015/09/introducing-brotli-new-compression.html) ratios over Zopfli (GZIP). This will significantly reduce the time it takes for pages to download and display on the screen.
+The standard GZIP compression can achieve [up to 90% reduction](https://developers.google.com/speed/docs/insights/EnableCompression) in the size of your website's large text-based files. While, new Google's Brotli compression offers event [20-26% higher compression](https://opensource.googleblog.com/2015/09/introducing-brotli-new-compression.html) ratios over Zopfli (GZIP). This will significantly reduce the time it takes for pages to download and display on the screen.
 
 ### 2.7. Async Loading of Code
 
@@ -152,15 +152,15 @@ Because browsers can only request and download approximately 6 files at the same
 
 Plugins and themes for popular content management systems (CMS), such as WordPress, tend to load by default all some of their CSS and JavaScript files on all of your pages. This creates a significant overhead, increasing the amount of code that browsers need to download and process to display your page to a user, which results in a slow page load.
 
-Avoid sending users unnecessary files with pages that don’t need them. Additionally, whenever you install new software on your site, you should ensure its files only load on the pages on which the software is used.
+Avoid sending users unnecessary files with pages that don't need them. Additionally, whenever you install new software on your site, you should ensure its files only load on the pages on which the software is used.
 
 ### 2.9. HTTP/2
 
 **Overview**
 
-HTTP/2 is the new version of HTTP1.1 protocol. Introduced in 2015, it is a set of rules that govern the data communication process between user’s browser and your server. It has dramatically improved the performance of websites and its advantages are expected to further advance over time.
+HTTP/2 is the new version of HTTP1.1 protocol. Introduced in 2015, it is a set of rules that govern the data communication process between user's browser and your server. It has dramatically improved the performance of websites and its advantages are expected to further advance over time.
 
-The downside of HTTP/1.1 protocol is that it limits browsers to being able to request only one file at a time per connection with your server. Browsers only support six connections per domain, which means that they will only download six files simultaneously from your server to the user’s device, causing the rest to wait for their turn.
+The downside of HTTP/1.1 protocol is that it limits browsers to being able to request only one file at a time per connection with your server. Browsers only support six connections per domain, which means that they will only download six files simultaneously from your server to the user's device, causing the rest to wait for their turn.
 
 HTTP/2, on the other hand, allows for downloading multiple files in parallel over a single connection. Additionally, it offers faster encryption, header compression that improves the performance and security, as well as steam prioritisation.
 
@@ -199,7 +199,7 @@ Page load time outlines the length of time taken from the user clicking on a lin
 
 Google aims to load all pages in under 1 second, while the industry standard is less than 2 seconds on desktops. On mobile devices with a 3G connection, you should aim for no longer than 7 seconds. However, sometimes those targets may be difficult to reach due to the complexity of a page.
 
-This is the intermediate state between Time to First Paint and Page Load Completion, which is called Time to First Meaningful Content. It’s time it takes the browser to show the first portion of the content that the user was looking for. This is the content Above the Fold, part of the page visible without the content.
+This is the intermediate state between Time to First Paint and Page Load Completion, which is called Time to First Meaningful Content. It's time it takes the browser to show the first portion of the content that the user was looking for. This is the content Above the Fold, part of the page visible without the content.
 
 ### 4.1. Total Page Size
 
@@ -239,7 +239,7 @@ Images often contain unnecessary information when they appear on your pages. Unn
 
 **Overview**
 
-Images are usually the biggest files that a user’s browser needs to download and display your page. However, not all images need to be downloaded right away, as those further down your pages are often not seen as a person jumps from page to page.
+Images are usually the biggest files that a user's browser needs to download and display your page. However, not all images need to be downloaded right away, as those further down your pages are often not seen as a person jumps from page to page.
 
 By deferring image load, you can decrease the time it takes for your page to download. This can be done by requesting the browser downloads only the images at the top part of your page. All other images will be automatically loaded and displayed when the user gets closer to them.
 
@@ -249,7 +249,7 @@ This technique will decrease the time it takes for a browser to load your pages.
 
 **Overview**
 
-Your server can tell a user’s browser to save or store a copy of images, CSS, JavaScript files or the entire page for future usage. This way, when the searcher returns to your page later, the browser does not have to download it again, as it can use a saved copy of your files stored on the computer. This can greatly improve your page load time on the repeated visit.
+Your server can tell a user's browser to save or store a copy of images, CSS, JavaScript files or the entire page for future usage. This way, when the searcher returns to your page later, the browser does not have to download it again, as it can use a saved copy of your files stored on the computer. This can greatly improve your page load time on the repeated visit.
 
 An expiration date, which is how long those files should be stored by the browser, should be set to 1 year for your images. On your CSS, JavaScript and PDF files, this should be between 1 week and 1 month. The exact time of how long these should be stored for depends on how frequently you make changes to your site.
 
