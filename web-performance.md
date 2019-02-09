@@ -54,7 +54,7 @@ Furthermore, they provide your pages with additional visibility in a search, as 
 
 **Overview**
 
-HTTP Strict Transport Security (aka HSTS) helps speed up the firs page load of your site when you have installed an SSL certificate for your domain, and a user requests an unsecured version of your URL. This can occur when a searcher types in the address of your page (e.g. example.ie) or clicks on a link to HTTP version (e.g. 'http://example.ie/page/'). Then your server needs to correct the request and redirect the user to the secured version of the page (if your server is set up correctly).
+HTTP Strict Transport Security (aka HSTS) helps speed up the firs page load of your site when you have installed an SSL certificate for your domain, and a user requests an unsecured version of your URL. This can occur when a searcher types in the address of your page (e.g. example.ie) or clicks on a link to HTTP version (e.g. http://<span></span>example.ie/page/). Then your server needs to correct the request and redirect the user to the secured version of the page (if your server is set up correctly).
 
 You can avoid this delay by using HSTS which asks browsers to automatically load the HTTPS version of your site, each time someone requests a page. This will improve the loading time of your pages by 0.1-0.3 seconds. In addition, it will significantly improve your site’s security, as from now on, the user will only be able to connect to your server through the encrypted connection.
 
