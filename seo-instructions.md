@@ -130,7 +130,7 @@ Links to your [PAGE Y] and [PAGE Z] pages contain the primary keyword ‘[KEYWOR
 Figure 1.10.1 – A list of incoming internal links pointing to your home page, and all anchor and alt texts used in them.
 | Source | ALT text | Anchor text|
 | --- | --- | --- |
-| | | |
+| place holder | place holder | place holder |
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
