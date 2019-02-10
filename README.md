@@ -8,13 +8,13 @@ Feel free to share with the community your thoughts, experiences and best practi
 
 ## A List of Audit Reports
 
-1. [Accessibility](https://github.com/MarcinKilarski/website-audit/blob/master/accessibility.md) - coming soon
-2. [Analytics](https://github.com/MarcinKilarski/website-audit/blob/master/analytics.md) - coming soon
-3. [Conversion Rate Optimisation (CRO)](https://github.com/MarcinKilarski/website-audit/blob/master/cro.md) - coming soon
-4. [Security](https://github.com/MarcinKilarski/website-audit/blob/master/security.md) - coming soon
-5. [Search Engine Optimisation (SEO)](https://github.com/MarcinKilarski/website-audit/blob/master/seo.md) - over 100 sections
-6. [User Experience](https://github.com/MarcinKilarski/website-audit/blob/master/user-experience.md) - coming soon
-7. [Web Performance (Page Load)](https://github.com/MarcinKilarski/website-audit/blob/master/web-performance.md) - over 20 sections
+1. [Accessibility](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/accessibility.md) - coming soon
+2. [Analytics](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/analytics.md) - coming soon
+3. [Conversion Rate Optimisation (CRO)](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/cro.md) - coming soon
+4. [Security](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/security.md) - coming soon
+5. [Search Engine Optimisation (SEO)](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/seo.md) - over 100 sections
+6. [User Experience](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/user-experience.md) - coming soon
+7. [Web Performance (Page Load)](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md) - over 20 sections
 
 ## An Open-Source License
 
