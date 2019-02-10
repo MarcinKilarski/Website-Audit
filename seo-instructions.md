@@ -581,7 +581,23 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+1.	‘Stop words’
+2.	Automatically generated numbers at the end of the URLs
+
 #### Example of Recommendation
+
+Great, none of your URLs are too long.
+Figure 2.15.1 – A list of URLs longer than 80 characters.
+
+| URL        | Number of characters          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
+
+Figure 2.15.2 –  A list of pages on your site with auto-generated numbers.
+
+| URL        |
+| ------------- |
+| placeholder     |
 
 ### 2.16. Dates in URL
 
@@ -591,13 +607,25 @@ All of your URLs are easy to read and understand.
 
 #### Example of Recommendation
 
+Excellent, your URLs do not contain dates.
+
+Figure 2.5 – A list of pages on your site with dates in the URLs.
+
+| URL        |
+| ------------- |
+| placeholder     |
+
 ### 2.17. Unsafe Characters in URLs
 
 #### Used Tools
 
 #### Instructions
 
+Screaming Frog > URL tab > Filter: Non ASCII characters/Uppercase/Dynamic
+
 #### Example of Recommendation
+
+Great, there are no unsafe characters or Non-ASCII characters in your URLs.
 
 ### 2.18. Missing Alternative Text for Multimedia
 
@@ -605,7 +633,20 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+alt for images, videos, <canvas>
+
+1. Internal Note: Screaming Frog > Bulk Export > Images > Images Missing Alt Text
+2. To find pages that contain embedded video or audio content, set a custom filter for a snippet of the embed code for YouTube, or any other media player that is used on the site.
+
+
 #### Example of Recommendation
+
+We notice that 68 images on your site (80%) lack the alternative text (Figure 2.19). A short image description that relates to the content on the page should be added to each of them.
+Figure 2.19 – A list of pages that contain images without an alt tag.
+
+| Page        | Image          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
 
 ### 2.19. Keywords in Alternative Text
 
@@ -613,7 +654,30 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+Screaming Frog > Bulk Export tab in the top bar > All Images
+
 #### Example of Recommendation
+
+We analysed keywords you use in the Alt tag of your images from your Home page, [PAGE B] page and [PAGE A] page. Here is what we found:
+
+Your Home page uses the keyword ‘Dublin’ 7 times in the Alt tag and the keyword ‘[KEYWORD C]’ only once (Figure 2.20.1). You should rewrite 1-2 alternative texts to include the phrase ‘[PHRASE F] or ‘[PHRASE I]’. Both your [PAGE B] and [PAGE A] pages have two mentions of their targeted keyword in the Alt tags (Figure 2.20.2 and Figure 2.20.3). However, you should try rewriting them to include the phrases ‘[PHRASE A]’ and ‘[PAGE A] in Dublin’ instead of only the one-word keyword.
+Figure 2.20.1 – A list of images on your Home page with their Alt text.
+
+| URL        | ALT tag          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
+
+Figure 2.20.2 – A list of images on your [PAGE B] page with their Alt text.
+
+| URL        | ALT tag          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
+
+Figure 2.20.3 – A list of images on your [PAGE A] page with their Alt text.
+
+| URL        | ALT tag          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
 
 ### 2.20. Meta Keywords
 
@@ -623,6 +687,8 @@ All of your URLs are easy to read and understand.
 
 #### Example of Recommendation
 
+Great, there are no meta keyword tags on your pages.
+
 ### 2.21. Number of Links on a Page
 
 #### Used Tools
@@ -630,6 +696,8 @@ All of your URLs are easy to read and understand.
 #### Instructions
 
 #### Example of Recommendation
+
+Great, none of your pages have over 200 links. 
 
 ## 3. Technical
 
@@ -639,7 +707,27 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+Check the number of pages:
+- Google Search Console > Google Index > Index Status
+- Go to Bing and search for site:domainname.ie
+vs.
+- static pages on the site discovered by Screaming Frog
+- pages in sitemaps
+
 #### Example of Recommendation
+
+Google shows 48 pages from your site (Figure 3.1.1) in its search results, while Bing has 65 of your pages in its search (Figure 3.1.2). However, our crawl only found 29 static pages, which were reachable by a link-to-link crawl (Figure 3.1.3). 
+
+After examining the results provided by the search engines, we notice your website’s ‘News’ and ‘Our Team Blog’ sections are listed in Google and Bing, but we did not find them on your site. If you don’t want users to access these sections, and the search engines to take them into account when scoring your site, you should remove them from the search engines.
+Figure 3.1.1 – A screenshot showing how many of your pages Google has indexed in its search.
+
+Figure 3.1.2 – A screenshot showing how many of your pages Bing has indexed in its search.
+
+Figure 3.1.3 – A list of all pages found on your site via a link-to-link crawl.
+
+| URL        |
+| ------------- |
+| placeholder     |
 
 ### 3.2. 4XX Client Error
 
@@ -647,7 +735,29 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+To find these errors cross-check data from a few of tools below:
+
+1.	Google Search Console > Crawl > Crawl Errors > check Desktop and Smartphone tab
+2.	Bing Webmaster Tools > Report & Data > Crawl Information
+3.	Google Analytics > Behaviour > Site Content > All Pages > Page Titles (tab) > then search for ‘404’ and ‘not found’. Click on the found result to see URLs which have triggered the error if the site setup 404 tag tracing. Otherwise check ‘Navigation Summary’ tab for information on which pages broken links were found. Make sure that you have selected to see more than 10 results (right-bottom corner).
+4.	Screaming Frog (after the crawl is completed, go to ‘Bulk Export’ in the navigation bar, then ‘All Outlinks.’ You can sort by URLs and see which pages are sending a 404 signal. Repeat the same step with ‘All Inlinks.’)
+5.	Integrity
+6.	DeepCrawl (If you’re using DeepCrawl, go to the ‘Unique Broken Links’ tab under the ‘Internal Links’ section.)
+
 #### Example of Recommendation
+
+Google has reported 14 errors in the Search Console that they detected while crawling your site (Figure 3.11.1). Your Google Analytics reported a person landing on ‘Page 404’ 108 times from November 11th to February 10th (Figure 3.11.2). 43% of the time, a user left your site after not seeing the requested page.
+
+Our crawl of your site identified 28 URLs that currently trigger a ‘404 error’ (Figure 3.11.3). One relates to a broken main image on ‘Our Most Popular Bets’ page ([PAGE D URL]). Four links point to an external page, which no longer exists. The other 23 are the result of a broken link in the mobile version of your site’s footer.
+Broken link: <a href=‘info@[WEBSITE ADDRESS]‘>
+Correct link:  <a href=‘mailto:info@[WEBSITE ADDRESS]‘>
+All of these errors should be fixed.
+
+Figure 3.11.1 – ‘404 errors’ reported by Google in the Search Console.
+
+| URL        | Platform           | Response Code  | Detected  |
+| ------------- | ------------- | ----- | ----- |
+| placeholder     | placeholder | placeholder | placeholder |
 
 ### 3.3. 5XX Server Error
 
@@ -655,7 +765,11 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+Cross-check to find these errors DeepCrawl, Screaming Frog, and Google and Bing webmaster tools
+
 #### Example of Recommendation
+
+Great, no ‘5XX errors’ were detected on your site during the site crawl and Google Search Console review.
 
 ### 3.4. Page Render
 
@@ -663,7 +777,14 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+Fetch and render in:
+
+- Google Search Console > Crawl > Fetch as Google
+- Bing Webmasters Tools > Diagnostics & Tools > Fetch as Bing
+
 #### Example of Recommendation
+
+Everything looks fine. We checked the home page, one of your other pages, product pages and blog post. By checking each type of page on your site, this provides a good indication as to whether there are problems with how they render to search engines.
 
 ### 3.5. Pages Restricted From Indexing
 
@@ -671,7 +792,18 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+1.	Screaming Frog > Response Codes > Filter: Blocked by Robots.txt
+2.	Screaming Frog > Directives > Filter: Noindex 
+3.	Google Search Console > Google Index > Remove URLs
+4.	https://technicalseo.com/seo-tools/robots-txt/
+
 #### Example of Recommendation
+
+Great, you don’t block any important pages from appearing in the search results. The only pages that you block are pages that should not be indexed:
+
+-	TERMS & CONDITIONS
+-	[PAGE C]
+-	Our Team Blog (this page appears in the search results with a URL which is not blocked) 
 
 ### 3.6. Canonicalisation
 
@@ -679,7 +811,19 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+Screaming Frog > Internal tab
+Check if canonical URLs are not the same on other pages.
+Check do individual pages use self-referring canonical.
+Common errors with canonical tag 
+
+	- The canonical tag leads to a non-existing page.
+	- You use the same canonical tag with the same URL on all pages of your website.
+	- You put the canonical attribute in the body part of a web page instead of the head part.
+	- The canonical tag links to another website. This is correct when you syndicate your content on other websites. However, you should not use canonical tags with external links if you want to get high rankings for your own web pages.
+
 #### Example of Recommendation
+
+Excellent, all of your pages have specified rel=‘canonical’.
 
 ### 3.7. 301 Redirects
 
@@ -687,7 +831,16 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+Screaming Frog > Bulk Export > Response Codes > Redirects 3xx inlinks
+
 #### Example of Recommendation
+
+There are 72 internal redirects discovered on your site (Figure 3.6). Most of these are due to using the ‘non-www’ version of your site (e.g. [WEBSITE URL]) instead of the ‘www’ version (e.g. [WEBSITE URL]). This should be fixed to improve the time it takes to load your pages and improve your ranking.
+Figure 3.6 – A list of pages (‘Page’ column) on which a URL (‘Link’ column) redirects users and the search engines to another URL (‘Final Destination’ column).
+
+| Page        | Link          | Anchor Text   | Final Destination   |
+| ------------- | ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder | placeholder |
 
 ### 3.8. 302 Redirects
 
@@ -695,7 +848,17 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+Remove any of these permanent redirects from the sitemap and any internal or external links
+
 #### Example of Recommendation
+
+Good, no ‘302 redirects’ were discovered on your website.
+
+Figure 3.7 – A list of pages (‘Page’ column) on which a URL (‘Link’ column) redirects users and the search engines to another URL (‘Final Destination’ column).
+
+| Page        | Link          | Anchor Text   | Final Destination   |
+| ------------- | ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder | placeholder |
 
 ### 3.9. Redirect Chains
 
@@ -703,7 +866,21 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+Screaming Frog
+
+1.	Configuration > Spider > Advanced tab > select ‘Always Follow Redirects’
+2.	Crawl website
+3.	Reports (top bar) > Redirect Chains
+
 #### Example of Recommendation
+
+There are 87 URLs on your site, which trigger the redirect chain on your site (Figure 3.9). However, all of them are related to your business page on [THIRD-PARTY WEBSITE URL]. Replacing these with a direct link could improve the ranking of this page.
+
+Figure 3.9 – A list of pages (‘Source’ column) with a URL (‘Destination’ column), which redirects users and the search engines more than once to another URL (‘Final Destination’ column).
+
+| Source        | Destination          | Final Destination   | Number of Redirects   |
+| ------------- | ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder | placeholder |
 
 ### 3.10. Meta Refresh
 
@@ -711,7 +888,15 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+Screaming Frog > Configuration > Custom > Search >
+
+Contain 
+
+<meta http-equiv=‘refresh’
+
 #### Example of Recommendation
+
+Great, your pages don’t use meta refresh.
 
 ### 3.11. Sitemap for Robots
 
@@ -719,7 +904,77 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+1.	Check following locations of sitemaps
+    a.	example.com/sitemap.xml
+    b.	example.com/sitemap_index.xml
+2.	Google Search Console > Crawl > Sitemaps 
+3.	Bing Webmaster Tools
+4.	Sitemap validation Tools
+    a.	 Code Beautify
+    b.	XML Validation
+5.	Screaming Frog > Mode > Lists 
+    Configuration > Spider > Advanced > select Always Follow Redirects (this way you will detect which pages do not exist)
+    Upload > Download Sitemap then Download Sitemap Index (links found on in the sitemaps will have Level: 0) 
+
+Look for pages with:
+a.	redirects
+b.	URLs parameters
+c.	any non-indexable pages
+d.	duplicate URLs
+e.	Is it up to date?
+
+Look for pages with:
+- redirects
+- URLs parameters
+- any non-indexable pages
+- duplicate URLs
+- Is it up to date?
+
 #### Example of Recommendation
+
+We notice an old sitemap and a set of the new sitemaps on your server. The old one may cause search engines to not discover these new sitemaps.
+- The old sitemap
+[WEBSITE URL]/sitemap.xml
+- The set of new sitemaps
+[WEBSITE URL]/sitemap_index.xml
+
+Your website has an old sitemap, which contains 38 links to unsecured versions of your pages (Figure 3.15.1), and to two pages which no longer exist (Figure 3.15.2).
+The set of new sitemaps has a separate list of:
+- Pages
+- Posts
+- News
+- Posts Categories
+
+A set of your new sitemaps also includes links to unsecure versions of your 38 pages (Figure 3.15.3), and two pages that do not exist (Figure 3.15.4). Your posts, categories and news are not reachable from any page on your site. If you don’t want the search engines to show them to your users, these sitemaps should be removed.
+A link to your set of sitemaps should be places in the robots.txt file on your server. We recommend removing the old sitemap and update the links to your pages in your set of new sitemaps. You should also create a sitemap for your images, to help the search engines quickly find and index them.
+
+Figure 3.15.1 – A list of links to unsecured versions of your site in the old sitemap ([WEBSITE URL]/sitemap.xml).
+URL
+
+| URL        |
+| ------------- |
+| placeholder     |
+
+Figure 3.15.2 – A list of links to pages that do not exist in the old sitemap ([WEBSITE URL]/sitemap.xml).
+URL
+
+| URL        |
+| ------------- |
+| placeholder     |
+
+Figure 3.15.3 – A list of links to pages that do not exist in the old sitemap ([WEBSITE URL]/sitemap_index.xml).
+URL
+
+| URL        |
+| ------------- |
+| placeholder     |
+
+Figure 3.15.4 – A list of links to pages that do not exist in the old sitemap ([WEBSITE URL]/sitemap_index.xml).
+URL
+
+| URL        |
+| ------------- |
+| placeholder     |
 
 ### 3.12. Language Markup
 
@@ -727,7 +982,15 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+Screaming Frog > Reports (top tab) > Hreflang
+
+- Do language and country codes are correct (ISO codes)?
+- Do pages link back to each other?
+- Do they use absolute URLs?
+
 #### Example of Recommendation
+
+Your site contains content in English and Chinese, which it is not marked-up for the search engines with ‘hreflang’. This should be fixed to make it clear to Google and Bing what the primary language of your site is, and which other languages are available.
 
 ### 3.13. Schema Markup
 
@@ -735,7 +998,46 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
+Tool to analysing the schema markup on the site: 
+- http://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiMzc3NjM2NCIsImRlbGl2ZXJ5X2lkIjoiMTI1NTI3MjE3MiIsInVybCI6Imh0dHBzOi8vYXBwLnNjaGVtYWFwcC5jb20vYW5hbHl6ZXI_X19zPW1xcW85bXpjdHRzOThyNXZocm96In0
+- Website
+    SearchAction
+- Breadcrumbs
+- LocalBusiness
+⋅⋅ Opening hours
+⋅⋅ Social media accounts
+⋅⋅ Company description
+⋅⋅ Logo
+- Organisation
+⋅⋅ Multiple departments
+- Reviews
+- Event (now also in Google Maps)
+- Articles (Top Stories)
+- Books
+- Music
+- Podcasts
+- Recipes
+- TV&Movies
+- Video
+- Products (now also in image search)
+- Restaurant Listings (NEW)
+- Online Courses (NEW)
+
+Identify pages with schema markup
+Screaming Frog > Configuration > Custom > Filter 1 ‘Contain’ ‘scheme.org/’ or ‘itemtype=http://schema.org’
+To find a specific type of markup, you’ll have to be more specific. For example, using a custom filter for ‹span itemprop=‘ratingValue’› will get you all of the pages that contain Schema markup for ratings.
+Validate schema markup used on the website.
+https://search.google.com/structured-data/testing-tool
+
 #### Example of Recommendation
+
+We see WebSite and SearchAction schema markup on your home page and Article schema markup on the news and blog section of your site, which is not currently linked to display on your site to users. Your Article markup misses some required information on who the author is and when the page was recently updated. These were highlighted by Google as errors in Google Search Console (Figure 3.19).
+You should consider adding LocalBusiness, Breadcrumbs, Event, and Reviews markup to your pages to help the search engines better understand what information your content contains.
+Figure 3.19 – A list of pages on your site with detected schema markup errors.
+
+| URL        | Errors          | Last Detected   |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
 
 ## 4. User Experience
 
