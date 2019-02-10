@@ -1001,15 +1001,18 @@ Your site contains content in English and Chinese, which it is not marked-up for
 Tool to analysing the schema markup on the site: 
 - http://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiMzc3NjM2NCIsImRlbGl2ZXJ5X2lkIjoiMTI1NTI3MjE3MiIsInVybCI6Imh0dHBzOi8vYXBwLnNjaGVtYWFwcC5jb20vYW5hbHl6ZXI_X19zPW1xcW85bXpjdHRzOThyNXZocm96In0
 - Website
-    SearchAction
+
+  SearchAction
+
 - Breadcrumbs
 - LocalBusiness
-⋅⋅ Opening hours
-⋅⋅ Social media accounts
-⋅⋅ Company description
-⋅⋅ Logo
+
+  Opening hours
+  Social media accounts
+  Company description
+  Logo
 - Organisation
-⋅⋅ Multiple departments
+  Multiple departments
 - Reviews
 - Event (now also in Google Maps)
 - Articles (Top Stories)
@@ -1265,11 +1268,11 @@ Manual:
 
 - On the site check is there a search box
 - On the search results page check:
-⋅⋅ Layout
-⋅⋅ Thumbnail
-⋅⋅ Title
-⋅⋅ Description
-⋅⋅ Link
+  Layout
+  Thumbnail
+  Title
+  Description
+  Link
 
 #### Example of Recommendation
 
