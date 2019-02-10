@@ -356,7 +356,7 @@ Figure 2.4 – A list of pages on your site with short titles.
 
 Figure 2.5.1 – A number of headings by type, how many of them were detected on your [DELETE: PLACEHOLDER: PAGE X] page.
 
-| <H1>        | <H2>        | <H3>        | <H4>        | <H5>        |
+| H1        | H2        | H3        | H4        | H5        |
 | ----- | ----- | ----- | ----- | ----- |
 | placeholder     | placeholder | placeholder | placeholder     | placeholder |
 
@@ -368,7 +368,7 @@ Figure 2.5.2 – A list of headings on the page that ranks for keyword ‘[DELET
 
  Figure 2.5.3 – A number of headings by type, how many of them were detected on your [DELETE: PLACEHOLDER: PAGE Y] page.
 
-| <H1>        | <H2>        | <H3>        | <H4>        | <H5>        |
+| H1        | H2        | H3        | H4        | H5        |
 | ----- | ----- | ----- | ----- | ----- |
 | placeholder     | placeholder | placeholder | placeholder     | placeholder |
 
@@ -380,7 +380,7 @@ Figure 2.5.4 – A list of headings on the page that ranks for keyword ‘[DELET
 
  Figure 2.5.5 – A number of headings by type, how many of them were detected on your [DELETE: PLACEHOLDER: PAGE Z] page.
 
-| <H1>        | <H2>        | <H3>        | <H4>        | <H5>        |
+| H1        | H2        | H3        | H4        | H5        |
 | ----- | ----- | ----- | ----- | ----- |
 | placeholder     | placeholder | placeholder | placeholder     | placeholder |
 
