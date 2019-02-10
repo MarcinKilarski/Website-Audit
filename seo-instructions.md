@@ -907,12 +907,12 @@ Great, your pages don’t use meta refresh.
 1.	Check following locations of sitemaps
     a.	example.com/sitemap.xml
     b.	example.com/sitemap_index.xml
-2.	Google Search Console > Crawl > Sitemaps 
+2.	Google Search Console > Crawl > Sitemaps
 3.	Bing Webmaster Tools
 4.	Sitemap validation Tools
     a.	 Code Beautify
     b.	XML Validation
-5.	Screaming Frog > Mode > Lists 
+5.	Screaming Frog > Mode > Lists
     Configuration > Spider > Advanced > select Always Follow Redirects (this way you will detect which pages do not exist)
     Upload > Download Sitemap then Download Sitemap Index (links found on in the sitemaps will have Level: 0) 
 
@@ -1047,7 +1047,18 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Instructions
 
+1.	Google
+https://search.google.com/search-console/mobile-friendly
+or Bulk test:
+https://technicalseo.com/seo-tools/mobile-friendly/
+2.	Bing
+https://www.bing.com/webmaster/tools/mobile-friendliness
+3.	Google Analytics > devices, browsers, screen sizes (look for high bounce rate and short time on page.)
+4.	Manual – Check how major pages’ render on iOS and an Android device.
+
 #### Example of Recommendation
+
+Good job, all pages that were found pass Google’s Mobile-Friendly test.
 
 ### 4.2. PageSpeed Insights
 
@@ -1055,7 +1066,15 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Instructions
 
+Google PageSpeed Insights test
+https://developers.google.com/speed/pagespeed/insights/ 
+
 #### Example of Recommendation
+
+The mobile version of your home page scores 40 out of 100 points, while the desktop version scores 37 out of 100. Your Membership’s page score is 40 on mobile phones and 51 on desktop.
+There are many parts of your site that should be optimised to improve your page load time and ranking. Here are the links to results of both tests, and suggestions on how to fix detected issues.
+https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2F[WEBSITE ADDRESS]%2F 
+https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2F[WEBSITE ADDRESS]%2Fmembership%2F&tab=mobile
 
 ### 4.3. Accelerated Mobile Pages (AMP)
 
@@ -1063,7 +1082,19 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Instructions
 
+1.	Screaming Frog > Configuration > Custom > Extraction
+XPath
+//head/link[@rel='amphtml']/@href
+Extract HTML Element
+2.	Validate AMP Pages
+•	https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc?hl=en
+•	https://validator.ampproject.org/
+•	Do a search in Google for “amp page test”
+https://www.google.ie/search?q=amp+page+test&gws_rd=cr&dcr=0&ei=b2TCWYLDGIKWgAb9spu4Dg
+
 #### Example of Recommendation
+
+We didn’t detect any Accelerated Mobile Pages on your site. Consider creating AMP versions of your pages for additional visibility in search results and faster load times on mobile phones.
 
 ### 4.4. Response Time
 
@@ -1071,7 +1102,16 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Instructions
 
+Screaming Frog > Response Time
+
 #### Example of Recommendation
+
+The response time of your pages during our site crawl varied between 0.7 second and 4.1 seconds (Figure 4.3). This is something that should be decreased as soon as possible.
+Figure 4.3 – Response time of your pages.
+
+| URL        | Response Time (seconds)           |
+| ------------- | ------------- |
+| placeholder     | placeholder |
 
 ### 4.5. Pop-ups
 
@@ -1081,13 +1121,20 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Example of Recommendation
 
+Great, we did not find any intrusive interstitials on your main pages, both on desktop and mobile. 
+
 ### 4.6. Hidden Content
 
 #### Used Tools
 
 #### Instructions
 
+1.	Check for unnatural word count on the page with Screaming frog
+2.	Check for usage of display: none on the pages
+
 #### Example of Recommendation
+
+Good job, you don’t hide any important content from searchers.
 
 ### 4.7. Text in Images
 
@@ -1095,7 +1142,12 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Instructions
 
+find a tool that shows all images on one page for easy inspection.
+In Google Image Search for site:sitename.com
+
 #### Example of Recommendation
+
+Great, there is no text embedded in your images.
 
 ### 4.8. Breadcrumb Navigation
 
@@ -1103,7 +1155,12 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Instructions
 
+When you can see the breadcrumb navigation on the site, use Screaming Frog to identify all the pages on which it appears.
+Screaming Frog > Configuration > Custom > Extraction
+
 #### Example of Recommendation
+
+We do not see the breadcrumb navigation on your site. We recommend adding it to your pages.
 
 ### 4.9. Ads
 
@@ -1112,6 +1169,8 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 #### Instructions
 
 #### Example of Recommendation
+
+There are no excessive ads on your website.
 
 ### 4.10. Sliders
 
@@ -1127,7 +1186,13 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Instructions
 
+Scream Frog > Directives > Next/Prev
+DeepCrawl > ‘First Page’ report
+Review pages manually
+
 #### Example of Recommendation
+
+Great, you do not have a problem with pagination.
 
 ### 4.12. Flash
 
@@ -1135,7 +1200,15 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Instructions
 
+Go to Screaming Frog
+
+1.	Head to the ‘Spider Configuration’ in the navigation.
+2.	Click ‘Check SWF.’
+3.	Filter the ‘Internal’ tab by ‘Flash’ after the crawl is done.
+
 #### Example of Recommendation
+
+Excellent, your website doesn’t use Flash.
 
 ### 4.13. Sitemap for Humans
 
@@ -1145,13 +1218,19 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Example of Recommendation
 
+Unfortunately, we haven’t found the sitemap for humans on your site. You should consider adding it to improve the user experience.
+
 ### 4.14. Image Pages
 
 #### Used Tools
 
 #### Instructions
 
+Dedicate page for each image, full size image, title, description.
+
 #### Example of Recommendation
+
+Your images in searches take users to pages where those images were used instead of the dedicated pages. This often makes it difficult to find or use the image a person is searching for. You should consider setting up a dedicated page for each of your images to increase the number of people referring to your website
 
 ### 4.13. 404 Page
 
@@ -1159,7 +1238,22 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Instructions
 
+It should have:
+
+•	Clear information that the page they were looking for couldn’t be found
+•	Your site’s main navigation
+•	A custom image
+•	Consistent design with the rest of your site
+•	Links to most popular pages
+•	A search functionality
+•	a way for users to report a broken link
+•	Return the 404 (Not found) or 410 (Gone) response code
+
 #### Example of Recommendation
+
+Currently, your Page 404 looks slightly broken on desktops (Figure 4.10). The look could also be improved by adding a custom image, links to most popular pages with page thumbnails, suggestion to check the URL looks correct, and a way to report a broken link.
+
+Figure 4.10 – A screenshot of your current 404 page viewed on desktop.
 
 ### 4.14. Search
 
@@ -1167,7 +1261,24 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Instructions
 
+Manual:
+
+- On the site check is there a search box
+- On the search results page check:
+⋅⋅ Layout
+⋅⋅ Thumbnail
+⋅⋅ Title
+⋅⋅ Description
+⋅⋅ Link
+
 #### Example of Recommendation
+
+The search box is on your site, but the search results page could be improved (Figure 4.11.1). On desktops, when a user misspells a word, he or she lands on a page that looks broken.
+When the word is entered correctly, the page looks better, but its layout could still be improved (Figure 4.11.2). Additionally, thumbnail images could be added to make the results more helpful, and a URL could also be included below the page description.
+
+Figure 4.11.1 – A screenshot of your current search results page viewed on desktop, with no much for user’s query.
+ 
+Figure 4.11.2 – A screenshot of your current search results page viewed on desktop, with pages matching for user’s query
 
 ### 4.15. Code Validation
 
@@ -1175,7 +1286,24 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
 #### Instructions
 
+1.	Unicorn - W3C's Unified Validator: https://validator.w3.org/unicorn/check
+2.	NU HTML validation: https://validator.w3.org/nu/
+3.	CSS validation: https://jigsaw.w3.org/css-validator/
+4.	JavaScript validation: Chrome > Developers Tools > Console (it checks syntax, it does not mean that the code is flawless)
+
 #### Example of Recommendation
+
+Figure 4.15.1 – URLs of full reports from HTML code validation.
+
+| URL        | HTML Issues          | Test URL   |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 4.15.2 – URLs of full reports from CSS code validation.
+
+| URL        | CSS Issues          | Test URL   |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
 
 ## 5. Content
 
