@@ -1535,15 +1535,17 @@ Figure 5.11.2 – A list of queries where your images have ranked during the pas
 
 #### Used Tools
 
-1.	Google > Search Traffic > International Targeting > Country
+1. Google > Search Traffic > International Targeting > Country
 
    https://www.google.com/webmasters/tools/i18n
-   
-2.	Bing Webmaster Tools > International Targeting
+
+2. Bing Webmaster Tools > International Targeting
 
 #### Instructions
 
 #### Example of Recommendation
+
+You haven’t specified any country that is important to your business with Google’s International Targeting and Bing’s Geo-Targeting tools.
 
 ### 6.2. Geo-Focused Keywords
 
@@ -1553,6 +1555,21 @@ Figure 5.11.2 – A list of queries where your images have ranked during the pas
 
 #### Example of Recommendation
 
+None of your pages contain your location in the title (Figure 6.2.1) or in the text of your internal links (aka anchor text) (Figure 6.2.2), and it is rarely repeated on your pages. 
+Fixing this will send a clearer signal to searchers and Google that your pages are very relevant to people based in Dublin, improving your ranking in this area.
+
+Figure 6.2.1 – A list of your pages and their titles.
+
+| URL        | Title          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
+
+Figure 6.2.2 – A list of internal links on your site with their anchor texts.
+
+| Source        | Destination          | Anchor text          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
 ### 6.3. Business Name, Address, Phone (NAP)
 
 #### Used Tools
@@ -1561,21 +1578,83 @@ Figure 5.11.2 – A list of queries where your images have ranked during the pas
 
 #### Example of Recommendation
 
+You have your business contact information placed on all pages, but it could be improved in terms of consistency, formatting and with the addition of opening hours information, which we highlighted in Figure 6.3.
+
+Furthermore, this information should be marked-up with Schema to make your company’s contact information crystal clear to the search engines.
+
+Figure 6.3 – Recommended changes to the business name, address and phone number (NAP) section on your site, highlighted in red.
+
+| Current NAP information        | Recommended NAP information          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
+
 ### 6.4. Google My Business
 
 #### Used Tools
 
 #### Instructions
 
+1.	https://synup.com/tools/google-checker/
+2.	Manually check
+a.	Is listing verified?
+If the listing has an “own this business” or “claim this business” option, it is not currently verified.
+b.	Details
+i.	Address
+ii.	Phone number
+iii.	Opening hours
+iv.	Correct website address
+v.	Etc.
+c.	Photos
+d.	Picked categories. Could they be more specific?
+e.	Position on map
+f.	Attributes
+g.	Google My Business Posts usage
+
 #### Example of Recommendation
+
+Google Maps shows that your business is located within a different building to where you are actually based (Figure 6.4.1). This will confuse some searchers and may cost you business. You should correct this and monitor the details displayed on your profile once a month, as other users or the competition are able to submit incorrect information about your business to Google.
+Furthermore, on your profile there is still a link to an old HTTP version of your site address (Figure 6.4.2), which will result in your site taking longer to load and may devalue some ranking signals. This should be fixed.
+All other information is correct.
+
+Feature 6..1 – Incorrect location of [BRAND NAME] displayed on Google Maps.
+
+Feature 6.4.2 – Your ‘Google My Business’ points to an unsecure version of your site.
 
 ### 6.5. Local Citations
 
 #### Used Tools
 
+1.	Current Citations
+Check on each directory:
+•	Business name – is it exactly the same on each listing?
+•	Address – is it correct?
+•	Map – does it point to the entrance of the store?
+•	Website – check if the backlink points to the correct version of the site (HTTP, HTTPS, WWW, not-WWW) 
+•	Review – is there a review?
+•	Photos – are presentable photos available?
+2.	Citations that should be created
+3.	Citations that competitors have, and you don’t
+
 #### Instructions
 
 #### Example of Recommendation
+
+We notice many inconsistencies currently occur across your business listings on local citations (Figure 6.8), which may confuse users and the search engines.
+It’s best to use the same company name everywhere on the Internet. We notice there are a few variations of your business name:
+•	[BRAND NAME 2]
+•	[BRAND NAME + MAIN KEYWORD]
+•	[BRAND NAME + LOCATION]
+•	[BRAND NAME] LIMITED
+The address of your business is often incomplete.
+Maps should be showing users the entrance to [BRAND NAME], as it will make it easier for them to find you. However, often the pin is located in either the middle of the building, a nearby building, the middle of the street, a nearby street or a different part of the neighbourhood. 
+Additionally, some of your listings lack or have a low number of customer reviews. It’s always worth asking your users, via email or in person, to leave you a review. Positive reviews help your business to rank higher and encourage other searchers to visit your website. 
+
+Figure 6.5 – A list of business directories on which your company is listed, and whether the information presented is consistent.
+
+| Directory Site        | Business Name          | Address          | Phone          | Website          | Location on a Map          |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder | placeholder | placeholder | placeholder |
+| [DIRECTORTY LISTING URL]     | [BRAND NAME] | ADDRESS] | [PHONE NUMBER] | [WEBSITE URL] | incorrect/correct |
 
 ### 6.6. Bing Places for Business
 
@@ -1583,7 +1662,11 @@ Figure 5.11.2 – A list of queries where your images have ranked during the pas
 
 #### Instructions
 
+Search for the business’ name on Bing
+
 #### Example of Recommendation
+
+Unfortunately, this tool is still not available for businesses in Ireland. We will let you know once it is.
 
 ### 6.7. Apple Maps
 
@@ -1593,6 +1676,15 @@ Figure 5.11.2 – A list of queries where your images have ranked during the pas
 
 #### Example of Recommendation
 
+There is an incorrect version of your site’s address displayed on Apple Maps (Figure 6.7). It’s important that your domain is consistent on all third-party websites that link to you. This way, you can ensure the whole ranking value is carried over and does not confuse your users.
+
+In addition to this, the image that is currently displayed should be updated, as many people will make a decision based on this, whether they want to visit your business or not.
+We notice that the address listed as [ADDRESS], appears to be different than displayed on your website. The position of the pin on the map needs to be updated to reflect the location of the entrance to your building.
+
+The above issues should be fixed to increase the number of customers who navigate to your website from Apple Maps.
+
+Figure 6.7 – Information about your business in Apple Maps.
+
 ### 6.8. Reviews
 
 #### Used Tools
@@ -1600,6 +1692,13 @@ Figure 5.11.2 – A list of queries where your images have ranked during the pas
 #### Instructions
 
 #### Example of Recommendation
+
+Your customers have left your business 122 reviews across several sites (Figure 6.9). However, the majority of these reviews are on Facebook. You should try to ask your customers to share their experience at your [MAIN KEYWORD] on Google, TripAdvisor or Yelp. There are also a few sites on which you do not have any reviews, such as Euan’s Guide and [MAIN KEYWORD] Avenue. You should try to encourage customers to leave reviews on each of these sites, preferably asking them via email or in person.
+Figure 6.9 – A list of local citations on which your customers have left or could leave you a review.
+
+| URL        | Number of Reviews          | Average Rate          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
 
 ### 6.9. Responses to Reviews
 
@@ -1609,13 +1708,27 @@ Figure 5.11.2 – A list of queries where your images have ranked during the pas
 
 #### Example of Recommendation
 
+You are responding to customer reviews, but you have not engaged with all of them. This is your opportunity to build stronger relationships with customers who are passionate enough about your business to leave you a review.
+
 ### 6.10. Server Location
 
 #### Used Tools
 
+https://www.site24x7.com/find-website-location.html
+
+Google Analytics
+
 #### Instructions
 
 #### Example of Recommendation
+
+Great, the server that you use is located in Dublin, Ireland where 65% of your users live (Figure 6.2).
+
+Figure 6.2 – A list of countries with the number and percentage of people visiting your site from that geographic location.
+
+| Country        | Number of Users          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
 
 ### 6.11. Physical Web
 
@@ -1625,6 +1738,8 @@ Figure 5.11.2 – A list of queries where your images have ranked during the pas
 
 #### Example of Recommendation
 
+We notice your business is not taking advantage of what The Physical Web has to offer. Consider using it to give new visitors to your [MAIN KEYWORD] faster access to information on how to play specific games available or to inform them of your current deals.
+
 ## 7. Off-Site
 
 ### 7.1. Referring Domains
@@ -1633,7 +1748,33 @@ Figure 5.11.2 – A list of queries where your images have ranked during the pas
 
 #### Instructions
 
+Check backlinks to all the versions of the domain name (e.g. HTTP, HTTPS, WWW, non-WWW) and all previous domains used by the business.
+1.	Google Search Console > Search Traffic > Links to Your Site
+2.	Bing Webmaster Tools > 
+3.	SEMrush > Domain Analytics > Backlinks
+4.	Open Site Explorer
+5.	Majestic
+6.	Domains linking to your competitors but not you
+7.	Ahrefs
+Evaluate backlinks 
+https://ahrefs.com/batch-analysis
+or URLProfiler
+Crawl historical backlinks and search on those pages for your domain, as some of those pages may still be linking to you.
+Characteristics of potentially spammy domains
+•	Are at least 45 characters’ long
+•	contain at least 6 dots
+•	contain at least 5 dashes
+•	contain at least 10 digits
+Source: http://www.std.org/~msm/common/SpamDamnSpam.pdf
+
 #### Example of Recommendation
+
+We have identified 42,853 backlinks to your site, on 4,002 pages from 115 domains (Figure 7.1). We have calculated a Domain Authority of these websites and reviewed those with a score lower than 30, as this suggests that the site may not be very reliable. We notice that ‘nvgindex.com’ does not look entirely trustworthy, and you should consider disavowing it.
+Figure 7.1 – A list of sites linking to you and their Domain Authority.
+
+| Referring Domain        | Domain Authority          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
 
 ### 7.2. Referring Pages (aka Backlinks)
 
@@ -1641,7 +1782,38 @@ Figure 5.11.2 – A list of queries where your images have ranked during the pas
 
 #### Instructions
 
+1.	Verify if backlinks are still on these pages
+a.	Screaming Frog > Mode > List > Upload your list of backlinks and run the spider in ‘List’ mode. Then, export the full list of outbound links by clicking on ‘All Out Links’ in the ‘Advanced Export Menu’. This will provide you with the URLs and anchor text/alt text for all links on those pages. You can then use a filter on the ‘Destination’ column of the CSV to determine if your site is linked and what anchor text/alt text is included.
+b.	Check do destination links point to clients site
+2.	Check does the backlink point to the right version of the site (HTTP, HTTPS, WWW, not-WWW)
+3.	Number of backlinks from each page
+Excel > Insert > Pivot table > Row (source) and Value (destination)
+4.	Number of backlinks from a domain
+In Excel 
+a.	=LEFT(B4,FIND(‘/’,B4,9))
+b.	then replace with nothing
+i.	www
+ii.	http://
+iii.	https://
+5.	Link Detox (DTOX) – it automatically reviews and categorises backlinks
+
 #### Example of Recommendation
+
+We reviewed domains from which your site receives most links from (Figure 7.2.1), and pages that are most often linked to you (Figure 7.2.2). We notice that ‘[THIRD-PARTY SITE]’ links to your site 41,349 times, which may suggest search engines that your site uses spam-like practices in order to manipulate your ranking. 
+To comply with Google’s regulations, you should: 
+1.	Add a nofollow attribute to links in ads on the following domains
+a.	‘[THIRD-PARTY SITE]’
+b.	‘[THIRD-PARTY SITE]’
+2.	Disavow domains with many low-quality links to
+a.	‘[THIRD-PARTY SITE]’
+Figure 7.2.1 – A list of domains, and the number of times they link to your site.
+
+| Domains        | Number of backlinks          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
+
+Figure 7.2.2 – The 4,002 pages linking to you, and the number of backlinks you received from each of these pages. Due to the high number of links, we have included them in a Google Sheets file.
+[LINK TO DATA BASE]
 
 ### 7.3. Link Targeting
 
@@ -1651,13 +1823,44 @@ Figure 5.11.2 – A list of queries where your images have ranked during the pas
 
 #### Example of Recommendation
 
+When you look at the pages your backlinks point to (Figure 7.3.2), it appears as though your site has a well-distributed number of links across all of your important pages, such as Home, [KEYWORD D], [PAGE B] and [PAGE A]. However, when we exclude links from the [THIRD-PARTY SITE] domain, we see that nobody links to your key pages, except from your home page and a few links going to your [KEYWORD D] page (Figure 7.3.3).
+You should focus on ways to earn backlinks to your [KEYWORD D], [PAGE B] and [PAGE A] pages to help them rank higher in search results.
+Figure 7.3.1 – The 42,853 backlinks to your site, and pages to which they link to. Due to the high number of links, we have included them in a Google Sheets file.
+[LINK TO DATA BASE]
+
+Figure 7.3.2 – A list of the most frequently linked pages on your site with the number of times they are pointed to. 
+
+| Most Linked Page        | Number of Occurrences          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
+
+Figure 7.3.3 – A list of the most frequently linked pages on your site, and the number of times they are pointed to. We excluded links from the ‘[THIRD-PARTY SITE]’ domain.
+
+| Row Labels        | Count of Links          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
+
 ### 7.4. Broken Backlinks
 
 #### Used Tools
 
 #### Instructions
 
+Two types of tools are great for finding broken backlinks — Google Search Console, and a backlink checker such as Moz, Majestic, or Ahrefs.
+Also look for broken links because the linking site typed in your URL wrong or messed up the link code on their end, this is another rich source of link opportunity
+
 #### Example of Recommendation
+
+Some sites link to your old pages and domains that are no longer used by you (Figure 7.4). This causes you to lose some of the ranking signals, which could otherwise have improved the position of your site in search results.
+Here is a list of your pages and domains to which other sites still link to:
+•	http://[WEBSITE ADDRESS]/home/registration-form.104.html
+•	http://[WEBSITE ADDRESS]/contactus.aspx
+You should consider redirecting them to the new versions of these pages or pages that are more relevant (except for http://www.[OLD WEBSITE ADDRESS]/). We are able to identify 150 pages that link to this domain, but the majority of them do not look trustworthy. Before redirecting this domain to the new one, taking a closer look at old backlinks is required, including a clean-up of them. 
+Figure 7.4 – A list of backlinks to your old domain.
+
+| Source        | Destination          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
 
 ### 7.5. Anchor Texts
 
