@@ -1314,7 +1314,20 @@ Figure 4.15.2 – URLs of full reports from CSS code validation.
 
 #### Used Tools
 
+1.	Screaming Frog
+2.	Deduct words from header and footer from Screaming Frog word count
+
 #### Instructions
+
+Your pages contain an average of 417 words (Figure 5.1), but because a significant part of it consists of hidden duplicate content, the real figure is closer to half of this number. That means that many pages have only slightly more than 100 words.
+
+We recommend adding more helpful content to these pages, and ensure they are at least 500 words in length. If your content is no better than pages that already rank for your targeted keywords, Google and Bing will unlikely show yours.
+
+Figure 5.1 – A list of pages on your site and how many words were detected on each of them.
+
+| URL        | Word Count (Total)          | Word Count (Main Content)   |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
 
 #### Example of Recommendation
 
@@ -1322,7 +1335,18 @@ Figure 4.15.2 – URLs of full reports from CSS code validation.
 
 #### Used Tools
 
+- Siteliner > Duplicate Content
+- Keep in mind that this tool isn't always accurate. For example, it may not know that you have ‘noindexed’ your category pages. So, it will likely classify those pages as duplicate content. Use your best judgement.
+
 #### Instructions
+
+We see a substantial amount of duplicate content on your pages, which means that the same content is repeated throughout a few pages on your site (Figure 5.2). It’s recommended to rewrite it and add more unique content to each page.
+
+Figure 5.2 – A list of pages with duplicated content on your site and the percentage of text that is repeated on other pages of yours. 
+
+| Hyperlink        | Match Words          | Match Percentage   |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
 
 #### Example of Recommendation
 
@@ -1330,7 +1354,23 @@ Figure 4.15.2 – URLs of full reports from CSS code validation.
 
 #### Used Tools
 
+[Copyscape](http://www.copyscape.com/)
+Or http://smallseotools.com/plagiarism-checker/
+Or http://www.plagspotter.com/
+Or http://www.copyscape.com/
+All you need to do is file a DMCA report to Google and they will remove the content from the index. 
+Then you can check when that page was first archived on https://archive.org/
+Do a search on Google for an exact match of the titles of the most popular pages on the site: intitle:”My page title” 
+
 #### Instructions
+
+We found a [PAGE B] page on [THIRD-PARTY WEBSITE URL]’S site where 20% of their words (110) match the content on your [PAGE B] page. This is not a big issue, as the portion of the content is not substantial and the [MAIN KEYWORD]is located in London. However, it would be good to rewrite this page to ensure your content is unique. 
+As a standard procedure we have highlighted the duplicated content in Figure 5.3.1 and Figure 5.3.2. In addition to this, we checked in the Internet Archive whether the content on this page appeared after the content on your page. The earliest presence of that content was documented on April 19, 2014 (Figure 5.3.3). Unfortunately, we were unable to determine when this content first appeared on your site.
+We have not found sites that would use the content of your Home and [PAGE A] pages.
+
+Figure 5.3.1 – A screenshot of the page whose content matches your page.
+Figure 5.3.2 – A screenshot of your page that could potentially be used by other sites.
+Figure 5.3.3 – A screenshot of the page that matches content on your page from April 19, 2014.
 
 #### Example of Recommendation
 
@@ -1338,9 +1378,15 @@ Figure 4.15.2 – URLs of full reports from CSS code validation.
 
 #### Used Tools
 
+1.	Screaming Frog > Page Titles tab > Enter one of your main keywords into the search bar. Look through your page titles and identify pages that may be competing for the same keywords.
+2.	Screaming Frog > H1 tab >
+3.	Google Search Console > One thing to look for in general is if more than one page is targeting or showing up in the search results for the same keyword (aka ‘keyword cannibalization’).
+
 #### Instructions
 
 #### Example of Recommendation
+
+Great, we did not detect any major issues with keyword cannibalisation on your site.
 
 ### 5.5. Related Keywords
 
@@ -1349,6 +1395,18 @@ Figure 4.15.2 – URLs of full reports from CSS code validation.
 #### Instructions
 
 #### Example of Recommendation
+
+We analysed keywords that Google thinks are relevant to your brand (Figure 5.8). By looking at the ones for which your pages rank low, you can identify user queries for which you have a chance to improve ranking with a dedicated page or more optimised one.
+
+Here are a few keywords you could consider including to optimise your content or create new pages with these keywords, to improve your ranking:
+•	Live [PAGE A] Dublin
+•	Live [MAIN KEYWORD] Dublin
+
+Figure 5.8 – A list of queries your pages have ranked for during the past 90 days on Google.
+
+| Queries        | Clicks          | Impressions   | CTR   | Position   |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder | placeholder | placeholder |
 
 ### 5.6. Hints & Tips or How-To Content
 
@@ -1364,45 +1422,124 @@ Figure 4.15.2 – URLs of full reports from CSS code validation.
 
 #### Instructions
 
+New content added regularly?
+Existing content updated from time to time?
+Does the site have a blog, and new content is added very regularly?
+
 #### Example of Recommendation
+
+Your site does not have enough helpful content for its users, except for sales-focused information about what services your business offers and where it is located. Consider running a survey among your customers to find out what other information they would like to see on your site.
 
 ### 5.8. Content Pruning
 
 #### Used Tools
 
+•	Google Search Console > Search Traffic > Internal Links (Google traffic only)
+•	Bing Webmaster Tools
+
 #### Instructions
 
 #### Example of Recommendation
+
+Because of the recent transition of your site to HTTPS and there not being enough data available on the HTTP version of your site, we will focus here on information regarding the HTTP version of your website.
+
+Many of your pages shown in the search results did not receive a single click during the previous 90 days (Figure 5.11). You should consider de-indexing the pages that you are not interested in getting ranked and adding value to those in which you are.
+
+Figure 5.11 – A list of pages on your site and the number of times a user clicked on it during the last 90 days.
+
+| URL        | Clicks          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
 
 ### 5.9. Content Ideas
 
 #### Used Tools
 
+1.	SEMrush > Keyword Analytics > Phrase Match
+2.	SEMrush > Keyword Analytics > Related Keywords
+
 #### Instructions
 
 #### Example of Recommendation
+
+In Figure 5.7, we listed 170 types of queries around the keyword ‘[KEYWORD C]’ for which it may make sense for your business to focus on ranking higher. We then sorted these from the easiest to most difficult in terms of ranking well for each keyword. In addition, we included metrics like the number of monthly searches of these keywords (Search Volume), estimated cost per click of an ad shown for that query (CPC), popularity of the query among advertisers (Competition) and the number of results found for it.
+Here are some related keywords that may be worth optimising on your site:
+•	Micro-gaming [MAIN KEYWORD]
+•	Best [MAIN KEYWORD] offers
+•	Sign up [MAIN KEYWORD] bonus
+•	[MAIN KEYWORD] no deposit
+
+We notice that 140 people each month are searching for ‘[COMPETITOR BRAN NAME] [PHRASE A]’ and nobody is bidding with PPC ads for that keyword. These are people who most likely want to visit a local [MAIN KEYWORD]. If you don’t mind using more aggressive marketing tactics, you could test bidding on your competition branded keywords.  
+
+Figure 5.7 – A list of popular queries around your primary keyword with information on how competitive they are.
+
+| Keyword        | Search Volume          | Keyword Difficulty Index   | CPC   | Competition   | Number of Results   |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder | placeholder | placeholder | placeholder |
 
 ### 5.10. Internal Search Queries
 
 #### Used Tools
 
+Google Analytics > Behaviour > Site Content > All Pages
+
 #### Instructions
 
 #### Example of Recommendation
+
+The below list outlines some of the searches users have performed on your site (Figure 5.10), with our recommendations alongside them:
+•	‘[PAGE B]’, ‘[PAGE A]’, ‘[PAGE C]’ – you should consider placing links to these pages on your Home page.
+•	‘Jobs’, ‘vacancies’, ‘carrier’ – consider creating a Carrier page, for those who would like to work in your business.
+•	‘Address’ - your address should be added to your contact page.
+•	‘Opening hours’, ‘Open hours 5 January’ – Opening hours are not prominent enough, you should add them to your Contact page and to the footer of each page.
+•	‘Gift voucher’ – information on whether you allow customers to purchase Gift Vouchers should be added to your site. They could be a great way of bringing new customers to your business.
+•	‘Menu’ – you should consider adding information on whether you serve food and if so, what food is available. 
+•	‘Bar’ – information on your bar should also be more prominent.
+
+Including the above information on your website could attract more people to your casino.
+
+Figure 5.10 – A list of what users have searched your site for during the past 90 days. 
+
+| Page        | Page Views          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
 
 ### 5.11. Queries for Which Your Images Rank
 
 #### Used Tools
 
+Google Search Console >
+Bing Webmaster Tools >
+
 #### Instructions
 
 #### Example of Recommendation
+
+We notice that not all images on your site are optimised to rank well in an Image Search (Figure 5.11.1). We recommend using the prepared list of queries for which your images are already shown in search (Figure 5.11.2) by rewriting their file names, Alt text, title and description to help them rank higher.
+
+Figure 5.11.1 – A list of the URLs of the images on your site, the pages where these images are shown and the Alt texts.
+
+| Source        | Image URL          | Alt Text          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 5.11.2 – A list of queries where your images have ranked during the past 90 days on Google.
+
+| Queries        | Clicks          | Impressions          | CTR          | Position          |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder | placeholder | placeholder |
 
 ## 6. Local
 
 ### 6.1. Country Targeting
 
 #### Used Tools
+
+1.	Google > Search Traffic > International Targeting > Country
+
+   https://www.google.com/webmasters/tools/i18n
+   
+2.	Bing Webmaster Tools > International Targeting
 
 #### Instructions
 
