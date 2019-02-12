@@ -2,7 +2,7 @@
 
 ## 1. Site-Level Factors
 
-Overview
+#### Overview
 
 In this section, we will look at your website's structure and its less technical elements, which affect the search visibility of your entire website rather than individual pages.
 
@@ -10,15 +10,27 @@ Furthermore, we will look at some recent major Google's search updates and their
 
 ### 1.1. Manual Penalty
 
-Overview
+#### Overview
 
 Search engines can apply a manual penalty on your site after a human reviewer determines that some pages are not compliant with Google's webmaster quality guidelines.
 
 Sites are manually reviewed after being reported by someone via the search engine report form or when the search engines' algorithms flag them as suspicious.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.2. Algorithmic Demotion
 
-Overview
+#### Overview
 
 Search engines use algorithms which are sets of rules followed by their software to grade and rank pages found on the internet. They can automatically demote your site if it does not meet set requirements.
 
@@ -26,9 +38,21 @@ We track Google search algorithm updates, and we are aware of those which have t
 
 We use collected information to compare your website's organic traffic losses and gains over time with Google algorithm updates. This way we can identify those which have affected your website's visibility and better understand the areas of your site that need our special attention. Once the issues are fixed, your site should automatically recover from algorithmic demotion, and next time Google will crawl the pages that used to be problematic.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.3. Domain Extension
 
-Overview
+#### Overview
 
 Domain extensions are categories of Internet domain names, which are [used by search engines](https://webmasters.googleblog.com/2010/03/working-with-multi-regional-websites.html) to determine in which countries your content is most relevant for users. There are two main types: Generic Top-Level Domains (gTLD) and Country-Code Top-Level Domains (ccTLD).
 
@@ -36,9 +60,21 @@ Examples of gTLD extensions include .com, .io, and .net. These extensions sugges
 
 Country-Code Top-Level Domains (ccTLD) extensions end with a country code which indicates where the company is operating. Examples of ccTLD extensions include .ie, .co.uk and .nl. These extensions are best suited to local businesses as they send a strong signal to users and search engines that the company serves customers in a specific country.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.4. Subdomain
 
-Overview
+#### Overview
 
 A subdomain is a smaller part of a larger domain. For example, the subdomain blog.example.ie is part of the domain example.ie. Subdomains are used to separate pages and their content from the main domain.
 
@@ -48,9 +84,21 @@ This may make it difficult for pages published under the subdomain to rank in hi
 
 If your company does not have sufficient resources, which can be dedicated to building a topical relevance of the subdomain, it is recommended to publish all your content on your main domain under a subdirectory (e.g. example.ie/blog/).
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.5. Internal Links
 
-Overview
+#### Overview
 
 Internal links are vital as they allow users and search engines to navigate through content on your site quickly. In addition to this, they improve your website's ranking by passing ranking signals from one page to another.
 
@@ -58,9 +106,21 @@ Your most vital pages should be linked throughout your site more often than thos
 
 However, having many links on a page decreases the amount of rank-value that each of them passes to the page they are pointing to. Therefore, it is a good practice to limit the number of links to pages that are not helpful to users and are not crucial to your business. It's better to have a few carefully chosen links on each page, which are relevant and useful to your visitors, than a lot of them for a no specific reason.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.6. Keywords in Internal Links
 
-Overview
+#### Overview
 
 Descriptive and clickable words in a link (aka anchor text) are a useful signal that [help search engines and users better anticipate what content they will find on that page](https://webmasters.googleblog.com/2008/10/importance-of-link-architecture.html).
 
@@ -70,15 +130,39 @@ Next time, when the user searches for these products, your page will have higher
 
 All your links should include either anchor text or, for images, an alt attribute that is relevant to the target page.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.7. Orphan pages
 
-Overview
+#### Overview
 
 Orphan pages are those that do not have any links pointing to them from other pages on your website or do not link to any other page on your site. They are often used for marketing or advertising campaigns. Because of their disconnection from the rest of the site, they tend to rank lower in search results, even if they receive a lot of external links.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.8. User Generated Content
 
-Overview
+#### Overview
 
 User generated content is anything that a user adds to your website, which appears on the pages. It can be a comment, forum thread, post, image, etc. This content provides a strong signal to users and search engines that there is a living community around this business, helping the website rank higher. Gary Illyes, Webmaster Trends Analyst at Google tweets in his ‘Did You Know' series that [‘quality comments can be a signal of a healthy website'](https://twitter.com/methode/status/840089716657541120).
 
@@ -88,9 +172,21 @@ Furthermore, spam-like user-generated content with links to questionable sites [
 
 You should control what your users add to your site and set all the links added by them as ‘nofollow'. You can also blacklist obvious spam terms and use automated systems like Akismet to defend your site. This will prevent your website from supporting those unknown sites on Google.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.9. Preferred Domain
 
-Overview
+#### Overview
 
 Users can often access and link to your pages using different versions of the site's URL, for example:
 
@@ -105,25 +201,61 @@ On top of it, the search engines may treat the [‘www' and ‘non-www' versions
 
 As a result, it is important to inform the search engines of the preferred version of your domain. You can do this by uploading a sitemap of your website to Bing Webmaster Tools and by selecting the correct version of your domain in Google Search Console under ‘Site Settings'.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.10. Site Depth
 
-Overview
+#### Overview
 
 Site depth indicates how many clicks away certain pages are from your home page. [Fewer clicks mean the page is easier to find](https://webmasters.googleblog.com/2008/10/importance-of-link-architecture.html), allowing the visitors to reach their destination quickly. More clicks away from the home page may cause your users to struggle with finding their way to the content they are searching for. This will ultimately result in search engines treating that page as less important.
 
 This hurts the discoverability of your content in which you have put so much effort, as well as on the ranking in search engines. Ideally, key pages should be only one click away from the home page, less important content – a maximum of two clicks away, and everything else – maximum three clicks away.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.11. Subdirectories
 
-Overview
+#### Overview
 
 Subdirectories indicate that a page belongs to a set of pages with a similar purpose or topic (e.g. example.ie/services/search-engine-optimisation/). They also help users and the search engines to understand the structure of your website better.
 
 However, too many directories may make the URL of your page lengthy, thus adding unnecessary complexity. Therefore, it is best to limit the number of directories in the URLs to 1 or 2, using them only when it is logical to do so.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.12. Accessible Subdirectories
 
-Overview
+#### Overview
 
 Each of the subdirectories (aka folders) used in the URL should be accessible, implying that each of them should have its own dedicated page. Users and search engines will expect that they can visit each of the folders in the URL to find pages with similar content.
 
@@ -131,9 +263,21 @@ Avoid showing error messages when accessing those pages is essential. When a 404
 
 Make sure each of your important subdirectories looks professional and is easy to navigate, as this will help users find the content they desire.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.13. Outbound Links
 
-Overview
+#### Overview
 
 Outbound links are links on your pages that point to other websites. When you link to quality and relevant sources on the Internet, it [helps to build the credibility of your site](https://webmasters.googleblog.com/2008/10/linking-out-often-its-just-applying.html). Searchers will appreciate that you recommend them trustworthy websites with valuable content that may be of great interest to them.
 
@@ -143,9 +287,21 @@ However, when those links are spam or potentially malicious sites, it could defa
 
 Furthermore, according to Google Guidelines, [any paid or referral outbound links should be ‘nofollow'](https://support.google.com/webmasters/answer/66356), too. Otherwise, your site may be seen as one that helps others manipulate search engines' rankings. Ignoring these guidelines could [cause your website to suffer a drop in ranking](https://support.google.com/webmasters/answer/2604774?hl=en).
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.14. Website Sitelinks
 
-Overview
+#### Overview
 
 Sitelinks are a search-listing format, displayed below the main website, along with some important internal pages when users are searching for your brand. They are organised in two columns of up to twelve sub-results. This helps users navigate to popular pages on your site quickly.
 
@@ -153,9 +309,21 @@ It is not possible to have control over the search engines to show this feature 
 
 However, these links are sometimes not optimised efficiently for search, irrelevant or not helpful enough to the user. You can enhance them by rewriting their title and description, or de-index them if they should not appear in search results, to make more room for more important pages.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 1.15. Descriptive Media File Names
 
-Overview
+#### Overview
 
 Each media file on your website, like a video, an image, or a PDF, should have a descriptive name (e.g. casino-interior.jpg). It provides the search engines with additional information what is in the image, and it can improve a topical relevance of a page when it's placed on it. Also, it helps these media files rank higher on their own in the search.
 
@@ -163,6 +331,18 @@ Including your primary or secondary keywords in your media file names would help
 
 Words in URLs should be separated by special characters to improve readability. Hyphens are the most intuitive and popular way of separating words in an URL. Users are very familiar with this practice, and [major search engines recommend using hyphens](https://support.google.com/webmasters/answer/76329?hl=en), which are treated just like a space character, instead of an underscore, which may join words. This will help your pages rank for multi-word queries, so make sure that words in your URLs are always separated by a
 hyphen.
+
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
 ## 2. Page-Level Factors
 
@@ -172,7 +352,7 @@ This section reviews elements on your page which increase the search engines' un
 
 ### 2.1. Missing Title Tag
 
-Overview
+#### Overview
 
 Title tags are HTML elements that contain the title of your page and are hidden at the top of your page source code. They don't appear on your page, but they rather show up in the search results above the page URL and also in the browser tab.
 
@@ -180,25 +360,61 @@ The information you include in the title tag indicates to users and search engin
 
 When a page has an empty title tag, search engines will generate a text that will be shown instead of it in search results, which may not be so effective. You want to control what people see on Google and Bing when they find your page to maximise the number of people visiting your website.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.2. Keywords in Titles
 
-Overview
+#### Overview
 
 Using important words or phrases (aka keywords) in the title tag helps users and search engines define the topic of the page and its relevance to a user's query. This improves ranking and assures the users that they will find what they are looking for within your page, increasing the percentage of people that click through to your site in search results (click-through rate).
 
 We recommend beginning your title with a primary keyword because users don't read everything that we show to them, they scan text. Google knows this and assigns more importance to the first works in the title. Also, you can add your secondary keywords after your primary one if it is possible to do in a natural way. It increases the likelihood that your page appears high in search results for both keywords.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.3. Duplicate Titles
 
-Overview
+#### Overview
 
 It's important to create a unique title for each page on your website. Pages with duplicate titles make it more difficult for users and search engines to differentiate the pages.
 
 This could cause the rank of your page to be lower, have a wrong page in search results for important keywords and even make your pages appear to be spam.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.4. Title Length
 
-Overview
+#### Overview
 
 Words in the title tag give a clue what your page is about to both users and search engines. When you use only 1-5 words, you may miss the opportunity to convince a user to click through to your site. In addition, you will also reduce the chances of your page to rank for long-tail keywords, which is, for example, determined by the combination of words that occur in the title.
 
@@ -206,9 +422,21 @@ On the other hand, Google says that you should avoid ‘using extremely lengthy 
 
 It is essential that you take advantage of all available space in search results by creating a compelling page title that is 50-65 characters long, which is around 10-13 words. Having shorter page titles than this will provide less information to users and search engines and may lead to receiving less traffic to your pages.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.5. Headings
 
-Overview
+#### Overview
 
 Headings play a vital role in drawing users' attention to important text on your pages. They divide your content into smaller and easier to grasp chunks of categorised text, which allow users to quickly scan your content and find the information they are looking for.
 
@@ -218,9 +446,21 @@ It's good practice to use one main heading (H1) on each of your pages which summ
 
 You should use them often throughout the page when it makes sense to do so. This way you will help users and search engines understand the hierarchy of information on your page and improve the readability of your content.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.6. Keywords in Headings
 
-Overview
+#### Overview
 
 [Headings help emphasise the important text](https://support.google.com/webmasters/answer/7451184#headingtags) on your page to users and search engines. They are used as a ranking factor and they highlight the topical relevance of your content to the user's query.
 
@@ -230,9 +470,21 @@ We recommend placing the keyword at the beginning of your headings, but it's mor
 
 Furthermore, it is good practice to have your [main heading consistent with the title of a page](https://www.youtube.com/watch?time_continue=2770&v=jSCwzPyrulw), as this is something that Google is looking for. When they are different, it may appear blurred to search bots what your page is about.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.7. Keywords in Main Content
 
-Overview
+#### Overview
 
 Mentioning your primary and related keywords in the copy of the page helps to increase its relevance and assure search engines that it contains information that a user may be interested in.
 
@@ -242,9 +494,21 @@ A good practice is to avoid using your main keyword more than once every 100 wor
 
 Make sure that the main keyword appears at the beginning of the content, as this strengthens the relevance of your page. The concluding sentence of your page is an opportunity to solidify the relevance of your page in the eyes of the user. Therefore, you should remember to include your keyword here, too.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.8. Missing Meta Descriptions
 
-Overview
+#### Overview
 
 Meta description is the biggest section of the text displayed above the URL of your page in search results. It should be placed at the top of your page code, but it does not appear on your website.
 
@@ -254,17 +518,41 @@ For searchers, this generated text may not be as convincing as an optimised desc
 
 However, for a long-form content, which ranks for a variety of users' queries, it is difficult to write one meta description that will be relevant enough for all different keywords. In this situation, it is worth testing the click-through-rate to your page with and without a specified the description.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.9. Keywords in Meta Descriptions
 
-Overview
+#### Overview
 
 It is good practice for your meta description to contain keywords, ensuring the important aspects of your page are highlighted. Search engines will present these keywords in bold when they match the user's query, pointing out and reassuring them your page contains what they are looking for.
 
 It is also beneficial to include other variations of your primary keyword within your meta description. However, do not mention each keyword more than once, as this can look like spam and discourage people from clicking on your link. Ensuring the description sounds natural and interesting is paramount.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.10. Meta Descriptions Length
 
-Overview
+#### Overview
 
 Text in meta description helps to convince users to choose your page over your competitors. However, by having short descriptions you may be losing your opportunity to do this, and in extreme cases, they could cause a user to consider your page incapable of solving his problem.
 
@@ -272,33 +560,81 @@ On the other hand, search engines have limited space available in search results
 
 You should aim to use 140-150 characters, which is around 24-26 words, to describe what they can expect from the content of your page. Any description longer than 150 characters is at greater risk of being cut out. Whereas, short meta descriptions are the ones that have less than 70 characters (12-14 words), which is approximately half of the available space for a meta description.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.11. Duplicate Meta Descriptions
 
-Overview
+#### Overview
 
 As meta descriptions appear below your page title in search results, you should avoid using the same one for a number of pages. Each page is unique, and it addresses a particular user's needs. A meta description optimised for a specific page won't be just as effective in driving traffic to another one.
 
 Furthermore, when duplicates are noticed by users, they could cause them to skip over your page, as it often looks like spam. However, you can prevent it, ensuring your important pages have a unique meta description.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.12. Keywords in URLs
 
-Overview
+#### Overview
 
 Keywords are important words or phrases users type into the search bar to find websites that match what they are looking for. By strategically placing keywords in URLs, you assure the users and search engines that this page has high topical relevance and will most likely contain what the user is looking for.
 
 Including keywords in the URL also helps your page rank higher in search results, as Google's former Head of Web Spam mentioned in [one of his posts](https://www.mattcutts.com/blog/scoble-visiting-the-plex/): ‘Having keywords from the post title in the URL also can help search engines judge the quality of a page.'
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.13. Separating Words in URLs
 
-Overview
+#### Overview
 
 Words in URLs should be separated by special characters to improve readability. However, picking the wrong character for this task could confuse users or cause the search engines to join words, thus changing their meaning.
 
 Hyphens are the most intuitive and popular way of separating words in an URL. Users are veryfamiliar with this practice, and [major search engines recommend using hyphens](https://support.google.com/webmasters/answer/76329?hl=en), which are treated just like a space character, instead of an underscore, which may join words. This will help your pages rank for multi-word queries, so make sure that words in your URLs are always separated by a hyphen.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.14. Descriptive URLs
 
-Overview
+#### Overview
 
 Descriptive URLs are those made of words (e.g. example.ie/accounting-services/) instead of special characters and numbers (e.g. example.ie/?p=123). They are easier to understand and remember for users and give them a general idea of what to expect to find on the page that this URL leads to.
 
@@ -306,9 +642,21 @@ In addition, Google [recommends](https://support.google.com/webmasters/answer/76
 
 The type of URL your website shows, usually depends on the system it uses, and how the web developer has set it up. If it only includes special characters and numbers, it tends to be seen as confusing and creates less trust in the brand.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.15. URL Length
 
-Overview
+#### Overview
 
 Short URLs are easier for users to remember and type into a browser, while long URLs add unnecessary complexity. When Google has two pages with identical or very similar content and authority, [they prefer to show the page with the shorter URL](https://www.youtube.com/watch?time_continue=1138&v=4FkSZIW6d48).
 
@@ -318,9 +666,21 @@ Content Management Systems often automatically create an URL from the title of t
 
 Moreover, when you try to create a new page or post and use the same URL that another page on your site already has, your system may automatically add a version number to the end of that page URL (e.g. example.ie/contact-2). This may not look professional and confuse some users, especially if it occurs on important business pages. You should also avoid this.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.16. Dates in URL
 
-Overview
+#### Overview
 
 Content management systems like WordPress often add a date to their URL of each post, identifying when the page was published. This allows users and search engines to quickly determine how fresh the content on that page is.
 
@@ -330,9 +690,21 @@ Even if you update the content itself, the URL will still contain the old date. 
 
 If your page contains a date in the URL, you should consider rewriting and redirecting the old URLs to the new ones that do not contain any date.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.17. Unsafe Characters in URLs
 
-Overview
+#### Overview
 
 Some of the special characters used in URLs may create issues for systems and search engine crawlers, also known as spiders. Furthermore, special characters may also confuse some of your users and make it more difficult for them to understand the content of your page.
 
@@ -342,9 +714,21 @@ You should avoid adding the following characters to the URLs of your pages, unle
 - Non-ASCII characters
 - Reserved characters: ; / ? : @ = &
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.18. Missing Alternative Text for Multimedia
 
-Overview
+#### Overview
 
 Alternative text (aka alt text) can provide search engines and visually impaired users with additional information about the multimedia on the page, such as images, videos, and animated objects via canvas. This alt text helps them understand what is included in your media files, how they are connected to your main content and what value they add to it.
 
@@ -352,9 +736,21 @@ This will improve your site's accessibility and build a better user experience. 
 
 In addition, this will help your media files better rank on their own in search and improve the ranking of pages which include them.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.19. Keywords in Alternative Text
 
-Overview
+#### Overview
 
 The alternative text of your images, videos, and other media files should accurately describe what is included in them. It is good practice to use a keyword relevant to the content of the page or its synonym, but only if the keyword is also related to the media.
 
@@ -362,9 +758,21 @@ This will help you increase the topical relevance of your page, improving the co
 
 However, beware of over optimising the alt text by adding a list of keywords to it or the same keyword in each media file on the page. This could be seen by search engines as spam.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.20. Meta Keywords
 
-Overview
+#### Overview
 
 Meta keywords tag is used by people as an easy way to inform search engines of the content of their pages. It is placed at the top of your page code but does not appear on the page itself.
 
@@ -372,9 +780,21 @@ Meta keyword tags have previously been heavily spammed. As a result, in 2009 [Go
 
 It is not recommended to include keywords in this meta tag. They will not improve your ranking position. Moreover, having dozens of those words and phrases there may damage your ranking, as this may be seen as a sign of a spam website. It is advisable to include any keywords within the page itself.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 2.21. Number of Links on a Page
 
-Overview
+#### Overview
 
 An excessive number of links on a page can overwhelm and confuse your users. It may also look spammy to searchers and search engines, if the purpose is just to manipulate the Google's rankings. In extreme cases, this could lead to a manual penalty from search endings' Spam Team, which would decrease the visibility of your site in search results.
 
@@ -382,9 +802,21 @@ Another reason of refraining from listing many links on one page is that [each a
 
 In the past, it was recommended by Google to avoid having more than 100 links on the same page for various reasons. Now, this has increased, and as the [current Google's guidelines](https://support.google.com/webmasters/answer/35769?hl=en) say: ‘Limit the number of links on a page to a reasonable number (a few thousand at most).' We recommend keeping this number below 300.'
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ## 3. Technical
 
-Overview
+#### Overview
 
 This section covers more technical aspects of Search Engine Optimisation, which unlike On-Site and On-Page SEO, will almost certainly require your developer's support.
 
@@ -394,7 +826,7 @@ We will determine if search engines can see your content and whether they have a
 
 ### 3.1. Page Indexation
 
-Overview
+#### Overview
 
 Page indexation allows us to check if there are any indexing issues present on your site. These issues cause the search engines to maintain an incorrect index of the number of pages from your site that appear in the search results.
 
@@ -406,9 +838,21 @@ On the other hand, if more pages are indexed than you have on your site, this ma
 
 It is crucial that all your important pages appear in the search results, as every indexed quality page is an additional point of entry for users to your site.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.2. 4XX Client Error
 
-Overview
+#### Overview
 
 Users and search engines encounter 4XX errors (e.g. 404 Error: Page Not Found) when trying to visit a page that cannot be found. This may be caused by a broken link to a page or a file that was removed, but also when a URL of a page was changed or misspelt.
 
@@ -417,26 +861,62 @@ In this situation, the user and search engines are redirected to a ‘Page Not F
 Furthermore, it prevents some of the ranking signals accumulated by the previous version of the page (like links from other sites pointing to it), from benefiting your website, as [it was confirmed](https://twitter.com/methode/status/629654083469737984) on Twitter by Google Webmaster Trends Analyst Gary Illyes. It is always beneficial to fix those links.
 
 If the page does not exist any longer, you should set up a redirect on your server to send users, search engines, and ranking signals to the next most relevant page on this topic. However, avoid redirecting all URL-s that cause 4XX error to the home page. This may confuse users, and search engines will treat it as a soft 404 (more about it in the next section) if it does not provide the answer they were looking for. As a result, the passed ranking signals will stop benefiting the page you pointed to.
+x
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
 ### 3.3. 5XX Server Error
 
-Overview
+#### Overview
 
 Errors that begin with the digit ‘5' indicate cases in which the server is aware it has encountered an issue or is otherwise incapable of performing the request. These errors should be monitored, and their causes investigated, as they may indicate a more serious problem.
 
 When occurred often, this could cause a negative impact, as your site's reliability will be diminished in the eyes of the search engines. They may not be inclined to sending users to pages that are not available.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.4. Page Render
 
-Overview
+#### Overview
 
 Occasionally, an issue may cause search engines to not see your pages in the same way as you or your users can. This may cause these pages to have lower search visibility than they should, as Google or Bing cannot rank your pages for queries they cannot find in your content.
 
 It is crucial to ensure all of your content is visible to search engine crawlers on desktops and especially on mobile phones.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.5. Pages Restricted From Indexing
 
-Overview
+#### Overview
 
 There are situations when you want to block search engines from crawling and indexing specific pages on your site. This allows you to prevent duplicate content and sensitive information from being displayed in search results. Furthermore, you should restrict Google and Bing from indexing your ‘Thank you' pages, as they can cause conversion-tracking issues.
 
@@ -444,9 +924,21 @@ However, often sites have wrong pages or even the whole section of the website b
 
 Therefore, it is a good practice to periodically check which pages your site restricts search engines from crawling and indexing.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.6. Canonicalisation
 
-Overview
+#### Overview
 
 Often people may use various URLs to load or link to your page. For example:
 
@@ -461,17 +953,41 @@ This means that the duplicates weaken the popularity of the main page. These dup
 
 You can combat this issue by adding rel=‘canonical' to your pages, which directs search engines to the main URL. When a search engine knows which version is canonical, it can count the ranking signals accumulated by multiple URLs and assign them to the original page. Using this tag will [help you improve the ranking of your original pages](https://support.google.com/webmasters/answer/139066?hl=en).
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.7. 301 Redirects
 
-Overview
+#### Overview
 
 ‘301 redirects' are used to indicate to the search engines that the old page won't be used any longer, presenting the new page to them instead. This helps move users and accumulated ranking signals from an old page to the new one.
 
 However, using ‘301 redirects' can reduce the speed of the page loading, and may discount some of the transferred ranking signals. Therefore, we recommend using a direct link whenever possible.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.8. 302 Redirects
 
-Overview
+#### Overview
 
 302 redirects' behave in exactly the same manner as ‘301 redirects' by automatically moving visitors and the search engines from one URL to another. However, there is one small difference in that ‘302 redirects' are used to pass on ranking signals, as they indicate that the change is temporary, and the old page will be back soon.
 
@@ -479,9 +995,21 @@ Recently, Google's Search Team announced that 301 and 302 redirects do not cause
 
 It's best to avoid using ‘302 redirects' and instead use the permanent ‘301 redirects' or, even better, a direct link wherever possible.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.9. Redirect Chains
 
-Overview
+#### Overview
 
 A redirect chain is when a visitor is redirected several times in a row before they land on a final page. This usually occurs when a page's URL is changed frequently, with a new redirect created each time rather than updating the old redirect.
 
@@ -490,18 +1018,42 @@ A redirect loop is the worst example of a redirect chain, as it creates a loop o
 Redirect chains cause the page to take longer to load and may decrease the value of the ranking signals. Moreover, Google indicated in 2011 that their search crawlers may [give up following more than 4 or 5 redirects in a row](https://www.youtube.com/watch?v=r1lVPrYoBkA). This means that your final page may not be seen by search engines and may not appear in the search results.
 
 All redirect chains should be fixed by changing them to a direct link or a single redirect.
+x
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
 ### 3.10. Meta Refresh
 
-Overview
+#### Overview
 
 A meta refresh is a client-side (as opposed to server-side) redirect, which Google's Webmaster Trends Analyst John Mueller [strongly discourages from using](https://productforums.google.com/forum/#!topic/webmasters/9yMIwHQaF5U/discussion). It was heavily abused in the past by spammers who inserted it into a page's metadata, as it automatically redirects visitors to pages with unrelated or malicious content.
 
 This causes confusion with users and puts them at risk, resulting in most search engines not wishing to see them on crawled sites. Therefore, whenever you want to redirect users from one page to another, a ‘301 redirect' should be used instead of a meta refresh.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.11. Sitemap for Robots
 
-Overview
+#### Overview
 
 A sitemap for robots (XML sitemap) is a list of all pages you would like to have indexed by the search engines. This provides the search engines with an easy way to identify all of them in one place, ensuring no pages that are vital to your business are missed. This also helps search bot to crawl more intelligently when they visit your website.
 
@@ -518,10 +1070,22 @@ To keep your sitemap organised and your pages prioritised for the search crawler
 The XML sitemap should be updated each time you add a new page or make changes to an old page. It should also include a date of when a page was last updated. When the crawl bots visit your site, they easily identify new or updated pages that have a higher priority to be crawled.
 
 You should not include pages with redirects or those that should not be indexed, as this will waste what limited time the search crawlers have to crawl all of your pages, lowering their trust in your website's sitemap accuracy.
+x
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
 ### 3.12. Language Markup
 
-Overview
+#### Overview
 
 If you use several languages on the same page, you prevent search engines from figuring out what is the primary language of that page and for which audience it is suited. Moreover, you risk the page in question being categorised by search engines in only one of the languages, though not necessarily your primary language.
 
@@ -529,9 +1093,21 @@ This situation could result in less traffic to your website and your pages to ap
 
 These tags clearly label different language versions of your content and link them together. This helps search engines to understand which language your content is available in, allowing them to show the most relevant pages to your users who may speak a different language.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.13. Schema Markup
 
-Overview
+#### Overview
 
 Schema markup provides search engines with specific information regarding your content, so they no longer need to guess or interpret what they find on your website. This helps search engines understand what specific sections of your pages are for and how they can be valuable to users.
 
@@ -541,17 +1117,41 @@ There are two methods of implementing Schema markup on your website: microdata a
 
 Currently, Schema markup is not a ranking factor, although Google have announced that they require it to feature your content in voice search. They state that more than 20% of all mobile searches are performed with voice commands. This creates an opportunity for your business to gain an advantage over your competitors and potentially dominate voice search results in your industry.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.14. Rich Cards
 
-Overview
+#### Overview
 
 Rich cards are search features that use information you have marked up with schema to enhance the appearance of your pages in search results. As they help you stand out from your competition, they significantly increase the click-through rate to your site.
 
 An example of this for a restaurant could be a list containing the following information: local business reviews with an average star rating and the number of reviews, a list of events with their respective dates, a recipe with a featured image, an average star rating and the time taken to prepare a meal.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.15. Soft 404 Client Error
 
-Overview
+#### Overview
 
 When search engines crawl 404 pages and do not see a special 404 code sent by your server with the missing page, they mark such pages in their system as soft 404. This might happen due to an error in the server configuration. Pages marked as soft 404 are treated the same as a normal 404 pages, and the ranking signals accumulated by them are ignored.
 
@@ -559,9 +1159,21 @@ Often search engines use soft 404 also in other situations. For example, when si
 
 It's important to monitor when search engines use soft 404 in relation to your pages and fix them by configuring the server properly and redirecting users to pages with very similar content when you decide to remove a page from your site.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.16. Frames
 
-Overview
+#### Overview
 
 A frame is a HTML element that will copy everything from an external page and embed it into your page. This is often used to pull advertisements and widgets to display on your website.
 
@@ -569,9 +1181,21 @@ Although a frame may look nice, it will essentially be loading another page with
 
 Therefore, it is always best to avoid using frames on your website whenever possible. If you must use a frame, ensure you provide alternative text in a ‘NOFRAME' tag describing the content within the frame. This will improve the experience for visually impaired users and those who have ‘frames' disabled on their devices.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.17. URL Parameters
 
-Overview
+#### Overview
 
 A URL Parameter is a string that some websites add to the end of a URL to change the content of the page. For example: ?sort=price_ascending would sort the products on the page by price. However, pages with URL parameters visible in search results are often seen as confusing and less trusted to users, as they are not always easy to understand.
 
@@ -583,9 +1207,21 @@ Finally, with sites that have a large number of pages, URL parameters waste sear
 
 To prevent this, you can inform Google by using their Search Console and Bing via their Webmaster Tools that pages with specific URL parameters are duplicates and should, therefore, be de-indexed, or assure them that they are unique and should appear in search results.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.18. Redirects to Preferred Domain
 
-Overview
+#### Overview
 
 Users and search engines may be able to access your pages by using different versions of your site's URL:
 
@@ -598,9 +1234,21 @@ Each website should help its visitors navigate to a page with the correct versio
 
 It is important to pick one main version of your domain and set up redirects from the other ones to avoid any issues in the future.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.19. Server Up-time
 
-Overview
+#### Overview
 
 A server which hosts your website can sometimes be down due to a variety of reasons. Examples of these include software updates, system and hardware errors, maintenance and various other factors. When this happens, customers and search engines may not be able to view your site for a significant amount of time.
 
@@ -610,17 +1258,41 @@ It is vital to monitor your server up time in order to identify any problems and
 
 When your hosting provider fails to deliver a reliable service, it is best to contact them to address the issue immediately. If the situation does not improve, you should consider switching to a different hosting provider.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.20. Crawlable Resources
 
-Overview
+#### Overview
 
 Search engines want to crawl all files that create your pages. This allows them to [discover all content](https://www.youtube.com/watch?v=U7YF3fp2-Ac&feature=youtu.be&t=15m17s), and then check whether the website uses any forbidden practices which can mislead them to obtain a higher rank position.
 
 Therefore, sites that block crawlers from going through JavaScript, CSS and image files may be automatically suspect, not be considered as mobile friendly or even your content may not be seen by them. In the result your pages will rank lower. Your site should be transparent and allow the search engines to crawl all files used to create your website's pages.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.21. Hypertext Transfer Protocol Secure (HTTPS)
 
-Overview
+#### Overview
 
 HTTPS encrypts the connection between a user and your website, securing any sensitive data that the user may have submitted on your site, such as personal details, password, and credit cards. Pages that are served over an HTTPS connection also get a [small ranking boost](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html) in Google.
 
@@ -630,25 +1302,61 @@ Therefore, from January 2017, Google began showing a ‘Not Secure' warning in t
 
 This has the potential to have a serious impact on a number of conversions on your site and damage your brand image. All websites should use HTTPS.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.22. Google Publisher Markup
 
-Overview
+#### Overview
 
 The Publisher markup is a piece of code you can add to your website, which links information that is displayed on your business' Google + account. This way, the search engines have a better understanding of your brand. Even if you do not have a Google My Business listing, Google will still display your company's name, logo and other available information next to your website's pages when a user searches for your brand.
 
 To do this, a rel=‘publisher' schema markup should be added to your site's business pages. You should also have a link on your Google+ page to your site, as this will confirm that these two entities belong to the same business. Through this, you can strengthen your brand visibility in search results.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 3.23. Preventing Directory Snippets
 
-Overview
+#### Overview
 
 The description of your pages that you would like to display in search results may be replaced by Google or Bing with information from third-party directories. Open Directory Project (ODP) is one of these sources. Search engines may display a text taken from ODP as a ‘meta description' of your page when they believe it benefits the user.
 
 This could result in a loss of control over what text is being shown below your pages in search results, which could lead to fewer people clicking on a link to your site. You can prevent the search engine from using the ODP information by adding ‘noodp' to the robots meta tag in your pages.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ## 4. User Experience
 
-Overview
+#### Overview
 
 User experience places importance on making the process of obtaining information from your website as fast and easy as possible for users Additionally, ensuring your users have a positive experience when visiting your site will improve your rank, help to build a positive brand image and increase customer loyalty.
 
@@ -656,7 +1364,7 @@ In regard to the search engines, it is extremely important for your website to p
 
 ### 4.1. Mobile Friendly Test
 
-Overview
+#### Overview
 
 This section evaluates how well your website adapts when needing to fit onto the small screens of mobile devices. Ensuring your site is adapted effectively will provide users with an enjoyable experience and make it easier for them to find what they are searching for.
 
@@ -666,9 +1374,21 @@ Up to 80% of your website's monthly visitors can come from mobile phones. Becaus
 
 Your website should always aim to meet all of Google's mobile friendly requirements, otherwise it may not even appear in the search results when a user is searching for your products and services on a mobile.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.2. PageSpeed Insights
 
-Overview
+#### Overview
 
 Google developed the PageSpeed Insights tool to help test how well our sites are optimised for page loading. This tool will check sections of your site that are known for slowing down sites and will then suggest how you can fix them.
 
@@ -678,9 +1398,21 @@ After performing this test, your website receives a score between 0 and 100. The
 
 It is essential to invest some time optimising your site for speed, as Google's patent [‘Using resource load times in ranking search results‘](https://patents.google.com/patent/US8645362) argues that ‘given two resources that are of similar relevance to a search query, a typical user may prefer to visit the resource having the shorter load time.'
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.3. Accelerated Mobile Pages (AMP)
 
-Overview
+#### Overview
 
 Accelerated Mobile Pages are a new initiative from Google. If your site is slow to load on mobile phones, coding your mobile pages using AMP could be the best solution as these enable your pages to load almost instantly.
 
@@ -695,9 +1427,21 @@ Unfortunately, AMP still isn't used by search engines as a ranking signal, and t
 
 Accelerated Mobile Pages are ideal for news and content-rich sites. However, they can also help other websites gain extra visibility in a search. Therefore, every website should consider creating AMP versions of its pages.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.4. Response Time
 
-Overview
+#### Overview
 
 A Response Time indicates the time taken from requesting your page in a browser to getting the raw HTML file of your page with its content for a browser or search engines to see. This time is affected by the amount of traffic your website receives, the distance between a user and the server from which your pages are sent, as well as how well your server and your site are optimised.
 
@@ -705,9 +1449,21 @@ The longer that search bots have to wait for your pages to load, the more time i
 
 As a result, search engines use [the response time as one of the ranking signals](https://webmasters.googleblog.com/2010/04/using-site-speed-in-web-search-ranking.html) that help them to determine how good is the experience that your site provides to a user, eventually affecting the rank in search results. You should keep this time as short as possible - ideally not exceeding 200 milliseconds.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.5. Pop-ups
 
-Overview
+#### Overview
 
 Google started [lowering ranking of pages that show intrusive interstitials](https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html) to visitors on mobile devices or even removing them from their search results. This is because these pop-ups and ads which push the top part of the content further down the page make more difficult and even frustrating to access the information that the users are looking on your site.
 
@@ -717,9 +1473,21 @@ Login, cookies and age verification interstitials will continue to be acceptable
 
 It is recommended to limit the usage of the intrusive interstitials on desktop and mobile to a minimum. Customers hate them, and in order to protect your ranking and your brand, it's better if they do not encounter them on your site.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.6. Hidden Content
 
-Overview
+#### Overview
 
 Hidden content is text or images that are not initially visible on your page, but it is in your page source code. Usually, it is hidden behind a tab, an accordion or a button and requires some action from the user to see it.
 
@@ -727,9 +1495,21 @@ It may end up rarely being seen by users, and because it is hidden in the first 
 
 On mobile phones, due to limited space, Google states that it is acceptable to place your content behind tabs and accordions. However, it is still recommended to not hide any important content from users on desktops.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.7. Text in Images
 
-Overview
+#### Overview
 
 Some websites style their headings and other sections by adding images that contain text. Unfortunately, though Google has an approved patent from 2008 titled [‘Recognizing text in images'](http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=20080002893.PGNR.&OS=dn/20080002893&RS=DN/20080002893), Google Webmaster Trends Analyst Gary Illyes still advises us [not to include text in images](https://twitter.com/methode/status/709751327316963329?ref_src=twsrc%5Etfw&ref_url=https%3A%2F%2Fwww.seroundtable.com%2Fgoogle-text-in-images-21787.html). Probably search engines still have issues with being 100% confident in reading and understanding the text within these images.
 
@@ -737,9 +1517,21 @@ Not following this advice may make harder for your pages to rank for keywords in
 
 Furthermore, content in the image will appear very small when scaled down from a desktop to a smartphone screen. This makes it difficult to read and will result in a bad user experience, not mentioning that this text won't be accessible by screen readers which are used by visually impaired searchers.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.8. Breadcrumb Navigation
 
-Overview
+#### Overview
 
 A breadcrumb navigation is a secondary navigation that helps visitors to [quickly understand where they are currently located on your site](https://webmasters.googleblog.com/2008/10/importance-of-link-architecture.html). They also provide the visitors with additional information on how your website is structured. This helps them easily move to a different level of your site's hierarchy.
 
@@ -747,9 +1539,21 @@ The breadcrumb navigation can also be selected by the search engines and display
 
 Google recommends using breadcrumbs on your site, as users find them helpful. The easier your website is for searchers to find their required information, the higher the chance of it ranking closer to the top of search results.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.9. Ads
 
-Overview
+#### Overview
 
 Another ranking factor Google added to its algorithm back in January 2012 was [the page layout algorithm improvement](https://webmasters.googleblog.com/2012/01/page-layout-algorithm-improvement.html). This punishes pages where ads take most of the visible space, especially above the fold. Google knows users do not want to visit these types of websites, meaning they will avoid showing them in their search results.
 
@@ -757,9 +1561,21 @@ You should always consider being consistent with where you show ads. Ideally, th
 
 Moreover, the search engines require all links in all ads to be tagged as ‘nofollow' which will prevent ranking signals from being sent to the advertiser through this paid placement.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.10. Sliders
 
-Overview
+#### Overview
 
 Sliders were heavily used on websites in the past, as they offered a visually appealing way of displaying information and allowed sites to place more content into the same space on the site. However, due to the fact that nowadays most users are in a hurry, they do not stay long enough in one part of your site to get to see the information that is on all of your slides.
 
@@ -771,9 +1587,21 @@ Lastly, most sliders are very heavy and will also significantly slow your site's
 
 For these various reasons it is always best to avoid them or, at the very least, exclude them from the important information.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.11. Pagination
 
-Overview
+#### Overview
 
 Many websites use paginated pages for posts or products category pages to improve the time that is needed to load the content. This is because it takes a browser a shorter time to display 10 posts than 50.
 
@@ -783,9 +1611,21 @@ Furthermore, when you use paginations, you need to make sure that they are set u
 
 Therefore, you should have the rel=‘next' and rel=‘prev' markup added to your pages which tell search engines to treat all of these component pages as one block, and any signals in any of them will [benefit all pages](https://www.youtube.com/watch?v=GVKcMU7YNOQ&feature=youtu.be&t=11m17s). Doing this will help your paginated pages appear higher in search results.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.12. Flash
 
-Overview
+#### Overview
 
 Flash was developed by Adobe and allows web designers to create image and animation rich web pages, widgets, and games that can be opened in the browser.
 
@@ -795,17 +1635,41 @@ While Google crawls text in Flash, it [doesn't recommend including your content]
 
 For above reasons, you should avoid using Flash on your website.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.13. Sitemap for Humans
 
-Overview
+#### Overview
 
 In February 2016, Google updated its Webmaster Guidelines and added a recommendation for you, as a site owner, to include on your websites a human-readable site map. This should list all of the important pages on your site, which provides an alternative means for visitors to find what they're looking for. Having this on your site may help you improve your ranking in Google.
 
 The sitemap should list pages grouped together in a logical way. When the number of links is higher than 100, it is recommended to break them down into multiple pages. The link to that sitemap should be easily accessible, and we recommend placing it in your website's footer.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.14. Image Pages
 
-Overview
+#### Overview
 
 To help your unique images rank higher in image search, [each of them should have a dedicated page](https://support.google.com/webmasters/answer/114016) on your site displaying an image in full resolution. This page should also include an image title and description to provide users with additional relevant information regarding the image.
 
@@ -815,9 +1679,21 @@ Visuals and images created by your company are an important part of your busines
 
 Content Management Systems such as WordPress can create these pages for you automatically, meaning you only need to add a unique title and description when you upload each image to your site.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.13. 404 Page
 
-Overview
+#### Overview
 
 This page appears when a user or a search engine wants to see a page or file that cannot be found due to it being moved or removed from your site. It is important to be as helpful as possible in this situation in order to avoid having the user leave your site due to a bad experience.
 
@@ -825,9 +1701,21 @@ This page appears when a user or a search engine wants to see a page or file tha
 
 To improve user experience significantly, you should design a custom 404 page with a list of relevant pages to one that the user was looking for on your website and an eye-catching image. This page should also clearly state that the page they were looking for couldn't be found. Other helpful elements include search boxes, the most popular pages on your site, a suggestion that the URL might be misspelt, and a quick way to report a broken page. Additionally, the 404 Page should have a consistent design with the rest of your website, including your business logo, site navigation and footer.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.14. Search
 
-Overview
+#### Overview
 
 Search box allows users to quickly find what they need on your site. A small text entry field suggests that people should enter shorter queries. However, if people need to enter longer queries in order to find the content they desire from your site, make sure you provide them with a sufficiently long text entry field.
 
@@ -835,17 +1723,41 @@ There are two ways to improve the search functionality on your site. Firstly, yo
 
 Secondly, you should list the search results in order. Each result should have the standard format of a thumbnail, title of a page, description and the URL. Thumbnail photos are extremely useful for guiding users towards the right content and can provide more information to them. The first line of text linked to the thumbnail should contain the title of the page. The description text should be made up of the page summary.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 4.15. Code Validation
 
-Overview
+#### Overview
 
 Your pages may occasionally contain an invalid code, which may not be visible at first. However, this may cause your users to encounter some trouble with viewing your content on certain browsers and could potentially pose a problem to search engine spiders to understand information included on your site.
 
 Although not strictly necessary, you should ensure that each of your important pages does not contain invalid code. This minimises the chance of errors occurring when search crawlers extract the content from the code on a particular page. Search engines, such as Google, have openly suggested adhering to W3C standards to ensure the code is easy for them to interpret.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ## 5. Content
 
-Overview
+#### Overview
 
 Users find and visit your pages because of the content on your site, as well as answers available on them to their questions. [Google's employee confirmed](https://www.youtube.com/watch?v=l8VnZCcl9J4&feature=youtu.be&t=28m34s) that content on your pages is one of two the most important ranking factors. However, poor quality content will provide less value than other pages that already rank for keywords you target, meaning you will struggle to outrank them.
 
@@ -855,7 +1767,7 @@ The search engines appreciate you making extra effort by creating in-depth and r
 
 ### 5.1. Thin Content
 
-Overview
+#### Overview
 
 A thin content is defined as [content that provides little or no value to a user](https://support.google.com/webmasters/answer/9044175?hl=en&visit_id=636848308325711356-1735640772&rd=2#thin-content) and is exemplified by pages with a lower number of words. These pages reduce the overall quality of your site, making it less attractive to users and search engines. If you answer a user's questions with ‘thin' information, search engines will not think that you are proficient at this topic and will not rank your site at the top of the search results.
 
@@ -874,9 +1786,21 @@ You can fix the thin content issue in one of the following ways:
 - Remove them from your site if they do not provide value to your users
 - If you cannot remove them, you should consider using rel=canonical, which will tell search engines where they can find a more in-depth page on this topic on your site
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 5.2. Internal Duplicate Content
 
-Overview
+#### Overview
 
 We talk about internal duplicate content when identical or very similar content appears on more than one page on your site. This may be caused by not properly configured content management system, which could automatically create duplicate pages, or occur when you reuse the same text on multiple pages. This repetition makes your pages less interesting to read, wasting users' time when they go through the same information in multiple places on your site.
 
@@ -886,9 +1810,21 @@ When Google encounters pages with duplicate or very similar content, it puts the
 
 In addition to this, Google may [decrease the ranking of your site or remove it entirely from search results](https://support.google.com/webmasters/answer/66359?hl=en) if the duplicate pages are perceived as an attempt of manipulating their rankings. For this and the above reasons, you should have unique content on all of your pages.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 5.3. External Duplicate Content
 
-Overview
+#### Overview
 
 You may have problem with an external duplicate content when search engines see the same or very similar text on your and other sites. For example, when you syndicate your content on other sites or copy product description from a manufacturer's site.
 
@@ -900,9 +1836,21 @@ Search engines have created tools enabling you to flag unfair competition, meani
 
 You should also not copy third party content and add it to your site, as this is against Google Webmasters Guidelines.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 5.4. Keyword Cannibalization
 
-Overview
+#### Overview
 
 Keyword cannibalization happens when two or more pages are competing for the same keyword. This can confuse the search engines and force them to show only one of your pages for the searcher's query.
 
@@ -910,17 +1858,41 @@ This typically occurs when your website uses single terms or phrases which you w
 
 This also splits ranking signals such as internal and external backlinks over two pages, decreasing the chances of you outranking your competition. You should avoid keyword cannibalization on your site to give your pages a higher chance to rank well in searches.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 5.5. Related Keywords
 
-Overview
+#### Overview
 
 Both Google Search Console and Bing Webmaster Tool provide you with information regarding queries for which your pages already rank for. This a great place for content ideas, as it tells you which keyword the search engines already associate with your brand. You should then use this information to further optimise your current pages, helping them rank higher for these queries by ensuring they appear in important places on your page.
 
 Alternatively, you can go beyond this and create a dedicated page for each theme of keywords. This is a group of very similar keyword phrases, which aim to answer a similar user's question. An example would be: social media; what is social media and what should I know about social media. This will allow your page to be even more relevant for those keywords, eventually increasing its chance to rank higher and providing a searcher with more information than a page that only mentions ‘social media'.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 5.6. Hints & Tips or How-To Content
 
-Overview
+#### Overview
 
 Hints & Tips and How-To Content is a great chance for your business to demonstrate its knowledge. For instance, if you are a law firm, you can tell people which clauses to be particularly aware of when signing a contract. Or, if you are an estate agent, you can inform visitors to your site of the key aspects to getting the best deal when buying or selling a house.
 
@@ -930,9 +1902,21 @@ However, it is not necessary to provide all the answers yourself, as linking to 
 
 Ultimately, Hints & Tips content should be just that - useful information that allows visitors to have a point of reference, helping them to resolve their queries. Having this type of content will ensure users view your site as a reliable source of information within your field.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 5.7. Fresh Content
 
-Overview
+#### Overview
 
 As a healthy company grows with time, your website should also have ever-growing content providing users with fresh and up-to-date information. This signals to users and search engines that your business is thriving and here to stay.
 
@@ -942,9 +1926,21 @@ Furthermore, you should be regularly creating informative blog posts, guides or 
 
 Growing your content not only provides more value to your current users and attracts new ones, it also helps your site accumulate more ranking signals which will improve the position in the search of your important pages.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 5.8. Content Pruning
 
-Overview
+#### Overview
 
 Content Pruning is the process of reducing the number of indexed, low-quality pages that visitors are not interested in seeing, and which do not add value to your site. In a broad sense, both users and the search engines measure the quality of your site by the quality of each of your pages.
 
@@ -952,9 +1948,21 @@ You should update or de-index old content that is no longer relevant or true. Th
 
 You can identify these pages by checking those that receive the lowest number of clicks in the search results. You should index only those pages that you're interested in ranking. Otherwise you may end up damaging your site's rank.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 5.9. Content Ideas
 
-Overview
+#### Overview
 
 Continued keyword research helps you identify untapped opportunities and trends that emerge within your industry, which you may not be aware of. By capitalising on these, your business could gain an advantage over your competitors and gain more customers.
 
@@ -962,17 +1970,41 @@ Furthermore, knowing the language searchers use when they look for a business su
 
 In addition to this, the closer the keywords are to users' queries on your pages, the higher the chance that they will appear in their search results.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 5.10. Internal Search Queries
 
-Overview
+#### Overview
 
 Internal search queries highlight the words users type into your site's search box when they are unable to find what they are looking for. This provides you with information on what pages should be more prominent on your site to make it easier for your users to navigate to them.
 
 Additionally, you can use this information to identify important content that your site is missing. By adding it to your site, you have a chance of removing frictions that may be stopping your user from becoming a customer.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 5.11. Queries for Which Your Images Rank
 
-Overview
+#### Overview
 
 Your images are visual content, which users may look for on Google and Bing Image Search. Thousands of users are looking for images related to your industry every single day. This is another way for your business to attract searchers, who may become future customers.
 
@@ -980,9 +2012,21 @@ In addition to this, interesting and unique images also create an opportunity to
 
 Reviewing queries where your images are shown can help you further optimise them. You can do this by adding partially matched or closely matched keywords in the name of the image, the image Alt text and on the dedicated image page in its title and description. This should lead to a higher-ranking position, more visitors and more future backlinks, which will translate to a higher overall ranking of your pages.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ## 6. Local
 
-Overview
+#### Overview
 
 This section focuses on helping you target users within the area in which your business operates. We will discuss signals, which will highlight the relevance of your company to searchers and search engines within a specific geographic area.
 
@@ -990,7 +2034,7 @@ In addition to this, we will look at other popular places online where customers
 
 ### 6.1. Country Targeting
 
-Overview
+#### Overview
 
 When your domain uses a Country-Code Top-Level Domain (ccTLD), it receives a small ranking boost in that specific geographic location.
 
@@ -1000,9 +2044,21 @@ You can also geo-target different countries with a subdomain or even a subdirect
 
 Geo-targeting will improve your ranking in a selected country, but it may make it more difficult for your website to be listed in search results in other countries. Therefore, [you should only use it when a page on your site targets a single country](https://webmasters.googleblog.com/2010/03/working-with-multi-regional-websites.html). Not choosing anything will leave the decision to search engines and their best judgement. Selecting ‘Unlisted' will prevent them from associating your website with any country.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 6.2. Geo-Focused Keywords
 
-Overview
+#### Overview
 
 When a local presence is important to your business you need to highlight the relevance of your company and content, within a specific region, to the users and search engines. You can do this by using geo-focused keywords (e.g. car dealer in Dublin or construction company in Leinster) at significant places on your pages. These could be the:
 
@@ -1017,9 +2073,21 @@ When a local presence is important to your business you need to highlight the re
 
 It is not necessary to have a geo-location in all of these places. However, you do need to find a healthy balance, ensuring content on each of your pages sounds natural and is interesting to read. Therefore, it is recommended to display them at a few of these locations, as this will help you rank higher in local searches.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 6.3. Business Name, Address, Phone (NAP)
 
-Overview
+#### Overview
 
 Contact information for your business, such as your company name, address, and phone number, should be visible on every page of your website. As a result, this makes easier for your users to find your contact details and figure out where your business is based when they arrive at your site.
 
@@ -1027,9 +2095,21 @@ Furthermore, this [strengthens the belief in search engines](https://webmasters.
 
 We also recommend showing your opening hours alongside the contact information, as this ensures your customers know the best time to reach your business. An ideal location to place such information would be in the footer, at the bottom of each of your pages. Your contact details should also be marked-up with Schema to make it easier for search engines to process.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 6.4. Google My Business
 
-Overview
+#### Overview
 
 Google My Business is a tool that allows you to provide Google with the most important information about your company. This information is then displayed directly in search for local and branded queries, making it easier and quicker for users to access. Such information may include; phone number, store location, area of service, nature of business and opening hours. Users will then be able to call or text your business directly via the search results by clicking on the number provided when viewing your page on a mobile phone.
 
@@ -1039,33 +2119,81 @@ Having a Google My Business profile will also allow users to find your business 
 
 To help your Google My Business profile [rank well in the search results](https://support.google.com/business/answer/7091?hl=en), it is essential that you verify it and fill out all the details about your business, added photos of your store, linked to your site's home page or a store location-specific page and have at least a few reviews from your customers.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 6.5. Local Citations
 
-Overview
+#### Overview
 
 Local citations are mentions of your business name, address, phone number and website on third-party sites. It is important for your company to display correct details in these citations, as searchers often use them to find businesses similar to yours. Incorrect company information could diminish user experience by directing them to an old location or prompting them to call a dead number.
 
 Furthermore, Google views correct details in local citations as a reason to trust your website. Therefore, if your basic business information (name, address and phone number) matches the details provided on your Google My Business page, Google will have more confidence in your site and boost your ranking.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 6.6. Bing Places for Business
 
-Overview
+#### Overview
 
 Bing also provides you with a tool allowing you to create an online business profile on their platform in the same way as Google. As Bing has over a 20% share in the global search market, you should add your contact details, opening hours, services provided and photos to this platform too. This information will then be directly displayed in the search results, enabling your users faster access to it.
 
 Furthermore, the location of your business will be displayed to Bing Maps users when they are looking for a business such as yours in the same area. Users will then be able to easily call you or receive directions directly to the front door of your store.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 6.7. Apple Maps
 
-Overview
+#### Overview
 
 Apple Maps provide directions and information to iOS users about local businesses. Most of the time this information is pulled from Yelp listings. However, Apple has created a tool allowing you to submit your company's details directly to them, significantly improving the accuracy of this information. Additionally, you will be able to connect your social media accounts to your Apple listing.
 
 Placing your business on Apple Maps could deliver additional customers to your doorstep. Therefore, it is important for your company to ensure Apple has accurate information.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 6.8. Reviews
 
-Overview
+#### Overview
 
 Reviews left on local listings and business directories help potential customers and search engines to form an opinion on how satisfied customers were after engaging with you. In other words, what your customers write in their reviews influences your ranking. Each of your company's listings should have at least a few reviews, as this will help bring new visitors to your store.
 
@@ -1079,9 +2207,21 @@ If your company only receives 5-star reviews, this often looks too good to be tr
 
 Customer feedback also provides you with valuable information on which areas your business should improve in order to increase the number of repeat customers. This should be monitored and used by your company.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 6.9. Responses to Reviews
 
-Overview
+#### Overview
 
 Responding to reviews is a great way to build strong relationships with your customers. This shows that their feedback is important to you and that you appreciate their time in writing a review.
 
@@ -1091,17 +2231,41 @@ Your responses are incredibly vital in terms of damage control when a customer l
 
 You should also thank each customer who leaves you 4 and 5-star reviews and engage in a conversation by relating directly to their feedback. When receiving 2 and 3-star reviews, they should be responded to immediately, apologising for any inconvenience and providing a plan of action as to how you will prevent a repeat experience in the future. For reviews with 1-star, take extra time to investigate what caused this feedback.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 6.10. Server Location
 
-Overview
+#### Overview
 
 The geographic location of the server you use to host your website can [increase your site's relevance in the country in which it is located](https://webmasters.googleblog.com/2010/03/working-with-multi-regional-websites.html), because it is used by search engines as one of the signals to determine for which users your content is the most helpful.
 
 Keeping your website in a country where the majority of your customers live can give you a slightly higher chance to reach those users. If your site is translated into a different language, you could host that translation on a separate server, which is located in the country where that language is used. However, this is more a nice-to-have than a critical factor to have your pages appearing in the search results of these countries.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 6.11. Physical Web
 
-Overview
+#### Overview
 
 The Physical Web enables your customers to discover web pages associated with your business objects and locations. It is powered by either Bluetooth Low Energy (BLE) beacons or Android devices, which have installed the Beacon Toy App that broadcast URLs to nearby phones.
 
@@ -1109,9 +2273,21 @@ The Chrome 49 browser and the above display these URLs via Nearby Notifications,
 
 These notifications could provide your users with additional information regarding your products and services when they are inside or near your business. Furthermore, they could be used to prompt your customers to sign up to your newsletter, take a survey, create a membership account on your site, or inform them of your latest deals.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ## 7. Off-Site
 
-Overview
+#### Overview
 
 This section primarily focuses on identifying and evaluating other sites that link to you, which allows you to acquire additional visitors and vital ranking signals. Google's employee confirmed that links to your site are [one of two most important signals](https://www.youtube.com/watch?v=l8VnZCcl9J4&feature=youtu.be&t=28m34s) that can help you rank higher in search results.
 
@@ -1121,7 +2297,7 @@ The websites that link to you also have an audience visiting their pages and rea
 
 ### 7.1. Referring Domains
 
-Overview
+#### Overview
 
 When an external site links to yours it signals to the search engines that this site trusts your business enough to send its users to you. It also indicates that you have helpful, relevant information for that audience. The more sites that link to you, the more legitimate and respected your site will appear.
 
@@ -1129,33 +2305,81 @@ In addition to this, when a larger, more established site sends users to you, it
 
 On the other hand, links from spam or low quality sites may be devalued or not counted at all. Moreover, having a high number of these links pointing to your website may also lead to penalties. Therefore, it is important to review the sites linking to you every few months, and distance yourself from those with which you do not want to be associated with by disavowing them. You can use Google's and Bing's Disavow tool for this.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 7.2. Referring Pages (aka Backlinks)
 
-Overview
+#### Overview
 
 The number of backlinks from each domain also have a significant impact on your website. However, each additional link after the first one will not have as great an impact on your site ranking. You should always welcome genuine links from respected websites. However, avoid having backlinks on a high number of low quality pages, forum threads or blog comments of the same site as this may raise a red flag to Google.
 
 Additionally, paying for or exchanging site-wide ‘dofollow' links, which pass authority and help you rank higher, is also frowned upon as this indicates to the search engines that you are trying to manipulate your ranking. Search engines could then review your site and all backlinks to determine whether forbidden practices are being used to provide you with an unfair advantage. This can lead to manual penalties being applied to your site or some of your pages.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 7.3. Link Targeting
 
-Overview
+#### Overview
 
 In order to have a greater impact on your ranking within the search results, you should ensure that backlinks from other sites point to important pages you wish to improve the ranking for. This sends a direct signal to Google and Bing that these pages are vital to your business, and that users should find helpful information there.
 
 A safe ratio of links going to your keyword focused pages and to others on your site (including your Home page), is around 30%/70%. As other websites link much often to interesting articles or guides than to a services page. The opposite may make the search engines suspicious and may lead to a manual review of your site.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 7.4. Broken Backlinks
 
-Overview
+#### Overview
 
 Moving your website to another domain or changing the URLs of your pages during a redesign may cause a broken backlink issue for any sites linking to you. This is because some of these sites may be linking to previous content of yours, which no longer exists.
 
 Therefore, it is vital to keep track of any URLs that have changed and always set up redirects from the old URL to the new one to avoid losing the rankings for your pages, as ranking value of backlinks which point to 404 page tend not to benefit your site. In addition to this, this then prevents your users and the search engines from arriving to a blank or 404 page (aka Page Not Found) after clicking on one of these broken backlinks.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 7.5. Anchor Texts
 
-Overview
+#### Overview
 
 An anchor text refers to text used in a link pointing to your page, informing users and search engines of the page content. It is used as a ranking signal and will help your site show up in the search results for similar queries.
 
@@ -1165,25 +2389,61 @@ Therefore, if you run a link building campaign, remember to diversify your ancho
 
 If your exact-match anchors outweigh the branded anchors, this may send a spam signal. Generally, your target keyword should not be in more than 10% of links. When this percentage is higher, you have two solutions: add more backlinks with the branded anchor or changing your anchor texts from your keyword to your company name.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 7.6. Online Mentions
 
-Overview
+#### Overview
 
 Online mentions refer to other sites utilizing your company name, branded product or service name, without an actual link to your website. These mentions may carry some ranking value for your business, but a backlink has a much higher impact in improving your ranking and helping users find your site.
 
 It is important to regularly check if other domains have provided a backlink to your site when they write about your company. These could be local newspapers, blogs or industry-focused sites, which could help further improve the ranking of your content in the major search engines.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 7.7. Disavow File
 
-Overview
+#### Overview
 
 Over time, your site may accumulate backlinks from spam-like or untrustworthy sites. Having many of these can signal to Google that you could be involved in spam activity in order to gain a higher ranking. This may lead to a manual penalty from Google, causing some of your pages, or even the whole site, to rank lower in search results or disappear altogether.
 
 Google and Bing have created tools that help you to flag to them spam, untrusted and unnatural backlinks when you are unable to manually remove them. This prevents those links from hurting your site. However, these tools should be always used with caution, as disavowing good links may reduce your ranking position.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 7.8. Branded Search Query Results
 
-Overview
+#### Overview
 
 Often, people search on Google or Bing for your business name, branded services or products to learn more about them, and what other people who did business with have to say. It's vital that the first search results page only display pages within your control and that show your brand in a good light.
 
@@ -1191,9 +2451,21 @@ It is not uncommon that when users search for a specific company, their competit
 
 Monitoring what pages appear when users search for your brand, product or service name is vital, because they change over time or may even vary based on a person location. The results that appear help potential new customers form an opinion on your business and then decide if they want to use your products or services.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 7.9. Search Autocomplete
 
-Overview
+#### Overview
 
 Search Autocomplete helps users to quickly complete a query by clicking on suggested options while they type words in the search box. These suggestions are chosen based on their popularity in Google and Bing's search engines.
 
@@ -1201,9 +2473,21 @@ Monitoring the Search Autocompletes may help you prevent your brand from being d
 
 It also helps you to identify the most popular content your searchers are interested in finding on your site. You should be ranking #1 for all of these queries. You need to ensure such content exists on your website, and these pages are easy to find from your Home page.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 7.10. Mostly Shared Pages
 
-Overview
+#### Overview
 
 When your pages are shared on social media, it helps search engines to discover them sooner and keep them updated. Although often positive, the impact on your rankings when your pages are shared on social media is a heavily debated topic in the SEO industry.
 
@@ -1211,17 +2495,41 @@ Social media offers an alternative method of drawing users to your site, as you 
 
 Therefore, you should promote your product or service pages, event pages and content on various social networks to increase the amount of traffic to your website.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 7.11. Site Neighbourhood
 
-Overview
+#### Overview
 
 Most websites are hosted on servers with sites that belong to other people or companies. Occasionally, these websites may be less secure than yours, potentially exposing you to hacker attacks. To add to this, when a significant majority of websites on one server are spam, the search engines may then devalue all sites on the singular server, causing them to stop their ranking for targeted keywords.
 
 It is always important to know what type of neighbourhood your domain lives in. This way, you can move to a safer server when necessary, preventing them from holding your site back.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ## 8. Competitor Analysis
 
-Overview
+#### Overview
 
 In this section we will check which sites also rank for keywords that are important to you. This will help you to better understand why the search engines may be choosing your competitors over you in the higher positions of their search results.
 
@@ -1229,31 +2537,67 @@ We will analyse the key areas that we know are strong for ranking signals, and w
 
 ### 8.1. Search Visibility
 
-Overview
+#### Overview
 
 Search Visibility checks the prominence of yours and your competition's sites in the search for keywords important to your business. The higher the position of a site for a given keyword, the higher its visibility score is.
 
 By looking at this metric you can identify who the key players are in your industry. These companies are providing the search engines with what they need for their users. When you compare the competition's pages and site with yours it can provide you with ideas on where you should improve in order to reach a similar position or surpass their ranking.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 8.2. Referring Domains
 
-Overview
+#### Overview
 
 The number of referring domains to a page is one of the strongest ranking signals. By checking how many websites link to pages ranking for the keyword you are interested in, you can determine how difficult it may be for you to outrank them.
 
 You should try to earn backlinks from more domains than your competition has. However, this number is a constantly moving target, as pages tend to earn additional backlinks with time.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 8.3. Referring Pages (aka Backlinks)
 
-Overview
+#### Overview
 
 The overall number of backlinks also helps your ranking on Google and Bing. However, each backlink from the same domain provides a decreasing value. This metric also allows you to better understand how difficult it may be to rank for your targeted keyword.
 
 Remember to put more focus on earning backlinks from new domains, rather than gaining a lot of them from the same domain. This may be seen by the search engines as spam-like practice and in extreme cases may lead to a penalty.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 8.4. Type of Content
 
-Overview
+#### Overview
 
 Depending on how users interact with pages displayed in their search results, the search engines can understand what kind of intent they have when entering a specific query. Google and Bing analyse which results are clicked more often and how fast a person returns to their search results after visiting a page to identify which type of content is most helpful for a specific query.
 
@@ -1263,29 +2607,77 @@ By looking at what type of pages rank in the top 10 search results for a certain
 
 You won't rank a sales page for educational queries. People want to understand something, not being sold to, and the search engines know it.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 8.5. Keyword in Title
 
-Overview
+#### Overview
 
 Titles provide a strong indication to both users and the search engines of what the page contains. When a page repeats the user's query in the title, it strengthens the relevance of that phrase and increases its chances of ranking higher.
 
 In addition to this, a strong title name also helps convince searchers to navigate to your site rather than your competitors. Titles used by your competition can be used as ideas to optimise yours.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 8.6. Content Length
 
-Overview
+#### Overview
 
 The more useful information your pages contains, the more valuable it is to users and search engines. By checking how in-depth the pages that rank for your targeted keyword are, you can understand how long yours should be.
 
 You can also review the type of information they contain, which you may have missed on your pages. It is important for your pages to have a correct page rank for your important keywords, and you should always be pushing yourself to make your content even stronger. You should aim to find a unique angle on the topic, as the search engines want to show diverse results and duplicate content will be filtered out.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 8.7. Search Ads History
 
-Overview
+#### Overview
 
 Search Ads allow businesses to show their pages above their competition in search results. This way, users may not even look at pages that rank organically, as they are pushed down the page. On mobile phones they may not even be seen on the initial page load (above the fold) if there are many advertisers bidding for the same keyword and taking up all available space on the screen.
 
 This tactic does not require waiting months for your pages to be displayed for important keywords. You are able to start showing your message above everyone else immediately if you have a marketing budget that allows you to invest in this.
+
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
 ### 8.8. Search Ads Data
 
@@ -1295,9 +2687,21 @@ Ads that run for a long time are usually optimised to achieve the highest engage
 
 Additionally, you can use ads your competition has previously ran as inspiration for your own ads. This will help you to come up with creative ideas in a fraction of the time that it would normally take.
 
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
 ### 8.9. Engagement
 
-Overview
+#### Overview
 
 Engagement metrics help you and search engines understand how interested users are in your competitive content. Google is giving preferential treatment to sites with the best usability, so it is vital in terms of search and business purposes to continuously work on the quality of the content.
 
@@ -1311,3 +2715,15 @@ Bounce Rate shows the percentage of times a user left your site after seeing onl
 2. Local internet service providers (ISPs) located in many different countries;
 3. SimilarWeb web crawlers that scan every public website to create a highly accurate map of the digital world;
 4. Hundreds of thousands of direct measurement sources from websites and apps that are connected to SimilarWeb directly.'
+
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
