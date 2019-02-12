@@ -172,7 +172,7 @@ It is important that your server supports HTTP/2, as it will make unnecessary to
 - combining small images into CSS sprites
 - converting some images to Base64 code
 
-### 3.10. DNS Prefetching
+### 2.10. DNS Prefetching
 
 **Overview**
 
