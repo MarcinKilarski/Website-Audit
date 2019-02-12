@@ -1853,8 +1853,8 @@ Also look for broken links because the linking site typed in your URL wrong or m
 
 Some sites link to your old pages and domains that are no longer used by you (Figure 7.4). This causes you to lose some of the ranking signals, which could otherwise have improved the position of your site in search results.
 Here is a list of your pages and domains to which other sites still link to:
-•	http://[WEBSITE ADDRESS]/home/registration-form.104.html
-•	http://[WEBSITE ADDRESS]/contactus.aspx
+- http://[WEBSITE ADDRESS]/home/registration-form.104.html
+- http://[WEBSITE ADDRESS]/contactus.aspx
 You should consider redirecting them to the new versions of these pages or pages that are more relevant (except for http://www.[OLD WEBSITE ADDRESS]/). We are able to identify 150 pages that link to this domain, but the majority of them do not look trustworthy. Before redirecting this domain to the new one, taking a closer look at old backlinks is required, including a clean-up of them. 
 Figure 7.4 – A list of backlinks to your old domain.
 
@@ -1868,7 +1868,39 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 #### Instructions
 
+1.	Screaming Frog > Mode > List
+2.	Categorise Anchor texts into:
+•	Branded (around 65%) – any anchor text with your company name
+•	Naked links (around 20%) – those with a raw URL, e.g. example.ie, https//www.example.ie
+•	Generic (around 5%) – Usually with call to action, e.g. click here, go here, website etc.
+•	No anchor – usually in images
+•	Image anchor – if your image is a link, alt text becomes an anchor text
+•	Brand + keyword anchor (around 2%) – combined a brand name and a target keyword
+•	LSI (Latent Semantic Indexing) (around 2%) – these are variations and synonymous of your main. To identify them you can use Search Autosuggestions or ‘Searches related to ___’ at the bottom of the search results.
+•	Partial-Match Anchors (around 1%) –
+•	Long Anchors (around 2%) – 6+ words in the anchor text with your important keyword
+•	Exact Match Anchors (around 1%) – exact much of your main keyword
+Usually, the more divers you anchor text profile the better.
+
 #### Example of Recommendation
+
+We reviewed what other sites say about your pages when linking to them (Figure 7.5.1 and Figure 7.5.2). 74 times out of 100, the backlinks contained your important keywords. While only 2 out 100 used your company’s name when linking to you. This is a very dangerous situation to be in, as this does not look natural, and when discovered by Google or Bing, may reduce your ranking position if it has not done so already.
+
+However, when we excluded links from ‘[THIRD-PARTY SITE]’ (Figure 7.5.3 and Figure 7.5.4), everything changed. Now, only 1% of anchor and alt texts contain your keyword, 56 times out of 100 a site use your business name in the backlink. Which is a much safer ratio. We advise you add more links with exact-match anchors to help you rank higher.
+
+We recommend you disavow links on ‘[THIRD-PARTY SITE]’, which will tell the search engines that you do not want those backlinks to be associated with your site.
+
+Figure 7.5.1 – A list of anchor texts with the number of times they were used in the links. We also included translations for the anchor texts that are in a different language than English.
+
+| Category        | Alt & Anchor texts          | Number occurrences          | Translation          |
+| ------------- | ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder | placeholder |
+
+Figure 7.5.2 – Anchor and alt text categories, together with the number of their occurrences.
+
+| Categories        | Number of occurrences          | Percentage          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
 
 ### 7.6. Online Mentions
 
@@ -1876,7 +1908,33 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 #### Instructions
 
+1.	Ahrefs
+2.	SEMrush
+3.	MOZ > Open Site Explorer > Link Opportunities (left sidebar) > Unlinked Mentions (tab)
+4.	Mentions of your competitors but not you
+5.	Google
+“founder name” OR “company name” OR “companyname” OR “branded product/service name” –site:domainname
+Check company’s name, alternative names, branded products and services and website address which is a plan text.
+Here are some specific search queries you can try using:
+- [My Name] – to track the mentions of your name.
+- [My Company Name] – to monitor the company name mentions (reviews, forum posts, etc)
+- [mycompanyname.com] – to monitor the domain name mentions; some of the backlinks can also be discovered that way…
+Google Alerts is just one (admittedly best-known) tool to monitor your brand online. There are more, better tools:
+- [Brand Mentions](https://brandmentions.com/) is a newer tool sending you daily email digests with your brand mentions
+- https://mention.com
+- [Buzzsumo](http://buzzsumo.com/) is a great tool allowing you to set up multiple alerts to monitor your online mentions
+- [Hooks](https://play.google.com/store/apps/details?id=com.hooks.android&hl=en) is a mobile app allowing you to set up alerts to monitor your brand mentions on the go.
+- [BestAndroidApps](http://bestandroidapps.com/) [offers a good tutorial](http://bestandroidapps.com/how-to-set-up-alerts-for-almost-everything-with-the-hooks-app/) on how to set up mobile alerts using the app.
+
 #### Example of Recommendation
+
+We notice 92 pages that mention your business name but do not link to your website. 20 of these pages would be worth contacting to request a backlink added (Figure 7.6). You should try contacting these sites to check if there is a possibility to add a backlink that points to your website on those pages. 
+Figure 7.6 – A list of pages that mention your brand name, which may be worth adding a backlink.
+URL	Domain Authority
+
+| URL        | Domain Authority          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
 
 ### 7.7. Disavow File
 
@@ -1884,7 +1942,13 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 #### Instructions
 
+Google: https://www.google.com/webmasters/tools/disavow-links-main
+Bing: ?
+Check formatting of the disavow file
+
 #### Example of Recommendation
+
+We have not found any issues with your disavow files.
 
 ### 7.8. Branded Search Query Results
 
@@ -1892,7 +1956,22 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 #### Instructions
 
+1.	Search for company’s name, branded products and services
+2.	Check whether they control all pages on page one of search results, and if these pages leave readers with a positive view of the company.
+
 #### Example of Recommendation
+
+Google shows [BRAND NAME] Online in position 5 for your brand name (Figure 7.8.1), which is an online ski shop. While Bing displays the Vision-net page for your brand in position 6 (Figure 7.8.3 and Figure 7.8.4), which you do not have control over.
+
+You should consider boosting the ranking positions of your social media accounts and business listings to push these pages below the first page of the search results.
+
+Figure 7.8.1 – A screenshot of the Google search results for the query ‘[BRAND NAME]’.
+
+Figure 7.8.2 – A screenshot of the Google search results for the query ‘[BRAND NAME 2]’
+
+Figure 7.8.3 – A screenshot of the Bing search results for the query ‘[BRAND NAME]’.
+
+Figure 7.8.4 – A screenshot of the Bing search results for the query ‘[BRAND NAME 2]’.
 
 ### 7.9. Search Autocomplete
 
@@ -1900,23 +1979,91 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 #### Instructions
 
+Bulk Search Autosuggest Tool - http://tools.seochat.com/tools/suggest-tool/
+Label interesting keywords that require an action:
+•	Create new content to target this keyword
+•	Create a new section on the site targeting this keyword or the group of keywords
+•	Make a section of your site or a web page more visible (Something that would help users to easier find it)
+•	Launch a new feature / product / service that would cover a need your competitor isn’t covering
+•	Look for phrases containing the following and similar words:
+•		•	Security
+•		•	Scam
+•		•	Spam
+•		•	Returns
+•		•	Alternatives
+•		•	Refund
+•	Moreover, the following words can suggest frequent tech problems, which may prevent your customers from using your site:
+•	Down
+•	Slow
+•	Malware
+•	Downtime (You may want to keep an eye on this page to avoid seeing people complain about your site performance)
+•	Report offensive autocompletes https://support.google.com/websearch/answer/106230?hl=en
+
 #### Example of Recommendation
+
+There are no negative search autocomplete suggestions for your brand name (Figure 7.9.1 and Figure 7.9.2). We notice questions about ‘dress code’ and ‘jobs’ being searched by users on Google. You should consider creating pages on these topics to make it easier for searchers to find what they are looking for.
+
+Figure 7.9.1 – A list of Search Suggestions from Google that are shown for your brand name.
+
+| Search Suggestion        | Note          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
+
+Figure 7.9.2 – A list of Search Suggestions from Bing that are shown for your brand name.
+
+| Search Suggestion        | Note          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
+
+Figure 7.9.3 – A list of Search Suggestions from YouTube that are shown for your brand name.
+
+| Search Suggestion        | Note          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
+
+Figure 7.9.4 – A list of Search Suggestions from Amazon that are shown for your brand name.
+
+| Search Suggestion        | Note          |
+| ------------- | ------------- |
+| placeholder     | placeholder |
 
 ### 7.10. Mostly Shared Pages
 
 #### Used Tools
 
+URLProfiler > Social Shares
+
 #### Instructions
 
 #### Example of Recommendation
+
+We notice that your pages are rarely shared on social media (Figure 7.8). You should promote them regularly to increase brand awareness and recall among your target audience.
+Figure 7.8 – A list of pages on your site and the number of times links to them appear on social media.
+
+| URL        | Facebook          | LinkedIn          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
 
 ### 7.11. Site Neighbourhood
 
 #### Used Tools
 
+1.	Do revers lookup with http://viewdns.info/reverseip/
+2.	Check DA and PA of domains hosted on the same server with http://www.seoweather.com/bulk-metrics-checker/ 
+
+   Double check sites with score 0. NEEDED A BETTER TOOL!
+
 #### Instructions
 
 #### Example of Recommendation
+
+We found only one different domain ([THIRD-PARTY WEBSITE]) associated with your server (Figure 7.11). However, it redirects to your main website, and we did not detect any problematic backlinks which could lead to your site through this domain. Everything looks fine.
+
+Figure 7.11 – List of domains hosted on the same server as yours.
+
+| Domain        | Domain Authority          | Page Authority          | Spam Score          |
+| ------------- | ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder | placeholder |
 
 ## 8. Competitor Analysis
 
@@ -1924,9 +2071,26 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 #### Used Tools
 
+SEMrush > Project > Position Tracing
+
 #### Instructions
 
 #### Example of Recommendation
+
+We have collected a list of top 100 keywords from your industry (Figure 8.1.1) to identify which are the best performing websites for these keywords (Figure 8.1.2).
+If you were to rank in first place for all 100 keywords, then the maximum monthly traffic from them would equal 1,220,592 clicks and new visitors to your site.
+We notice that the most prominent domain currently ranking the highest for these keywords is ‘[COMPETITOR WEBSITE]’, with an estimated visibility of around 63% (Figure 8.6). Your domain has the second highest search visibility among 12 identified local [MAIN KEYWORD] with a score of around 16%. 
+It would be wise to conduct a separate audit of [COMPETITOR BRAND NAME] site, as they have established what the search engines require for their users. This may help you better understand the key differences between your sites.
+
+Figure 8.1.1 – A list of top 100 keywords for your industry.
+
+| Keywords        |
+| ------------- |
+| placeholder     |
+
+Figure 8.1.2 – A diagram with the most visible competitor’s websites for your most important keywords.
+
+Figure 8.1.3 – A list of the most visible competitor’s websites for your most important keywords.
 
 ### 8.2. Referring Domains
 
@@ -1936,6 +2100,28 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 #### Example of Recommendation
 
+For the query ‘[PHRASE A], [COMPETITOR BRAND NAME] has 161 referring domains to their Home page, which is twice as many as you have (Figure 8.2.1). The average number is 41. You need to work on earning backlinks from more domains.
+
+For the query ‘[WORD B]’ and ‘[PAGE A]’, the average number of linking domains to pages for positions 2-9 is 43 and 25 respectively (Figure 8.2.2 and Figure 8.2.3). [COMPETITOR BRAND NAME] page that ranks for ‘[WORD B]’ has only 1 referring domain that we know of, and it may be relatively easy for you to steal this position from them, if you are able to build more backlinks from various authoritative domains.
+
+Figure 8.2.1 – A list of pages that rank for the query ‘[PHRASE A], and the number of domains linking to them.
+
+| Position        | URL          | Domains          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.2.2 – A list of pages that rank for the query ‘[WORD B]’, and the number of domains linking to them.
+
+| Position        | URL          | Domains          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.2.3 – A list of pages that rank for the query ‘[PAGE A]’, and the number of domains linking to them.
+
+| Position        | URL          | Domains          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
 ### 8.3. Referring Pages (aka Backlinks)
 
 #### Used Tools
@@ -1944,13 +2130,64 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 #### Example of Recommendation
 
+For the query ‘[PHRASE A], your website has around 40% more pages linking to you than to the page ranking 1st ([COMPETITOR BRAND NAME]) (Figure 8.3.1). However, as we explained in section 7.2 of the report, most of your backlinks come from one site, which may be damaging your ranking.
+
+For the query ‘[WORD B]’, pages with position 2-9 have an average of 259 backlinks, while position 1 has 13,623 backlinks (Figure 8.3.2). However, a [COMPETITOR BRAND NAME] page on this topic list at position 4, has only 1 backlink. This creates an opportunity for you to take this spot from them if you improve your page quality, as well as cleaning the low quality and spammy backlinks we talked about in section 7.2 of this report.
+
+For the query ‘[WORD B]’, pages with position 2-9 have an average of 53 backlinks, while position 1 (a page from Wikipedia) has 7,762 backlinks (Figure 8.3.3). The other two informative pages have an average of 103 links pointing to them. To rank for this keyword, you will need to improve the quality of your ‘[WORD B]’ page and earn more genuine backlinks than your competition. 
+
+Figure 8.3.1 – A list of pages that rank for the query ‘[PHRASE A], and the number of pages linking to them.
+
+| Position        | URL          | Total Backlinks          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.3.2 – A list of pages that rank for the query ‘[WORD B]’, and the number of pages linking to them.
+
+| Position        | URL          | Total Backlinks          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.3.3 – A list of pages that rank for the query ‘[PAGE A]’, and the number of pages linking to them.
+
+| Position        | URL          | Total Backlinks          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
 ### 8.4. Type of Content
 
 #### Used Tools
 
+1.	In Incognito Window search for client keywords
+2.	Check websites’ categorisation - https://www.similarweb.com/
+
 #### Instructions
 
 #### Example of Recommendation
+
+For the keyword ‘[PHRASE A], the search results page features 7 local business (two of these sites belong to [COMPETITOR BRAND NAME]) and 3 directories with local businesses (two industry-specific directories) (Figure 8.4.1). In addition to this, we notice that the location of your business on ‘[COMPETITOR WEBSITE]’ is not accurate. We recommend correcting this.
+
+For the keyword ‘[WORD B]’, the search results page features 6 pages with online or mobile [PAGE B] games and 3 pages with information on how to play [PAGE B] (Figure 8.4.2). You can increase your chances of ranking for this keyword by ensuring your page is more detailed and helpful for people who would like to learn how to play this game.
+
+For the keyword ‘[PAGE A]’, the search results page features 6 pages with online [PAGE A] games and 3 pages with information on how to play [PAGE A] (Figure 8.4.2). As with [PAGE B], you should improve the quality of your [PAGE A] page by adding more helpful information on how to play this game.
+
+Figure 8.4.1 – A list of pages that rank for the query ‘[PHRASE A], and what type of pages they are.
+
+| Position        | URL          | Type of Page          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.4.2 – A list of pages that rank for the query ‘[WORD B]’, and what type of pages they are.
+
+| Position        | URL          | Type of Page          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.4.3 – A list of pages that rank for the query ‘[PAGE A]’, and what type of pages they are.
+
+| Position        | URL          | Type of Page          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
 
 ### 8.5. Keyword in Title
 
@@ -1960,6 +2197,28 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 #### Example of Recommendation
 
+For the query ‘[PHRASE A], 4 out of the 5 top pages have both the words ‘[KEYWORD C]’ and ‘Dublin’ in their title (Figure 8.5.1). Your page is the only one from those five that didn’t contain these two words within the title. You should fix this.
+
+For the queries ‘[WORD B]’ and ‘[PAGE A]’, all pages contain the targeted keyword in the title except for one (Figure 8.5.2 and Figure 8.5.3), and only a few of them contain just one or two words, like your pages. You should change your titles to more descriptive ones.
+
+Figure 8.5.1 – A list of pages that rank for the query ‘[PHRASE A], and the titles they use.
+
+| Position        | URL          | Title          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.5.2 – A list of pages that rank for the query ‘[WORD B]’, and the titles they use.
+
+| Position        | URL          | Title          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.5.3 – A list of pages that rank for the query ‘[PAGE A]’, and the titles they use.
+
+| Position        | URL          | Title          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
 ### 8.6. Content Length
 
 #### Used Tools
@@ -1968,21 +2227,86 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 #### Example of Recommendation
 
+For the query ‘[PHRASE A], the average length of the content on ranked pages is 777 words (Figure 8.6.2). Your page contains only 379 words. Therefore, you should expand your content by adding more helpful information on your [MAIN KEYWORD] and what you can do inside.
+
+For the query ‘[WORD B]’, the average length of content on ranked pages is 2,649 words, with the Wikipedia page ranking 1st with an 8,321-word page (Figure 8.6.2). Your [PAGE B] page contains 549 words. You should expand on the information that you currently have there.
+
+For the query ‘[PAGE A], the average length of content on ranked pages is 1,785 words, with the Wikipedia page again ranking 1st with a 9,847-word page (Figure 8.6.3). Your [PAGE A] page contains 649 words. Again, you should add more quality content to this page in order to rank for this query.
+
+Figure 8.6.1 – A list of pages that rank for the query ‘[PHRASE A], and the number of words detected on these pages.
+
+| Position        | URL          | Word count          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.6.2 – A list of pages that rank for the query ‘[WORD B]’, and the number of words detected on these pages.
+
+| Position        | URL          | Word count          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.6.3 – A list of pages that rank for the query ‘[PAGE A]’, and the number of words detected on these pages.
+
+| Position        | URL          | Word count          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
 ### 8.7. Search Ads History
 
 #### Used Tools
 
+SEMrush > Keyword Analytics > Ads History
+
 #### Instructions
 
 #### Example of Recommendation
+
+While many sites compete for an opportunity to show ads for keywords like ‘[KEYWORD C]’ (Figure 8.7.1), ‘[WORD B]’ (Figure 8.7.3) and ‘[PAGE A]’ (Figure 8.7.4), not many of them show ads for location-specific queries like ‘[PHRASE A] (Figure 8.7.2). We also did not find any data on advertisers bidding for ‘[PAGE B] Dublin’ or ‘[PAGE A] Dublin’. 
+Your business could use this opportunity to show ads in searches above your competition for a relatively low cost-per-click, as there are not many, if any, advertisers competing for this space. You could start by showing ads inviting searchers, who are near to the locations of you or your competitors, to visit your business.
+
+Figure 8.7.1 – A list of advertisers that have been displaying ads on Google during the past 12 months for the keyword ‘[KEYWORD C]’, and the number of ads run by them.
+
+Figure 8.7.2 – A list of advertisers that have been displaying ads on Google during the past 12 months for the keyword ‘[PHRASE A], and the number of ads run by them.
+ 
+Figure 8.7.3 – A list of advertisers that have been displaying ads on Google during the past 12 months for the keyword ‘[WORD B]’, and the number of ads run by them.
+
+Figure 8.7.4 – A list of advertisers that have been displaying ads on Google during the past 12 months for the keyword ‘[PAGE A]’, and the number of ads run by them.
 
 ### 8.8. Search Ads Data
 
 #### Used Tools
 
+SEMrush > Keyword Analytics > Ads History > Export
+
 #### Instructions
 
 #### Example of Recommendation
+
+Use below examples of ads for keyword ‘[KEYWORD C]’ (Figure 8.8.1), ‘[PHRASE A] (Figure 8.8.2), ‘[WORD B]’ (Figure 8.8.3) and ‘[PAGE A]’ (Figure 8.8.4) to further optimise titles and descriptions of your key pages. This especially goes for your [PAGE B] and [PAGE A] pages, which currently have only one word. Furthermore, consider creating similar ads for your business.
+
+Figure 8.8.1 – A list of ads that were displayed on Google during the past 12 months for the keyword ‘[KEYWORD C]’.
+
+| Position        | URL          | Description          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.8.2 – A list of ads that were displayed on Google during the past 12 months for the keyword ‘[PHRASE A].
+
+| Position        | URL          | Description          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.8.3 – A list of ads that were displayed on Google during the past 12 months for the keyword ‘[WORD B]’.
+
+| Position        | URL          | Description          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
+
+Figure 8.8.4 – A list of ads that were displayed on Google during the past 12 months for the keyword ‘[PAGE A]’.
+
+| Position        | URL          | Description          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
 
 ### 8.9. Engagement
 
@@ -1990,4 +2314,14 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 #### Instructions
 
+Average sites metrics from:
+-	http://www.alexa.com/siteinfo
+-	https://www.similarweb.com/
+
 #### Example of Recommendation
+
+A list of competitors with their site’s engagement metrics compared to yours.
+
+| Domain        | Bounce Rate          | Daily Page views per Visitor          | Daily Time on Site per Visitor         |
+| ------------- | ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder | placeholder |
