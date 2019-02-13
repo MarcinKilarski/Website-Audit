@@ -12,9 +12,9 @@ According to research by Aberdeen Group, every second that a page takes to load 
 
 ## Table of Content
 
-[1. Response Time](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#1-response-time)  
-  [1.1. Server-Side Caching](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#11-server-side-caching)  
-  [1.2. Server Location](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#12-server-location)  
+1. [Response Time](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#1-response-time)  
+  1.1. [Server-Side Caching](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#11-server-side-caching)  
+  1.2. [Server Location](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#12-server-location)  
   1.3. Accelerated Mobile Pages (AMP)  
   1.4. HTTP Strict Transport Security (HSTS)  
   1.5. Content Delivery Network (CDN)  
