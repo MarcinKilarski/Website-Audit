@@ -12,34 +12,34 @@ According to research by Aberdeen Group, every second that a page takes to load 
 
 ## Table of Content
 
-1. Response Time
-    1.1. Server-Side Caching
-    1.2. Server Location
-    1.3. Accelerated Mobile Pages (AMP)
-    1.4. HTTP Strict Transport Security (HSTS)
-    1.5. Content Delivery Network (CDN)
-    1.6. Prefetching
-2. Time to First Paint
-    2.1. Size of HTML Pages
-    2.2. Server Push
-    2.3. Unused Styles
-    2.4. Non-Essential Styles
-    2.5. Code Minification
-    2.6. Server-Side Compression
-    2.7. Async Loading of Code
-    2.8. Number of Requested Files
-    2.9. HTTP/2
-    2.10. DNS Prefetching
-    2.11. Code Validation
+1. Response Time  
+  1.1. Server-Side Caching  
+  1.2. Server Location  
+  1.3. Accelerated Mobile Pages (AMP)  
+  1.4. HTTP Strict Transport Security (HSTS)  
+  1.5. Content Delivery Network (CDN)  
+  1.6. Prefetching  
+2. Time to First Paint  
+    2.1. Size of HTML Pages  
+    2.2. Server Push  
+    2.3. Unused Styles  
+    2.4. Non-Essential Styles  
+    2.5. Code Minification  
+    2.6. Server-Side Compression  
+    2.7. Async Loading of Code  
+    2.8. Number of Requested Files  
+    2.9. HTTP/2  
+    2.10. DNS Prefetching  
+    2.11. Code Validation  
 3. Time to Interaction
-4. Page Load Time
-    4.1. Total Page Size
-    4.2. Image Format
-    4.3. Image Dimension
-    4.4. Image Compression
-    4.5. Deferred Image Load
-    4.6. Client-Side Caching
-    4.7. Query Strings
+4. Page Load Time  
+    4.1. Total Page Size  
+    4.2. Image Format  
+    4.3. Image Dimension  
+    4.4. Image Compression  
+    4.5. Deferred Image Load  
+    4.6. Client-Side Caching  
+    4.7. Query Strings  
 
 ## 1. Response Time
 
@@ -47,7 +47,7 @@ According to research by Aberdeen Group, every second that a page takes to load 
 
 A Response Time indicates the time taken from requesting your page in a browser to getting the raw HTML file of your page with its content for the search engines to analyse. Your server response time is affected by the amount of traffic you receive, the resources each page uses, the software your server uses, and the hosting solution you use.
 
-To improve your server response time, look for performance bottlenecks like slow database queries, slow routing, a lack of adequate memory or server caching and fix them. The optimal server response time is under 0.2 second on desktop and [under 1.3 seconds on mobile phones with 3G connection][1].
+To improve your server response time, look for performance bottlenecks like slow database queries, slow routing, a lack of adequate memory or server caching and fix them. The optimal server response time is under 0.2 second on desktop and [under 1.3 seconds on mobile phones with 3G connection] [1].
 
 ### 1.1. Server-Side Caching
 
