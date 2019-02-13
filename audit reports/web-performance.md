@@ -582,4 +582,4 @@ By removing query strings from your resources that should be cached, you allow b
 
 ## References
 
-[1]: https://www.thinkwithgoogle.com/articles/mobile-page-speed-new-industry-benchmarks.html?utm_source=moztop10&utm_medium=email&utm_campaign=moztop10&mkt_tok=eyJpIjoiT0RZMlpqWTROMll4TUdGayIsInQiOiJtQ1BGQ0NCcmt3eDBBUCtpejBZWmVcLzBlMVJOTEJqdHZZcXk0UllW)
+[1]: https://www.thinkwithgoogle.com/articles/mobile-page-speed-new-industry-benchmarks.html?utm_source=moztop10&utm_medium=email&utm_campaign=moztop10&mkt_tok=eyJpIjoiT0RZMlpqWTROMll4TUdGayIsInQiOiJtQ1BGQ0NCcmt3eDBBUCtpejBZWmVcLzBlMVJOTEJqdHZZcXk0UllW
