@@ -47,7 +47,7 @@ According to research by Aberdeen Group, every second that a page takes to load 
 
 A Response Time indicates the time taken from requesting your page in a browser to getting the raw HTML file of your page with its content for the search engines to analyse. Your server response time is affected by the amount of traffic you receive, the resources each page uses, the software your server uses, and the hosting solution you use.
 
-To improve your server response time, look for performance bottlenecks like slow database queries, slow routing, a lack of adequate memory or server caching and fix them. The optimal server response time is under 0.2 second on desktop and [under 1.3 seconds on mobile phones with 3G connection][1].
+To improve your server response time, look for performance bottlenecks like slow database queries, slow routing, a lack of adequate memory or server caching and fix them. The optimal server response time is under 0.2 second on desktop and [under 1.3 seconds on mobile phones with 3G connection](https://www.thinkwithgoogle.com/articles/mobile-page-speed-new-industry-benchmarks.html?utm_source=moztop10&utm_medium=email&utm_campaign=moztop10&mkt_tok=eyJpIjoiT0RZMlpqWTROMll4TUdGayIsInQiOiJtQ1BGQ0NCcmt3eDBBUCtpejBZWmVcLzBlMVJOTEJqdHZZcXk0UllW).
 
 ### 1.1. Server-Side Caching
 
@@ -579,7 +579,3 @@ By removing query strings from your resources that should be cached, you allow b
 #### Reference documents
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
-
-## References
-
-[1]: https://www.thinkwithgoogle.com/articles/mobile-page-speed-new-industry-benchmarks.html?utm_source=moztop10&utm_medium=email&utm_campaign=moztop10&mkt_tok=eyJpIjoiT0RZMlpqWTROMll4TUdGayIsInQiOiJtQ1BGQ0NCcmt3eDBBUCtpejBZWmVcLzBlMVJOTEJqdHZZcXk0UllW
