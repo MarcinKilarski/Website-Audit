@@ -2,132 +2,132 @@
 
 ## Table of Content
 
-1. Site-Level Factors  
-  1.1. Manual Penalty  
-  1.2. Algorithmic Demotion  
-  1.3. Domain Extension  
-  1.4. Subdomain  
-  1.5. Internal Links  
-  1.6. Keywords in Internal Links  
-  1.7. Orphan pages  
-  1.8. User Generated Content  
-  1.9. Preferred Domain  
-  1.10. Site Depth  
-  1.11. Subdirectories  
-  1.12. Accessible Subdirectories  
-  1.13. Outbound Links  
-  1.14. Website Sitelinks  
-  1.15. Descriptive Media File Names  
-2. Page-Level Factors  
-  2.1. Missing Title Tag  
-  2.2. Keywords in Titles  
-  2.3. Duplicate Titles  
-  2.4. Title Length  
-  2.5. Headings  
-  2.6. Keywords in Headings  
-  2.7. Keywords in Main Content  
-  2.8. Missing Meta Descriptions  
-  2.9. Keywords in Meta Descriptions  
-  2.10. Meta Descriptions Length  
-  2.11. Duplicate Meta Descriptions  
-  2.12. Keywords in URLs  
-  2.13. Separating Words in URLs  
-  2.14. Descriptive URLs  
-  2.15. URL Length  
-  2.16. Dates in URL  
-  2.17. Unsafe Characters in URLs  
-  2.18. Missing Alternative Text for Multimedia  
-  2.19. Keywords in Alternative Text  
-  2.20. Meta Keywords  
-  2.21. Number of Links on a Page  
-3. Technical  
-  3.1. Page Indexation  
-  3.2. 4XX Client Error  
-  3.3. 5XX Server Error  
-  3.4. Page Render  
-  3.5. Pages Restricted From Indexing  
-  3.6. Canonicalisation  
-  3.7. 301 Redirects  
-  3.8. 302 Redirects  
-  3.9. Redirect Chains  
-  3.10. Meta Refresh  
-  3.11. Sitemap for Robots  
-  3.12. Language Markup  
-  3.13. Schema Markup  
-  3.14. Rich Cards  
-  3.15. Soft 404 Client Error  
-  3.16. Frames  
-  3.17. URL Parameters  
-  3.18. Redirects to Preferred Domain  
-  3.19. Server Up-time  
-  3.20. Crawlable Resources  
-  3.21. Hypertext Transfer Protocol Secure (HTTPS)  
-  3.22. Google Publisher Markup  
-  3.23. Preventing Directory Snippets  
-4. User Experience  
-  4.1. Mobile Friendly Test  
-  4.2. PageSpeed Insights  
-  4.3. Accelerated Mobile Pages (AMP)  
-  4.4. Response Time  
-  4.5. Pop-ups  
-  4.6. Hidden Content  
-  4.7. Text in Images  
-  4.8. Breadcrumb Navigation  
-  4.9. Ads  
-  4.10. Sliders  
-  4.11. Pagination  
-  4.12. Flash  
-  4.13. Sitemap for Humans  
-  4.14. Image Pages  
-  4.13. 404 Page  
-  4.14. Search  
-  4.15. Code Validation  
-5. Content  
-  5.1. Thin Content  
-  5.2. Internal Duplicate Content  
-  5.3. External Duplicate Content  
-  5.4. Keyword Cannibalization  
-  5.5. Related Keywords  
-  5.6. Hints & Tips or How-To Content  
-  5.7. Fresh Content  
-  5.8. Content Pruning  
-  5.9. Content Ideas  
-  5.10. Internal Search Queries  
-  5.11. Queries for Which Your Images Rank  
-6. Local  
-  6.1. Country Targeting  
-  6.2. Geo-Focused Keywords  
-  6.3. Business Name, Address, Phone (NAP)  
-  6.4. Google My Business  
-  6.5. Local Citations  
-  6.6. Bing Places for Business  
-  6.7. Apple Maps  
-  6.8. Reviews  
-  6.9. Responses to Reviews  
-  6.10. Server Location  
-  6.11. Physical Web  
-7. Off-Site  
-  7.1. Referring Domains  
-  7.2. Referring Pages (aka Backlinks)  
-  7.3. Link Targeting  
-  7.4. Broken Backlinks  
-  7.5. Anchor Texts  
-  7.6. Online Mentions  
-  7.7. Disavow File  
-  7.8. Branded Search Query Results  
-  7.9. Search Autocomplete  
-  7.10. Mostly Shared Pages  
-  7.11. Site Neighbourhood  
-8. Competitor Analysis  
-  8.1. Search Visibility  
-  8.2. Referring Domains  
-  8.3. Referring Pages (aka Backlinks)  
-  8.4. Type of Content  
-  8.5. Keyword in Title  
-  8.6. Content Length  
-  8.7. Search Ads History  
-  8.8. Search Ads Data  
-  8.9. Engagement  
+1. [Site-Level Factors](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#1-site-level-factors)  
+  1.1. [Manual Penalty](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#11-manual-penalty)  
+  1.2. [Algorithmic Demotion](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#12-algorithmic-demotion)  
+  1.3. [Domain Extension](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#13-domain-extension)  
+  1.4. [Subdomain](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#14-subdomain)  
+  1.5. [Internal Links](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#15-internal-links)  
+  1.6. [Keywords in Internal Links](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#16-keywords-in-internal-links)  
+  1.7. [Orphan pages](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#17-orphan-pages)  
+  1.8. [User Generated Content](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#18-user-generated-content)  
+  1.9. [Preferred Domain](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#19-preferred-domain)  
+  1.10. [Site Depth](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#110-site-depth)  
+  1.11. [Subdirectories](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#111-subdirectories)  
+  1.12. [Accessible Subdirectories](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#112-accessible-subdirectories)  
+  1.13. [Outbound Links](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#113-outbound-links)  
+  1.14. [Website Sitelinks](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#114-website-sitelinks)  
+  1.15. [Descriptive Media File Names](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#115-descriptive-media-file-names)  
+2. [Page-Level Factors](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#2-page-level-factors)  
+  2.1. [Missing Title Tag](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#21-missing-title-tag)  
+  2.2. [Keywords in Titles](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#22-keywords-in-titles)  
+  2.3. [Duplicate Titles](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#23-duplicate-titles)  
+  2.4. [Title Length](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#24-title-length)  
+  2.5. [Headings](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#25-headings)  
+  2.6. [Keywords in Headings](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#26-keywords-in-headings)  
+  2.7. [Keywords in Main Content](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#27-keywords-in-main-content)  
+  2.8. [Missing Meta Descriptions](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#28-missing-meta-descriptions)  
+  2.9. [Keywords in Meta Descriptions](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#29-keywords-in-meta-descriptions)  
+  2.10. [Meta Descriptions Length](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#210-meta-descriptions-length)  
+  2.11. [Duplicate Meta Descriptions](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#211-duplicate-meta-descriptions)  
+  2.12. [Keywords in URLs](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#212-keywords-in-urls)  
+  2.13. [Separating Words in URLs](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#213-separating-words-in-urls)  
+  2.14. [Descriptive URLs](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#214-descriptive-urls)  
+  2.15. [URL Length](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#215-url-length)  
+  2.16. [Dates in URL](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#216-dates-in-url)  
+  2.17. [Unsafe Characters in URLs](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#217-unsafe-characters-in-urls)  
+  2.18. [Missing Alternative Text for Multimedia](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#218-missing-alternative-text-for-multimedia)  
+  2.19. [Keywords in Alternative Text](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#219-keywords-in-alternative-text)  
+  2.20. [Meta Keywords](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#220-meta-keywords)  
+  2.21. [Number of Links on a Page](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#221-number-of-links-on-a-page)  
+3. [Technical](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#3-technical)  
+  3.1. [Page Indexation](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#31-page-indexation)  
+  3.2. [4XX Client Error](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#32-4xx-client-error)  
+  3.3. [5XX Server Error](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#33-5xx-server-error)  
+  3.4. [Page Render](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#34-page-render)  
+  3.5. [Pages Restricted From Indexing](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#35-pages-restricted-from-indexing)  
+  3.6. [Canonicalisation](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#36-canonicalisation)  
+  3.7. [301 Redirects](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#37-301-redirects)  
+  3.8. [302 Redirects](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#38-302-redirects)  
+  3.9. [Redirect Chains](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#39-redirect-chains)  
+  3.10. [Meta Refresh](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#310-meta-refresh)  
+  3.11. [Sitemap for Robots](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#311-sitemap-for-robots)  
+  3.12. [Language Markup](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#312-language-markup)  
+  3.13. [Schema Markup](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md#313-schema-markup)  
+  3.14. [Rich Cards]()  
+  3.15. [Soft 404 Client Error]()  
+  3.16. [Frames]()  
+  3.17. [URL Parameters]()  
+  3.18. [Redirects to Preferred Domain]()  
+  3.19. [Server Up-time]()  
+  3.20. [Crawlable Resources]()  
+  3.21. [Hypertext Transfer Protocol Secure (HTTPS)]()  
+  3.22. [Google Publisher Markup]()  
+  3.23. [Preventing Directory Snippets]()  
+4. [User Experience]()  
+  4.1. [Mobile Friendly Test]()  
+  4.2. [PageSpeed Insights]()  
+  4.3. [Accelerated Mobile Pages (AMP)]()  
+  4.4. [Response Time]()  
+  4.5. [Pop-ups]()  
+  4.6. [Hidden Content]()  
+  4.7. [Text in Images]()  
+  4.8. [Breadcrumb Navigation]()  
+  4.9. [Ads]()  
+  4.10. [Sliders]()  
+  4.11. [Pagination]()  
+  4.12. [Flash]()  
+  4.13. [Sitemap for Humans]()  
+  4.14. [Image Pages]()  
+  4.13. [404 Page]()  
+  4.14. [Search]()  
+  4.15. [Code Validation]()  
+5. [Content]()  
+  5.1. [Thin Content]()  
+  5.2. [Internal Duplicate Content]()  
+  5.3. [External Duplicate Content]()  
+  5.4. [Keyword Cannibalization]()  
+  5.5. [Related Keywords]()  
+  5.6. [Hints & Tips or How-To Content]()  
+  5.7. [Fresh Content]()  
+  5.8. [Content Pruning]()  
+  5.9. [Content Ideas]()  
+  5.10. [Internal Search Queries]()  
+  5.11. [Queries for Which Your Images Rank]()  
+6. [Local]()  
+  6.1. [Country Targeting]()  
+  6.2. [Geo-Focused Keywords]()  
+  6.3. [Business Name, Address, Phone (NAP)]()  
+  6.4. [Google My Business]()  
+  6.5. [Local Citations]()  
+  6.6. [Bing Places for Business]()  
+  6.7. [Apple Maps]()  
+  6.8. [Reviews]()  
+  6.9. [Responses to Reviews]()  
+  6.10. [Server Location]()  
+  6.11. [Physical Web]()  
+7. [Off-Site]()  
+  7.1. [Referring Domains]()  
+  7.2. [Referring Pages (aka Backlinks)]()  
+  7.3. [Link Targeting]()  
+  7.4. [Broken Backlinks]()  
+  7.5. [Anchor Texts]()  
+  7.6. [Online Mentions]()  
+  7.7. [Disavow File]()  
+  7.8. [Branded Search Query Results]()  
+  7.9. [Search Autocomplete]()  
+  7.10. [Mostly Shared Pages]()  
+  7.11. [Site Neighbourhood]()  
+8. [Competitor Analysis]()  
+  8.1. [Search Visibility]()  
+  8.2. [Referring Domains]()  
+  8.3. [Referring Pages (aka Backlinks)]()  
+  8.4. [Type of Content]()  
+  8.5. [Keyword in Title]()  
+  8.6. [Content Length]()  
+  8.7. [Search Ads History]()  
+  8.8. [Search Ads Data]()  
+  8.9. [Engagement]()  
 
 ## 1. Site-Level Factors
 

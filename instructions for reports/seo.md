@@ -1171,6 +1171,159 @@ Figure 3.19 – A list of pages on your site with detected schema markup errors.
 | ------------- | ------------- | ------------- |
 | placeholder     | placeholder | placeholder |
 
+### 3.14. Rich Cards
+
+#### Used Tools
+
+#### Instructions
+
+#### Example of Recommendation
+
+At the moment, no rich cards are shown for your pages. Consider adding a page on which customers can review your business. You will be able to use these to display a review rating under your site in the search results. In addition to this, you could markup your tournaments in schema, which could trigger an ‘event’ rich card in Google.
+
+### 3.15. Soft 404 Client Error
+
+#### Used Tools
+
+#### Instructions
+
+1.	Google Search Console > Crawl > Crawl Errors > check Desktop and Smartphone tab
+2.	Bing Webmaster Tools
+
+#### Example of Recommendation
+
+Great, there are no soft ‘404 errors’ reported by Google.
+
+### 3.16. Frames
+
+#### Used Tools
+
+#### Instructions
+
+Screaming Frog > Configuration > Custom > Extraction
+XPath
+//iframe/@src
+Extract HTML Element
+
+#### Example of Recommendation
+
+I notice there are two pages on your site with maps in frames (Figure 3.22), although neither of them has the alternative text. Additionally, the location of your business on these maps is very difficult to locate, as too many icons are displayed at once.  
+
+Figures 3.22 – Pages with content in frames.
+
+| URL        |
+| ------------- |
+| placeholder     |
+
+### 3.17. URL Parameters
+
+#### Used Tools
+
+#### Instructions
+
+if the URL has weird characters like ?, =, or + it’s a dynamic URL which can cause duplicate content if not fixed.
+You can search for URL parameter in
+1.	Google by doing site:www.buyaunicorn.com/ inurl: ‘?’ or whatever you think the parameter may include.
+2.	Screaming Frog > URL > Filter: Parameters
+3.	Check and update a list of parameters in Google Search Console under ‘Crawl’ > ‘URL Parameters
+4.	Check and update a list of parameters in Bing Webmasters Tools > Configure My Site > Ignore URL Parameters
+5.	Check robots.txt if some URL parameters are already blocked
+6.	Make sure that the internal links do not have campaign parameters, as this may mislead your site’s attribution data.
+Screaming Frog > Configuration (top bar) > Custom > Search
+example.ie\(.*)utm_source=(.*)utm_medium=
+or example.ie(.*)utm_source=(.*)utm_medium=
+or example.ie/(.*)utm_source=(.*)utm_medium=
+(check these)
+
+#### Example of Recommendation
+
+Users do not see any parameters in your URL. Good job.
+
+Figure 3.3 – A list of your pages with URL parameters.
+
+| URL        |
+| ------------- |
+| placeholder     |
+
+### 3.18. Redirects to Preferred Domain
+
+#### Used Tools
+
+#### Instructions
+
+#### Example of Recommendation
+
+Great, your website redirects users from the wrong versions of your domain to the correct one. 
+
+### 3.19. Server Up-time
+
+#### Used Tools
+
+#### Instructions
+
+Setup website monitoring in Site24x7.com
+
+#### Example of Recommendation
+
+We have been monitoring your server up time every 10 minutes for the past 14 days and have not detected any down time (Figure 3.19).
+
+Figure 3.19 – A diagram showing result of two weeks monitoring of your server’s up time.
+
+### 3.20. Crawlable Resources
+
+#### Used Tools
+
+#### Instructions
+
+Check whether any of these files’ types are blocked from being crawled in:
+1.	robots.txt file
+2.	Google Search Console > Google Index > Blocked Resources
+3.	Bing Webmaster Tools
+4.	Screaming Frog > Response Codes tab > Filter: Blocked Resource
+
+#### Example of Recommendation
+
+Good news, none of your resources are blocked.
+
+### 3.21. Hypertext Transfer Protocol Secure (HTTPS)
+
+#### Used Tools
+
+#### Instructions
+
+Screaming Frog > internal check URLs
+
+#### Example of Recommendation
+
+Great, your site uses HTTPS.
+
+### 3.22. Google Publisher Markup
+
+#### Used Tools
+
+#### Instructions
+
+Check for Rel=‘publisher’ on the site, and test it with http://www.google.com/webmasters/tools/richsnippets And check if a link back from business Google+/Google My Business account to site’s home page is correct (www or non-www, http or https).
+Screaming Frog > Configuration > Custom > Search
+		Contains
+rel=‘publisher’
+
+#### Example of Recommendation
+
+The Publisher’s markup wasn’t discovered on your website. You should add this to your business pages to improve your brand visibility in search results.
+
+### 3.23. Preventing Directory Snippets
+
+#### Used Tools
+
+Screaming Frog > Internal HTML report > filter by pages which doesn’t contain ‘noodp’ and ‘noindex’
+
+#### Instructions
+
+#### Example of Recommendation
+
+You are in control of almost all of your meta descriptions.
+
 ## 4. User Experience
 
 ### 4.1. Mobile Friendly Test
