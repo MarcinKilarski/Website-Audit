@@ -12,34 +12,34 @@ According to research by Aberdeen Group, every second that a page takes to load 
 
 ## Table of Content
 
-1. [Response Time](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#1-response-time)  
-  1.1. [Server-Side Caching](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#11-server-side-caching)  
-  1.2. [Server Location](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#12-server-location)  
-  1.3. [Accelerated Mobile Pages (AMP)](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#13-accelerated-mobile-pages-amp)  
-  1.4. [HTTP Strict Transport Security (HSTS)](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#14-http-strict-transport-security-hsts)  
-  1.5. [Content Delivery Network (CDN)](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#15-content-delivery-network-cdn)  
-  1.6. [Prefetching](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#16-prefetching)  
-2. [Time to First Paint](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#2-time-to-first-paint)  
-  2.1. [Size of HTML Pages](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#21-size-of-html-pages)  
-  2.2. [Server Push](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#22-server-push)  
-  2.3. [Unused Styles](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#23-unused-styles)  
-  2.4. [Non-Essential Styles](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#24-non-essential-styles)  
-  2.5. [Code Minification](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#25-code-minification)  
-  2.6. [Server-Side Compression](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#26-server-side-compression)  
-  2.7. [Async Loading of Code](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#27-async-loading-of-code)  
-  2.8. [Number of Requested Files](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#28-number-of-requested-files)  
-  2.9. [HTTP/2](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#29-http2)  
-  2.10. [DNS Prefetching](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#210-dns-prefetching)  
-  2.11. [Code Validation](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#211-code-validation)  
-3. [Time to Interaction](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#3-time-to-interaction)
-4. [Page Load Time](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#4-page-load-time)  
-  4.1. [Total Page Size](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#41-total-page-size)  
-  4.2. [Image Format](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#42-image-format)  
-  4.3. [Image Dimension](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#43-image-dimension)  
-  4.4. [Image Compression](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#44-image-compression)  
-  4.5. [Deferred Image Load](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#45-deferred-image-load)  
-  4.6. [Client-Side Caching](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#46-client-side-caching)  
-  4.7. [Query Strings](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md#47-query-strings)  
+1. [Response Time](#1-response-time)  
+  1.1. [Server-Side Caching](#11-server-side-caching)  
+  1.2. [Server Location](#12-server-location)  
+  1.3. [Accelerated Mobile Pages (AMP)](#13-accelerated-mobile-pages-amp)  
+  1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)  
+  1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)  
+  1.6. [Prefetching](#16-prefetching)  
+2. [Time to First Paint](#2-time-to-first-paint)  
+  2.1. [Size of HTML Pages](#21-size-of-html-pages)  
+  2.2. [Server Push](#22-server-push)  
+  2.3. [Unused Styles](#23-unused-styles)  
+  2.4. [Non-Essential Styles](#24-non-essential-styles)  
+  2.5. [Code Minification](#25-code-minification)  
+  2.6. [Server-Side Compression](#26-server-side-compression)  
+  2.7. [Async Loading of Code](#27-async-loading-of-code)  
+  2.8. [Number of Requested Files](#28-number-of-requested-files)  
+  2.9. [HTTP/2](#29-http2)  
+  2.10. [DNS Prefetching](#210-dns-prefetching)  
+  2.11. [Code Validation](#211-code-validation)  
+3. [Time to Interaction](#3-time-to-interaction)
+4. [Page Load Time](#4-page-load-time)  
+  4.1. [Total Page Size](#41-total-page-size)  
+  4.2. [Image Format](#42-image-format)  
+  4.3. [Image Dimension](#43-image-dimension)  
+  4.4. [Image Compression](#44-image-compression)  
+  4.5. [Deferred Image Load](#45-deferred-image-load)  
+  4.6. [Client-Side Caching](#46-client-side-caching)  
+  4.7. [Query Strings](#47-query-strings)  
 
 ## 1. Response Time
 
@@ -47,7 +47,7 @@ According to research by Aberdeen Group, every second that a page takes to load 
 
 A Response Time indicates the time taken from requesting your page in a browser to getting the raw HTML file of your page with its content for the search engines to analyse. Your server response time is affected by the amount of traffic you receive, the resources each page uses, the software your server uses, and the hosting solution you use.
 
-To improve your server response time, look for performance bottlenecks like slow database queries, slow routing, a lack of adequate memory or server caching and fix them. The optimal server response time is under 0.2 second on desktop and [under 1.3 seconds on mobile phones with 3G connection] [1].
+To improve your server response time, look for performance bottlenecks like slow database queries, slow routing, a lack of adequate memory or server caching and fix them. The optimal server response time is under 0.2 second on desktop and [under 1.3 seconds on mobile phones with 3G connection][1].
 
 ### 1.1. Server-Side Caching
 
