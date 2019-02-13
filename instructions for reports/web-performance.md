@@ -1,5 +1,36 @@
 # Web Performance (Page Load) Optimisation Audit Report
 
+## Table of Content
+
+1. [Response Time](#1-response-time)  
+  1.1. [Server-Side Caching](#11-server-side-caching)  
+  1.2. [Server Location](#12-server-location)  
+  1.3. [Accelerated Mobile Pages (AMP)](#13-accelerated-mobile-pages-amp)  
+  1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)  
+  1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)  
+  1.6. [Prefetching](#16-prefetching)  
+2. [Time to First Paint](#2-time-to-first-paint)  
+  2.1. [Size of HTML Pages](#21-size-of-html-pages)  
+  2.2. [Server Push](#22-server-push)  
+  2.3. [Unused Styles](#23-unused-styles)  
+  2.4. [Non-Essential Styles](#24-non-essential-styles)  
+  2.5. [Code Minification](#25-code-minification)  
+  2.6. [Server-Side Compression](#26-server-side-compression)  
+  2.7. [Async Loading of Code](#27-async-loading-of-code)  
+  2.8. [Number of Requested Files](#28-number-of-requested-files)  
+  2.9. [HTTP/2](#29-http2)  
+  2.10. [DNS Prefetching](#210-dns-prefetching)  
+  2.11. [Code Validation](#211-code-validation)  
+3. [Time to Interaction](#3-time-to-interaction)
+4. [Page Load Time](#4-page-load-time)  
+  4.1. [Total Page Size](#41-total-page-size)  
+  4.2. [Image Format](#42-image-format)  
+  4.3. [Image Dimension](#43-image-dimension)  
+  4.4. [Image Compression](#44-image-compression)  
+  4.5. [Deferred Image Load](#45-deferred-image-load)  
+  4.6. [Client-Side Caching](#46-client-side-caching)  
+  4.7. [Query Strings](#47-query-strings)  
+
 ## 1. Response Time
 
 ### 1.1. Server-Side Caching
