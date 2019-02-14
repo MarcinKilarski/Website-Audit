@@ -1,5 +1,15 @@
 # Search Engine Optimisation (SEO) Audit Report
 
+## Overview
+
+The purpose of this report is to assess how well your website is optimised for search engines and your users. Our goal is to help you identify opportunities for ranking improvements and increase the number of people that visit your site and end up becoming customers.
+
+To accomplish it, we will review the key elements on your site which are the target of search engines while considering the ranking for any given user’s query. We will highlight identified issues that may be decreasing the traffic to your website, and we will recommend viable ways to fix them.
+
+We divided the report into eight main chapters, each focused on a different set of elements which have a substantial impact on your website’s visibility in search. These elements are placed in sections, each with thorough description, our recommendations and supporting data.
+
+We hope that the information in this report will help you and your team get a better understanding of how specific elements on and off your site play a crucial role in ensuring the excellent visibility of your website in search results. It aims to show you how you can draw more prospective customers to your website from the search engines like Google or Bing.
+
 ## Table of Content
 
 1. [Site-Level Factors](#1-site-level-factors)  
