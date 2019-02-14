@@ -14,7 +14,7 @@ Feel free to share with the community your thoughts, experiences and best practi
 4. Security - coming soon
 5. [Search Engine Optimisation (SEO)](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/seo.md) - over 100 sections
 
-   [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md)
+   - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/instructions%20for%20reports/seo.md)
 
 6. User Experience - coming soon
 7. [Web Performance (Page Load)](https://github.com/MarcinKilarski/website-audit/blob/master/audit%20reports/web-performance.md) - over 20 sections
