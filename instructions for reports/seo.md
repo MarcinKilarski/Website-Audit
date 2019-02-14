@@ -2,132 +2,132 @@
 
 ## Table of Content
 
-1. Site-Level Factors  
-  1.1. Manual Penalty  
-  1.2. Algorithmic Demotion  
-  1.3. Domain Extension  
-  1.4. Subdomain  
-  1.5. Internal Links  
-  1.6. Keywords in Internal Links  
-  1.7. Orphan pages  
-  1.8. User Generated Content  
-  1.9. Preferred Domain  
-  1.10. Site Depth  
-  1.11. Subdirectories  
-  1.12. Accessible Subdirectories  
-  1.13. Outbound Links  
-  1.14. Website Sitelinks  
-  1.15. Descriptive Media File Names  
-2. Page-Level Factors  
-  2.1. Missing Title Tag  
-  2.2. Keywords in Titles  
-  2.3. Duplicate Titles  
-  2.4. Title Length  
-  2.5. Headings  
-  2.6. Keywords in Headings  
-  2.7. Keywords in Main Content  
-  2.8. Missing Meta Descriptions  
-  2.9. Keywords in Meta Descriptions  
-  2.10. Meta Descriptions Length  
-  2.11. Duplicate Meta Descriptions  
-  2.12. Keywords in URLs  
-  2.13. Separating Words in URLs  
-  2.14. Descriptive URLs  
-  2.15. URL Length  
-  2.16. Dates in URL  
-  2.17. Unsafe Characters in URLs  
-  2.18. Missing Alternative Text for Multimedia  
-  2.19. Keywords in Alternative Text  
-  2.20. Meta Keywords  
-  2.21. Number of Links on a Page  
-3. Technical  
-  3.1. Page Indexation  
-  3.2. 4XX Client Error  
-  3.3. 5XX Server Error  
-  3.4. Page Render  
-  3.5. Pages Restricted From Indexing  
-  3.6. Canonicalisation  
-  3.7. 301 Redirects  
-  3.8. 302 Redirects  
-  3.9. Redirect Chains  
-  3.10. Meta Refresh  
-  3.11. Sitemap for Robots  
-  3.12. Language Markup  
-  3.13. Schema Markup  
-  3.14. Rich Cards  
-  3.15. Soft 404 Client Error  
-  3.16. Frames  
-  3.17. URL Parameters  
-  3.18. Redirects to Preferred Domain  
-  3.19. Server Up-time  
-  3.20. Crawlable Resources  
-  3.21. Hypertext Transfer Protocol Secure (HTTPS)  
-  3.22. Google Publisher Markup  
-  3.23. Preventing Directory Snippets  
-4. User Experience  
-  4.1. Mobile Friendly Test  
-  4.2. PageSpeed Insights  
-  4.3. Accelerated Mobile Pages (AMP)  
-  4.4. Response Time  
-  4.5. Pop-ups  
-  4.6. Hidden Content  
-  4.7. Text in Images  
-  4.8. Breadcrumb Navigation  
-  4.9. Ads  
-  4.10. Sliders  
-  4.11. Pagination  
-  4.12. Flash  
-  4.13. Sitemap for Humans  
-  4.14. Image Pages  
-  4.13. 404 Page  
-  4.14. Search  
-  4.15. Code Validation  
-5. Content  
-  5.1. Thin Content  
-  5.2. Internal Duplicate Content  
-  5.3. External Duplicate Content  
-  5.4. Keyword Cannibalization  
-  5.5. Related Keywords  
-  5.6. Hints & Tips or How-To Content  
-  5.7. Fresh Content  
-  5.8. Content Pruning  
-  5.9. Content Ideas  
-  5.10. Internal Search Queries  
-  5.11. Queries for Which Your Images Rank  
-6. Local  
-  6.1. Country Targeting  
-  6.2. Geo-Focused Keywords  
-  6.3. Business Name, Address, Phone (NAP)  
-  6.4. Google My Business  
-  6.5. Local Citations  
-  6.6. Bing Places for Business  
-  6.7. Apple Maps  
-  6.8. Reviews  
-  6.9. Responses to Reviews  
-  6.10. Server Location  
-  6.11. Physical Web  
-7. Off-Site  
-  7.1. Referring Domains  
-  7.2. Referring Pages (aka Backlinks)  
-  7.3. Link Targeting  
-  7.4. Broken Backlinks  
-  7.5. Anchor Texts  
-  7.6. Online Mentions  
-  7.7. Disavow File  
-  7.8. Branded Search Query Results  
-  7.9. Search Autocomplete  
-  7.10. Mostly Shared Pages  
-  7.11. Site Neighbourhood  
-8. Competitor Analysis  
-  8.1. Search Visibility  
-  8.2. Referring Domains  
-  8.3. Referring Pages (aka Backlinks)  
-  8.4. Type of Content  
-  8.5. Keyword in Title  
-  8.6. Content Length  
-  8.7. Search Ads History  
-  8.8. Search Ads Data  
-  8.9. Engagement  
+1. [Site-Level Factors](#1-site-level-factors)  
+  1.1. [Manual Penalty](#11-manual-penalty)  
+  1.2. [Algorithmic Demotion](#12-algorithmic-demotion)  
+  1.3. [Domain Extension](#13-domain-extension)  
+  1.4. [Subdomain](#14-subdomain)  
+  1.5. [Internal Links](#15-internal-links)  
+  1.6. [Keywords in Internal Links](#16-keywords-in-internal-links)  
+  1.7. [Orphan pages](#17-orphan-pages)  
+  1.8. [User Generated Content](#18-user-generated-content)  
+  1.9. [Preferred Domain](#19-preferred-domain)  
+  1.10. [Site Depth](#110-site-depth)  
+  1.11. [Subdirectories](#111-subdirectories)  
+  1.12. [Accessible Subdirectories](#112-accessible-subdirectories)  
+  1.13. [Outbound Links](#113-outbound-links)  
+  1.14. [Website Sitelinks](#114-website-sitelinks)  
+  1.15. [Descriptive Media File Names](#115-descriptive-media-file-names)  
+2. [Page-Level Factors](#2-page-level-factors)  
+  2.1. [Missing Title Tag](#21-missing-title-tag)  
+  2.2. [Keywords in Titles](#22-keywords-in-titles)  
+  2.3. [Duplicate Titles](#23-duplicate-titles)  
+  2.4. [Title Length](#24-title-length)  
+  2.5. [Headings](#25-headings)  
+  2.6. [Keywords in Headings](#26-keywords-in-headings)  
+  2.7. [Keywords in Main Content](#27-keywords-in-main-content)  
+  2.8. [Missing Meta Descriptions](#28-missing-meta-descriptions)  
+  2.9. [Keywords in Meta Descriptions](#29-keywords-in-meta-descriptions)  
+  2.10. [Meta Descriptions Length](#210-meta-descriptions-length)  
+  2.11. [Duplicate Meta Descriptions](#211-duplicate-meta-descriptions)  
+  2.12. [Keywords in URLs](#212-keywords-in-urls)  
+  2.13. [Separating Words in URLs](#213-separating-words-in-urls)  
+  2.14. [Descriptive URLs](#214-descriptive-urls)  
+  2.15. [URL Length](#215-url-length)  
+  2.16. [Dates in URL](#216-dates-in-url)  
+  2.17. [Unsafe Characters in URLs](#217-unsafe-characters-in-urls)  
+  2.18. [Missing Alternative Text for Multimedia](#218-missing-alternative-text-for-multimedia)  
+  2.19. [Keywords in Alternative Text](#219-keywords-in-alternative-text)  
+  2.20. [Meta Keywords](#220-meta-keywords)  
+  2.21. [Number of Links on a Page](#221-number-of-links-on-a-page)  
+3. [Technical](#3-technical)  
+  3.1. [Page Indexation](#31-page-indexation)  
+  3.2. [4XX Client Error](#32-4xx-client-error)  
+  3.3. [5XX Server Error](#33-5xx-server-error)  
+  3.4. [Page Render](#34-page-render)  
+  3.5. [Pages Restricted From Indexing](#35-pages-restricted-from-indexing)  
+  3.6. [Canonicalisation](#36-canonicalisation)  
+  3.7. [301 Redirects](#37-301-redirects)  
+  3.8. [302 Redirects](#38-302-redirects)  
+  3.9. [Redirect Chains](#39-redirect-chains)  
+  3.10. [Meta Refresh](#310-meta-refresh)  
+  3.11. [Sitemap for Robots](#311-sitemap-for-robots)  
+  3.12. [Language Markup](#312-language-markup)  
+  3.13. [Schema Markup](#313-schema-markup)  
+  3.14. [Rich Cards](#314-rich-cards)  
+  3.15. [Soft 404 Client Error](#315-soft-404-client-error)  
+  3.16. [Frames](#316-frames)  
+  3.17. [URL Parameters](#317-url-parameters)  
+  3.18. [Redirects to Preferred Domain](#318-redirects-to-preferred-domain)  
+  3.19. [Server Up-time](#319-server-up-time)  
+  3.20. [Crawlable Resources](#320-crawlable-resources)  
+  3.21. [Hypertext Transfer Protocol Secure (HTTPS)](#321-hypertext-transfer-protocol-secure-https)  
+  3.22. [Google Publisher Markup](#322-google-publisher-markup)  
+  3.23. [Preventing Directory Snippets](#323-preventing-directory-snippets)  
+4. [User Experience](#4-user-experience)  
+  4.1. [Mobile Friendly Test](#41-mobile-friendly-test)  
+  4.2. [PageSpeed Insights](#42-pagespeed-insights)  
+  4.3. [Accelerated Mobile Pages (AMP)](#43-accelerated-mobile-pages-amp)  
+  4.4. [Response Time](#44-response-time)  
+  4.5. [Pop-ups](#45-pop-ups)  
+  4.6. [Hidden Content](#46-hidden-content)  
+  4.7. [Text in Images](#47-text-in-images)  
+  4.8. [Breadcrumb Navigation](#48-breadcrumb-navigation)  
+  4.9. [Ads](#49-ads)  
+  4.10. [Sliders](#410-sliders)  
+  4.11. [Pagination](#411-pagination)  
+  4.12. [Flash](#412-flash)  
+  4.13. [Sitemap for Humans](#413-sitemap-for-humans)  
+  4.14. [Image Pages](#414-image-pages)  
+  4.15. [404 Page](#415-404-page)  
+  4.16. [Search](#416-search)  
+  4.17. [Code Validation](#415-code-validation)  
+5. [Content](#5-content)  
+  5.1. [Thin Content](#51-thin-content)  
+  5.2. [Internal Duplicate Content](#52-internal-duplicate-content)  
+  5.3. [External Duplicate Content](#53-external-duplicate-content)  
+  5.4. [Keyword Cannibalization](#54-keyword-cannibalization)  
+  5.5. [Related Keywords](#55-related-keywords)  
+  5.6. [Hints & Tips or How-To Content](#56-hints--tips-or-how-to-content)  
+  5.7. [Fresh Content](#57-fresh-content)  
+  5.8. [Content Pruning](#58-content-pruning)  
+  5.9. [Content Ideas](#59-content-ideas)  
+  5.10. [Internal Search Queries](#510-internal-search-queries)  
+  5.11. [Queries for Which Your Images Rank](#511-queries-for-which-your-images-rank)  
+6. [Local](#6-local)  
+  6.1. [Country Targeting](#61-country-targeting)  
+  6.2. [Geo-Focused Keywords](#62-geo-focused-keywords)  
+  6.3. [Business Name, Address, Phone (NAP)](#63-business-name-address-phone-nap)  
+  6.4. [Google My Business](#64-google-my-business)  
+  6.5. [Local Citations](#65-local-citations)  
+  6.6. [Bing Places for Business](#66-bing-places-for-business)  
+  6.7. [Apple Maps](#67-apple-maps)  
+  6.8. [Reviews](#68-reviews)  
+  6.9. [Responses to Reviews](#69-responses-to-reviews)  
+  6.10. [Server Location](#610-server-location)  
+  6.11. [Physical Web](#611-physical-web)  
+7. [Off-Site](#7-off-site)  
+  7.1. [Referring Domains](#71-referring-domains)  
+  7.2. [Referring Pages (aka Backlinks)](#72-referring-pages-aka-backlinks)  
+  7.3. [Link Targeting](#73-link-targeting)  
+  7.4. [Broken Backlinks](#74-broken-backlinks)  
+  7.5. [Anchor Texts](#75-anchor-texts)  
+  7.6. [Online Mentions](#76-online-mentions)  
+  7.7. [Disavow File](#77-disavow-file)  
+  7.8. [Branded Search Query Results](#78-branded-search-query-results)  
+  7.9. [Search Autocomplete](#79-search-autocomplete)  
+  7.10. [Mostly Shared Pages](#710-mostly-shared-pages)  
+  7.11. [Site Neighbourhood](#711-site-neighbourhood)  
+8. [Competitor Analysis](#8-competitor-analysis)  
+  8.1. [Search Visibility](#81-search-visibility)  
+  8.2. [Referring Domains](#82-referring-domains)  
+  8.3. [Referring Pages (aka Backlinks)](#83-referring-pages-aka-backlinks)  
+  8.4. [Type of Content](#84-type-of-content)  
+  8.5. [Keyword in Title](#85-keyword-in-title)  
+  8.6. [Content Length](#86-content-length)  
+  8.7. [Search Ads History](#87-search-ads-history)  
+  8.8. [Search Ads Data](#88-search-ads-data)  
+  8.9. [Engagement](#89-engagement)  
 
 ## 1. Site-Level Factors
 
@@ -1517,7 +1517,7 @@ Dedicate page for each image, full size image, title, description.
 
 Your images in searches take users to pages where those images were used instead of the dedicated pages. This often makes it difficult to find or use the image a person is searching for. You should consider setting up a dedicated page for each of your images to increase the number of people referring to your website
 
-### 4.13. 404 Page
+### 4.15. 404 Page
 
 #### Used Tools
 
@@ -1540,7 +1540,7 @@ Currently, your Page 404 looks slightly broken on desktops (Figure 4.10). The lo
 
 Figure 4.10 – A screenshot of your current 404 page viewed on desktop.
 
-### 4.14. Search
+### 4.16. Search
 
 #### Used Tools
 
@@ -1565,7 +1565,7 @@ Figure 4.11.1 – A screenshot of your current search results page viewed on des
  
 Figure 4.11.2 – A screenshot of your current search results page viewed on desktop, with pages matching for user’s query
 
-### 4.15. Code Validation
+### 4.17. Code Validation
 
 #### Used Tools
 
