@@ -509,7 +509,7 @@ When a page has an empty title tag, search engines will generate a text that wil
 
 #### Reference documents
 
-[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.] 
 
 ### 2.2. Keywords in Titles
 
