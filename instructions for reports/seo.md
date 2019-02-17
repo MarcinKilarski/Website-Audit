@@ -151,14 +151,21 @@ Great, there are no warnings from Google or Bing informing us that a manual pena
 - https://fruition.net/sem/user/39619/dashboard
 - or Panguin Tool
 - or SEMrush > Domain Analytics > Overview
+- https://moz.com/google-algorithm-change
+- https://linchpinseo.com/list-of-google-algorithm-updates-seo/
+- https://www.mariehaynes.com/algo-changes-and-more/
+- https://barracuda.digital/panguin-google-algorithm-timeline/
 
 #### Instructions
 
 #### Example of Recommendation
 
 After analysing your website traffic, Google algorithms and search changes in 2017 (Figure 1.2.1) and 2016 (Figure 1.2.2), we can’t see that your site was significantly affected by any of the algorithm updates.
+
 Figure 1.2.1 – Your website traffic in 2017 and all known Google algorithm changes from that time.
+
 Figure 1.2.2 – Your website traffic in 2016 and all known Google algorithm changes from that time.
+
 Figure 1.2.3 – Your website traffic in 2015 and all known Google algorithm changes from that time.
 
 ### 1.3. Domain Extension
@@ -1424,6 +1431,9 @@ Good job, you don’t hide any important content from searchers.
 ### 4.7. Text in Images
 
 #### Used Tools
+
+- Seeing images indexed by Google: https://www.google.ie/search?hl=en&biw=1920&bih=969&tbm=isch&sa=1&ei=805pXJH4BYLxxgO_-ZX4Cg&q=site%3Aexample.com&oq=site%3Aexample.com&gs_l=img.3...2371.3550..3763...0.0..0.36.149.5......0....1..gws-wiz-img.U-hBGZl7Mok
+- Seeing images crawled by Screaming Frog: develop a tool
 
 #### Instructions
 
