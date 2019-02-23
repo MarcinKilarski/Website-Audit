@@ -231,15 +231,15 @@ Your page may occasionally contain unnecessary HTML code, inline CSS and inline 
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.3. Unused Styles
+### 2.3. Unused Code
 
 #### Overview
 
-Websites are often built on frameworks, which contain thousands of lines of code to allow web developers to quickly style pages and add additional functionality. Unfortunately, these sites end up using a small percentage of code that is added to their pages.
+Websites are often built on frameworks and libraries, which contain thousands of lines of code to allow web developers to quickly style pages and add additional functionality. Unfortunately, these sites end up using a small percentage of code that is added to their pages.
 
 In addition to this, when a site goes through a number of design changes over time, the site usually contains a legacy code which is no longer used. As a code base grows, and it becomes more difficult to understand what all the styles are actually for, it starts to slow down your site.
 
-It is recommended to replace the old code with the new one rather than simply adding the new one to it, as well as reviewing your website code every 1-2 years, excluding any code from your files that is no longer used. This will ensure your website files download as fast as possible, and that browsers will not waste time processing your legacy code.
+It is recommended to replace the old code with the new one rather than simply adding the new one to it, as well as reviewing your website code every 1-2 years, excluding any code from your files that is no longer used. This will ensure your website files download as fast as possible, and that browsers will not waste time processing the legacy code.
 
 #### Issue
 

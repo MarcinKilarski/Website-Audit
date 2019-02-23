@@ -12,7 +12,7 @@
 2. [Time to First Paint](#2-time-to-first-paint)  
   2.1. [Size of HTML Pages](#21-size-of-html-pages)  
   2.2. [Server Push](#22-server-push)  
-  2.3. [Unused Styles](#23-unused-styles)  
+  2.3. [Unused Code](#23-unused-styles)  
   2.4. [Non-Essential Styles](#24-non-essential-styles)  
   2.5. [Code Minification](#25-code-minification)  
   2.6. [Server-Side Compression](#26-server-side-compression)  
@@ -145,9 +145,21 @@ Figure 2.1.2 – A snippet of code from your [PAGE A] page with two copies of th
 
 #### Used Tools
 
-Google Chrome > Inspect > Audit > Run
+- Google Chrome DevTools: Coverage tool
+
+Google Chrome > DevTools (OPTION + COMMAND + I on Mac or ? on Windows) > open the Command Menu (SHIFT + COMMAND + P on Mac or CONTROL + SHIFT + P on Windows) > Show Coverage
+
+- Google Chrome DevTools: Request Blocking tool
+
+Google Chrome > DevTools (OPTION + COMMAND + I on Mac or ? on Windows) > open the Command Menu (SHIFT + COMMAND + P on Mac or CONTROL + SHIFT + P on Windows) > Request Blocking tool
 
 #### Instructions
+
+1. Go to Show Coverage tool and refresh the page.
+2. Identify, which files are not used or used minimally on the site.
+3. Check if you can safely remove them by temporarily blocking them in your browser. To do this, open Request Blocking tool and add URLs of files that you would like to block, then reload the page
+
+Video: https://youtu.be/5fLW5Q5ODiE?t=416
 
 #### Example of Recommendation
 
@@ -193,6 +205,9 @@ Figure 9.2.6.1 – List files with code on your home page and potential reductio
 https://gtmetrix.com/
 or
 http://www.gidnetwork.com/tools/gzip-test.php
+or
+Chrome DevTools > Network > Use small request rows > Size column
+https://youtu.be/5fLW5Q5ODiE?t=252
 
 #### Instructions
 
