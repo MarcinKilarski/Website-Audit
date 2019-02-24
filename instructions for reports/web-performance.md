@@ -133,7 +133,17 @@ Figure 2.1.1 – A list of all pages found on your site with their HTML sizes.
 
 Figure 2.1.2 – A snippet of code from your [PAGE A] page with two copies of the main content. One for desktop (green colour) and another for mobile (blue colour). These could be reduced to one copy with the use of CSS styles.
 
-### 2.2. Server Push
+### 2.2. Critical CSS
+
+#### Used Tools
+
+https://developers.google.com/web/tools/chrome-devtools/css/reference#coverage
+
+https://developers.google.com/web/tools/lighthouse/audits/unused-css#inlining
+
+#### Instructions
+
+### 2.3. Server Push
 
 #### Used Tools
 
@@ -141,23 +151,24 @@ Figure 2.1.2 – A snippet of code from your [PAGE A] page with two copies of th
 
 #### Example of Recommendation
 
-### 2.3. Unused Styles
+### 2.4. Unused Styles
 
 #### Used Tools
 
 - Google Chrome DevTools: Coverage tool
 
-Google Chrome > DevTools (OPTION + COMMAND + I on Mac or ? on Windows) > open the Command Menu (SHIFT + COMMAND + P on Mac or CONTROL + SHIFT + P on Windows) > Show Coverage
+Google Chrome > DevTools (OPTION + COMMAND + I on Mac or CONTROL + SHIFT + I on Windows) > open the Command Menu (SHIFT + COMMAND + P on Mac or CONTROL + SHIFT + P on Windows) > Show Coverage
 
 - Google Chrome DevTools: Request Blocking tool
 
-Google Chrome > DevTools (OPTION + COMMAND + I on Mac or ? on Windows) > open the Command Menu (SHIFT + COMMAND + P on Mac or CONTROL + SHIFT + P on Windows) > Request Blocking tool
+Google Chrome > DevTools (OPTION + COMMAND + I on Mac or CONTROL + SHIFT + I on Windows) > open the Command Menu (SHIFT + COMMAND + P on Mac or CONTROL + SHIFT + P on Windows) > Request Blocking tool
 
 #### Instructions
 
 1. Go to Show Coverage tool and refresh the page.
 2. Identify, which files are not used or used minimally on the site.
-3. Check if you can safely remove them by temporarily blocking them in your browser. To do this, open Request Blocking tool and add URLs of files that you would like to block, then reload the page
+3. Check if you can safely remove them by temporarily blocking them in your browser. To do this, open Request Blocking tool and add URLs of files that you would like to block, then reload the page.
+4. If removing blocking/removing files brake the design or functionality on the page on desktop or mobile device, you should be able to move important code other files, then remove the old files.
 
 Video: https://youtu.be/5fLW5Q5ODiE?t=416
 
@@ -165,7 +176,7 @@ Video: https://youtu.be/5fLW5Q5ODiE?t=416
 
 Your site uses Bootstrap framework, which is 135 KB in size and adds a significant amount of unnecessary code to your site.
 
-### 2.4. Non-Essential Styles
+### 2.5. Non-Essential Styles
 
 #### Used Tools
 
@@ -177,7 +188,7 @@ Check page’s source code for print and width specific styles. Search for ‘me
 
 Each device type downloads all styles at the same time. You should consider removing print and media query styles from the main style-sheet.
 
-### 2.5. Code Minification
+### 2.6. Code Minification
 
 #### Used Tools
 
@@ -198,7 +209,7 @@ Figure 9.2.6.1 – List files with code on your home page and potential reductio
 | ------------- | ------------- |
 | placeholder     | placeholder |
 
-### 2.6. Server-Side Compression
+### 2.7. Server-Side Compression
 
 #### Used Tools
 
@@ -223,7 +234,7 @@ Figure 9.2.7.1 – A list of files with code on your home page and potential red
 | ------------- | ------------- |
 | placeholder     | placeholder |
 
-### 2.7. Async Loading of Code
+### 2.8. Async Loading of Code
 
 #### Used Tools
 
@@ -231,7 +242,7 @@ Figure 9.2.7.1 – A list of files with code on your home page and potential red
 
 #### Example of Recommendation
 
-### 2.8. Number of Requested Files
+### 2.9. Number of Requested Files
 
 #### Used Tools
 
@@ -254,7 +265,7 @@ Figure 9.2.2 – All requested files by the home page and their types.
 | ------------- | ------------- | ------------- |
 | placeholder     | placeholder | placeholder |
 
-### 2.9. HTTP/2
+### 2.10. HTTP/2
 
 #### Used Tools
 
@@ -268,7 +279,7 @@ Check site on:
 
 Your website does not use HTTP/2. You should ask your hosting provider to enable it for your site.
 
-### 2.10. DNS Prefetching
+### 2.11. DNS Prefetching
 
 #### Used Tools
 
@@ -287,7 +298,7 @@ Figure 9.3.8 – A list of domains and the time it took to perform the DNS looku
 | ------------- | ------------- |
 | placeholder     | placeholder |
 
-### 2.11. Code Validation
+### 2.12. Code Validation
 
 #### Used Tools
 
@@ -309,6 +320,8 @@ Figure 9.2.8 – URLs of full reports from HTML and CSS code validation.
 | placeholder     | HTML | placeholder |
 | placeholder     | CSS | placeholder |
 | placeholder     | JavaScript | placeholder |
+
+#### Example of Recommendation
 
 ## 3. Time to Interaction
 

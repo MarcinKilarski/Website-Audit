@@ -215,7 +215,27 @@ Your page may occasionally contain unnecessary HTML code, inline CSS and inline 
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.2. Server Push
+### 2.2. Critical CSS
+
+#### Overview
+
+The CSS code is responsible for laying out your pages, adding colours, font types and sizes, etc. Styles that are responsible for styling only the immediately visible part of a page after it is loaded on a screen are called the critical CSS.
+
+You can show a page to users even 1 second faster on mobile and 0.5 seconds faster on the desktop by configuring your website to load the critical CSS  first and loading remaining styles after a page loads.
+
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
+### 2.3. Server Push
 
 #### Overview
 
@@ -231,7 +251,7 @@ Your page may occasionally contain unnecessary HTML code, inline CSS and inline 
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.3. Unused Code
+### 2.4. Unused Code
 
 #### Overview
 
@@ -253,7 +273,7 @@ It is recommended to replace the old code with the new one rather than simply ad
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.4. Non-Essential Styles
+### 2.5. Non-Essential Styles
 
 #### Overview
 
@@ -275,7 +295,7 @@ Mobile phones should only download styles dedicated for such devices. Tables and
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.5. Code Minification
+### 2.6. Code Minification
 
 #### Overview
 
@@ -295,7 +315,7 @@ These elements are useful to people when reading the code and updating it, altho
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.6. Server-Side Compression
+### 2.7. Server-Side Compression
 
 #### Overview
 
@@ -315,7 +335,7 @@ The standard GZIP compression can achieve [up to 90% reduction](https://develope
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.7. Async Loading of Code
+### 2.8. Async Loading of Code
 
 #### Issue
 
@@ -329,7 +349,7 @@ The standard GZIP compression can achieve [up to 90% reduction](https://develope
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.8. Number of Requested Files
+### 2.9. Number of Requested Files
 
 #### Overview
 
@@ -353,7 +373,7 @@ Avoid sending users unnecessary files with pages that don't need them. Additiona
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.9. HTTP/2
+### 2.10. HTTP/2
 
 #### Overview
 
@@ -383,7 +403,7 @@ It is important that your server supports HTTP/2, as it will make unnecessary to
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.10. DNS Prefetching
+### 2.11. DNS Prefetching
 
 #### Overview
 
@@ -403,7 +423,7 @@ We recommend your site set up this directive on all pages for domains that are m
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.11. Code Validation
+### 2.12. Code Validation
 
 #### Overview
 
@@ -424,6 +444,7 @@ Your pages should adhere to W3C standards to ensure the code is easy for browser
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
 ## 3. Time to Interaction
+
 
 
 ## 4. Page Load Time
