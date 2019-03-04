@@ -21,6 +21,18 @@ Feel free to share with the community your thoughts, experiences and best practi
 
    - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/web-performance/web-performance-instructions.md)
 
+## Converting Markdown Files in Directory into Word
+
+Follow the instructions below to convert the most up-to-date version of the report into Word file.
+
+1. Install [Pandoc](https://pandoc.org/) on your computer
+2. Open a directory in Terminal
+3. Type in:
+
+find ./ -iname "*.md" -type f -exec sh -c 'pandoc "${0}" -o "${0%.md}.docx"' {} \;
+
+4. Press enter key
+
 ## An Open-Source License
 
 License: MIT license
