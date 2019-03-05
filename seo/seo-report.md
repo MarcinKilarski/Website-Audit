@@ -358,9 +358,9 @@ As a result, it is important to inform the search engines of the preferred versi
 
 #### Overview
 
-Site depth indicates how many clicks away certain pages are from your home page. [Fewer clicks mean the page is easier to find](https://webmasters.googleblog.com/2008/10/importance-of-link-architecture.html), allowing the visitors to reach their destination quickly. More clicks away from the home page may cause your users to struggle with finding their way to the content they are searching for. This will ultimately result in search engines treating that page as less important.
+Site depth indicates how many clicks away certain pages are from your homepage. [Fewer clicks mean the page is easier to find](https://webmasters.googleblog.com/2008/10/importance-of-link-architecture.html), allowing the visitors to reach their destination quickly. More clicks away from the homepage may cause your users to struggle with finding their way to the content they are searching for. This will ultimately result in search engines treating that page as less important.
 
-This hurts the discoverability of your content in which you have put so much effort, as well as on the ranking in search engines. Ideally, key pages should be only one click away from the home page, less important content – a maximum of two clicks away, and everything else – maximum three clicks away.
+This hurts the discoverability of your content in which you have put so much effort, as well as on the ranking in search engines. Ideally, key pages should be only one click away from the homepage, less important content – a maximum of two clicks away, and everything else – maximum three clicks away.
 
 #### Issue
 
@@ -1001,7 +1001,7 @@ In this situation, the user and search engines are redirected to a ‘Page Not F
 
 Furthermore, it prevents some of the ranking signals accumulated by the previous version of the page (like links from other sites pointing to it), from benefiting your website, as [it was confirmed](https://twitter.com/methode/status/629654083469737984) on Twitter by Google Webmaster Trends Analyst Gary Illyes. It is always beneficial to fix those links.
 
-If the page does not exist any longer, you should set up a redirect on your server to send users, search engines, and ranking signals to the next most relevant page on this topic. However, avoid redirecting all URL-s that cause 4XX error to the home page. This may confuse users, and search engines will treat it as a soft 404 (more about it in the next section) if it does not provide the answer they were looking for. As a result, the passed ranking signals will stop benefiting the page you pointed to.
+If the page does not exist any longer, you should set up a redirect on your server to send users, search engines, and ranking signals to the next most relevant page on this topic. However, avoid redirecting all URL-s that cause 4XX error to the homepage. This may confuse users, and search engines will treat it as a soft 404 (more about it in the next section) if it does not provide the answer they were looking for. As a result, the passed ranking signals will stop benefiting the page you pointed to.
 x
 #### Issue
 
@@ -1198,7 +1198,7 @@ This causes confusion with users and puts them at risk, resulting in most search
 
 A sitemap for robots (XML sitemap) is a list of all pages you would like to have indexed by the search engines. This provides the search engines with an easy way to identify all of them in one place, ensuring no pages that are vital to your business are missed. This also helps search bot to crawl more intelligently when they visit your website.
 
-Sitemap for Robots can provide crawl bots with information, such as when a page was last updated, how often it tends to change, how important it is to your website, and more. It should be located one directory structure from your home page (e.g. https://<span></span>example.ie/sitemap.xml).
+Sitemap for Robots can provide crawl bots with information, such as when a page was last updated, how often it tends to change, how important it is to your website, and more. It should be located one directory structure from your homepage (e.g. https://<span></span>example.ie/sitemap.xml).
 
 To keep your sitemap organised and your pages prioritised for the search crawlers, it is recommended to create a separate sitemap for each type of content on your website:
 
@@ -1296,7 +1296,7 @@ An example of this for a restaurant could be a list containing the following inf
 
 When search engines crawl 404 pages and do not see a special 404 code sent by your server with the missing page, they mark such pages in their system as soft 404. This might happen due to an error in the server configuration. Pages marked as soft 404 are treated the same as a normal 404 pages, and the ranking signals accumulated by them are ignored.
 
-Often search engines use soft 404 also in other situations. For example, when sites redirect backlinks to the home page from 404 pages. This way the backlinks are ignores if the final page does not contain the content that was on the page that is gone.
+Often search engines use soft 404 also in other situations. For example, when sites redirect backlinks to the homepage from 404 pages. This way the backlinks are ignores if the final page does not contain the content that was on the page that is gone.
 
 It's important to monitor when search engines use soft 404 in relation to your pages and fix them by configuring the server properly and redirecting users to pages with very similar content when you decide to remove a page from your site.
 
@@ -2258,7 +2258,7 @@ In addition to this, your business will then be eligible to appear in the ‘Loc
 
 Having a Google My Business profile will also allow users to find your business when using Google Maps, both on desktop and mobile. This would usually occur when the user is exploring the area in which your business is located, or when they are searching for your type of business within the ‘Maps' application. Google Maps will then show them directions and even navigate them to your business via the fastest route. Therefore, it is important to ensure Google has the correct location of your business.
 
-To help your Google My Business profile [rank well in the search results](https://support.google.com/business/answer/7091?hl=en), it is essential that you verify it and fill out all the details about your business, added photos of your store, linked to your site's home page or a store location-specific page and have at least a few reviews from your customers.
+To help your Google My Business profile [rank well in the search results](https://support.google.com/business/answer/7091?hl=en), it is essential that you verify it and fill out all the details about your business, added photos of your store, linked to your site's homepage or a store location-specific page and have at least a few reviews from your customers.
 
 #### Issue
 
@@ -2484,7 +2484,7 @@ Additionally, paying for or exchanging site-wide ‘dofollow' links, which pass 
 
 In order to have a greater impact on your ranking within the search results, you should ensure that backlinks from other sites point to important pages you wish to improve the ranking for. This sends a direct signal to Google and Bing that these pages are vital to your business, and that users should find helpful information there.
 
-A safe ratio of links going to your keyword focused pages and to others on your site (including your Home page), is around 30%/70%. As other websites link much often to interesting articles or guides than to a services page. The opposite may make the search engines suspicious and may lead to a manual review of your site.
+A safe ratio of links going to your keyword focused pages and to others on your site (including your homepage), is around 30%/70%. As other websites link much often to interesting articles or guides than to a services page. The opposite may make the search engines suspicious and may lead to a manual review of your site.
 
 #### Issue
 
@@ -2612,7 +2612,7 @@ Search Autocomplete helps users to quickly complete a query by clicking on sugge
 
 Monitoring the Search Autocompletes may help you prevent your brand from being damaged when it suggests queries that may show your company in a negative light. This could happen if the search engines show an autocomplete option of ‘company X complaints', ‘company X scandal' or similar. In these cases, you can try to push them out by increasing the volume of performed searches of other queries containing your company name.
 
-It also helps you to identify the most popular content your searchers are interested in finding on your site. You should be ranking #1 for all of these queries. You need to ensure such content exists on your website, and these pages are easy to find from your Home page.
+It also helps you to identify the most popular content your searchers are interested in finding on your site. You should be ranking #1 for all of these queries. You need to ensure such content exists on your website, and these pages are easy to find from your homepage.
 
 #### Issue
 

@@ -219,7 +219,7 @@ Moreover, a business only needs one main domain to virtually expand across all c
 3. ReverseInternet > Check ‘Subdomains’ tab
     Then, use Scrape Similar to gather the list of URLs, using the XPath query:
     //a[text()=’visit site’]/@href
-    Export your results to a CSV, then load the CSV into Screaming Frog using ‘List’ mode. Once the spider has finished running, you’ll be able to see status codes, as well as any links on the subdomain home pages, anchor text and duplicate page titles among other things.
+    Export your results to a CSV, then load the CSV into Screaming Frog using ‘List’ mode. Once the spider has finished running, you’ll be able to see status codes, as well as any links on the subdomain homepages, anchor text and duplicate page titles among other things.
 4. Ask the client about other subdomain, domain, printed resources, digital resources and internal materials that weren't published on the main domain.
 
 #### Instructions
@@ -244,7 +244,7 @@ Great, we haven't found any content that doesn't live on your main domain.
 
 #### Example of Recommendation
 
-Your home page receives the highest number of incoming internal links ([# of links]), increasing its chance to rank well in a search. However, [page X and page Y] pages, for which you would like to improve the ranking, receive only 26 incoming internal links each.
+Your homepage receives the highest number of incoming internal links ([# of links]), increasing its chance to rank well in a search. However, [page X and page Y] pages, for which you would like to improve the ranking, receive only 26 incoming internal links each.
 
 You should consider adding more links on your site that point to these pages. Creating more pages with helpful content related to [PAGE X and PAGE Y] could be a great way of doing this.
 
@@ -260,10 +260,10 @@ Clean up data by filtering out any external sites
 
 #### Example of Recommendation
 
-None of the internal links from pages on your site, pointing to your home page, use your primary keyword ‘[KEYWORD X]’ (Figure 1.6.1). We recommend changing the alt text of your business logo image from ‘[X]’ to ‘[Y]’, as this will help increase the relevance of your page for the query ‘[KEYWORD Y]’.
+None of the internal links from pages on your site, pointing to your homepage, use your primary keyword ‘[KEYWORD X]’ (Figure 1.6.1). We recommend changing the alt text of your business logo image from ‘[X]’ to ‘[Y]’, as this will help increase the relevance of your page for the query ‘[KEYWORD Y]’.
 
 Links to your [PAGE Y] and [PAGE Z] pages contain the primary keyword ‘[KEYWORD Y]’ or ‘[KEYWORD Z]’, but you also should consider linking from other places on your site with secondary keywords like ‘[KEYWORD YY]’ or ‘[KEYWORD ZZ]’ in the anchor text. This way you will increase their chances of ranking for these keywords in the search.
-Figure 1.6.1 – A list of incoming internal links pointing to your home page, and all anchor and alt texts used in them
+Figure 1.6.1 – A list of incoming internal links pointing to your homepage, and all anchor and alt texts used in them
 
 | Source        | ALT Text           | Anchor Text  |
 | ------------- | ------------- | ----- |
@@ -335,7 +335,9 @@ Screaming Frog > Site Structure (in the sidebar)
 
 #### Example of Recommendation
 
-Great, all of your pages are a maximum of two clicks away from your home page.
+Great, all of your pages are a maximum of two clicks away from your homepage.
+
+Figure 1.10.1. Site Structure
 
 ### 1.11. Subdirectories
 
@@ -405,7 +407,7 @@ Perform a branded search on Google and Bing and check if any sitelinks are displ
 
 #### Example of Recommendation
 
-While sitelinks are not showing up under your home page on Bing, Google shows six of them when a user searches for your brand name (Figure 1.13). They all look good.
+While sitelinks are not showing up under your homepage on Bing, Google shows six of them when a user searches for your brand name (Figure 1.13). They all look good.
 Figure 1.14 – A screenshot of your website’s sitelinks in Google.
 
 ### 1.15. Descriptive Media File Names
@@ -540,7 +542,7 @@ Woorank Chrome Extension >
 
 #### Example of Recommendation
 
-Your Home page main heading is optimised for keywords ‘[DELETE: PHRASE G]’instead of being optimised for ‘[DELETE: PHRASE A]’ (Figure 2.6.1). We recommend rewriting this to include the phrase ‘[DELETE: PHRASE F]’ or something similar. Other pages contain their primary keywords in the main heading, which is ideal.
+Your homepage main heading is optimised for keywords ‘[DELETE: PHRASE G]’instead of being optimised for ‘[DELETE: PHRASE A]’ (Figure 2.6.1). We recommend rewriting this to include the phrase ‘[DELETE: PHRASE F]’ or something similar. Other pages contain their primary keywords in the main heading, which is ideal.
 
 Figure 2.6.1 – A list of headings on the page that ranks for keyword ‘[DELETE: KEYWORD X]’.
 
@@ -570,21 +572,21 @@ http://www.seocentro.com/tools/search-engines/metatag-analyzer.html
 
 #### Example of Recommendation
 
-We analysed the keywords you use in the main content of your Home page, [DELETE: PAGE A NAME] page and [DELETE: PAGE B NAME] page. Here is what we found:
+We analysed the keywords you use in the main content of your homepage, [DELETE: PAGE A NAME] page and [DELETE: PAGE B NAME] page. Here is what we found:
 
-On the Home page, the phrases used most often are ‘[DELETE: PHRASE A]’ and ‘[DELETE: PHRASE B]’ instead of your targeted keyword ‘[DELETE: PHRASE C]’ (Figure 2.7.3, Figure 2.7.4). The word ‘[DELETE: PHRASE D]’ occurs 6 times, while the word ‘[DELETE: PHRASE C]’ occurs only 4 times within the 397 words on the page (Figure 2.7.2). However, these words are not displayed on the page together or even close to each other (Figure 2.7.1). In addition to this, the word ‘[DELETE: WORD A]’ is rarely used in the main content. You should consider rewriting some parts of your page to include the keywords ‘[DELETE: PHRASE A]’ or ‘[DELETE: PHRASE B].
+On the homepage, the phrases used most often are ‘[DELETE: PHRASE A]’ and ‘[DELETE: PHRASE B]’ instead of your targeted keyword ‘[DELETE: PHRASE C]’ (Figure 2.7.3, Figure 2.7.4). The word ‘[DELETE: PHRASE D]’ occurs 6 times, while the word ‘[DELETE: PHRASE C]’ occurs only 4 times within the 397 words on the page (Figure 2.7.2). However, these words are not displayed on the page together or even close to each other (Figure 2.7.1). In addition to this, the word ‘[DELETE: WORD A]’ is rarely used in the main content. You should consider rewriting some parts of your page to include the keywords ‘[DELETE: PHRASE A]’ or ‘[DELETE: PHRASE B].
 
 On your [DELETE: PAGE A] page, your main keyword is detected 9 times (Figure 2.7.6, Figure 2.7.7, Figure 2.7.8), while in the main copy it appears 6 times within the 309 words of text (Figure 2.7.5). This is a healthy ratio. We recommend using the word ‘[DELETE: WORD A]’ together with the word ‘[DELETE: WORD B]’ within the copy, e.g. ‘[DELETE: PHRASE A]’ to strengthen your local relevance.
 
 On your [DELETE: PAGE A] page, we detected your main keyword 13 times (Figure 2.7.10, Figure 2.7.11, Figure 2.7.12), but only 7 times in the page’s visible copy (Figure 2.7.9). This is because in the page’s code, you have hidden duplicate mobile content, which should be fixed. In addition to this, you should rewrite the copy to include the phrase ‘[DELETE: PAGE A] in Dublin’, as this should also improve your page ranking for this query.
 
-Figure 2.7.1 – The text content of your Home page with highlighted primary keywords (bolded text) and related (underlined text) keywords.
+Figure 2.7.1 – The text content of your homepage with highlighted primary keywords (bolded text) and related (underlined text) keywords.
 
-Figure 2.7.2 – A list of one-word keywords that occur most often on your Home page, together with the number of times they are repeated (Freq), what percentage of the page’s content contains this word (density).
+Figure 2.7.2 – A list of one-word keywords that occur most often on your homepage, together with the number of times they are repeated (Freq), what percentage of the page’s content contains this word (density).
 
-Figure 2.7.3 – A list of two-word keywords that occur most often on your Home page, together with the number of times they are repeated (Freq), what percentage of the page’s content contains this word (density).
+Figure 2.7.3 – A list of two-word keywords that occur most often on your homepage, together with the number of times they are repeated (Freq), what percentage of the page’s content contains this word (density).
 
-Figure 2.7.4 – A list of three-word keywords that occur most often on your Home page, together with the number of times they are repeated (Freq), what percentage of the page’s content contains this word (density).
+Figure 2.7.4 – A list of three-word keywords that occur most often on your homepage, together with the number of times they are repeated (Freq), what percentage of the page’s content contains this word (density).
 
 Figure 2.7.5 – The text content of your [DELETE: PAGE B] page with highlighted primary (bolded text) and related (underlined text) keywords. 
 
@@ -683,9 +685,9 @@ Figure 2.14 – A list of pages with duplicated meta descriptions.
 
 #### Example of Recommendation
 
-We analysed the keywords you use in the URLs of your Home page, [PAGE Y] page and [PAGE Z] page. Here is what we found:
+We analysed the keywords you use in the URLs of your homepage, [PAGE Y] page and [PAGE Z] page. Here is what we found:
 
-Your Home page ranks on both Google and Bing for ‘[KEYWORD X]’ and ‘[KEYWORD Y]’. For the keyword ‘[KEYWORD X]’ this is ideal. The URL also looks as it should (Figure 2.3). However, for the keyword ‘[KEYWORD Y]’ there is an issue, as the search engines think that the Home page is more relevant than your dedicated page for this keyword. We need to work on improving the quality (more valuable content), relevance (more content around this keyword on the page and internal links that mention ‘’) and authority (more backlinks from other websites) of this page. This should fix the issue of a wrong page ranking for your targeted keyword.
+Your homepage ranks on both Google and Bing for ‘[KEYWORD X]’ and ‘[KEYWORD Y]’. For the keyword ‘[KEYWORD X]’ this is ideal. The URL also looks as it should (Figure 2.3). However, for the keyword ‘[KEYWORD Y]’ there is an issue, as the search engines think that the homepage is more relevant than your dedicated page for this keyword. We need to work on improving the quality (more valuable content), relevance (more content around this keyword on the page and internal links that mention ‘’) and authority (more backlinks from other websites) of this page. This should fix the issue of a wrong page ranking for your targeted keyword.
 
 Figure 2.3 – The URLs of pages that focus on your main keywords.
 
@@ -798,10 +800,10 @@ Screaming Frog > Bulk Export tab in the top bar > All Images
 
 #### Example of Recommendation
 
-We analysed keywords you use in the Alt tag of your images from your Home page, [PAGE B] page and [PAGE A] page. Here is what we found:
+We analysed keywords you use in the Alt tag of your images from your homepage, [PAGE B] page and [PAGE A] page. Here is what we found:
 
-Your Home page uses the keyword ‘Dublin’ 7 times in the Alt tag and the keyword ‘[KEYWORD C]’ only once (Figure 2.20.1). You should rewrite 1-2 alternative texts to include the phrase ‘[PHRASE F] or ‘[PHRASE I]’. Both your [PAGE B] and [PAGE A] pages have two mentions of their targeted keyword in the Alt tags (Figure 2.20.2 and Figure 2.20.3). However, you should try rewriting them to include the phrases ‘[PHRASE A]’ and ‘[PAGE A] in Dublin’ instead of only the one-word keyword.
-Figure 2.20.1 – A list of images on your Home page with their Alt text.
+Your homepage uses the keyword ‘Dublin’ 7 times in the Alt tag and the keyword ‘[KEYWORD C]’ only once (Figure 2.20.1). You should rewrite 1-2 alternative texts to include the phrase ‘[PHRASE F] or ‘[PHRASE I]’. Both your [PAGE B] and [PAGE A] pages have two mentions of their targeted keyword in the Alt tags (Figure 2.20.2 and Figure 2.20.3). However, you should try rewriting them to include the phrases ‘[PHRASE A]’ and ‘[PAGE A] in Dublin’ instead of only the one-word keyword.
+Figure 2.20.1 – A list of images on your homepage with their Alt text.
 
 | URL        | ALT tag          |
 | ------------- | ------------- |
@@ -924,7 +926,7 @@ Fetch and render in:
 
 #### Example of Recommendation
 
-Everything looks fine. We checked the home page, one of your other pages, product pages and blog post. By checking each type of page on your site, this provides a good indication as to whether there are problems with how they render to search engines.
+Everything looks fine. We checked the homepage, one of your other pages, product pages and blog post. By checking each type of page on your site, this provides a good indication as to whether there are problems with how they render to search engines.
 
 ### 3.5. Pages Restricted From Indexing
 
@@ -1175,7 +1177,7 @@ https://search.google.com/structured-data/testing-tool
 
 #### Example of Recommendation
 
-We see WebSite and SearchAction schema markup on your home page and Article schema markup on the news and blog section of your site, which is not currently linked to display on your site to users. Your Article markup misses some required information on who the author is and when the page was recently updated. These were highlighted by Google as errors in Google Search Console (Figure 3.19).
+We see WebSite and SearchAction schema markup on your homepage and Article schema markup on the news and blog section of your site, which is not currently linked to display on your site to users. Your Article markup misses some required information on who the author is and when the page was recently updated. These were highlighted by Google as errors in Google Search Console (Figure 3.19).
 You should consider adding LocalBusiness, Breadcrumbs, Event, and Reviews markup to your pages to help the search engines better understand what information your content contains.
 Figure 3.19 – A list of pages on your site with detected schema markup errors.
 
@@ -1315,7 +1317,7 @@ Great, your site uses HTTPS.
 
 #### Instructions
 
-Check for Rel=‘publisher’ on the site, and test it with http://www.google.com/webmasters/tools/richsnippets And check if a link back from business Google+/Google My Business account to site’s home page is correct (www or non-www, http or https).
+Check for Rel=‘publisher’ on the site, and test it with http://www.google.com/webmasters/tools/richsnippets And check if a link back from business Google+/Google My Business account to site’s homepage is correct (www or non-www, http or https).
 Screaming Frog > Configuration > Custom > Search
   Contains
 rel=‘publisher’
@@ -1368,7 +1370,7 @@ https://developers.google.com/speed/pagespeed/insights/
 
 #### Example of Recommendation
 
-The mobile version of your home page scores 40 out of 100 points, while the desktop version scores 37 out of 100. Your Membership’s page score is 40 on mobile phones and 51 on desktop.
+The mobile version of your homepage scores 40 out of 100 points, while the desktop version scores 37 out of 100. Your Membership’s page score is 40 on mobile phones and 51 on desktop.
 There are many parts of your site that should be optimised to improve your page load time and ranking. Here are the links to results of both tests, and suggestions on how to fix detected issues.
 https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2F[WEBSITE ADDRESS]%2F 
 https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2F[WEBSITE ADDRESS]%2Fmembership%2F&tab=mobile
@@ -1787,7 +1789,7 @@ Google Analytics > Behaviour > Site Content > All Pages
 #### Example of Recommendation
 
 The below list outlines some of the searches users have performed on your site (Figure 5.10), with our recommendations alongside them:
-- ‘[PAGE B]’, ‘[PAGE A]’, ‘[PAGE C]’ – you should consider placing links to these pages on your Home page.
+- ‘[PAGE B]’, ‘[PAGE A]’, ‘[PAGE C]’ – you should consider placing links to these pages on your homepage.
 - ‘Jobs’, ‘vacancies’, ‘carrier’ – consider creating a Carrier page, for those who would like to work in your business.
 - ‘Address’ - your address should be added to your contact page.
 - ‘Opening hours’, ‘Open hours 5 January’ – Opening hours are not prominent enough, you should add them to your Contact page and to the footer of each page.
@@ -2124,7 +2126,7 @@ Figure 7.2.2 – The 4,002 pages linking to you, and the number of backlinks you
 
 #### Example of Recommendation
 
-When you look at the pages your backlinks point to (Figure 7.3.2), it appears as though your site has a well-distributed number of links across all of your important pages, such as Home, [KEYWORD D], [PAGE B] and [PAGE A]. However, when we exclude links from the [THIRD-PARTY SITE] domain, we see that nobody links to your key pages, except from your home page and a few links going to your [KEYWORD D] page (Figure 7.3.3).
+When you look at the pages your backlinks point to (Figure 7.3.2), it appears as though your site has a well-distributed number of links across all of your important pages, such as Home, [KEYWORD D], [PAGE B] and [PAGE A]. However, when we exclude links from the [THIRD-PARTY SITE] domain, we see that nobody links to your key pages, except from your homepage and a few links going to your [KEYWORD D] page (Figure 7.3.3).
 You should focus on ways to earn backlinks to your [KEYWORD D], [PAGE B] and [PAGE A] pages to help them rank higher in search results.
 Figure 7.3.1 – The 42,853 backlinks to your site, and pages to which they link to. Due to the high number of links, we have included them in a Google Sheets file.
 [LINK TO DATA BASE]
@@ -2401,7 +2403,7 @@ Figure 8.1.3 – A list of the most visible competitor’s websites for your mos
 
 #### Example of Recommendation
 
-For the query ‘[PHRASE A], [COMPETITOR BRAND NAME] has 161 referring domains to their Home page, which is twice as many as you have (Figure 8.2.1). The average number is 41. You need to work on earning backlinks from more domains.
+For the query ‘[PHRASE A], [COMPETITOR BRAND NAME] has 161 referring domains to their homepage, which is twice as many as you have (Figure 8.2.1). The average number is 41. You need to work on earning backlinks from more domains.
 
 For the query ‘[WORD B]’ and ‘[PAGE A]’, the average number of linking domains to pages for positions 2-9 is 43 and 25 respectively (Figure 8.2.2 and Figure 8.2.3). [COMPETITOR BRAND NAME] page that ranks for ‘[WORD B]’ has only 1 referring domain that we know of, and it may be relatively easy for you to steal this position from them, if you are able to build more backlinks from various authoritative domains.
 
