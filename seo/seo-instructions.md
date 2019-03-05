@@ -1384,9 +1384,9 @@ XPath
 //head/link[@rel='amphtml']/@href
 Extract HTML Element
 2. Validate AMP Pages
-• https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc?hl=en
-• https://validator.ampproject.org/
-• Do a search in Google for “amp page test”
+- https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc?hl=en
+- https://validator.ampproject.org/
+- Do a search in Google for “amp page test”
 https://www.google.ie/search?q=amp+page+test&gws_rd=cr&dcr=0&ei=b2TCWYLDGIKWgAb9spu4Dg
 
 #### Example of Recommendation
@@ -1540,14 +1540,14 @@ Your images in searches take users to pages where those images were used instead
 
 It should have:
 
-• Clear information that the page they were looking for couldn’t be found
-• Your site’s main navigation
-• A custom image
-• Consistent design with the rest of your site
-• Links to most popular pages
-• A search functionality
-• a way for users to report a broken link
-• Return the 404 (Not found) or 410 (Gone) response code
+- Clear information that the page they were looking for couldn’t be found
+- Your site’s main navigation
+- A custom image
+- Consistent design with the rest of your site
+- Links to most popular pages
+- A search functionality
+- a way for users to report a broken link
+- Return the 404 (Not found) or 410 (Gone) response code
 
 #### Example of Recommendation
 
@@ -1577,7 +1577,7 @@ The search box is on your site, but the search results page could be improved (F
 When the word is entered correctly, the page looks better, but its layout could still be improved (Figure 4.11.2). Additionally, thumbnail images could be added to make the results more helpful, and a URL could also be included below the page description.
 
 Figure 4.11.1 – A screenshot of your current search results page viewed on desktop, with no much for user’s query.
- 
+
 Figure 4.11.2 – A screenshot of your current search results page viewed on desktop, with pages matching for user’s query
 
 ### 4.17. Code Validation
@@ -1698,8 +1698,8 @@ Great, we did not detect any major issues with keyword cannibalisation on your s
 We analysed keywords that Google thinks are relevant to your brand (Figure 5.8). By looking at the ones for which your pages rank low, you can identify user queries for which you have a chance to improve ranking with a dedicated page or more optimised one.
 
 Here are a few keywords you could consider including to optimise your content or create new pages with these keywords, to improve your ranking:
-• Live [PAGE A] Dublin
-• Live [MAIN KEYWORD] Dublin
+- Live [PAGE A] Dublin
+- Live [MAIN KEYWORD] Dublin
 
 Figure 5.8 – A list of queries your pages have ranked for during the past 90 days on Google.
 
@@ -1733,8 +1733,8 @@ Your site does not have enough helpful content for its users, except for sales-f
 
 #### Used Tools
 
-• Google Search Console > Search Traffic > Internal Links (Google traffic only)
-• Bing Webmaster Tools
+- Google Search Console > Search Traffic > Internal Links (Google traffic only)
+- Bing Webmaster Tools
 
 #### Instructions
 
@@ -1763,10 +1763,10 @@ Figure 5.11 – A list of pages on your site and the number of times a user clic
 
 In Figure 5.7, we listed 170 types of queries around the keyword ‘[KEYWORD C]’ for which it may make sense for your business to focus on ranking higher. We then sorted these from the easiest to most difficult in terms of ranking well for each keyword. In addition, we included metrics like the number of monthly searches of these keywords (Search Volume), estimated cost per click of an ad shown for that query (CPC), popularity of the query among advertisers (Competition) and the number of results found for it.
 Here are some related keywords that may be worth optimising on your site:
-• Micro-gaming [MAIN KEYWORD]
-• Best [MAIN KEYWORD] offers
-• Sign up [MAIN KEYWORD] bonus
-• [MAIN KEYWORD] no deposit
+- Micro-gaming [MAIN KEYWORD]
+- Best [MAIN KEYWORD] offers
+- Sign up [MAIN KEYWORD] bonus
+- [MAIN KEYWORD] no deposit
 
 We notice that 140 people each month are searching for ‘[COMPETITOR BRAN NAME] [PHRASE A]’ and nobody is bidding with PPC ads for that keyword. These are people who most likely want to visit a local [MAIN KEYWORD]. If you don’t mind using more aggressive marketing tactics, you could test bidding on your competition branded keywords.  
 
@@ -1787,13 +1787,13 @@ Google Analytics > Behaviour > Site Content > All Pages
 #### Example of Recommendation
 
 The below list outlines some of the searches users have performed on your site (Figure 5.10), with our recommendations alongside them:
-• ‘[PAGE B]’, ‘[PAGE A]’, ‘[PAGE C]’ – you should consider placing links to these pages on your Home page.
-• ‘Jobs’, ‘vacancies’, ‘carrier’ – consider creating a Carrier page, for those who would like to work in your business.
-• ‘Address’ - your address should be added to your contact page.
-• ‘Opening hours’, ‘Open hours 5 January’ – Opening hours are not prominent enough, you should add them to your Contact page and to the footer of each page.
-• ‘Gift voucher’ – information on whether you allow customers to purchase Gift Vouchers should be added to your site. They could be a great way of bringing new customers to your business.
-• ‘Menu’ – you should consider adding information on whether you serve food and if so, what food is available. 
-• ‘Bar’ – information on your bar should also be more prominent.
+- ‘[PAGE B]’, ‘[PAGE A]’, ‘[PAGE C]’ – you should consider placing links to these pages on your Home page.
+- ‘Jobs’, ‘vacancies’, ‘carrier’ – consider creating a Carrier page, for those who would like to work in your business.
+- ‘Address’ - your address should be added to your contact page.
+- ‘Opening hours’, ‘Open hours 5 January’ – Opening hours are not prominent enough, you should add them to your Contact page and to the footer of each page.
+- ‘Gift voucher’ – information on whether you allow customers to purchase Gift Vouchers should be added to your site. They could be a great way of bringing new customers to your business.
+- ‘Menu’ – you should consider adding information on whether you serve food and if so, what food is available.
+- ‘Bar’ – information on your bar should also be more prominent.
 
 Including the above information on your website could attract more people to your casino.
 
@@ -1925,12 +1925,14 @@ Feature 6.4.2 – Your ‘Google My Business’ points to an unsecure version of
 
 1. Current Citations
 Check on each directory:
-• Business name – is it exactly the same on each listing?
-• Address – is it correct?
-• Map – does it point to the entrance of the store?
-• Website – check if the backlink points to the correct version of the site (HTTP, HTTPS, WWW, not-WWW) 
-• Review – is there a review?
-• Photos – are presentable photos available?
+
+- Business name – is it exactly the same on each listing?
+- Address – is it correct?
+- Map – does it point to the entrance of the store?
+- Website – check if the backlink points to the correct version of the site (HTTP, HTTPS, WWW, not-WWW)
+- Review – is there a review?
+- Photos – are presentable photos available?
+
 2. Citations that should be created
 3. Citations that competitors have, and you don’t
 
@@ -1940,10 +1942,10 @@ Check on each directory:
 
 We notice many inconsistencies currently occur across your business listings on local citations (Figure 6.8), which may confuse users and the search engines.
 It’s best to use the same company name everywhere on the Internet. We notice there are a few variations of your business name:
-• [BRAND NAME 2]
-• [BRAND NAME + MAIN KEYWORD]
-• [BRAND NAME + LOCATION]
-• [BRAND NAME] LIMITED
+- [BRAND NAME 2]
+- [BRAND NAME + MAIN KEYWORD]
+- [BRAND NAME + LOCATION]
+- [BRAND NAME] LIMITED
 The address of your business is often incomplete.
 Maps should be showing users the entrance to [BRAND NAME], as it will make it easier for them to find you. However, often the pin is located in either the middle of the building, a nearby building, the middle of the street, a nearby street or a different part of the neighbourhood. 
 Additionally, some of your listings lack or have a low number of customer reviews. It’s always worth asking your users, via email or in person, to leave you a review. Positive reviews help your business to rank higher and encourage other searchers to visit your website. 
@@ -2060,10 +2062,10 @@ https://ahrefs.com/batch-analysis
 or URLProfiler
 Crawl historical backlinks and search on those pages for your domain, as some of those pages may still be linking to you.
 Characteristics of potentially spammy domains
-• Are at least 45 characters’ long
-• contain at least 6 dots
-• contain at least 5 dashes
-• contain at least 10 digits
+- Are at least 45 characters’ long
+- contain at least 6 dots
+- contain at least 5 dashes
+- contain at least 10 digits
 Source: http://www.std.org/~msm/common/SpamDamnSpam.pdf
 
 #### Example of Recommendation
@@ -2169,16 +2171,16 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 1. Screaming Frog > Mode > List
 2. Categorise Anchor texts into:
-• Branded (around 65%) – any anchor text with your company name
-• Naked links (around 20%) – those with a raw URL, e.g. example.ie, https//www.example.ie
-• Generic (around 5%) – Usually with call to action, e.g. click here, go here, website etc.
-• No anchor – usually in images
-• Image anchor – if your image is a link, alt text becomes an anchor text
-• Brand + keyword anchor (around 2%) – combined a brand name and a target keyword
-• LSI (Latent Semantic Indexing) (around 2%) – these are variations and synonymous of your main. To identify them you can use Search Autosuggestions or ‘Searches related to ___’ at the bottom of the search results.
-• Partial-Match Anchors (around 1%) –
-• Long Anchors (around 2%) – 6+ words in the anchor text with your important keyword
-• Exact Match Anchors (around 1%) – exact much of your main keyword
+- Branded (around 65%) – any anchor text with your company name
+- Naked links (around 20%) – those with a raw URL, e.g. example.ie, https//www.example.ie
+- Generic (around 5%) – Usually with call to action, e.g. click here, go here, website etc.
+- No anchor – usually in images
+- Image anchor – if your image is a link, alt text becomes an anchor text
+- Brand + keyword anchor (around 2%) – combined a brand name and a target keyword
+- LSI (Latent Semantic Indexing) (around 2%) – these are variations and synonymous of your main. To identify them you can use Search Autosuggestions or ‘Searches related to ___’ at the bottom of the search results.
+- Partial-Match Anchors (around 1%) –
+- Long Anchors (around 2%) – 6+ words in the anchor text with your important keyword
+- Exact Match Anchors (around 1%) – exact much of your main keyword
 Usually, the more divers you anchor text profile the better.
 
 #### Example of Recommendation
@@ -2280,23 +2282,23 @@ Figure 7.8.4 – A screenshot of the Bing search results for the query ‘[BRAND
 
 Bulk Search Autosuggest Tool - http://tools.seochat.com/tools/suggest-tool/
 Label interesting keywords that require an action:
-• Create new content to target this keyword
-• Create a new section on the site targeting this keyword or the group of keywords
-• Make a section of your site or a web page more visible (Something that would help users to easier find it)
-• Launch a new feature / product / service that would cover a need your competitor isn’t covering
-• Look for phrases containing the following and similar words:
-•  • Security
-•  • Scam
-•  • Spam
-•  • Returns
-•  • Alternatives
-•  • Refund
-• Moreover, the following words can suggest frequent tech problems, which may prevent your customers from using your site:
-• Down
-• Slow
-• Malware
-• Downtime (You may want to keep an eye on this page to avoid seeing people complain about your site performance)
-• Report offensive autocompletes https://support.google.com/websearch/answer/106230?hl=en
+- Create new content to target this keyword
+- Create a new section on the site targeting this keyword or the group of keywords
+- Make a section of your site or a web page more visible (Something that would help users to easier find it)
+- Launch a new feature / product / service that would cover a need your competitor isn’t covering
+- Look for phrases containing the following and similar words:
+  - Security
+  - Scam
+  - Spam
+  - Returns
+  - Alternatives
+  - Refund
+- Moreover, the following words can suggest frequent tech problems, which may prevent your customers from using your site:
+- Down
+- Slow
+- Malware
+- Downtime (You may want to keep an eye on this page to avoid seeing people complain about your site performance)
+- Report offensive autocompletes https://support.google.com/websearch/answer/106230?hl=en
 
 #### Example of Recommendation
 
