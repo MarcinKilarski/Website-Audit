@@ -165,7 +165,7 @@ There are many Content Delivery Networks your business can choose from. Two of t
 
 Using a prefetch directive allows you to tell your user's browser to download any documents it may require for the next page. This way, the page will load much faster, as the browser will already have some of the required files.
 
-Therefore, it is beneficial to prefetch the largest and most critical files in order to render your pages in advance. In addition to this, when data shows that users follow a specific path on your page, you can prefetch the full page due next on this path. For example, this could be your ‘offer' page when a person visits your home page.
+Therefore, it is beneficial to prefetch the largest and most critical files in order to render your pages in advance. In addition to this, when data shows that users follow a specific path on your page, you can prefetch the full page due next on this path. For example, this could be your ‘offer' page when a person visits your homepage.
 
 This can significantly improve the time that the page takes to load. The faster the page load, the higher chance that the user will convert.
 

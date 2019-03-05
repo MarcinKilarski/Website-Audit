@@ -94,7 +94,7 @@ We did not detect that your site is using Content Delivery Networks. It is worth
 
 #### Used Tools
 
-1.	Manual > check the source code on the home page for prefetch directive
+1.	Manual > check the source code on the homepage for prefetch directive
 2.	Google Analytics > Audience > User Flow
 
 #### Instructions
@@ -103,13 +103,13 @@ We did not detect that your site is using Content Delivery Networks. It is worth
 
 We have already set up prefetching directive from your memberships pages to your Thank You page, as hopefully most of the visitors to this page will fill out the registration form and end up on the Thank you page.
 
-However, we have not detected a prefetching directive on any other pages on your site. We checked your user flow after they arrived on your home page. As you can observe on Figure 9.1.2, they follow a clear path from the Home page, to [KEYWORD D], and then to the [KEYWORD D] page, before finally ending up at the [PAGE T] page.
+However, we have not detected a prefetching directive on any other pages on your site. We checked your user flow after they arrived on your homepage. As you can observe on Figure 9.1.2, they follow a clear path from the homepage, to [KEYWORD D], and then to the [KEYWORD D] page, before finally ending up at the [PAGE T] page.
 
 Each of the pages in this path should prefetch the next one in order to help the user get to the final destination in the shortest amount of time. This should decrease the percentage of users dropping on each page.
 
 Moreover, you should consider prefetching a few ‘critical resources’ on all pages, which are used across the whole site.
 
-Figure 9.1.2 – User flow after arriving on the home page.
+Figure 9.1.2 – User flow after arriving on the homepage.
 
 ## 2. Time to First Paint
 
@@ -123,7 +123,7 @@ According to HTML5 spec, self-closing syntax (/>) can't be used on a non-void HT
 
 #### Example of Recommendation
 
-Your home page is 37.7 KB in size and your [PAGE X] page is 55.8 KB. However, all pages on your site are above 30 KB (Figure 2.1.1). After reviewing the HTML code of your pages, we notice some of them have the main content and the footer in a few places on the same page. These are labelled as ‘desktop’, ‘large-desktop’, ‘small-desktop’ and ‘mobile’ (Figure 2.1.2), with only one copy visible at a time. This significantly increases the size of your HTML pages, by deleting the duplicated content you will make your pages lighter and faster.
+Your homepage is 37.7 KB in size and your [PAGE X] page is 55.8 KB. However, all pages on your site are above 30 KB (Figure 2.1.1). After reviewing the HTML code of your pages, we notice some of them have the main content and the footer in a few places on the same page. These are labelled as ‘desktop’, ‘large-desktop’, ‘small-desktop’ and ‘mobile’ (Figure 2.1.2), with only one copy visible at a time. This significantly increases the size of your HTML pages, by deleting the duplicated content you will make your pages lighter and faster.
 
 Figure 2.1.1 – A list of all pages found on your site with their HTML sizes.
 
@@ -198,12 +198,12 @@ https://gtmetrix.com/
 
 #### Example of Recommendation
 
-The size of the HTML code of your home page can be minified by an average 32%, CSS by 13% and JavaScript by 3% (Figure 9.2.6.1).
+The size of the HTML code of your homepage can be minified by an average 32%, CSS by 13% and JavaScript by 3% (Figure 9.2.6.1).
 
 On the [PAGE Z] page, the HTML can be made an average of 17% smaller through Minification while CSS by 13% and JavaScript by 5% (Figure 9.2.6.2).
 This will make these files load in a shorter amount of time.
 
-Figure 9.2.6.1 – List files with code on your home page and potential reduction gains from minifying them.
+Figure 9.2.6.1 – List files with code on your homepage and potential reduction gains from minifying them.
 
 | Files        | Potential Gain          |
 | ------------- | ------------- |
@@ -224,11 +224,11 @@ https://youtu.be/5fLW5Q5ODiE?t=252
 
 #### Example of Recommendation
 
-23 of the files on your home page (Figure 9.2.7.1), and 26 files on the [PAGE Z] page (Figure 9.2.7.2) are not compressed. Activating Gzip compression on your server could reduce the size of them by an average of 74%.
+23 of the files on your homepage (Figure 9.2.7.1), and 26 files on the [PAGE Z] page (Figure 9.2.7.2) are not compressed. Activating Gzip compression on your server could reduce the size of them by an average of 74%.
 
 This will improve the load time on desktop and mobile phones of these two pages, as well as other pages on your site.
 
-Figure 9.2.7.1 – A list of files with code on your home page and potential reduction gains from compressing them.
+Figure 9.2.7.1 – A list of files with code on your homepage and potential reduction gains from compressing them.
 
 | Files        | Potential Gain          |
 | ------------- | ------------- |
@@ -252,14 +252,14 @@ Webpagetest.org > Content Breakdown tab
 
 #### Example of Recommendation
 
-Your home page requests the browser to download 56 files, while your [PAGE Z] page requests 70 files. All files should be reviewed and any that are not used by specific pages should not be downloaded. 
-Figure 9.2.1 – Number of files requested by home page and their types.
+Your homepage requests the browser to download 56 files, while your [PAGE Z] page requests 70 files. All files should be reviewed and any that are not used by specific pages should not be downloaded. 
+Figure 9.2.1 – Number of files requested by homepage and their types.
 
 | File Type        | Number of Files          |
 | ------------- | ------------- |
 | placeholder     | placeholder |
 
-Figure 9.2.2 – All requested files by the home page and their types.
+Figure 9.2.2 – All requested files by the homepage and their types.
 
 | Number        | URL          | File Type          |
 | ------------- | ------------- | ------------- |
@@ -310,7 +310,7 @@ JavaScript validation: Chrome > Developers Tools > Console (it checks syntax; it
 
 #### Example of Recommendation
 
-The HTML code of your home page has 20 minor errors and 2 warnings, while CSS code has 58 minor errors and 250 warnings. The [PAGE Z] page has 10 minor errors and no warnings, but the same number of CSS errors and warnings (Figure 9.12).
+The HTML code of your homepage has 20 minor errors and 2 warnings, while CSS code has 58 minor errors and 250 warnings. The [PAGE Z] page has 10 minor errors and no warnings, but the same number of CSS errors and warnings (Figure 9.12).
 Fixing the majority of code errors on your site would improve the quality of used code and decrease the number of issues that browsers need to deal with to display your pages.  
 Figure 9.2.8 – URLs of full reports from HTML and CSS code validation.
 
@@ -337,7 +337,7 @@ webpagetest.org > Details
 
 #### Example of Recommendation
 
-Your home page is 1,974 KB, while your [PAGE Z] page is 5,246 KB in size. These sizes should be significantly reduced.
+Your homepage is 1,974 KB, while your [PAGE Z] page is 5,246 KB in size. These sizes should be significantly reduced.
 
 ### 4.2. Image Format
 
@@ -364,7 +364,7 @@ Images
 
 #### Example of Recommendation
 
-Your site has mobile and tablet specific image dimensions. However, there is still room for further improvement. For example, the three images in the middle of the home page have dimensions more than two times bigger than the space dedicated for them on the page. This adds unnecessary kilobits to the size of your page, ultimately slowing it down.
+Your site has mobile and tablet specific image dimensions. However, there is still room for further improvement. For example, the three images in the middle of the homepage have dimensions more than two times bigger than the space dedicated for them on the page. This adds unnecessary kilobits to the size of your page, ultimately slowing it down.
 
 ### 4.4. Image Compression
 
@@ -377,11 +377,11 @@ GTmetrix.com > PageSpeed > Optimize images
 
 #### Example of Recommendation
 
-16 images on your home page can be compressed on average by a further 12% with Lossless compression (Figure 4.4.1), without losing their quality. 12 images on the [PAGE Z] page could be 24% smaller (Figure 4.4.2). By using Lossy compression their size could be reduced even further.
+16 images on your homepage can be compressed on average by a further 12% with Lossless compression (Figure 4.4.1), without losing their quality. 12 images on the [PAGE Z] page could be 24% smaller (Figure 4.4.2). By using Lossy compression their size could be reduced even further.
 
 Compressing images will reduce the time it takes to download them and display on your page.
 
-Figure 4.4.1 – List of images on the home page and how much smaller they could be by applying Lossless compression.
+Figure 4.4.1 – List of images on the homepage and how much smaller they could be by applying Lossless compression.
 
 | Files        | Potential Gain          |
 | ------------- | ------------- |
@@ -425,9 +425,9 @@ WebPageTest.org > Details
 
 #### Example of Recommendation
 
-22 files on your home page and [PAGE Z] page contain query string (Figure 4.7), which prevents browsers from saving them for future usage.
+22 files on your homepage and [PAGE Z] page contain query string (Figure 4.7), which prevents browsers from saving them for future usage.
 
-Figure 4.7 – A list of files requested by your home page and [PAGE Z] page that contain a query string.
+Figure 4.7 – A list of files requested by your homepage and [PAGE Z] page that contain a query string.
 
 | File        |
 | ------------- |
