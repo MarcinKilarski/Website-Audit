@@ -337,7 +337,8 @@ Screaming Frog > Site Structure (in the sidebar)
 
 Great, all of your pages are a maximum of two clicks away from your homepage.
 
-Figure 1.10.1. Site Structure
+Figure 1.10.1. Site Structure.
+![A graph showing around 30 pages one click away from homepage, and around 90 pages 2 clicks away from the homepage](https://github.com/MarcinKilarski/website-audit/blob/master/resources/images/site-structure.png)
 
 ### 1.11. Subdirectories
 
@@ -394,7 +395,7 @@ In addition, your link to a website from all pages or a very large number of the
 The table below shows websites to which you point to from your pages. Domain and Page Authority shows an estimate of how trusted and respected a website may be on the Internet. Spam Score shows the likelihood of a site being spam. The number of outbound links represents how many times that link was found on your site.
 Figure 1.13 – A list of websites with the lowest ‘authority’ and the highest likelihood of being spam to which your site sends users.
 
-| Link        | Domain Authority           | Page Authority  | Spam Score        | Number of Outbound links           | Dofollow/ Nofollow  |
+| Link        | Domain Authority           | Page Authority  | Spam Score        | Number of Outbound links           | Dofollow / Nofollow  |
 | ------------- | ------------- | ----- | ------------- | ------------- | ----- |
 | placeholder     | placeholder | placeholder | placeholder     | placeholder | placeholder |
 
