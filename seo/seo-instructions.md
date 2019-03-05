@@ -232,13 +232,13 @@ Great, we haven't found any content that doesn't live on your main domain.
 
 #### Used Tools
 
-1.	Check which internal links Google sees
+1. Check which internal links Google sees
     Google Search Console > Search Traffic > Internal Links
-2.	Calculate PR of internal pages
-3.	Consolidate HTTP and HTTPS links
-4.	Internal: follow
-5.	Internal: nofollow
-6.	Check orphaned pages
+2. Calculate PR of internal pages
+3. Consolidate HTTP and HTTPS links
+4. Internal: follow
+5. Internal: nofollow
+6. Check orphaned pages
 
 #### Instructions
 
@@ -285,10 +285,14 @@ Figure 1.6.3 – A list of incoming internal links pointing to your [PAGE Z] pag
 
 #### Used Tools
 
-- Screaming Frog - crawl sitemap
+- Screaming Frog
 - Server logs - get list of visited pages and crawl it
 
 #### Instructions
+
+1. Crawl sitemap with Screaming Frog tool.
+2. Check which what pages are visited in server log files.
+3. Check pages which are indexed by Google and Bing.
 
 #### Example of Recommendation
 
@@ -367,15 +371,15 @@ Figure 1.12 – A list of all inaccessible directories on your website.
 
 #### Used Tools
 
-1.	Screaming Frog > External tab > Export all
-2.	Check are their follow or nofollow 
+1. Screaming Frog > External tab > Export all
+2. Check are their follow or nofollow 
     Screaming Frog > Bulk Export top bar > All Outlinks
     In Excel: Remove duplicates and links to client’s site
     Excel > Data tab > Advanced > Unique records only 
-3.	Go to Moz Open Site Explorer
+3. Go to Moz Open Site Explorer
     Check for Domain Authority, Page Authority and Spam Score
-4.	Check in Excel if link to sites with low DA and high Spam Score are nofollow 
-5.	Host-machine-ratio > 5 = potential indication that your site is spammy
+4. Check in Excel if link to sites with low DA and high Spam Score are nofollow 
+5. Host-machine-ratio > 5 = potential indication that your site is spammy
 
 #### Instructions
 
@@ -484,9 +488,9 @@ Figure 2.4 – A list of pages on your site with short titles.
 
 #### Instructions
 
-1.	Identify headings with Woorank (Chrome Extension) >
-2.	Check font size with CSSViewer (Chrome Extension)
-3.	Check does a heading contain an image or logo.
+1. Identify headings with Woorank (Chrome Extension) >
+2. Check font size with CSSViewer (Chrome Extension)
+3. Check does a heading contain an image or logo.
 
 #### Example of Recommendation
 
@@ -657,8 +661,8 @@ Figure 2.13.2 – A list of pages that have excessively long meta descriptions.
 
 #### Used Tools
 
-1.	Screaming Frog > Meta Description > Filter: Duplicate
-2.	Search Console > Search Appearance > HTML Improvements
+1. Screaming Frog > Meta Description > Filter: Duplicate
+2. Search Console > Search Appearance > HTML Improvements
 
 #### Instructions
 
@@ -717,8 +721,8 @@ All of your URLs are easy to read and understand.
 
 #### Instructions
 
-1.	‘Stop words’
-2.	Automatically generated numbers at the end of the URLs
+1. ‘Stop words’
+2. Automatically generated numbers at the end of the URLs
 
 #### Example of Recommendation
 
@@ -873,12 +877,12 @@ Figure 3.1.3 – A list of all pages found on your site via a link-to-link crawl
 
 To find these errors cross-check data from a few of tools below:
 
-1.	Google Search Console > Crawl > Crawl Errors > check Desktop and Smartphone tab
-2.	Bing Webmaster Tools > Report & Data > Crawl Information
-3.	Google Analytics > Behaviour > Site Content > All Pages > Page Titles (tab) > then search for ‘404’ and ‘not found’. Click on the found result to see URLs which have triggered the error if the site setup 404 tag tracing. Otherwise check ‘Navigation Summary’ tab for information on which pages broken links were found. Make sure that you have selected to see more than 10 results (right-bottom corner).
-4.	Screaming Frog (after the crawl is completed, go to ‘Bulk Export’ in the navigation bar, then ‘All Outlinks.’ You can sort by URLs and see which pages are sending a 404 signal. Repeat the same step with ‘All Inlinks.’)
-5.	Integrity
-6.	DeepCrawl (If you’re using DeepCrawl, go to the ‘Unique Broken Links’ tab under the ‘Internal Links’ section.)
+1. Google Search Console > Crawl > Crawl Errors > check Desktop and Smartphone tab
+2. Bing Webmaster Tools > Report & Data > Crawl Information
+3. Google Analytics > Behaviour > Site Content > All Pages > Page Titles (tab) > then search for ‘404’ and ‘not found’. Click on the found result to see URLs which have triggered the error if the site setup 404 tag tracing. Otherwise check ‘Navigation Summary’ tab for information on which pages broken links were found. Make sure that you have selected to see more than 10 results (right-bottom corner).
+4. Screaming Frog (after the crawl is completed, go to ‘Bulk Export’ in the navigation bar, then ‘All Outlinks.’ You can sort by URLs and see which pages are sending a 404 signal. Repeat the same step with ‘All Inlinks.’)
+5. Integrity
+6. DeepCrawl (If you’re using DeepCrawl, go to the ‘Unique Broken Links’ tab under the ‘Internal Links’ section.)
 
 #### Example of Recommendation
 
@@ -928,18 +932,19 @@ Everything looks fine. We checked the home page, one of your other pages, produc
 
 #### Instructions
 
-1.	Screaming Frog > Response Codes > Filter: Blocked by Robots.txt
-2.	Screaming Frog > Directives > Filter: Noindex 
-3.	Google Search Console > Google Index > Remove URLs
-4.	https://technicalseo.com/seo-tools/robots-txt/
+1. Screaming Frog > Response Codes > Filter: Blocked by Robots.txt
+2. Screaming Frog > Directives > Filter: Noindex 
+3. Google Search Console > Google Index > Remove URLs
+4. https://www.google.com/webmasters/tools/removals?pli=1
+5. https://technicalseo.com/seo-tools/robots-txt/
 
 #### Example of Recommendation
 
 Great, you don’t block any important pages from appearing in the search results. The only pages that you block are pages that should not be indexed:
 
--	TERMS & CONDITIONS
--	[PAGE C]
--	Our Team Blog (this page appears in the search results with a URL which is not blocked) 
+- TERMS & CONDITIONS
+- [PAGE C]
+- Our Team Blog (this page appears in the search results with a URL which is not blocked) 
 
 ### 3.6. Canonicalisation
 
@@ -952,10 +957,10 @@ Check if canonical URLs are not the same on other pages.
 Check do individual pages use self-referring canonical.
 Common errors with canonical tag 
 
-	- The canonical tag leads to a non-existing page.
-	- You use the same canonical tag with the same URL on all pages of your website.
-	- You put the canonical attribute in the body part of a web page instead of the head part.
-	- The canonical tag links to another website. This is correct when you syndicate your content on other websites. However, you should not use canonical tags with external links if you want to get high rankings for your own web pages.
+- The canonical tag leads to a non-existing page.
+- You use the same canonical tag with the same URL on all pages of your website.
+- You put the canonical attribute in the body part of a web page instead of the head part.
+- The canonical tag links to another website. This is correct when you syndicate your content on other websites. However, you should not use canonical tags with external links if you want to get high rankings for your own web pages.
 
 #### Example of Recommendation
 
@@ -1004,9 +1009,9 @@ Figure 3.7 – A list of pages (‘Page’ column) on which a URL (‘Link’ co
 
 Screaming Frog
 
-1.	Configuration > Spider > Advanced tab > select ‘Always Follow Redirects’
-2.	Crawl website
-3.	Reports (top bar) > Redirect Chains
+1. Configuration > Spider > Advanced tab > select ‘Always Follow Redirects’
+2. Crawl website
+3. Reports (top bar) > Redirect Chains
 
 #### Example of Recommendation
 
@@ -1040,24 +1045,24 @@ Great, your pages don’t use meta refresh.
 
 #### Instructions
 
-1.	Check following locations of sitemaps
-    a.	example.com/sitemap.xml
-    b.	example.com/sitemap_index.xml
-2.	Google Search Console > Crawl > Sitemaps
-3.	Bing Webmaster Tools
-4.	Sitemap validation Tools
-    a.	 Code Beautify
-    b.	XML Validation
-5.	Screaming Frog > Mode > Lists
+1. Check following locations of sitemaps
+    a. example.com/sitemap.xml
+    b. example.com/sitemap_index.xml
+2. Google Search Console > Crawl > Sitemaps
+3. Bing Webmaster Tools
+4. Sitemap validation Tools
+    a.  Code Beautify
+    b. XML Validation
+5. Screaming Frog > Mode > Lists
     Configuration > Spider > Advanced > select Always Follow Redirects (this way you will detect which pages do not exist)
     Upload > Download Sitemap then Download Sitemap Index (links found on in the sitemaps will have Level: 0) 
 
 Look for pages with:
-a.	redirects
-b.	URLs parameters
-c.	any non-indexable pages
-d.	duplicate URLs
-e.	Is it up to date?
+a. redirects
+b. URLs parameters
+c. any non-indexable pages
+d. duplicate URLs
+e. Is it up to date?
 
 Look for pages with:
 - redirects
@@ -1194,8 +1199,8 @@ At the moment, no rich cards are shown for your pages. Consider adding a page on
 
 #### Instructions
 
-1.	Google Search Console > Crawl > Crawl Errors > check Desktop and Smartphone tab
-2.	Bing Webmaster Tools
+1. Google Search Console > Crawl > Crawl Errors > check Desktop and Smartphone tab
+2. Bing Webmaster Tools
 
 #### Example of Recommendation
 
@@ -1230,12 +1235,12 @@ Figures 3.22 – Pages with content in frames.
 
 if the URL has weird characters like ?, =, or + it’s a dynamic URL which can cause duplicate content if not fixed.
 You can search for URL parameter in
-1.	Google by doing site:www.buyaunicorn.com/ inurl: ‘?’ or whatever you think the parameter may include.
-2.	Screaming Frog > URL > Filter: Parameters
-3.	Check and update a list of parameters in Google Search Console under ‘Crawl’ > ‘URL Parameters
-4.	Check and update a list of parameters in Bing Webmasters Tools > Configure My Site > Ignore URL Parameters
-5.	Check robots.txt if some URL parameters are already blocked
-6.	Make sure that the internal links do not have campaign parameters, as this may mislead your site’s attribution data.
+1. Google by doing site:www.buyaunicorn.com/ inurl: ‘?’ or whatever you think the parameter may include.
+2. Screaming Frog > URL > Filter: Parameters
+3. Check and update a list of parameters in Google Search Console under ‘Crawl’ > ‘URL Parameters
+4. Check and update a list of parameters in Bing Webmasters Tools > Configure My Site > Ignore URL Parameters
+5. Check robots.txt if some URL parameters are already blocked
+6. Make sure that the internal links do not have campaign parameters, as this may mislead your site’s attribution data.
 Screaming Frog > Configuration (top bar) > Custom > Search
 example.ie\(.*)utm_source=(.*)utm_medium=
 or example.ie(.*)utm_source=(.*)utm_medium=
@@ -1283,10 +1288,10 @@ Figure 3.19 – A diagram showing result of two weeks monitoring of your server�
 #### Instructions
 
 Check whether any of these files’ types are blocked from being crawled in:
-1.	robots.txt file
-2.	Google Search Console > Google Index > Blocked Resources
-3.	Bing Webmaster Tools
-4.	Screaming Frog > Response Codes tab > Filter: Blocked Resource
+1. robots.txt file
+2. Google Search Console > Google Index > Blocked Resources
+3. Bing Webmaster Tools
+4. Screaming Frog > Response Codes tab > Filter: Blocked Resource
 
 #### Example of Recommendation
 
@@ -1312,7 +1317,7 @@ Great, your site uses HTTPS.
 
 Check for Rel=‘publisher’ on the site, and test it with http://www.google.com/webmasters/tools/richsnippets And check if a link back from business Google+/Google My Business account to site’s home page is correct (www or non-www, http or https).
 Screaming Frog > Configuration > Custom > Search
-		Contains
+  Contains
 rel=‘publisher’
 
 #### Example of Recommendation
@@ -1339,14 +1344,14 @@ You are in control of almost all of your meta descriptions.
 
 #### Instructions
 
-1.	Google
+1. Google
 https://search.google.com/search-console/mobile-friendly
 or Bulk test:
 https://technicalseo.com/seo-tools/mobile-friendly/
-2.	Bing
+2. Bing
 https://www.bing.com/webmaster/tools/mobile-friendliness
-3.	Google Analytics > devices, browsers, screen sizes (look for high bounce rate and short time on page.)
-4.	Manual – Check how major pages’ render on iOS and an Android device.
+3. Google Analytics > devices, browsers, screen sizes (look for high bounce rate and short time on page.)
+4. Manual – Check how major pages’ render on iOS and an Android device.
 
 #### Example of Recommendation
 
@@ -1374,14 +1379,14 @@ https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2F[WEBSI
 
 #### Instructions
 
-1.	Screaming Frog > Configuration > Custom > Extraction
+1. Screaming Frog > Configuration > Custom > Extraction
 XPath
 //head/link[@rel='amphtml']/@href
 Extract HTML Element
-2.	Validate AMP Pages
-•	https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc?hl=en
-•	https://validator.ampproject.org/
-•	Do a search in Google for “amp page test”
+2. Validate AMP Pages
+• https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc?hl=en
+• https://validator.ampproject.org/
+• Do a search in Google for “amp page test”
 https://www.google.ie/search?q=amp+page+test&gws_rd=cr&dcr=0&ei=b2TCWYLDGIKWgAb9spu4Dg
 
 #### Example of Recommendation
@@ -1421,8 +1426,8 @@ Great, we did not find any intrusive interstitials on your main pages, both on d
 
 #### Instructions
 
-1.	Check for unnatural word count on the page with Screaming frog
-2.	Check for usage of display: none on the pages
+1. Check for unnatural word count on the page with Screaming frog
+2. Check for usage of display: none on the pages
 
 #### Example of Recommendation
 
@@ -1497,9 +1502,9 @@ Great, you do not have a problem with pagination.
 
 Go to Screaming Frog
 
-1.	Head to the ‘Spider Configuration’ in the navigation.
-2.	Click ‘Check SWF.’
-3.	Filter the ‘Internal’ tab by ‘Flash’ after the crawl is done.
+1. Head to the ‘Spider Configuration’ in the navigation.
+2. Click ‘Check SWF.’
+3. Filter the ‘Internal’ tab by ‘Flash’ after the crawl is done.
 
 #### Example of Recommendation
 
@@ -1535,14 +1540,14 @@ Your images in searches take users to pages where those images were used instead
 
 It should have:
 
-•	Clear information that the page they were looking for couldn’t be found
-•	Your site’s main navigation
-•	A custom image
-•	Consistent design with the rest of your site
-•	Links to most popular pages
-•	A search functionality
-•	a way for users to report a broken link
-•	Return the 404 (Not found) or 410 (Gone) response code
+• Clear information that the page they were looking for couldn’t be found
+• Your site’s main navigation
+• A custom image
+• Consistent design with the rest of your site
+• Links to most popular pages
+• A search functionality
+• a way for users to report a broken link
+• Return the 404 (Not found) or 410 (Gone) response code
 
 #### Example of Recommendation
 
@@ -1581,10 +1586,10 @@ Figure 4.11.2 – A screenshot of your current search results page viewed on des
 
 #### Instructions
 
-1.	Unicorn - W3C's Unified Validator: https://validator.w3.org/unicorn/check
-2.	NU HTML validation: https://validator.w3.org/nu/
-3.	CSS validation: https://jigsaw.w3.org/css-validator/
-4.	JavaScript validation: Chrome > Developers Tools > Console (it checks syntax, it does not mean that the code is flawless)
+1. Unicorn - W3C's Unified Validator: https://validator.w3.org/unicorn/check
+2. NU HTML validation: https://validator.w3.org/nu/
+3. CSS validation: https://jigsaw.w3.org/css-validator/
+4. JavaScript validation: Chrome > Developers Tools > Console (it checks syntax, it does not mean that the code is flawless)
 
 #### Example of Recommendation
 
@@ -1606,8 +1611,8 @@ Figure 4.15.2 – URLs of full reports from CSS code validation.
 
 #### Used Tools
 
-1.	Screaming Frog
-2.	Deduct words from header and footer from Screaming Frog word count
+1. Screaming Frog
+2. Deduct words from header and footer from Screaming Frog word count
 
 #### Instructions
 
@@ -1650,14 +1655,16 @@ Figure 5.2 – A list of pages with duplicated content on your site and the perc
 Or http://smallseotools.com/plagiarism-checker/
 Or http://www.plagspotter.com/
 Or http://www.copyscape.com/
-All you need to do is file a DMCA report to Google and they will remove the content from the index. 
+All you need to do is file a DMCA report to Google and they will remove the content from the index.
 Then you can check when that page was first archived on https://archive.org/
-Do a search on Google for an exact match of the titles of the most popular pages on the site: intitle:”My page title” 
+Do a search on Google for an exact match of the titles of the most popular pages on the site: intitle:”My page title”.
 
 #### Instructions
 
-We found a [PAGE B] page on [THIRD-PARTY WEBSITE URL]’S site where 20% of their words (110) match the content on your [PAGE B] page. This is not a big issue, as the portion of the content is not substantial and the [MAIN KEYWORD]is located in London. However, it would be good to rewrite this page to ensure your content is unique. 
+We found a [PAGE B] page on [THIRD-PARTY WEBSITE URL]’S site where 20% of their words (110) match the content on your [PAGE B] page. This is not a big issue, as the portion of the content is not substantial and the [MAIN KEYWORD]is located in London. However, it would be good to rewrite this page to ensure your content is unique.
+
 As a standard procedure we have highlighted the duplicated content in Figure 5.3.1 and Figure 5.3.2. In addition to this, we checked in the Internet Archive whether the content on this page appeared after the content on your page. The earliest presence of that content was documented on April 19, 2014 (Figure 5.3.3). Unfortunately, we were unable to determine when this content first appeared on your site.
+
 We have not found sites that would use the content of your Home and [PAGE A] pages.
 
 Figure 5.3.1 – A screenshot of the page whose content matches your page.
@@ -1670,9 +1677,9 @@ Figure 5.3.3 – A screenshot of the page that matches content on your page from
 
 #### Used Tools
 
-1.	Screaming Frog > Page Titles tab > Enter one of your main keywords into the search bar. Look through your page titles and identify pages that may be competing for the same keywords.
-2.	Screaming Frog > H1 tab >
-3.	Google Search Console > One thing to look for in general is if more than one page is targeting or showing up in the search results for the same keyword (aka ‘keyword cannibalization’).
+1. Screaming Frog > Page Titles tab > Enter one of your main keywords into the search bar. Look through your page titles and identify pages that may be competing for the same keywords.
+2. Screaming Frog > H1 tab >
+3. Google Search Console > One thing to look for in general is if more than one page is targeting or showing up in the search results for the same keyword (aka ‘keyword cannibalization’).
 
 #### Instructions
 
@@ -1691,8 +1698,8 @@ Great, we did not detect any major issues with keyword cannibalisation on your s
 We analysed keywords that Google thinks are relevant to your brand (Figure 5.8). By looking at the ones for which your pages rank low, you can identify user queries for which you have a chance to improve ranking with a dedicated page or more optimised one.
 
 Here are a few keywords you could consider including to optimise your content or create new pages with these keywords, to improve your ranking:
-•	Live [PAGE A] Dublin
-•	Live [MAIN KEYWORD] Dublin
+• Live [PAGE A] Dublin
+• Live [MAIN KEYWORD] Dublin
 
 Figure 5.8 – A list of queries your pages have ranked for during the past 90 days on Google.
 
@@ -1726,8 +1733,8 @@ Your site does not have enough helpful content for its users, except for sales-f
 
 #### Used Tools
 
-•	Google Search Console > Search Traffic > Internal Links (Google traffic only)
-•	Bing Webmaster Tools
+• Google Search Console > Search Traffic > Internal Links (Google traffic only)
+• Bing Webmaster Tools
 
 #### Instructions
 
@@ -1747,8 +1754,8 @@ Figure 5.11 – A list of pages on your site and the number of times a user clic
 
 #### Used Tools
 
-1.	SEMrush > Keyword Analytics > Phrase Match
-2.	SEMrush > Keyword Analytics > Related Keywords
+1. SEMrush > Keyword Analytics > Phrase Match
+2. SEMrush > Keyword Analytics > Related Keywords
 
 #### Instructions
 
@@ -1756,10 +1763,10 @@ Figure 5.11 – A list of pages on your site and the number of times a user clic
 
 In Figure 5.7, we listed 170 types of queries around the keyword ‘[KEYWORD C]’ for which it may make sense for your business to focus on ranking higher. We then sorted these from the easiest to most difficult in terms of ranking well for each keyword. In addition, we included metrics like the number of monthly searches of these keywords (Search Volume), estimated cost per click of an ad shown for that query (CPC), popularity of the query among advertisers (Competition) and the number of results found for it.
 Here are some related keywords that may be worth optimising on your site:
-•	Micro-gaming [MAIN KEYWORD]
-•	Best [MAIN KEYWORD] offers
-•	Sign up [MAIN KEYWORD] bonus
-•	[MAIN KEYWORD] no deposit
+• Micro-gaming [MAIN KEYWORD]
+• Best [MAIN KEYWORD] offers
+• Sign up [MAIN KEYWORD] bonus
+• [MAIN KEYWORD] no deposit
 
 We notice that 140 people each month are searching for ‘[COMPETITOR BRAN NAME] [PHRASE A]’ and nobody is bidding with PPC ads for that keyword. These are people who most likely want to visit a local [MAIN KEYWORD]. If you don’t mind using more aggressive marketing tactics, you could test bidding on your competition branded keywords.  
 
@@ -1780,13 +1787,13 @@ Google Analytics > Behaviour > Site Content > All Pages
 #### Example of Recommendation
 
 The below list outlines some of the searches users have performed on your site (Figure 5.10), with our recommendations alongside them:
-•	‘[PAGE B]’, ‘[PAGE A]’, ‘[PAGE C]’ – you should consider placing links to these pages on your Home page.
-•	‘Jobs’, ‘vacancies’, ‘carrier’ – consider creating a Carrier page, for those who would like to work in your business.
-•	‘Address’ - your address should be added to your contact page.
-•	‘Opening hours’, ‘Open hours 5 January’ – Opening hours are not prominent enough, you should add them to your Contact page and to the footer of each page.
-•	‘Gift voucher’ – information on whether you allow customers to purchase Gift Vouchers should be added to your site. They could be a great way of bringing new customers to your business.
-•	‘Menu’ – you should consider adding information on whether you serve food and if so, what food is available. 
-•	‘Bar’ – information on your bar should also be more prominent.
+• ‘[PAGE B]’, ‘[PAGE A]’, ‘[PAGE C]’ – you should consider placing links to these pages on your Home page.
+• ‘Jobs’, ‘vacancies’, ‘carrier’ – consider creating a Carrier page, for those who would like to work in your business.
+• ‘Address’ - your address should be added to your contact page.
+• ‘Opening hours’, ‘Open hours 5 January’ – Opening hours are not prominent enough, you should add them to your Contact page and to the footer of each page.
+• ‘Gift voucher’ – information on whether you allow customers to purchase Gift Vouchers should be added to your site. They could be a great way of bringing new customers to your business.
+• ‘Menu’ – you should consider adding information on whether you serve food and if so, what food is available. 
+• ‘Bar’ – information on your bar should also be more prominent.
 
 Including the above information on your website could attract more people to your casino.
 
@@ -1886,21 +1893,21 @@ Figure 6.3 – Recommended changes to the business name, address and phone numbe
 
 #### Instructions
 
-1.	https://synup.com/tools/google-checker/
-2.	Manually check
-a.	Is listing verified?
+1. https://synup.com/tools/google-checker/
+2. Manually check
+a. Is listing verified?
 If the listing has an “own this business” or “claim this business” option, it is not currently verified.
-b.	Details
-i.	Address
-ii.	Phone number
-iii.	Opening hours
-iv.	Correct website address
-v.	Etc.
-c.	Photos
-d.	Picked categories. Could they be more specific?
-e.	Position on map
-f.	Attributes
-g.	Google My Business Posts usage
+b. Details
+i. Address
+ii. Phone number
+iii. Opening hours
+iv. Correct website address
+v. Etc.
+c. Photos
+d. Picked categories. Could they be more specific?
+e. Position on map
+f. Attributes
+g. Google My Business Posts usage
 
 #### Example of Recommendation
 
@@ -1916,16 +1923,16 @@ Feature 6.4.2 – Your ‘Google My Business’ points to an unsecure version of
 
 #### Used Tools
 
-1.	Current Citations
+1. Current Citations
 Check on each directory:
-•	Business name – is it exactly the same on each listing?
-•	Address – is it correct?
-•	Map – does it point to the entrance of the store?
-•	Website – check if the backlink points to the correct version of the site (HTTP, HTTPS, WWW, not-WWW) 
-•	Review – is there a review?
-•	Photos – are presentable photos available?
-2.	Citations that should be created
-3.	Citations that competitors have, and you don’t
+• Business name – is it exactly the same on each listing?
+• Address – is it correct?
+• Map – does it point to the entrance of the store?
+• Website – check if the backlink points to the correct version of the site (HTTP, HTTPS, WWW, not-WWW) 
+• Review – is there a review?
+• Photos – are presentable photos available?
+2. Citations that should be created
+3. Citations that competitors have, and you don’t
 
 #### Instructions
 
@@ -1933,10 +1940,10 @@ Check on each directory:
 
 We notice many inconsistencies currently occur across your business listings on local citations (Figure 6.8), which may confuse users and the search engines.
 It’s best to use the same company name everywhere on the Internet. We notice there are a few variations of your business name:
-•	[BRAND NAME 2]
-•	[BRAND NAME + MAIN KEYWORD]
-•	[BRAND NAME + LOCATION]
-•	[BRAND NAME] LIMITED
+• [BRAND NAME 2]
+• [BRAND NAME + MAIN KEYWORD]
+• [BRAND NAME + LOCATION]
+• [BRAND NAME] LIMITED
 The address of your business is often incomplete.
 Maps should be showing users the entrance to [BRAND NAME], as it will make it easier for them to find you. However, often the pin is located in either the middle of the building, a nearby building, the middle of the street, a nearby street or a different part of the neighbourhood. 
 Additionally, some of your listings lack or have a low number of customer reviews. It’s always worth asking your users, via email or in person, to leave you a review. Positive reviews help your business to rank higher and encourage other searchers to visit your website. 
@@ -2041,22 +2048,22 @@ We notice your business is not taking advantage of what The Physical Web has to 
 #### Instructions
 
 Check backlinks to all the versions of the domain name (e.g. HTTP, HTTPS, WWW, non-WWW) and all previous domains used by the business.
-1.	Google Search Console > Search Traffic > Links to Your Site
-2.	Bing Webmaster Tools > 
-3.	SEMrush > Domain Analytics > Backlinks
-4.	Open Site Explorer
-5.	Majestic
-6.	Domains linking to your competitors but not you
-7.	Ahrefs
+1. Google Search Console > Search Traffic > Links to Your Site
+2. Bing Webmaster Tools > 
+3. SEMrush > Domain Analytics > Backlinks
+4. Open Site Explorer
+5. Majestic
+6. Domains linking to your competitors but not you
+7. Ahrefs
 Evaluate backlinks 
 https://ahrefs.com/batch-analysis
 or URLProfiler
 Crawl historical backlinks and search on those pages for your domain, as some of those pages may still be linking to you.
 Characteristics of potentially spammy domains
-•	Are at least 45 characters’ long
-•	contain at least 6 dots
-•	contain at least 5 dashes
-•	contain at least 10 digits
+• Are at least 45 characters’ long
+• contain at least 6 dots
+• contain at least 5 dashes
+• contain at least 10 digits
 Source: http://www.std.org/~msm/common/SpamDamnSpam.pdf
 
 #### Example of Recommendation
@@ -2074,30 +2081,30 @@ Figure 7.1 – A list of sites linking to you and their Domain Authority.
 
 #### Instructions
 
-1.	Verify if backlinks are still on these pages
-a.	Screaming Frog > Mode > List > Upload your list of backlinks and run the spider in ‘List’ mode. Then, export the full list of outbound links by clicking on ‘All Out Links’ in the ‘Advanced Export Menu’. This will provide you with the URLs and anchor text/alt text for all links on those pages. You can then use a filter on the ‘Destination’ column of the CSV to determine if your site is linked and what anchor text/alt text is included.
-b.	Check do destination links point to clients site
-2.	Check does the backlink point to the right version of the site (HTTP, HTTPS, WWW, not-WWW)
-3.	Number of backlinks from each page
+1. Verify if backlinks are still on these pages
+a. Screaming Frog > Mode > List > Upload your list of backlinks and run the spider in ‘List’ mode. Then, export the full list of outbound links by clicking on ‘All Out Links’ in the ‘Advanced Export Menu’. This will provide you with the URLs and anchor text/alt text for all links on those pages. You can then use a filter on the ‘Destination’ column of the CSV to determine if your site is linked and what anchor text/alt text is included.
+b. Check do destination links point to clients site
+2. Check does the backlink point to the right version of the site (HTTP, HTTPS, WWW, not-WWW)
+3. Number of backlinks from each page
 Excel > Insert > Pivot table > Row (source) and Value (destination)
-4.	Number of backlinks from a domain
+4. Number of backlinks from a domain
 In Excel 
-a.	=LEFT(B4,FIND(‘/’,B4,9))
-b.	then replace with nothing
-i.	www
-ii.	http://
-iii.	https://
-5.	Link Detox (DTOX) – it automatically reviews and categorises backlinks
+a. =LEFT(B4,FIND(‘/’,B4,9))
+b. then replace with nothing
+i. www
+ii. http://
+iii. https://
+5. Link Detox (DTOX) – it automatically reviews and categorises backlinks
 
 #### Example of Recommendation
 
 We reviewed domains from which your site receives most links from (Figure 7.2.1), and pages that are most often linked to you (Figure 7.2.2). We notice that ‘[THIRD-PARTY SITE]’ links to your site 41,349 times, which may suggest search engines that your site uses spam-like practices in order to manipulate your ranking. 
 To comply with Google’s regulations, you should: 
-1.	Add a nofollow attribute to links in ads on the following domains
-a.	‘[THIRD-PARTY SITE]’
-b.	‘[THIRD-PARTY SITE]’
-2.	Disavow domains with many low-quality links to
-a.	‘[THIRD-PARTY SITE]’
+1. Add a nofollow attribute to links in ads on the following domains
+a. ‘[THIRD-PARTY SITE]’
+b. ‘[THIRD-PARTY SITE]’
+2. Disavow domains with many low-quality links to
+a. ‘[THIRD-PARTY SITE]’
 Figure 7.2.1 – A list of domains, and the number of times they link to your site.
 
 | Domains        | Number of backlinks          |
@@ -2160,18 +2167,18 @@ Figure 7.4 – A list of backlinks to your old domain.
 
 #### Instructions
 
-1.	Screaming Frog > Mode > List
-2.	Categorise Anchor texts into:
-•	Branded (around 65%) – any anchor text with your company name
-•	Naked links (around 20%) – those with a raw URL, e.g. example.ie, https//www.example.ie
-•	Generic (around 5%) – Usually with call to action, e.g. click here, go here, website etc.
-•	No anchor – usually in images
-•	Image anchor – if your image is a link, alt text becomes an anchor text
-•	Brand + keyword anchor (around 2%) – combined a brand name and a target keyword
-•	LSI (Latent Semantic Indexing) (around 2%) – these are variations and synonymous of your main. To identify them you can use Search Autosuggestions or ‘Searches related to ___’ at the bottom of the search results.
-•	Partial-Match Anchors (around 1%) –
-•	Long Anchors (around 2%) – 6+ words in the anchor text with your important keyword
-•	Exact Match Anchors (around 1%) – exact much of your main keyword
+1. Screaming Frog > Mode > List
+2. Categorise Anchor texts into:
+• Branded (around 65%) – any anchor text with your company name
+• Naked links (around 20%) – those with a raw URL, e.g. example.ie, https//www.example.ie
+• Generic (around 5%) – Usually with call to action, e.g. click here, go here, website etc.
+• No anchor – usually in images
+• Image anchor – if your image is a link, alt text becomes an anchor text
+• Brand + keyword anchor (around 2%) – combined a brand name and a target keyword
+• LSI (Latent Semantic Indexing) (around 2%) – these are variations and synonymous of your main. To identify them you can use Search Autosuggestions or ‘Searches related to ___’ at the bottom of the search results.
+• Partial-Match Anchors (around 1%) –
+• Long Anchors (around 2%) – 6+ words in the anchor text with your important keyword
+• Exact Match Anchors (around 1%) – exact much of your main keyword
 Usually, the more divers you anchor text profile the better.
 
 #### Example of Recommendation
@@ -2200,11 +2207,11 @@ Figure 7.5.2 – Anchor and alt text categories, together with the number of the
 
 #### Instructions
 
-1.	Ahrefs
-2.	SEMrush
-3.	MOZ > Open Site Explorer > Link Opportunities (left sidebar) > Unlinked Mentions (tab)
-4.	Mentions of your competitors but not you
-5.	Google
+1. Ahrefs
+2. SEMrush
+3. MOZ > Open Site Explorer > Link Opportunities (left sidebar) > Unlinked Mentions (tab)
+4. Mentions of your competitors but not you
+5. Google
 “founder name” OR “company name” OR “companyname” OR “branded product/service name” –site:domainname
 Check company’s name, alternative names, branded products and services and website address which is a plan text.
 Here are some specific search queries you can try using:
@@ -2222,7 +2229,7 @@ Google Alerts is just one (admittedly best-known) tool to monitor your brand onl
 
 We notice 92 pages that mention your business name but do not link to your website. 20 of these pages would be worth contacting to request a backlink added (Figure 7.6). You should try contacting these sites to check if there is a possibility to add a backlink that points to your website on those pages. 
 Figure 7.6 – A list of pages that mention your brand name, which may be worth adding a backlink.
-URL	Domain Authority
+URL Domain Authority
 
 | URL        | Domain Authority          |
 | ------------- | ------------- |
@@ -2248,8 +2255,8 @@ We have not found any issues with your disavow files.
 
 #### Instructions
 
-1.	Search for company’s name, branded products and services
-2.	Check whether they control all pages on page one of search results, and if these pages leave readers with a positive view of the company.
+1. Search for company’s name, branded products and services
+2. Check whether they control all pages on page one of search results, and if these pages leave readers with a positive view of the company.
 
 #### Example of Recommendation
 
@@ -2273,23 +2280,23 @@ Figure 7.8.4 – A screenshot of the Bing search results for the query ‘[BRAND
 
 Bulk Search Autosuggest Tool - http://tools.seochat.com/tools/suggest-tool/
 Label interesting keywords that require an action:
-•	Create new content to target this keyword
-•	Create a new section on the site targeting this keyword or the group of keywords
-•	Make a section of your site or a web page more visible (Something that would help users to easier find it)
-•	Launch a new feature / product / service that would cover a need your competitor isn’t covering
-•	Look for phrases containing the following and similar words:
-•		•	Security
-•		•	Scam
-•		•	Spam
-•		•	Returns
-•		•	Alternatives
-•		•	Refund
-•	Moreover, the following words can suggest frequent tech problems, which may prevent your customers from using your site:
-•	Down
-•	Slow
-•	Malware
-•	Downtime (You may want to keep an eye on this page to avoid seeing people complain about your site performance)
-•	Report offensive autocompletes https://support.google.com/websearch/answer/106230?hl=en
+• Create new content to target this keyword
+• Create a new section on the site targeting this keyword or the group of keywords
+• Make a section of your site or a web page more visible (Something that would help users to easier find it)
+• Launch a new feature / product / service that would cover a need your competitor isn’t covering
+• Look for phrases containing the following and similar words:
+•  • Security
+•  • Scam
+•  • Spam
+•  • Returns
+•  • Alternatives
+•  • Refund
+• Moreover, the following words can suggest frequent tech problems, which may prevent your customers from using your site:
+• Down
+• Slow
+• Malware
+• Downtime (You may want to keep an eye on this page to avoid seeing people complain about your site performance)
+• Report offensive autocompletes https://support.google.com/websearch/answer/106230?hl=en
 
 #### Example of Recommendation
 
@@ -2340,8 +2347,8 @@ Figure 7.8 – A list of pages on your site and the number of times links to the
 
 #### Used Tools
 
-1.	Do revers lookup with http://viewdns.info/reverseip/
-2.	Check DA and PA of domains hosted on the same server with http://www.seoweather.com/bulk-metrics-checker/ 
+1. Do revers lookup with http://viewdns.info/reverseip/
+2. Check DA and PA of domains hosted on the same server with http://www.seoweather.com/bulk-metrics-checker/ 
 
    Double check sites with score 0. NEEDED A BETTER TOOL!
 
@@ -2450,8 +2457,8 @@ Figure 8.3.3 – A list of pages that rank for the query ‘[PAGE A]’, and the
 
 #### Used Tools
 
-1.	In Incognito Window search for client keywords
-2.	Check websites’ categorisation - https://www.similarweb.com/
+1. In Incognito Window search for client keywords
+2. Check websites’ categorisation - https://www.similarweb.com/
 
 #### Instructions
 
@@ -2607,8 +2614,8 @@ Figure 8.8.4 – A list of ads that were displayed on Google during the past 12 
 #### Instructions
 
 Average sites metrics from:
--	http://www.alexa.com/siteinfo
--	https://www.similarweb.com/
+- http://www.alexa.com/siteinfo
+- https://www.similarweb.com/
 
 #### Example of Recommendation
 
