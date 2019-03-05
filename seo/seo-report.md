@@ -285,7 +285,9 @@ All your links should include either anchor text or, for images, an alt attribut
 
 #### Overview
 
-Orphan pages are those that do not have any links pointing to them from other pages on your website or do not link to any other page on your site. They are often used for marketing or advertising campaigns. Because of their disconnection from the rest of the site, they tend to rank lower in search results, even if they receive a lot of external links.
+Orphan pages do not have any links pointing to them from other pages on your website making it difficult for users who browse your site to find them. They are often used for marketing or advertising campaigns, but often they should be an integral part of your site.
+
+These pages be visible in search engines because they are in sitemaps, were link to in the past or external websites linked to them. However, because the orphan pages are disconnected from the rest of the site, search engines do not treat them as an important part of your website. In result they tend to rank lower in search results, even if they receive a lot of external links.
 
 #### Issue
 
