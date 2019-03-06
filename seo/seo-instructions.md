@@ -337,7 +337,7 @@ Screaming Frog > Site Structure (in the sidebar)
 
 Great, all of your pages are a maximum of two clicks away from your homepage.
 
-Figure 1.10.1. Site Structure.
+Figure 1.10.1. A graph showing number of found pages and how many clicks they are away from the homepage.
 ![A graph showing around 30 pages one click away from homepage, and around 90 pages 2 clicks away from the homepage](https://github.com/MarcinKilarski/website-audit/blob/master/resources/images/site-structure.png)
 
 ### 1.11. Subdirectories
@@ -349,11 +349,17 @@ Figure 1.10.1. Site Structure.
 #### Example of Recommendation
 
 Good job, your pages do not have more than two directories.
-Figure 1.11 – A list of pages on your site that have more than three directories.
+Figure 1.11.1 – A list of pages on your site that have more than three directories.
 
 | URLs        | Number of directories          |
 | ------------- | ------------- |
 | placeholder     | placeholder |
+
+Figure 1.11.2. A list of pages, which URL structure should be updates.
+
+| Title        | Current URL Structure          | Recommended URL Structure          |
+| ------------- | ------------- | ------------- |
+| placeholder     | placeholder | placeholder |
 
 ### 1.12. Accessible Subdirectories
 
