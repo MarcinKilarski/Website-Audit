@@ -27,7 +27,7 @@ Follow the instructions below to convert the most up-to-date version of the repo
 
 1. Install [Pandoc](https://pandoc.org/) on your computer
 2. Open a directory in Terminal
-3. Type in:
+3. Type:
 
 find ./ -iname "*.md" -type f -exec sh -c 'pandoc "${0}" -o "${0%.md}.docx"' {} \;
 
