@@ -21,7 +21,7 @@ Feel free to share with the community your thoughts, experiences and best practi
 
    - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/web-performance/web-performance-instructions.md)
 
-## Converting Markdown Files in Directory into Word
+## Converting Markdown Files into Word
 
 Follow the instructions below to convert the most up-to-date version of the report into Word file.
 
