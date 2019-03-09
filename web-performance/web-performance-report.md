@@ -381,13 +381,13 @@ HTTP/2 is the new version of HTTP1.1 protocol. Introduced in 2015, it is a set o
 
 The downside of HTTP/1.1 protocol is that it limits browsers to being able to request only one file at a time per connection with your server. Browsers only support six connections per domain, which means that they will only download six files simultaneously from your server to the user's device, causing the rest to wait for their turn.
 
-HTTP/2, on the other hand, allows for downloading multiple files in parallel over a single connection. Additionally, it offers faster encryption, header compression that improves the performance and security, as well as steam prioritisation.
+HTTP/2, on the other hand, allows browsers to get ready to start downloading all files right away over a single connection. Additionally, it offers faster encryption, header compression that improves the performance and security, as well as steam prioritisation.
 
 It is important that your server supports HTTP/2, as it will make unnecessary to apply some additional web performance optimisation technics to your site, such as:
 
 - spreading files over multiple domains
-- combining and inlining your CSS styles
-- combining and inlining your JavaScript code
+- combining or inlining your CSS styles
+- combining or inlining your JavaScript code
 - combining small images into CSS sprites
 - converting some images to Base64 code
 
