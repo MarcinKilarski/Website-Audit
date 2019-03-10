@@ -36,7 +36,7 @@ Follow the instructions below to convert the most up-to-date version of the repo
 
 find ./ -iname "*.md" -type f -exec sh -c 'pandoc "${0}" -o "${0%.md}.docx"' {} \;
 
-4. Press enter key
+4. Press the enter key
 
 ## An Open-Source License
 
