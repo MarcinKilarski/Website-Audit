@@ -1,4 +1,4 @@
-# Web Performance (Page Load) Optimisation Audit Report
+# Page Load Optimisation Audit Report
 
 #### Overview
 
@@ -185,7 +185,7 @@ This can significantly improve the time that the page takes to load. The faster 
 
 #### Overview
 
-The ‘time to first paint' is one of the most important metrics of web performance optimisation, as it indicates the time it takes to show a user the first element on your page.
+The ‘time to first paint' is one of the most important metrics of page load optimisation, as it indicates the time it takes to show a user the first element on your page.
 
 When the user is waiting for the page to load for a time deemed longer than usual, there is a high chance they will lose patience and leave your site, often heading to the website of a competitor.
 
@@ -383,7 +383,7 @@ The downside of HTTP/1.1 protocol is that it limits browsers to being able to re
 
 HTTP/2, on the other hand, allows browsers to get ready to start downloading all files right away over a single connection. Additionally, it offers faster encryption, header compression that improves the performance and security, as well as steam prioritisation.
 
-It is important that your server supports HTTP/2, as it will make unnecessary to apply some additional web performance optimisation technics to your site, such as:
+It is important that your server supports HTTP/2, as it will make unnecessary to apply some additional page load optimisation technics to your site, such as:
 
 - spreading files over multiple domains
 - combining or inlining your CSS styles

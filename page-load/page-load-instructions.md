@@ -1,4 +1,4 @@
-# Web Performance (Page Load) Optimisation Audit Report
+# Page Load Optimisation Audit Report
 
 ## Table of Content
 

@@ -17,9 +17,9 @@ Feel free to share with the community your thoughts, experiences and best practi
    - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/seo/seo-instructions.md)
 
 6. User Experience - coming soon
-7. [Web Performance (Page Load)](https://github.com/MarcinKilarski/website-audit/blob/master/web-performance/web-performance-report.md) - over 20 checks
+7. [Page Load](https://github.com/MarcinKilarski/website-audit/blob/master/page-load/page-load-report.md) - over 20 checks
 
-   - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/web-performance/web-performance-instructions.md)
+   - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/page-load/page-load-instructions.md)
 
 ## Converting Latest Markdown Files into Microsoft Word Document
 
