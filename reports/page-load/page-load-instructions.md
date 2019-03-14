@@ -8,7 +8,8 @@
   1.3. [Accelerated Mobile Pages (AMP)](#13-accelerated-mobile-pages-amp)  
   1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)  
   1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)  
-  1.6. [Prefetching](#16-prefetching)  
+  1.6. [Prefetching](#16-prefetching)
+  1.7. Redirects
 2. [Time to First Paint](#2-time-to-first-paint)  
   2.1. [Size of HTML Pages](#21-size-of-html-pages)  
   2.2. [Server Push](#22-server-push)  
@@ -117,6 +118,19 @@ Each of the pages in this path should prefetch the next one in order to help the
 Moreover, you should consider prefetching a few ‘critical resources’ on all pages, which are used across the whole site.
 
 Figure 9.1.2 – User flow after arriving on the homepage.
+
+### 1.7. Redirects
+
+#### Used Tools
+
+1. Screaming Frog
+
+#### Instructions
+
+1. Check if there are chain redirects http//:non-www > https//:non-www > https//:www or http//:www > https//:www > https//:non-www and recommend changing them to a single redirect http//:non-www > https//:www or http//:www > https//:non-www
+2. Check if there are any redirects between internal pages and recommend changing them to a direct link.
+
+#### Example of Recommendation
 
 ## 2. Time to First Paint
 

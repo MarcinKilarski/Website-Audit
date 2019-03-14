@@ -12,15 +12,16 @@ According to research by Aberdeen Group, every second that a page takes to load 
 
 ## Table of Content
 
-1. [Response Time](#1-response-time)  
-  1.1. [Server-Side Caching](#11-server-side-caching)  
-  1.2. [Server Location](#12-server-location)  
-  1.3. [Accelerated Mobile Pages (AMP)](#13-accelerated-mobile-pages-amp)  
-  1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)  
-  1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)  
-  1.6. [Prefetching](#16-prefetching)  
-2. [Time to First Paint](#2-time-to-first-paint)  
-  2.1. [Size of HTML Pages](#21-size-of-html-pages)  
+1. [Response Time](#1-response-time)
+  1.1. [Server-Side Caching](#11-server-side-caching)
+  1.2. [Server Location](#12-server-location)
+  1.3. [Accelerated Mobile Pages (AMP)](#13-accelerated-mobile-pages-amp)
+  1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)
+  1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)
+  1.6. [Prefetching](#16-prefetching)
+  1.7. Redirects
+2. [Time to First Paint](#2-time-to-first-paint)
+  2.1. [Size of HTML Pages](#21-size-of-html-pages)
   2.2. [Server Push](#22-server-push)  
   2.3. [Unused Styles](#23-unused-styles)  
   2.4. [Non-Essential Styles](#24-non-essential-styles)  
@@ -168,6 +169,24 @@ Using a prefetch directive allows you to tell your user's browser to download an
 Therefore, it is beneficial to prefetch the largest and most critical files in order to render your pages in advance. In addition to this, when data shows that users follow a specific path on your page, you can prefetch the full page due next on this path. For example, this could be your ‘offer' page when a person visits your homepage.
 
 This can significantly improve the time that the page takes to load. The faster the page load, the higher chance that the user will convert.
+
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
+### 1.7. Redirects
+
+#### Overview
+
+
 
 #### Issue
 
