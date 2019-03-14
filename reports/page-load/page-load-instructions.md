@@ -93,6 +93,7 @@ We did not detect that your site is using Content Delivery Networks. It is worth
 #### Solutions
 
 You could use a CDN like Cloudflare, which provides you with a free basic CDN functionality.
+[Using Cloudflare with WordPress](https://support.cloudflare.com/hc/en-us/articles/227634427-Using-Cloudflare-with-WordPress)
 [How can I tell if Cloudflare is caching my site or a specific file?](https://support.cloudflare.com/hc/en-us/articles/200169556-How-can-I-tell-if-CloudFlare-is-caching-my-site-or-a-specific-file-)
 [What do the various Cloudflare cache responses (HIT, Expired, etc.) mean?](https://support.cloudflare.com/hc/en-us/articles/200168266-What-do-the-various-CloudFlare-cache-responses-HIT-Expired-etc-mean-)
 
@@ -156,6 +157,10 @@ https://developers.google.com/web/tools/lighthouse/audits/unused-css#inlining
 #### Instructions
 
 #### Example of Recommendation
+
+#### Solutions
+
+If you use Cloudflare as your CDN, you will need to do (https://support.cloudflare.com/hc/en-us/articles/115002816808-How-do-I-enable-HTTP-2-Server-Push-in-WordPress)
 
 ### 2.4. Unused Styles
 
