@@ -385,7 +385,7 @@ HTTP/2, on the other hand, allows browsers to get ready to start downloading all
 
 It is important that your server supports HTTP/2, as it will make unnecessary to apply some additional page load optimisation technics to your site, such as:
 
-- spreading files over multiple domains
+- splitting files over multiple domains
 - combining or inlining your CSS styles
 - combining or inlining your JavaScript code
 - combining small images into CSS sprites

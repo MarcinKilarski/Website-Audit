@@ -90,6 +90,12 @@ Very good, your site uses HSTS.
 
 We did not detect that your site is using Content Delivery Networks. It is worth setting this up, even if the majority of your visitors live a small distance from your server.
 
+#### Solutions
+
+You could use a CDN like Cloudflare, which provides you with a free basic CDN functionality.
+[How can I tell if Cloudflare is caching my site or a specific file?](https://support.cloudflare.com/hc/en-us/articles/200169556-How-can-I-tell-if-CloudFlare-is-caching-my-site-or-a-specific-file-)
+[What do the various Cloudflare cache responses (HIT, Expired, etc.) mean?](https://support.cloudflare.com/hc/en-us/articles/200168266-What-do-the-various-CloudFlare-cache-responses-HIT-Expired-etc-mean-)
+
 ### 1.6. Prefetching
 
 #### Used Tools
@@ -270,8 +276,10 @@ Figure 9.2.2 – All requested files by the homepage and their types.
 #### Used Tools
 
 Check site on:
-•	https://tools.keycdn.com/http2-test
-•	https://http2.pro/
+
+- https://tools.keycdn.com/http2-test
+- https://http2.pro/
+- [Tools for debugging, testing and using HTTP/2](https://blog.cloudflare.com/tools-for-debugging-testing-and-using-http-2/?utm_referrer=https://www.google.com/)
 
 #### Instructions
 
@@ -285,9 +293,8 @@ Your website does not use HTTP/2. You should ask your hosting provider to enable
 
 #### Instructions
 
-DELETE: HOW TO CHECK THIS
-1.	Manual > check the page source code for DNS-prefetch
-2.	WebPageTest.org > Details tab
+1. Manual > check the page source code for DNS-prefetch
+2. WebPageTest.org > Details tab
 
 #### Example of Recommendation
 
@@ -414,6 +421,8 @@ WebPageTest.org > Details
 #### Example of Recommendation
 
 Your website does not use browser caching, which should be fixed.
+
+#### Solutions
 
 ### 4.7. Query Strings
 
