@@ -6,3 +6,6 @@ It's coming soon with the help of the community.
 
 In the wp-config.php file, make sure that it says:
 `define('WP_DEBUG', false);`
+
+2. Domain Name System Security Extensions (DNSSEC)
+https://www.youtube.com/watch?v=MrtsKTC3KDM
