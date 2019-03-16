@@ -1435,7 +1435,7 @@ Therefore, sites that block crawlers from going through JavaScript, CSS and imag
 
 #### Overview
 
-HTTPS encrypts the connection between a user and your website, securing any sensitive data that the user may have submitted on your site, such as personal details, password, and credit cards. Pages that are served over an HTTPS connection also get a [small ranking boost](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html) in Google.
+HTTPS encrypts the connection between a user and your website, securing any sensitive data that the user may have submitted on your site, such as personal details, password, and credit cards. It ensures that you really are talking to the server you think you're connected to and that no one can listen in on the conversation. Pages that are served over an HTTPS connection also get a [small ranking boost](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html) in Google.
 
 Without encryption, a user is exposed to a ‘man-in-the-middle' attack. This is where a hacker can obtain sensitive information during the process of sending them from a user to your system. Personal information exposed in this way can lead to serious problems for your customers.
 
