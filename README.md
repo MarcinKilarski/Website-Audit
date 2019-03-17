@@ -34,7 +34,7 @@ Follow the instructions below to convert the most up-to-date version of the repo
 2. Open a directory in the Terminal
 3. Type the following command:
 
-find ./ -iname "*.md" -type f -exec sh -c 'pandoc "${0}" -o "${0%.md}.docx"' {} \;
+   find ./ -iname "*.md" -type f -exec sh -c 'pandoc "${0}" -o "${0%.md}.docx"' {} \;
 
 4. Press the enter key
 
