@@ -1110,9 +1110,9 @@ You can combat this issue by adding rel=‘canonical' to your pages, which direc
 
 #### Overview
 
-‘301 redirects' are used to indicate to the search engines that the old page won't be used any longer, presenting the new page to them instead. This helps move users and accumulated ranking signals from an old page to the new one.
+‘301 redirects' are used to indicate to the search engines that the old page won't be used any longer, presenting the new page to them instead. This helps move users and accumulated ranking signals from an old page to the new one. Also, browsers will update any bookmarks that are linked to the page that is being redirected once they encounter the permanent redirect.
 
-However, using ‘301 redirects' can reduce the speed of the page loading, and may discount some of the transferred ranking signals. Therefore, we recommend using a direct link whenever possible.
+However, using ‘301 redirects' can reduce the speed of the page loading and may discount some of the transferred ranking signals. Therefore, we recommend using a direct link whenever possible.
 
 #### Issue
 

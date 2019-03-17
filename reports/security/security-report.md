@@ -25,7 +25,7 @@ In the wp-config.php file, make sure that it says:
 
 ### Overview
 
-https://www.youtube.com/watch?v=MrtsKTC3KDM
+It protects a site from spoofing and man-in-the-middle attacks. https://www.youtube.com/watch?v=MrtsKTC3KDM
 
 ### Issue
 
