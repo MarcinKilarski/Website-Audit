@@ -79,12 +79,31 @@ You can avoid this delay by using HSTS which asks browsers to automatically load
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-## Email Abuse
+## 5. Email Abuse
 
 ### Overview
 
 https://documentation.cpanel.net/display/CKB/How+to+Prevent+Email+Abuse
 https://blog.cpanel.com/gone-phishing/
+
+### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
+## 6. PHP Security
+
+### Overview
+
+https://documentation.cpanel.net/display/EA4/PHP+Home#PHPHome-PHPSecurity
+https://documentation.cpanel.net/display/CKB/PHP+Security+Concepts
 
 ### Issue
 
