@@ -31,7 +31,9 @@ According to research by Aberdeen Group, every second that a page takes to load 
   2.8. [Number of Requested Files](#28-number-of-requested-files)  
   2.9. [HTTP/2](#29-http2)  
   2.10. [DNS Prefetching](#210-dns-prefetching)  
-  2.11. [Code Validation](#211-code-validation)  
+  2.11. [Code Validation](#211-code-validation)
+  2.12  Keep Alive
+  2.13  Slow Start
 3. [Time to Interaction](#3-time-to-interaction)
 4. [Page Load Time](#4-page-load-time)  
   4.1. [Total Page Size](#41-total-page-size)  
@@ -449,6 +451,42 @@ We recommend your site set up this directive on all pages for domains that are m
 Modern browsers are very intelligent, meaning that even if your pages contain an invalid code, they will still usually manage to display your page correctly. However, the process of identifying and fixing the issue may slow down the displaying of your page to the user. Therefore, we recommend fixing these types of issues in order to help the browser focus on downloading and displaying your content to searchers as quickly as possible.
 
 Your pages should adhere to W3C standards to ensure the code is easy for browsers to read and execute. Usually, only a few selected pages of each website will be tested, as many issues for the entire website can be easily fixed by simply using the page templates.
+
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
+### 2.13. Keep Alive
+
+#### Overview
+
+https://varvy.com/pagespeed/keep-alive.html
+
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
+### 2.14. Slow Start
+
+#### Overview
+
+https://varvy.com/pagespeed/slow-start.html
 
 #### Issue
 
