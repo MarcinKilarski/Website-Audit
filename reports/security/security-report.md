@@ -2,6 +2,8 @@
 
 It's coming soon with the help of the community.
 
+Great free website security checker by (Sucuri)[https://sitecheck.sucuri.net/]
+
 ## 1. Disabled error logging when not used
 
 ### Overview
