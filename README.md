@@ -28,7 +28,7 @@ Feel free to share with the community your thoughts, experiences and best practi
 
 ## Call for Contributors
 
-If you are interested this report and see ways to improve it, feel free to search out to me. I am looking for people how would like to join me on this a bit lowly journey to great a great resource to help everyone analyse a website and find ways to improve it.
+If you are interested in making these reports event better, feel free to contact me. It will be great to join forces with you on this amazing journey to help everyone easily analyse any website and find ways to make it even better.
 
 ## Converting Latest Markdown Files into Microsoft Word Document
 
