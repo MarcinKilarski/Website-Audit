@@ -26,6 +26,10 @@ Feel free to share with the community your thoughts, experiences and best practi
 
 7. User Experience report - coming soon
 
+## Call for Contributors
+
+If you are interested this report and see ways to improve it, feel free to search out to me. I am looking for people how would like to join me on this a bit lowly journey to great a great resource to help everyone analyse a website and find ways to improve it.
+
 ## Converting Latest Markdown Files into Microsoft Word Document
 
 Follow the instructions below to convert the most up-to-date version of the report into Word file.
