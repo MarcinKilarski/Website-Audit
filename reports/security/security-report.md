@@ -4,6 +4,8 @@ It's coming soon with the help of the community.
 
 Great free website security checker by (Sucuri)[https://sitecheck.sucuri.net/]
 
+Great (Health Check & Troubleshooting)[https://wordpress.org/plugins/health-check/] plugin.
+
 ## 1. Disabled error logging when not used
 
 ### Overview
