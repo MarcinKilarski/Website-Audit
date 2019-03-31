@@ -423,6 +423,8 @@ Figure 4.4.2 – List of images on the [PAGE Z] page and how much smaller they c
 
 #### Used Tools
 
+https://developers.google.com/speed/pagespeed/insights/
+
 #### Instructions
 
 #### Example of Recommendation
