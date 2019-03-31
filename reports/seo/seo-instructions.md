@@ -1354,6 +1354,8 @@ You are in control of almost all of your meta descriptions.
 #### Instructions
 
 1. Google
+https://search.google.com/test/mobile-friendly
+or
 https://search.google.com/search-console/mobile-friendly
 or Bulk test:
 https://technicalseo.com/seo-tools/mobile-friendly/
