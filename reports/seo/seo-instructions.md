@@ -18,18 +18,18 @@
   1.13. [Outbound Links](#113-outbound-links)  
   1.14. [Website Sitelinks](#114-website-sitelinks)  
   1.15. [Descriptive Media File Names](#115-descriptive-media-file-names)  
-2. [Page-Level Factors](#2-page-level-factors)  
-  2.1. [Missing Title Tag](#21-missing-title-tag)  
-  2.2. [Keywords in Titles](#22-keywords-in-titles)  
-  2.3. [Duplicate Titles](#23-duplicate-titles)  
-  2.4. [Title Length](#24-title-length)  
-  2.5. [Headings](#25-headings)  
-  2.6. [Keywords in Headings](#26-keywords-in-headings)  
-  2.7. [Keywords in Main Content](#27-keywords-in-main-content)  
-  2.8. [Missing Meta Descriptions](#28-missing-meta-descriptions)  
-  2.9. [Keywords in Meta Descriptions](#29-keywords-in-meta-descriptions)  
+2. [Page-Level Factors](#2-page-level-factors)
+  2.1. [Missing Title Tag](#21-missing-title-tag)
+  2.2. [Keywords in Titles](#22-keywords-in-titles)
+  2.3. [Duplicate Titles](#23-duplicate-titles)
+  2.4. [Title Length](#24-title-length)
+  2.5. [Headings](#25-headings)
+  2.6. [Keywords in Headings](#26-keywords-in-headings)
+  2.7. [Keywords in Main Content](#27-keywords-in-main-content)
+  2.8. [Missing Meta Descriptions](#28-missing-meta-descriptions)
+  2.9. [Keywords in Meta Descriptions](#29-keywords-in-meta-descriptions)
   2.10. [Meta Descriptions Length](#210-meta-descriptions-length)  
-  2.11. [Duplicate Meta Descriptions](#211-duplicate-meta-descriptions)  
+  2.11. [Duplicate Meta Descriptions](#211-duplicate-meta-descriptions)
   2.12. [Keywords in URLs](#212-keywords-in-urls)  
   2.13. [Separating Words in URLs](#213-separating-words-in-urls)  
   2.14. [Descriptive URLs](#214-descriptive-urls)  
@@ -39,7 +39,8 @@
   2.18. [Missing Alternative Text for Multimedia](#218-missing-alternative-text-for-multimedia)  
   2.19. [Keywords in Alternative Text](#219-keywords-in-alternative-text)  
   2.20. [Meta Keywords](#220-meta-keywords)  
-  2.21. [Number of Links on a Page](#221-number-of-links-on-a-page)  
+  2.21. [Number of Links on a Page](#221-number-of-links-on-a-page)
+  2.22. [Important Content in the Source Code](#222-important-content-in-the-source-code)
 3. [Technical](#3-technical)  
   3.1. [Page Indexation](#31-page-indexation)  
   3.2. [4XX Client Error](#32-4xx-client-error)  
@@ -846,7 +847,27 @@ Great, there are no meta keyword tags on your pages.
 
 #### Example of Recommendation
 
-Great, none of your pages have over 200 links. 
+Great, none of your pages have over 200 links.
+
+### 2.22. Important Content in the Source Code
+
+#### Used Tools
+
+https://www.diffchecker.com/
+
+#### Instructions
+
+1. Right-click on the page that you want to check and select "View source-code".
+2. Copy source-code of a page that you are checking into the first field of the Diffchecker tool.
+3. Right-click on the page and select "Inspect".
+4. Right-click on the HTML tag and copy everything in the tag. Then enter it into the second field of the Diffchecker tool.
+5. If you detect a difference in important content, copy the content that is different and past it in quotation marks into the Google search and Bing search. E.g. "This is the content that is different."
+6. If you get a lot of results, search for a more substantial chunk of content in the search engine.
+7. If you cannot find this content in the search engines, most likely, it was not seen by them on the page, which is an issue.
+
+#### Example of Recommendation
+
+Great, all importnat content is present on in the source code of your pages.
 
 ## 3. Technical
 

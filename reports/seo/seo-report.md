@@ -49,14 +49,15 @@ We hope that the information in this report will help you and your team get a be
   2.18. [Missing Alternative Text for Multimedia](#218-missing-alternative-text-for-multimedia)  
   2.19. [Keywords in Alternative Text](#219-keywords-in-alternative-text)  
   2.20. [Meta Keywords](#220-meta-keywords)  
-  2.21. [Number of Links on a Page](#221-number-of-links-on-a-page)  
-3. [Technical](#3-technical)  
-  3.1. [Page Indexation](#31-page-indexation)  
-  3.2. [4XX Client Error](#32-4xx-client-error)  
-  3.3. [5XX Server Error](#33-5xx-server-error)  
-  3.4. [Page Render](#34-page-render)  
-  3.5. [Pages Restricted From Indexing](#35-pages-restricted-from-indexing)  
-  3.6. [Canonicalisation](#36-canonicalisation)  
+  2.21. [Number of Links on a Page](#221-number-of-links-on-a-page)
+  2.22. [Important Content in the Source Code](#222-important-content-in-the-source-code)
+3. [Technical](#3-technical)
+  3.1. [Page Indexation](#31-page-indexation)
+  3.2. [4XX Client Error](#32-4xx-client-error)
+  3.3. [5XX Server Error](#33-5xx-server-error)
+  3.4. [Page Render](#34-page-render)
+  3.5. [Pages Restricted From Indexing](#35-pages-restricted-from-indexing)
+  3.6. [Canonicalisation](#36-canonicalisation)
   3.7. [301 Redirects](#37-301-redirects)  
   3.8. [302 Redirects](#38-302-redirects)  
   3.9. [Redirect Chains](#39-redirect-chains)  
@@ -942,6 +943,34 @@ An excessive number of links on a page can overwhelm and confuse your users. It 
 Another reason of refraining from listing many links on one page is that [each additional link reduces the PageRank](https://www.youtube.com/watch?v=QHG6BkmzDEM&feature=youtu.be&t=1m22s) (aka authority) that they pass from one page to another. So, when you have 300 links on one page, each of them passes only 1/300th of the authority to the link destination.
 
 In the past, it was recommended by Google to avoid having more than 100 links on the same page for various reasons. Now, this has increased, and as the [current Google's guidelines](https://support.google.com/webmasters/answer/35769?hl=en) say: ‘Limit the number of links on a page to a reasonable number (a few thousand at most).' We recommend keeping this number below 300.'
+
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
+Important Content in the Source Code
+
+### 2.22. Important Content in the Source Code
+
+#### Overview
+
+A lot of websites that depended heavily on JavaScript do not include important content in the initial page (the source code) that they send to visitors. They add content to the page through JavaScript after the browser downloads it.
+
+Unfortunately, this makes it more difficult for search engines to discover the content and links that point to other pages on your site. Some search engines just look at the initial page that they download from your website because in most cases it only takes a 0.5-1 second to get it. Downloading multiple Javascript files and waiting to see if they might embed any additional content takes a few or even tens of extra seconds.
+
+It might not seem to be a lot, but when you take into account billions of pages on the Internet, it significantly decreases how fast the search engines can discover updated and new pages.
+
+Other search engines like Google, look at the source code on the initial visit of the page but come back after a few days or weeks to check if any additional content is visible after downloading JavaScript files and rendering the page.
+
+Loading important content with JavaScript might cause search engines or be seen only after a long time. Then your announcement, news article, the promotion might not be as relevant any longer.
 
 #### Issue
 
