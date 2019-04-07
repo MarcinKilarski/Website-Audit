@@ -14,15 +14,15 @@ Feel free to share with the community your thoughts, experiences and best practi
 4. [Page Load](https://github.com/MarcinKilarski/website-audit/blob/master/reports/page-load/page-load-report.md) report - over 20 checks
 
    - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/reports/page-load/page-load-instructions.md)
-   - [Page Load report in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/blob/master/reports/page-load/page-load-report.docx)
-   - [Instructions in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/blob/master/reports/page-load/page-load-instructions.docx)
+   - [Page Load report in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/page-load/page-load-report.docx)
+   - [Instructions in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/page-load/page-load-instructions.docx)
 
 5. Security report - coming soon
 6. [Search Engine Optimisation (SEO)](https://github.com/MarcinKilarski/website-audit/blob/master/reports/seo/seo-report.md) report - over 100 checks
 
    - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/reports/seo/seo-instructions.md)
-   - [Search Engine Optimisation (SEO) report in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/blob/master/reports/seo/seo-report.docx)
-   - [Instructions in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/blob/master/reports/seo/seo-instructions.docx)
+   - [Search Engine Optimisation (SEO) report in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/seo/seo-report.docx)
+   - [Instructions in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/seo/seo-instructions.docx)
 
 7. User Experience report - coming soon
 
