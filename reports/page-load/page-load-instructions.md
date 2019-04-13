@@ -404,6 +404,11 @@ Images
 
 Your site has mobile and tablet specific image dimensions. However, there is still room for further improvement. For example, the three images in the middle of the homepage have dimensions more than two times bigger than the space dedicated for them on the page. This adds unnecessary kilobits to the size of your page, ultimately slowing it down.
 
+#### Solution
+
+1. Use responsive images
+2. Define the max-width of an image based on how big it needs to be on a desktop. Otherwise, a browser will request a 1900 pixel width image on the desktop, even if the image takes 300px on the screen.
+
 ### 4.4. Image Compression
 
 #### Used Tools
