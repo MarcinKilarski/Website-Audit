@@ -197,13 +197,16 @@ Google Chrome > DevTools (OPTION + COMMAND + I on Mac or CONTROL + SHIFT + I on 
 3. Check if you can safely remove them by temporarily blocking them in your browser. To do this, open Request Blocking tool and add URLs of files that you would like to block, then reload the page.
 4. If removing blocking/removing files brake the design or functionality on the page on desktop or mobile device, you should be able to move important code other files, then remove the old files.
 5. Scan the site with https://www.webpagetest.org/, and check in the waterfall chart what files should not load on the homepage and other important pages. For example, payment gateway files, forum, emoji, WordPress Gutenberg files when the site does not use the Gutenberg editor, etc.
-6. You can use plugins like [Asset CleanUp](https://wordpress.org/plugins/wp-asset-clean-up/) or [Plugin Organizer](https://wordpress.org/plugins/plugin-organizer/) to disable these files on pages on which they are not used.
 
 Video: https://youtu.be/5fLW5Q5ODiE?t=416
 
 #### Example of Recommendation
 
 Your site uses Bootstrap framework, which is 135 KB in size and adds a significant amount of unnecessary code to your site.
+
+#### Solution
+
+If your site is built on WordPress, you can use plugins like [Asset CleanUp](https://wordpress.org/plugins/wp-asset-clean-up/) or [Plugin Organizer](https://wordpress.org/plugins/plugin-organizer/) to disable these files on pages on which they are not used.
 
 ### 2.5. Non-Essential Styles
 
@@ -385,6 +388,11 @@ Images
 | Images        |
 | ------------- |
 | placeholder     |
+
+#### Solution
+
+- If you have an image editing tool like Photoshop or Fireworks, you can open the image in that tool and save it in the file format that is best to use in this case.
+- You can also use an online too like https://png2jpg.com/
 
 ### 4.3. Image Dimension
 
