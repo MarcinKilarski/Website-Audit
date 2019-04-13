@@ -276,7 +276,9 @@ You can show a page to users even 1 second faster on mobile and 0.5 seconds fast
 
 #### Overview
 
-Websites are often built on frameworks and libraries, which contain thousands of lines of code to allow web developers to quickly style pages and add additional functionality. Unfortunately, these sites end up using a small percentage of code that is added to their pages.
+Websites are often built on frameworks and libraries, which contain thousands of lines of code to allow web developers to quickly style pages and add additional functionality. However, most sites end up using only a small percentage of that code on their pages.
+
+Often, plugins that you have installed on your site does not know on which pages you will need to use its functionality. So they load CSS and JavaScript files on every page, increasing its size and decreasing the load time. It is recommended to configure your site in a way that only loads these files on pages on which are needed, and removes them from others.
 
 In addition to this, when a site goes through a number of design changes over time, the site usually contains a legacy code which is no longer used. As a code base grows, and it becomes more difficult to understand what all the styles are actually for, it starts to slow down your site.
 

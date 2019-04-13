@@ -176,7 +176,7 @@ https://developers.google.com/web/tools/lighthouse/audits/unused-css#inlining
 
 If you use Cloudflare as your CDN, you will need to do (https://support.cloudflare.com/hc/en-us/articles/115002816808-How-do-I-enable-HTTP-2-Server-Push-in-WordPress)
 
-### 2.4. Unused Styles
+### 2.4. Unused Code
 
 #### Used Tools
 
@@ -188,12 +188,16 @@ Google Chrome > DevTools (OPTION + COMMAND + I on Mac or CONTROL + SHIFT + I on 
 
 Google Chrome > DevTools (OPTION + COMMAND + I on Mac or CONTROL + SHIFT + I on Windows) > open the Command Menu (SHIFT + COMMAND + P on Mac or CONTROL + SHIFT + P on Windows) > Request Blocking tool
 
+- https://www.webpagetest.org/
+
 #### Instructions
 
 1. Go to Show Coverage tool and refresh the page.
 2. Identify, which files are not used or used minimally on the site.
 3. Check if you can safely remove them by temporarily blocking them in your browser. To do this, open Request Blocking tool and add URLs of files that you would like to block, then reload the page.
 4. If removing blocking/removing files brake the design or functionality on the page on desktop or mobile device, you should be able to move important code other files, then remove the old files.
+5. Scan the site with https://www.webpagetest.org/, and check in the waterfall chart what files should not load on the homepage and other important pages. For example, payment gateway files, forum, emoji, WordPress Gutenberg files when the site does not use the Gutenberg editor, etc.
+6. You can use plugins like [Asset CleanUp](https://wordpress.org/plugins/wp-asset-clean-up/) or [Plugin Organizer](https://wordpress.org/plugins/plugin-organizer/) to disable these files on pages on which they are not used.
 
 Video: https://youtu.be/5fLW5Q5ODiE?t=416
 
