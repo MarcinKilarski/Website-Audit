@@ -274,6 +274,10 @@ Figure 9.2.7.1 – A list of files with code on your homepage and potential redu
 
 #### Example of Recommendation
 
+#### Solution
+
+1. W3 Total Cache plugin > Minify > JS section
+
 ### 2.9. Number of Requested Files
 
 #### Used Tools
