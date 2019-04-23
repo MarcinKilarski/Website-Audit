@@ -12,13 +12,13 @@ Feel free to share with the community your thoughts, experiences and best practi
 
    - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/reports/seo/seo-instructions.md)
    - [Search Engine Optimisation (SEO) report in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/seo/seo-report.docx)
-   - [Instructions in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/seo/seo-instructions.docx)
+   - [Search Engine Optimisation (SEO) instructions in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/seo/seo-instructions.docx)
 
 2. [Page Load](https://github.com/MarcinKilarski/website-audit/blob/master/reports/page-load/page-load-report.md) report - over 25 checks
 
    - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/reports/page-load/page-load-instructions.md)
    - [Page Load report in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/page-load/page-load-report.docx)
-   - [Instructions in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/page-load/page-load-instructions.docx)
+   - [Page Load instructions in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/page-load/page-load-instructions.docx)
 
 3. Accessibility report - https://github.com/Asqatasun/Asqatasun
 4. Analytics report - coming soon
