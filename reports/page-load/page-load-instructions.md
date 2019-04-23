@@ -3,60 +3,44 @@
 ## Table of Content
 
 1. [Response Time](#1-response-time)  
-  1.1. [Server-Side Caching](#11-server-side-caching)  
-  1.2. [Server Location](#12-server-location)  
-  1.3. [Accelerated Mobile Pages (AMP)](#13-accelerated-mobile-pages-amp)  
+  1.1. [Accelerated Mobile Pages (AMP)](#11-accelerated-mobile-pages-amp)  
+  1.2. [Server-Side Caching](#12-server-side-caching)  
+  1.3. [Server Location](#13-server-location)  
   1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)  
   1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)  
-  1.6. [Prefetching](#16-prefetching)  
-  1.7. Redirects  
+  1.6. [Keep Alive](#16-keep-alive)
 2. [Time to First Paint](#2-time-to-first-paint)  
   2.1. [Size of HTML Pages](#21-size-of-html-pages)  
-  2.2. [Server Push](#22-server-push)  
-  2.3. [Unused Code](#23-unused-styles)  
-  2.4. [Non-Essential Styles](#24-non-essential-styles)  
-  2.5. [Code Minification](#25-code-minification)  
-  2.6. [Server-Side Compression](#26-server-side-compression)  
-  2.7. [Async Loading of Code](#27-async-loading-of-code)  
-  2.8. [Number of Requested Files](#28-number-of-requested-files)  
-  2.9. [HTTP/2](#29-http2)  
-  2.10. [DNS Prefetching](#210-dns-prefetching)  
+  2.2. [Prioritising Critical CSS](#22-prioritising-critical-css)  
+  2.3. [Server Push](#23-server-push)  
+  2.4. [Unused Code](#24-unused-code)  
+  2.5. [Non-Essential Styles](#25-non-essential-styles)  
+  2.6. [Code Minification](#26-code-minification)  
+  2.7. [Text Compression](#27-text-compression)  
+  2.8. [Async Loading of Code](#28-async-loading-of-code)  
+  2.9. [Number of Requested Files](#29-number-of-requested-files)  
+  2.10. [HTTP/2](#210-http2)  
   2.11. [Code Validation](#211-code-validation)  
-3. [Time to Interaction](#3-time-to-interaction)
-4. [Page Load Time](#4-page-load-time)  
-  4.1. [Total Page Size](#41-total-page-size)  
-  4.2. [Image Format](#42-image-format)  
-  4.3. [Image Dimension](#43-image-dimension)  
-  4.4. [Image Compression](#44-image-compression)  
-  4.5. [Deferred Image Load](#45-deferred-image-load)  
-  4.6. [Client-Side Caching](#46-client-side-caching)  
-  4.7. [Query Strings](#47-query-strings)  
+3. [Page Load Time](#3-page-load-time)  
+  3.1. [Total Page Size](#31-total-page-size)  
+  3.2. [Image Format](#32-image-format)  
+  3.3. [Image Dimension](#33-image-dimension)  
+  3.4. [Image Compression](#34-image-compression)  
+  3.5. [Deferred Image Load](#35-deferred-image-load)  
+4. [Time to Load the Next Page](#4-time-to-load-the-next-page)  
+  4.1. [Prefetching](#41-prefetching)  
+  4.2. [Client-Side Caching](#42-client-side-caching)  
+  4.3. [Query Strings](#43-query-strings)  
+  4.4. [Redirects](#44-redirects)  
+  4.5. [DNS Prefetching](#45-dns-prefetching)  
 
 ## 1. Response Time
 
-### 1.1. Server-Side Caching
+### 1.1. Accelerated Mobile Pages (AMP)
 
 #### Used Tools
 
-#### Instructions
-
-#### Example of Recommendation
-
-### 1.2. Server Location
-
-#### Used Tools
-
-#### Instructions
-
-WebPageTest.org > Details tab > time needed to receive HTML page over 1 second
-
-#### Example of Recommendation
-
-Your website does not use server caching. It is recommended to set it up on your server as soon as possible, as it can significantly increase your website’s speed.
-
-### 1.3. Accelerated Mobile Pages (AMP)
-
-#### Used Tools
+- Screaming Frog
 
 #### Instructions
 
@@ -69,6 +53,32 @@ Extract HTML Element
 
 Your site does not have AMP versions of your pages. Consider implementing them for improved load time on mobile phones.
 
+#### Solutions
+
+### 1.2. Server-Side Caching
+
+#### Used Tools
+
+#### Instructions
+
+#### Example of Recommendation
+
+#### Solutions
+
+### 1.3. Server Location
+
+#### Used Tools
+
+#### Instructions
+
+WebPageTest.org > Details tab > time needed to receive HTML page over 1 second
+
+#### Example of Recommendation
+
+Your website does not use server caching. It is recommended to set it up on your server as soon as possible, as it can significantly increase your website’s speed.
+
+#### Solutions
+
 ### 1.4. HTTP Strict Transport Security (HSTS)
 
 #### Used Tools
@@ -80,6 +90,8 @@ Use this page to test does a site uses HSTS: https://hstspreload.org/
 #### Example of Recommendation
 
 Very good, your site uses HSTS.
+
+#### Solutions
 
 ### 1.5. Content Delivery Network (CDN)
 
@@ -97,40 +109,6 @@ You could use a CDN like Cloudflare, which provides you with a free basic CDN fu
 [Using Cloudflare with WordPress](https://support.cloudflare.com/hc/en-us/articles/227634427-Using-Cloudflare-with-WordPress)
 [How can I tell if Cloudflare is caching my site or a specific file?](https://support.cloudflare.com/hc/en-us/articles/200169556-How-can-I-tell-if-CloudFlare-is-caching-my-site-or-a-specific-file-)
 [What do the various Cloudflare cache responses (HIT, Expired, etc.) mean?](https://support.cloudflare.com/hc/en-us/articles/200168266-What-do-the-various-CloudFlare-cache-responses-HIT-Expired-etc-mean-)
-
-### 1.6. Prefetching
-
-#### Used Tools
-
-1.	Manual > check the source code on the homepage for prefetch directive
-2.	Google Analytics > Audience > User Flow
-
-#### Instructions
-
-#### Example of Recommendation
-
-We have already set up prefetching directive from your memberships pages to your Thank You page, as hopefully most of the visitors to this page will fill out the registration form and end up on the Thank you page.
-
-However, we have not detected a prefetching directive on any other pages on your site. We checked your user flow after they arrived on your homepage. As you can observe on Figure 9.1.2, they follow a clear path from the homepage, to [KEYWORD D], and then to the [KEYWORD D] page, before finally ending up at the [PAGE T] page.
-
-Each of the pages in this path should prefetch the next one in order to help the user get to the final destination in the shortest amount of time. This should decrease the percentage of users dropping on each page.
-
-Moreover, you should consider prefetching a few ‘critical resources’ on all pages, which are used across the whole site.
-
-Figure 9.1.2 – User flow after arriving on the homepage.
-
-### 1.7. Redirects
-
-#### Used Tools
-
-1. Screaming Frog
-
-#### Instructions
-
-1. Check if there are chain redirects http//:non-www > https//:non-www > https//:www or http//:www > https//:www > https//:non-www and recommend changing them to a single redirect http//:non-www > https//:www or http//:www > https//:non-www
-2. Check if there are any redirects between internal pages and recommend changing them to a direct link.
-
-#### Example of Recommendation
 
 ## 2. Time to First Paint
 
@@ -153,6 +131,8 @@ Figure 2.1.1 – A list of all pages found on your site with their HTML sizes.
 | placeholder     | placeholder |
 
 Figure 2.1.2 – A snippet of code from your [PAGE A] page with two copies of the main content. One for desktop (green colour) and another for mobile (blue colour). These could be reduced to one copy with the use of CSS styles.
+
+#### Solutions
 
 ### 2.2. Critical CSS
 
@@ -220,6 +200,8 @@ Check page’s source code for print and width specific styles. Search for ‘me
 
 Each device type downloads all styles at the same time. You should consider removing print and media query styles from the main style-sheet.
 
+#### Solutions
+
 ### 2.6. Code Minification
 
 #### Used Tools
@@ -240,6 +222,8 @@ Figure 9.2.6.1 – List files with code on your homepage and potential reduction
 | Files        | Potential Gain          |
 | ------------- | ------------- |
 | placeholder     | placeholder |
+
+#### Solutions
 
 ### 2.7. Server-Side Compression
 
@@ -265,6 +249,8 @@ Figure 9.2.7.1 – A list of files with code on your homepage and potential redu
 | Files        | Potential Gain          |
 | ------------- | ------------- |
 | placeholder     | placeholder |
+
+#### Solutions
 
 ### 2.8. Async Loading of Code
 
@@ -301,6 +287,8 @@ Figure 9.2.2 – All requested files by the homepage and their types.
 | ------------- | ------------- | ------------- |
 | placeholder     | placeholder | placeholder |
 
+#### Solutions
+
 ### 2.10. HTTP/2
 
 #### Used Tools
@@ -316,6 +304,8 @@ Check site on:
 #### Example of Recommendation
 
 Your website does not use HTTP/2. You should ask your hosting provider to enable it for your site.
+
+#### Solutions
 
 ### 2.11. DNS Prefetching
 
@@ -334,6 +324,8 @@ Figure 9.3.8 – A list of domains and the time it took to perform the DNS looku
 | URL        | Lookup Time          |
 | ------------- | ------------- |
 | placeholder     | placeholder |
+
+#### Solutions
 
 ### 2.12. Code Validation
 
@@ -358,13 +350,11 @@ Figure 9.2.8 – URLs of full reports from HTML and CSS code validation.
 | placeholder     | CSS | placeholder |
 | placeholder     | JavaScript | placeholder |
 
-#### Example of Recommendation
+#### Solutions
 
-## 3. Time to Interaction
+## 3. Page Load Time
 
-## 4. Page Load Time
-
-### 4.1. Total Page Size
+### 3.1. Total Page Size
 
 #### Used Tools
 
@@ -376,7 +366,9 @@ webpagetest.org > Details
 
 Your homepage is 1,974 KB, while your [PAGE Z] page is 5,246 KB in size. These sizes should be significantly reduced.
 
-### 4.2. Image Format
+#### Solutions
+
+### 3.2. Image Format
 
 #### Used Tools
 
@@ -398,7 +390,7 @@ Images
 - If you have an image editing tool like Photoshop or Fireworks, you can open the image in that tool and save it in the file format that is best to use in this case.
 - You can also use an online too like https://png2jpg.com/
 
-### 4.3. Image Dimension
+### 3.3. Image Dimension
 
 #### Used Tools
 
@@ -413,7 +405,7 @@ Your site has mobile and tablet specific image dimensions. However, there is sti
 1. Use responsive images
 2. Define the max-width of an image based on how big it needs to be on a desktop. Otherwise, a browser will request a 1900 pixel width image on the desktop, even if the image takes 300px on the screen.
 
-### 4.4. Image Compression
+### 3.4. Image Compression
 
 #### Used Tools
 
@@ -440,7 +432,9 @@ Figure 4.4.2 – List of images on the [PAGE Z] page and how much smaller they c
 | ------------- | ------------- |
 | placeholder     | placeholder |
 
-### 4.5. Deferred Image Load
+#### Solutions
+
+### 3.5. Deferred Image Load
 
 #### Used Tools
 
@@ -452,7 +446,34 @@ https://developers.google.com/speed/pagespeed/insights/
 
 We have not detected the differed image load on your site. You should consider setting it up to make your pages load faster.
 
-### 4.6. Client-Side Caching
+#### Solutions
+
+## 4. Time to Load the Next Page
+
+### 4.1. Prefetching
+
+#### Used Tools
+
+1.	Manual > check the source code on the homepage for prefetch directive
+2.	Google Analytics > Audience > User Flow
+
+#### Instructions
+
+#### Example of Recommendation
+
+We have already set up prefetching directive from your memberships pages to your Thank You page, as hopefully most of the visitors to this page will fill out the registration form and end up on the Thank you page.
+
+However, we have not detected a prefetching directive on any other pages on your site. We checked your user flow after they arrived on your homepage. As you can observe on Figure 9.1.2, they follow a clear path from the homepage, to [KEYWORD D], and then to the [KEYWORD D] page, before finally ending up at the [PAGE T] page.
+
+Each of the pages in this path should prefetch the next one in order to help the user get to the final destination in the shortest amount of time. This should decrease the percentage of users dropping on each page.
+
+Moreover, you should consider prefetching a few ‘critical resources’ on all pages, which are used across the whole site.
+
+Figure 9.1.2 – User flow after arriving on the homepage.
+
+#### Solutions
+
+### 4.2. Client-Side Caching
 
 #### Used Tools
 
@@ -466,7 +487,7 @@ Your website does not use browser caching, which should be fixed.
 
 #### Solutions
 
-### 4.7. Query Strings
+### 4.3. Query Strings
 
 #### Used Tools
 
@@ -476,10 +497,37 @@ WebPageTest.org > Details
 
 #### Example of Recommendation
 
-22 files on your homepage and [PAGE Z] page contain query string (Figure 4.7), which prevents browsers from saving them for future usage.
+22 files on your homepage and [PAGE Z] page contain query string (Figure 4.3), which prevents browsers from saving them for future usage.
 
-Figure 4.7 – A list of files requested by your homepage and [PAGE Z] page that contain a query string.
+Figure 4.3 – A list of files requested by your homepage and [PAGE Z] page that contain a query string.
 
 | File        |
 | ------------- |
 | placeholder     |
+
+#### Solutions
+
+### 4.4. Redirects
+
+#### Used Tools
+
+1. Screaming Frog
+
+#### Instructions
+
+1. Check if there are chain redirects http//:non-www > https//:non-www > https//:www or http//:www > https//:www > https//:non-www and recommend changing them to a single redirect http//:non-www > https//:www or http//:www > https//:non-www
+2. Check if there are any redirects between internal pages and recommend changing them to a direct link.
+
+#### Example of Recommendation
+
+#### Solutions
+
+### 4.5. DNS Prefetching
+
+#### Used Tools
+
+#### Instructions
+
+#### Example of Recommendation
+
+#### Solutions

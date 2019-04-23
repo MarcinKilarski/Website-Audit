@@ -14,36 +14,35 @@ According to research by Aberdeen Group, every second that a page takes to load 
 
 1. [Response Time](#1-response-time)  
   1.1. [Accelerated Mobile Pages (AMP)](#11-accelerated-mobile-pages-amp)  
-  1.2. [Server-Side Caching](#11-server-side-caching)  
-  1.3. [Server Location](#12-server-location)  
+  1.2. [Server-Side Caching](#12-server-side-caching)  
+  1.3. [Server Location](#13-server-location)  
   1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)  
   1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)  
-  1.6. [Keep Alive]()
+  1.6. [Keep Alive](#16-keep-alive)
 2. [Time to First Paint](#2-time-to-first-paint)  
   2.1. [Size of HTML Pages](#21-size-of-html-pages)  
-  2.2. [Prioritising Critical CSS]()  
-  2.3. [Server Push](#22-server-push)  
-  2.4. [Unused Styles](#23-unused-styles)  
-  2.5. [Non-Essential Styles](#24-non-essential-styles)  
-  2.6. [Code Minification](#25-code-minification)  
-  2.7. [Text Compression](#26-text-compression)  
-  2.8. [Async Loading of Code](#27-async-loading-of-code)  
-  2.9. [Number of Requested Files](#28-number-of-requested-files)  
-  2.10. [HTTP/2](#29-http2)  
-  2.11. [Code Validation](#211-code-validation)
-  2.12. [Slow Start]()
-3. [Page Load Time](#4-page-load-time)  
-  3.1. [Total Page Size](#41-total-page-size)  
-  3.2. [Image Format](#42-image-format)  
-  3.3. [Image Dimension](#43-image-dimension)  
-  3.4. [Image Compression](#44-image-compression)  
-  3.5. [Deferred Image Load](#45-deferred-image-load)  
-4. [Time to Load the Next Page]()  
-  4.1. [Prefetching]()  
-  4.2. [Client-Side Caching]()  
-  4.3. [Query Strings]()  
-  4.4. [Redirects]()  
-  4.5. [DNS Prefetching]()  
+  2.2. [Prioritising Critical CSS](#22-prioritising-critical-css)  
+  2.3. [Server Push](#23-server-push)  
+  2.4. [Unused Code](#24-unused-code)  
+  2.5. [Non-Essential Styles](#25-non-essential-styles)  
+  2.6. [Code Minification](#26-code-minification)  
+  2.7. [Text Compression](#27-text-compression)  
+  2.8. [Async Loading of Code](#28-async-loading-of-code)  
+  2.9. [Number of Requested Files](#29-number-of-requested-files)  
+  2.10. [HTTP/2](#210-http2)  
+  2.11. [Code Validation](#211-code-validation)  
+3. [Page Load Time](#3-page-load-time)  
+  3.1. [Total Page Size](#31-total-page-size)  
+  3.2. [Image Format](#32-image-format)  
+  3.3. [Image Dimension](#33-image-dimension)  
+  3.4. [Image Compression](#34-image-compression)  
+  3.5. [Deferred Image Load](#35-deferred-image-load)  
+4. [Time to Load the Next Page](#4-time-to-load-the-next-page)  
+  4.1. [Prefetching](#41-prefetching)  
+  4.2. [Client-Side Caching](#42-client-side-caching)  
+  4.3. [Query Strings](#43-query-strings)  
+  4.4. [Redirects](#44-redirects)  
+  4.5. [DNS Prefetching](#45-dns-prefetching)  
 
 ## 1. Response Time
 
@@ -427,24 +426,6 @@ Your pages should adhere to W3C standards to ensure the code is easy for browser
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.12. Slow Start
-
-#### Overview
-
-https://varvy.com/pagespeed/slow-start.html
-
-#### Issue
-
-[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
-
-#### Recommendations
-
-[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
-
-#### Reference documents
-
-[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
-
 ## 3. Page Load Time
 
 #### Overview
@@ -558,8 +539,6 @@ This technique will decrease the time it takes for a browser to load your pages.
 #### Reference documents
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
-
-
 
 ## 4. Time to Load the Next Page
 

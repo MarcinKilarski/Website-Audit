@@ -8,39 +8,27 @@ Feel free to share with the community your thoughts, experiences and best practi
 
 ## A List of Audit Reports
 
-1. Accessibility report - https://github.com/Asqatasun/Asqatasun
-2. Analytics report - coming soon
-3. Conversion Rate Optimisation (CRO) report - coming soon
-4. [Page Load](https://github.com/MarcinKilarski/website-audit/blob/master/reports/page-load/page-load-report.md) report - over 20 checks
-
-   - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/reports/page-load/page-load-instructions.md)
-   - [Page Load report in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/page-load/page-load-report.docx)
-   - [Instructions in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/page-load/page-load-instructions.docx)
-
-5. Security report - coming soon
-6. [Search Engine Optimisation (SEO)](https://github.com/MarcinKilarski/website-audit/blob/master/reports/seo/seo-report.md) report - over 100 checks
+1. [Search Engine Optimisation (SEO)](https://github.com/MarcinKilarski/website-audit/blob/master/reports/seo/seo-report.md) report - over 120 checks
 
    - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/reports/seo/seo-instructions.md)
    - [Search Engine Optimisation (SEO) report in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/seo/seo-report.docx)
    - [Instructions in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/seo/seo-instructions.docx)
 
+2. [Page Load](https://github.com/MarcinKilarski/website-audit/blob/master/reports/page-load/page-load-report.md) report - over 25 checks
+
+   - [Instructions](https://github.com/MarcinKilarski/website-audit/blob/master/reports/page-load/page-load-instructions.md)
+   - [Page Load report in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/page-load/page-load-report.docx)
+   - [Instructions in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/page-load/page-load-instructions.docx)
+
+3. Accessibility report - https://github.com/Asqatasun/Asqatasun
+4. Analytics report - coming soon
+5. Conversion Rate Optimisation (CRO) report - coming soon
+6. Security report - coming soon
 7. User Experience report - coming soon
 
 ## Call for Contributors
 
 If you are interested in making these reports event better, feel free to contact me. It will be great to join forces with you on this amazing journey to help everyone easily analyse any website and find ways to make it even better.
-
-## Converting Latest Markdown Files into Microsoft Word Document
-
-Follow the instructions below to convert the most up-to-date version of the report into Word file.
-
-1. Install [Pandoc](https://pandoc.org/) on your computer
-2. Open a directory in the Terminal
-3. Type the following command:
-
-   find ./ -iname "*.md" -type f -exec sh -c 'pandoc "${0}" -o "${0%.md}.docx"' {} \;
-
-4. Press the enter key
 
 ## An Open-Source License
 
