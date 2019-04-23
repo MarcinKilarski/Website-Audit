@@ -166,9 +166,7 @@ There are many Content Delivery Networks your business can choose from. Two of t
 
 #### Overview
 
-When a website takes a very long time to respond to a browser's request, Keep Alive allows the server to ask a browser wait longer, keeping the connection alive. Without the Keep Alive enabled on your server, the browser could quite waiting for the request page, data or a file, before server was ready to send it to the client.
-
-https://varvy.com/pagespeed/keep-alive.html
+When a website takes a very long time to respond to a browser's request, Keep Alive allows the server to ask a browser wait longer, keeping the connection alive. Without the Keep Alive enabled on your server, the browser could quite waiting for the request page, data or a file before the server was ready to send it to the client.
 
 #### Issue
 
