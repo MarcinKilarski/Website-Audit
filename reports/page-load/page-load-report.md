@@ -12,37 +12,38 @@ According to research by Aberdeen Group, every second that a page takes to load 
 
 ## Table of Content
 
-1. [Response Time](#1-response-time)
-  1.1. [Server-Side Caching](#11-server-side-caching)
-  1.2. [Server Location](#12-server-location)
-  1.3. [Accelerated Mobile Pages (AMP)](#13-accelerated-mobile-pages-amp)
-  1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)
-  1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)
-  1.6. [Prefetching](#16-prefetching)
-  1.7. Redirects
-2. [Time to First Paint](#2-time-to-first-paint)
-  2.1. [Size of HTML Pages](#21-size-of-html-pages)
-  2.2. [Server Push](#22-server-push)  
-  2.3. [Unused Styles](#23-unused-styles)  
-  2.4. [Non-Essential Styles](#24-non-essential-styles)  
-  2.5. [Code Minification](#25-code-minification)  
-  2.6. [Server-Side Compression](#26-server-side-compression)  
-  2.7. [Async Loading of Code](#27-async-loading-of-code)  
-  2.8. [Number of Requested Files](#28-number-of-requested-files)  
-  2.9. [HTTP/2](#29-http2)  
-  2.10. [DNS Prefetching](#210-dns-prefetching)  
+1. [Response Time](#1-response-time)  
+  1.1. [Accelerated Mobile Pages (AMP)](#11-accelerated-mobile-pages-amp)  
+  1.2. [Server-Side Caching](#11-server-side-caching)  
+  1.3. [Server Location](#12-server-location)  
+  1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)  
+  1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)  
+  1.6. [Keep Alive]()
+2. [Time to First Paint](#2-time-to-first-paint)  
+  2.1. [Size of HTML Pages](#21-size-of-html-pages)  
+  2.2. [Prioritising Critical CSS]()  
+  2.3. [Server Push](#22-server-push)  
+  2.4. [Unused Styles](#23-unused-styles)  
+  2.5. [Non-Essential Styles](#24-non-essential-styles)  
+  2.6. [Code Minification](#25-code-minification)  
+  2.7. [Text Compression](#26-text-compression)  
+  2.8. [Async Loading of Code](#27-async-loading-of-code)  
+  2.9. [Number of Requested Files](#28-number-of-requested-files)  
+  2.10. [HTTP/2](#29-http2)  
   2.11. [Code Validation](#211-code-validation)
-  2.12  Keep Alive
-  2.13  Slow Start
-3. [Time to Interaction](#3-time-to-interaction)
-4. [Page Load Time](#4-page-load-time)  
-  4.1. [Total Page Size](#41-total-page-size)  
-  4.2. [Image Format](#42-image-format)  
-  4.3. [Image Dimension](#43-image-dimension)  
-  4.4. [Image Compression](#44-image-compression)  
-  4.5. [Deferred Image Load](#45-deferred-image-load)  
-  4.6. [Client-Side Caching](#46-client-side-caching)  
-  4.7. [Query Strings](#47-query-strings)  
+  2.12. [Slow Start]()
+3. [Page Load Time](#4-page-load-time)  
+  3.1. [Total Page Size](#41-total-page-size)  
+  3.2. [Image Format](#42-image-format)  
+  3.3. [Image Dimension](#43-image-dimension)  
+  3.4. [Image Compression](#44-image-compression)  
+  3.5. [Deferred Image Load](#45-deferred-image-load)  
+4. [Time to Load the Next Page]()  
+  4.1. [Prefetching]()  
+  4.2. [Client-Side Caching]()  
+  4.3. [Query Strings]()  
+  4.4. [Redirects]()  
+  4.5. [DNS Prefetching]()  
 
 ## 1. Response Time
 
@@ -52,7 +53,29 @@ A Response Time indicates the time taken from requesting your page in a browser 
 
 To improve your server response time, look for performance bottlenecks like slow database queries, slow routing, a lack of adequate memory or server caching and fix them. The optimal server response time is under 0.2 second on desktop and [under 1.3 seconds on mobile phones with 3G connection](https://www.thinkwithgoogle.com/articles/mobile-page-speed-new-industry-benchmarks.html?utm_source=moztop10&utm_medium=email&utm_campaign=moztop10&mkt_tok=eyJpIjoiT0RZMlpqWTROMll4TUdGayIsInQiOiJtQ1BGQ0NCcmt3eDBBUCtpejBZWmVcLzBlMVJOTEJqdHZZcXk0UllW).
 
-### 1.1. Server-Side Caching
+### 1.1. Accelerated Mobile Pages (AMP)
+
+#### Overview
+
+Accelerated Mobile Pages are the new way of coding your pages for smartphones users. AMP is a Google initiative; with the aim of making your pages load almost instantly.
+
+AMP use the standard HTML tags, with a few additional AMP specific tags. AMP JS library uses all performance practices, meaning there is no need to do anything else with them. Google caches your AMP on their content delivery network to ensure they load quickly from any location.
+
+Furthermore, they provide your pages with additional visibility in a search, as Google heavily promotes sites with AMP
+
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
+### 1.2. Server-Side Caching
 
 #### Overview
 
@@ -74,7 +97,7 @@ After configuring the disk caching, your server will store pre-generated pages o
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 1.2. Server Location
+### 1.3. Server Location
 
 #### Overview
 
@@ -85,28 +108,6 @@ The greater the distance between your user's location and the physical location 
 If you host your website in New York, United States and a person from Dublin, Ireland wants to visit your page, a signal travels from a device in Dublin, through a cable on the bottom of the Atlantic Ocean and then on to a server in New York. A raw HTML page is then sent back to Dublin via the same direction. Your user's browser then checks which files are located in the HTML, before sending a request back to New York to retrieve them. Upon receiving them, it may realise that it needs a few more files, so it would then send the request again. This process is repeated until all files are received, and each time a new page is requested it will restart from the beginning.
 
 As you can imagine, this can add an unnecessary lag time. This is why it is always better to host your website on the server that is located in the country where the majority of your customers live. This will improve your site's page load time.
-
-#### Issue
-
-[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
-
-#### Recommendations
-
-[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
-
-#### Reference documents
-
-[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
-
-### 1.3. Accelerated Mobile Pages (AMP)
-
-#### Overview
-
-Accelerated Mobile Pages are the new way of coding your pages for smartphones users. AMP is a Google initiative; with the aim of making your pages load almost instantly.
-
-AMP use the standard HTML tags, with a few additional AMP specific tags. AMP JS library uses all performance practices, meaning there is no need to do anything else with them. Google caches your AMP on their content delivery network to ensure they load quickly from any location.
-
-Furthermore, they provide your pages with additional visibility in a search, as Google heavily promotes sites with AMP
 
 #### Issue
 
@@ -162,33 +163,13 @@ There are many Content Delivery Networks your business can choose from. Two of t
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 1.6. Prefetching
+### 1.6. Keep Alive
 
 #### Overview
 
-Using a prefetch directive allows you to tell your user's browser to download any documents it may require for the next page. This way, the page will load much faster, as the browser will already have some of the required files.
+When a website takes a very long time to respond to a browser's request, Keep Alive allows the server to ask a browser wait longer, keeping the connection alive. Without the Keep Alive enabled on your server, the browser could quite waiting for the request page, data or a file, before server was ready to send it to the client.
 
-Therefore, it is beneficial to prefetch the largest and most critical files in order to render your pages in advance. In addition to this, when data shows that users follow a specific path on your page, you can prefetch the full page due next on this path. For example, this could be your ‘offer' page when a person visits your homepage.
-
-This can significantly improve the time that the page takes to load. The faster the page load, the higher chance that the user will convert.
-
-#### Issue
-
-[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
-
-#### Recommendations
-
-[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
-
-#### Reference documents
-
-[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
-
-### 1.7. Redirects
-
-#### Overview
-
-
+https://varvy.com/pagespeed/keep-alive.html
 
 #### Issue
 
@@ -236,7 +217,7 @@ Your page may occasionally contain unnecessary HTML code, inline CSS and inline 
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.2. Critical CSS
+### 2.2. Prioritising Critical CSS
 
 #### Overview
 
@@ -338,7 +319,7 @@ These elements are useful to people when reading the code and updating it, altho
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.7. Server-Side Compression
+### 2.7. Text Compression
 
 #### Overview
 
@@ -426,27 +407,7 @@ It is important that your server supports HTTP/2, as it will make unnecessary to
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.11. DNS Prefetching
-
-#### Overview
-
-The DNS prefetching directive performs a DNS lookup, checking the IP address of a server on which a file used by your website is hosted on before it is needed for the next page. This does not speed up the page load of your first web page where the user lands, although it will help each page thereafter to load faster. This may shorten the page load time of the next page a user will open by a few hundred milliseconds.
-
-We recommend your site set up this directive on all pages for domains that are most frequently used and where they require files to be displayed on the screen.
-
-#### Issue
-
-[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
-
-#### Recommendations
-
-[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
-
-#### Reference documents
-
-[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
-
-### 2.12. Code Validation
+### 2.11. Code Validation
 
 #### Overview
 
@@ -466,25 +427,7 @@ Your pages should adhere to W3C standards to ensure the code is easy for browser
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 2.13. Keep Alive
-
-#### Overview
-
-https://varvy.com/pagespeed/keep-alive.html
-
-#### Issue
-
-[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
-
-#### Recommendations
-
-[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
-
-#### Reference documents
-
-[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
-
-### 2.14. Slow Start
+### 2.12. Slow Start
 
 #### Overview
 
@@ -502,11 +445,7 @@ https://varvy.com/pagespeed/slow-start.html
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-## 3. Time to Interaction
-
-
-
-## 4. Page Load Time
+## 3. Page Load Time
 
 #### Overview
 
@@ -516,7 +455,7 @@ Google aims to load all pages in under 1 second, while the industry standard is 
 
 This is the intermediate state between Time to First Paint and Page Load Completion, which is called Time to First Meaningful Content. It's time it takes the browser to show the first portion of the content that the user was looking for. This is the content Above the Fold, part of the page visible without the content.
 
-### 4.1. Total Page Size
+### 3.1. Total Page Size
 
 #### Overview
 
@@ -536,7 +475,7 @@ Ideally, your pages should not be larger than 500 KB. This will help your pages 
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 4.2. Image Format
+### 3.2. Image Format
 
 #### Overview
 
@@ -556,7 +495,7 @@ On Chrome and Opera your site should serve user images in WebP format, which mak
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 4.3. Image Dimension
+### 3.3. Image Dimension
 
 #### Overview
 
@@ -578,7 +517,7 @@ Popular content management systems, such as WordPress, automatically create and 
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 4.4. Image Compression
+### 3.4. Image Compression
 
 #### Overview
 
@@ -598,7 +537,7 @@ Images often contain unnecessary information when they appear on your pages. Unn
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 4.5. Deferred Image Load
+### 3.5. Deferred Image Load
 
 #### Overview
 
@@ -620,7 +559,39 @@ This technique will decrease the time it takes for a browser to load your pages.
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 4.6. Client-Side Caching
+
+
+## 4. Time to Load the Next Page
+
+#### Overview
+
+This section lists techniques used to speed up the page load of the next page on the website that a user might go to, and a repeat visit to the same page. It explains how to reuse across all pages the code downloaded by a browser on an initial page load, and how to load in advance resources that might be needed next.
+
+This way, the next page will load much faster than the first one.
+
+### 4.1. Prefetching
+
+#### Overview
+
+Using a prefetch directive allows you to tell your user's browser to download any documents it may require for the next page. This way, the page will load much faster, as the browser will already have some of the required files.
+
+Therefore, it is beneficial to prefetch the largest and most critical files in order to render your pages in advance. In addition to this, when data shows that users follow a specific path on your page, you can prefetch the full page due next on this path. For example, this could be your ‘offer' page when a person visits your homepage.
+
+This can significantly improve the time that the page takes to load. The faster the page load, the higher chance that the user will convert.
+
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
+### 4.2. Client-Side Caching
 
 #### Overview
 
@@ -640,13 +611,49 @@ An expiration date, which is how long those files should be stored by the browse
 
 [Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
 
-### 4.7. Query Strings
+### 4.3. Query Strings
 
 #### Overview
 
 Your website may automatically attach query strings such as ?ver=4.6 to the end of the URLs of your files. This indicates to browsers that they should not cache those files.
 
 By removing query strings from your resources that should be cached, you allow browsers to store those files locally, decreasing the time to open the same page on a repeat visit.
+
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
+### 4.4. Redirects
+
+#### Overview
+
+#### Issue
+
+[Described detected issues supported by screenshots and code snippets, as why these things are happening to allow a client to recreate what we are see.]
+
+#### Recommendations
+
+[Explicit instructions on how to fix the issue supported by screenshots, code snippets with the fixed issue and mock-ups how it should look like.]
+
+#### Reference documents
+
+[Spreadsheets with URLs where all these issues are happening or direct links to tools that you might be using.]
+
+### 4.5. DNS Prefetching
+
+#### Overview
+
+The DNS prefetching directive performs a DNS lookup, checking the IP address of a server on which a file used by your website is hosted on before it is needed for the next page. This does not speed up the page load of your first web page where the user lands, although it will help each page thereafter to load faster. This may shorten the page load time of the next page a user will open by a few hundred milliseconds.
+
+We recommend your site set up this directive on all pages for domains that are most frequently used and where they require files to be displayed on the screen.
 
 #### Issue
 

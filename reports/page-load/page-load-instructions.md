@@ -8,8 +8,8 @@
   1.3. [Accelerated Mobile Pages (AMP)](#13-accelerated-mobile-pages-amp)  
   1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)  
   1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)  
-  1.6. [Prefetching](#16-prefetching)
-  1.7. Redirects
+  1.6. [Prefetching](#16-prefetching)  
+  1.7. Redirects  
 2. [Time to First Paint](#2-time-to-first-paint)  
   2.1. [Size of HTML Pages](#21-size-of-html-pages)  
   2.2. [Server Push](#22-server-push)  
