@@ -1,10 +1,12 @@
+# Website’s Audit Report Template
+
 ## Overview
 
-You can find here a series of reports that can help you identify areas for improvement on your or someone else's website.
+Here, you can find a series of reports that can help you identify areas for improvement on your or someone else's website.
 
 The reports contain a list of best practices recognised as important by the community who research and work in the web development industry. However, we don't pretend to know everything. We want to share with you what we have learned over the years, hoping that it will allow you to provide a better experience for users and make your site more successful.
 
-Feel free to share with the community your thoughts, experiences and best practices you follow when improving a website by submitting commits to the reports.
+Feel free to share with the community your thoughts, experiences and best practices you follow when improving a website by submitting comments to the reports.
 
 ## A List of Audit Reports
 
