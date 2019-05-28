@@ -12,37 +12,37 @@ According to research by Aberdeen Group, every second that a page takes to load 
 
 ## Table of Content
 
-1. [Response Time](#1-response-time)  
-  1.1. [Accelerated Mobile Pages (AMP)](#11-accelerated-mobile-pages-amp)  
-  1.2. [Server-Side Caching](#12-server-side-caching)  
-  1.3. [Server Location](#13-server-location)  
-  1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)  
-  1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)  
+1. [Response Time](#1-response-time)
+  1.1. [Accelerated Mobile Pages (AMP)](#11-accelerated-mobile-pages-amp)
+  1.2. [Server-Side Caching](#12-server-side-caching)
+  1.3. [Server Location](#13-server-location)
+  1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)
+  1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)
   1.6. [Keep Alive](#16-keep-alive)
-2. [Time to First Paint](#2-time-to-first-paint)  
-  2.1. [Size of HTML Pages](#21-size-of-html-pages)  
-  2.2. [Prioritising Critical CSS](#22-prioritising-critical-css)  
-  2.3. [Server Push](#23-server-push)  
-  2.4. [Unused Code](#24-unused-code)  
-  2.5. [Non-Essential Styles](#25-non-essential-styles)  
-  2.6. [Code Minification](#26-code-minification)  
-  2.7. [Text Compression](#27-text-compression)  
-  2.8. [Async Loading of Code](#28-async-loading-of-code)  
-  2.9. [Number of Requested Files](#29-number-of-requested-files)  
-  2.10. [HTTP/2](#210-http2)  
-  2.11. [Code Validation](#211-code-validation)  
-3. [Page Load Time](#3-page-load-time)  
-  3.1. [Total Page Size](#31-total-page-size)  
-  3.2. [Image Format](#32-image-format)  
-  3.3. [Image Dimension](#33-image-dimension)  
-  3.4. [Image Compression](#34-image-compression)  
-  3.5. [Deferred Image Load](#35-deferred-image-load)  
-4. [Time to Load the Next Page](#4-time-to-load-the-next-page)  
-  4.1. [Prefetching](#41-prefetching)  
-  4.2. [Client-Side Caching](#42-client-side-caching)  
-  4.3. [Query Strings](#43-query-strings)  
-  4.4. [Redirects](#44-redirects)  
-  4.5. [DNS Prefetching](#45-dns-prefetching)  
+2. [Time to First Paint](#2-time-to-first-paint)
+  2.1. [Size of HTML Pages](#21-size-of-html-pages)
+  2.2. [Prioritising Critical CSS](#22-prioritising-critical-css)
+  2.3. [Server Push](#23-server-push)
+  2.4. [Unused Code](#24-unused-code)
+  2.5. [Non-Essential Styles](#25-non-essential-styles)
+  2.6. [Code Minification](#26-code-minification)
+  2.7. [Text Compression](#27-text-compression)
+  2.8. [Async Loading of Code](#28-async-loading-of-code)
+  2.9. [Number of Requested Files](#29-number-of-requested-files)
+  2.10. [HTTP/2](#210-http2)
+  2.11. [Code Validation](#211-code-validation)
+3. [Page Load Time](#3-page-load-time)
+  3.1. [Total Page Size](#31-total-page-size)
+  3.2. [Image Format](#32-image-format)
+  3.3. [Image Dimension](#33-image-dimension)
+  3.4. [Image Compression](#34-image-compression)
+  3.5. [Deferred Image Load](#35-deferred-image-load)
+4. [Time to Load the Next Page](#4-time-to-load-the-next-page)
+  4.1. [Prefetching](#41-prefetching)
+  4.2. [Client-Side Caching](#42-client-side-caching)
+  4.3. [Query Strings](#43-query-strings)
+  4.4. [Redirects](#44-redirects)
+  4.5. [DNS Prefetching](#45-dns-prefetching)
 
 ## 1. Response Time
 
@@ -166,7 +166,9 @@ There are many Content Delivery Networks your business can choose from. Two of t
 
 #### Overview
 
-When a website takes a very long time to respond to a browser's request, Keep Alive allows the server to ask a browser wait longer, keeping the connection alive. Without the Keep Alive enabled on your server, the browser could quite waiting for the request page, data or a file before the server was ready to send it to the client.
+When a user wants to visit a page, a browser needs to connect to your server to get files like images, videos, custom fonts, HTML, etc. By enabling the Keep Alive, the website can tell browsers to keep the initial connection with the server open, allowing multiple files to be downloaded over the same connection. By default, browsers can establish a new connection with the server to download each file, which can take 0.2 - 0.5 seconds.
+
+Also, when a website takes a very long time to respond to a browser's request, Keep Alive allows the server to ask a browser to wait longer, keeping the connection alive. Without the Keep Alive enabled on your server, the browser could quit waiting for the request page, data or a file before the server was ready to send it to the client.
 
 #### Issue
 

@@ -2,37 +2,37 @@
 
 ## Table of Content
 
-1. [Response Time](#1-response-time)  
-  1.1. [Accelerated Mobile Pages (AMP)](#11-accelerated-mobile-pages-amp)  
-  1.2. [Server-Side Caching](#12-server-side-caching)  
-  1.3. [Server Location](#13-server-location)  
-  1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)  
-  1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)  
+1. [Response Time](#1-response-time)
+  1.1. [Accelerated Mobile Pages (AMP)](#11-accelerated-mobile-pages-amp)
+  1.2. [Server-Side Caching](#12-server-side-caching)
+  1.3. [Server Location](#13-server-location)
+  1.4. [HTTP Strict Transport Security (HSTS)](#14-http-strict-transport-security-hsts)
+  1.5. [Content Delivery Network (CDN)](#15-content-delivery-network-cdn)
   1.6. [Keep Alive](#16-keep-alive)
-2. [Time to First Paint](#2-time-to-first-paint)  
-  2.1. [Size of HTML Pages](#21-size-of-html-pages)  
-  2.2. [Prioritising Critical CSS](#22-prioritising-critical-css)  
-  2.3. [Server Push](#23-server-push)  
-  2.4. [Unused Code](#24-unused-code)  
-  2.5. [Non-Essential Styles](#25-non-essential-styles)  
-  2.6. [Code Minification](#26-code-minification)  
-  2.7. [Text Compression](#27-text-compression)  
-  2.8. [Async Loading of Code](#28-async-loading-of-code)  
-  2.9. [Number of Requested Files](#29-number-of-requested-files)  
-  2.10. [HTTP/2](#210-http2)  
-  2.11. [Code Validation](#211-code-validation)  
-3. [Page Load Time](#3-page-load-time)  
-  3.1. [Total Page Size](#31-total-page-size)  
-  3.2. [Image Format](#32-image-format)  
-  3.3. [Image Dimension](#33-image-dimension)  
-  3.4. [Image Compression](#34-image-compression)  
-  3.5. [Deferred Image Load](#35-deferred-image-load)  
-4. [Time to Load the Next Page](#4-time-to-load-the-next-page)  
-  4.1. [Prefetching](#41-prefetching)  
-  4.2. [Client-Side Caching](#42-client-side-caching)  
-  4.3. [Query Strings](#43-query-strings)  
-  4.4. [Redirects](#44-redirects)  
-  4.5. [DNS Prefetching](#45-dns-prefetching)  
+2. [Time to First Paint](#2-time-to-first-paint)
+  2.1. [Size of HTML Pages](#21-size-of-html-pages)
+  2.2. [Prioritising Critical CSS](#22-prioritising-critical-css)
+  2.3. [Server Push](#23-server-push)
+  2.4. [Unused Code](#24-unused-code)
+  2.5. [Non-Essential Styles](#25-non-essential-styles)
+  2.6. [Code Minification](#26-code-minification)
+  2.7. [Text Compression](#27-text-compression)
+  2.8. [Async Loading of Code](#28-async-loading-of-code)
+  2.9. [Number of Requested Files](#29-number-of-requested-files)
+  2.10. [HTTP/2](#210-http2)
+  2.11. [Code Validation](#211-code-validation)
+3. [Page Load Time](#3-page-load-time)
+  3.1. [Total Page Size](#31-total-page-size)
+  3.2. [Image Format](#32-image-format)
+  3.3. [Image Dimension](#33-image-dimension)
+  3.4. [Image Compression](#34-image-compression)
+  3.5. [Deferred Image Load](#35-deferred-image-load)
+4. [Time to Load the Next Page](#4-time-to-load-the-next-page)
+  4.1. [Prefetching](#41-prefetching)
+  4.2. [Client-Side Caching](#42-client-side-caching)
+  4.3. [Query Strings](#43-query-strings)
+  4.4. [Redirects](#44-redirects)
+  4.5. [DNS Prefetching](#45-dns-prefetching)
 
 ## 1. Response Time
 
@@ -69,9 +69,12 @@ Your site does not have AMP versions of your pages. Consider implementing them f
 
 #### Used Tools
 
+- https://www.site24x7.com/find-ip-address-of-web-site.html
+- https://whatismyipaddress.com/ip-lookup
+
 #### Instructions
 
-WebPageTest.org > Details tab > time needed to receive HTML page over 1 second
+Test the website on [WebPageTest](https://www.webpagetest.org/) > Details tab > time needed to receive HTML page over 1 second
 
 #### Example of Recommendation
 
@@ -109,6 +112,24 @@ You could use a CDN like Cloudflare, which provides you with a free basic CDN fu
 [Using Cloudflare with WordPress](https://support.cloudflare.com/hc/en-us/articles/227634427-Using-Cloudflare-with-WordPress)
 [How can I tell if Cloudflare is caching my site or a specific file?](https://support.cloudflare.com/hc/en-us/articles/200169556-How-can-I-tell-if-CloudFlare-is-caching-my-site-or-a-specific-file-)
 [What do the various Cloudflare cache responses (HIT, Expired, etc.) mean?](https://support.cloudflare.com/hc/en-us/articles/200168266-What-do-the-various-CloudFlare-cache-responses-HIT-Expired-etc-mean-)
+
+### 1.6. Keep Alive
+
+#### Used Tools
+
+- https://tools.keycdn.com/curl
+- https://www.webpagetest.org/
+
+#### Instructions
+
+- Use https://tools.keycdn.com/curl to check if under 'Connection' it says 'keep-alive'.
+   ![http keep alive in KEYCDN tool](https://www.keycdn.com/img/support/http-keep-alive-lg.png)
+
+- or use https://www.webpagetest.org/ to check if after the test is completed you see 'A' on green background above 'Keep-alive Enabled' in the top right corner.
+
+#### Example of Recommendation
+
+#### Solutions
 
 ## 2. Time to First Paint
 
@@ -274,7 +295,7 @@ Webpagetest.org > Content Breakdown tab
 
 #### Example of Recommendation
 
-Your homepage requests the browser to download 56 files, while your [PAGE Z] page requests 70 files. All files should be reviewed and any that are not used by specific pages should not be downloaded. 
+Your homepage requests the browser to download 56 files, while your [PAGE Z] page requests 70 files. All files should be reviewed and any that are not used by specific pages should not be downloaded.
 Figure 9.2.1 – Number of files requested by homepage and their types.
 
 | File Type        | Number of Files          |
@@ -340,7 +361,7 @@ JavaScript validation: Chrome > Developers Tools > Console (it checks syntax; it
 #### Example of Recommendation
 
 The HTML code of your homepage has 20 minor errors and 2 warnings, while CSS code has 58 minor errors and 250 warnings. The [PAGE Z] page has 10 minor errors and no warnings, but the same number of CSS errors and warnings (Figure 9.12).
-Fixing the majority of code errors on your site would improve the quality of used code and decrease the number of issues that browsers need to deal with to display your pages.  
+Fixing the majority of code errors on your site would improve the quality of used code and decrease the number of issues that browsers need to deal with to display your pages.
 Figure 9.2.8 – URLs of full reports from HTML and CSS code validation.
 
 | URL        | Type          | Test URL          |
