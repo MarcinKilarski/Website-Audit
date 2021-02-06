@@ -1,5 +1,7 @@
 # Website’s Audit Report Template
 
+![SEO audit report preview](/screenshot.png)
+
 ## Overview
 
 Here, you can find a series of reports that can help you identify areas for improvement on your or someone else's website.
