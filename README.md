@@ -1,4 +1,4 @@
-# Website’s Audit Report Template
+# Website’s Audit Report Template (150 SEO and Page Speed tests)
 
 ![SEO audit report preview](/screenshot.png)
 
@@ -25,10 +25,10 @@ Feel free to share with the community your thoughts, experiences and best practi
    - [Page Load instructions in Microsoft Word](https://github.com/MarcinKilarski/Website-Audit/raw/master/reports/page-load/page-load-instructions.docx)
 
 3. Accessibility report - https://github.com/Asqatasun/Asqatasun
-4. Analytics report - coming soon
-5. Conversion Rate Optimisation (CRO) report - coming soon
-6. Security report - coming soon
-7. User Experience report - coming soon
+4. Analytics report - to be added in the future
+5. Conversion Rate Optimisation (CRO) report - to be added in the future
+6. Security report - to be added in the future
+7. User Experience report - to be added in the future
 
 ## Contributing
 
